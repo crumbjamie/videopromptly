@@ -1,0 +1,1733 @@
+{
+  "prompts": [
+    {
+      "id": "1",
+      "slug": "cliff-diver-frozen-action",
+      "title": "Cliff Diver Frozen Action",
+      "description": "Transform your images with this cliff diver frozen action prompt for stunning creative effects.",
+      "prompt": "Vertical POV of [subject] as cliff diver frozen mid-air above crystal lagoon, sunstar overhead. High frame rate feel with hyper-detailed water texture, extreme sports photography, adrenaline action capture.",
+      "category": "Action & Sports",
+      "tags": [
+        "cliff-diving",
+        "action",
+        "extreme"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "2",
+      "slug": "fisheye-skater-action",
+      "title": "Fisheye Skater Action",
+      "description": "Transform your images with this fisheye skater action prompt for stunning creative effects.",
+      "prompt": "[Subject] as skater mid-flip in fisheye-distorted vertical shot on urban plaza, graffiti walls and spectators blurred. Fisheye lens with evening golden-hour light, high energy cinematic capture, vibrant ultra-realistic street culture aesthetic.",
+      "category": "Action & Sports",
+      "tags": [
+        "fisheye",
+        "action",
+        "street"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "3",
+      "slug": "3d-pixar-style-cartoon",
+      "title": "3D Pixar-Style Cartoon",
+      "description": "Transform your images with this 3d pixar-style cartoon prompt for stunning creative effects.",
+      "prompt": "Convert this image into 3D Pixar-style cartoon with clean geometric forms, soft three-point lighting, and exaggerated expressive features. Vibrant saturated colors, smooth subsurface scattering, cinematic composition, award-winning animation studio quality, 4K rendering.",
+      "category": "Anime & animation",
+      "tags": [
+        "pixar",
+        "cartoon",
+        "3d"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "4",
+      "slug": "anime-boss-portrait",
+      "title": "Anime Boss Portrait",
+      "description": "Transform your images with this anime boss portrait prompt for stunning creative effects.",
+      "prompt": "Portrait of [subject] as sharp-dressed anime-style boss in suit, retro 90s anime color palette with bold outlines. Medium shot with flat lighting and gentle rim glow, clean stylized nostalgic vibe, Japanese animation aesthetic.",
+      "category": "Anime & animation",
+      "tags": [
+        "anime",
+        "retro",
+        "boss"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "5",
+      "slug": "anime-meadow-picnic",
+      "title": "Anime Meadow Picnic",
+      "description": "Transform your images with this anime meadow picnic prompt for stunning creative effects.",
+      "prompt": "Soft anime picnic in meadow with pastel color wash, [subject] with basket full of mochi. Windblown petal shower with gentle backlight, slice-of-life sweetness, Japanese animation aesthetic, peaceful outdoor scene.",
+      "category": "Anime & animation",
+      "tags": [
+        "anime",
+        "picnic",
+        "peaceful"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "6",
+      "slug": "claymation-character-transformation",
+      "title": "Claymation Character Transformation",
+      "description": "Transform your images with this claymation character transformation prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into claymation-style character with soft modeling clay textures and visible sculpting marks. Warm stop-motion animation lighting, handcrafted appearance, Aardman Animations aesthetic, professional studio lighting, award-winning character design, tactile clay finish.",
+      "category": "Anime & animation",
+      "tags": [
+        "claymation",
+        "animation",
+        "handcrafted"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "7",
+      "slug": "disney-princess-fantasy",
+      "title": "Disney Princess Fantasy",
+      "description": "Transform your images with this disney princess fantasy prompt for stunning creative effects.",
+      "prompt": "Transform [subject] into Disney princess-style character in magical forest setting with enchanted woodland creatures. Soft animation lighting with fairytale atmosphere, whimsical Disney aesthetic with sparkles and magical elements, family-friendly animated film style.",
+      "category": "Anime & animation",
+      "tags": [
+        "disney",
+        "princess",
+        "fairytale"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "8",
+      "slug": "chessboard-pattern-portrait",
+      "title": "Chessboard Pattern Portrait",
+      "description": "Transform your images with this chessboard pattern portrait prompt for stunning creative effects.",
+      "prompt": "Close-up portrait of [subject] wearing full black-and-white chessboard pattern across face, clothes, and background. Optical-illusion halftone texture, vintage poster style, centered medium shot with stark contrast and dramatic lighting, trippy editorial-worthy aesthetic.",
+      "category": "Artistic Styles",
+      "tags": [
+        "pattern",
+        "editorial",
+        "optical-illusion"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "9",
+      "slug": "double-exposure-ocean",
+      "title": "Double Exposure Ocean",
+      "description": "Transform your images with this double exposure ocean prompt for stunning creative effects.",
+      "prompt": "Double-exposure portrait of [subject] merging with stormy ocean waves. Rough textures with intense wind-blown hair, cinematic style with emotional high contrast, editorial photography aesthetic, dramatic nature fusion, artistic photomanipulation.",
+      "category": "Artistic Styles",
+      "tags": [
+        "double-exposure",
+        "ocean",
+        "artistic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "10",
+      "slug": "cinematic-motion-blur-scene",
+      "title": "Cinematic Motion Blur Scene",
+      "description": "Transform your images with this cinematic motion blur scene prompt for stunning creative effects.",
+      "prompt": "Cinematic side profile of [subject] with motion-blurred crowd background, sharp focus maintained on subject. Moody urban lighting, 35mm film aesthetic, shallow depth of field, professional cinematography style, award-winning street photography.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "cinematic",
+        "motion",
+        "urban"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "11",
+      "slug": "cinematic-neo-noir-style",
+      "title": "Cinematic Neo-Noir Style",
+      "description": "Transform your images with this cinematic neo-noir style prompt for stunning creative effects.",
+      "prompt": "Transform this image into neo-noir cinematography with moody neon lighting in deep blue and magenta tones. Rain-streaked atmosphere, dramatic shadows, high contrast lighting, shot with 35mm film aesthetic, professional thriller movie still quality, ultra-realistic rendering.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "cinematic",
+        "noir",
+        "atmospheric"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "12",
+      "slug": "detective-noir-tunnel",
+      "title": "Detective Noir Tunnel",
+      "description": "Transform your images with this detective noir tunnel prompt for stunning creative effects.",
+      "prompt": "Detective silhouette of [subject] framed by rotating police lights in foggy tunnel, cigarette ember glowing. Teal-and-amber color scheme with lens noir drama, mysterious investigation atmosphere, classic detective cinematography.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "detective",
+        "noir",
+        "tunnel"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "13",
+      "slug": "film-noir-detective",
+      "title": "Film Noir Detective",
+      "description": "Transform your images with this film noir detective prompt for stunning creative effects.",
+      "prompt": "[Subject] as sharply-dressed detective with fedora standing at rainy neon-lit crosswalk, steam rising. Reflections on wet asphalt with moody teal-and-magenta color palette, medium close-up with dramatic side lighting, film noir style, 8K resolution.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "noir",
+        "detective",
+        "rain"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "14",
+      "slug": "samurai-vs-robot-duel",
+      "title": "Samurai vs Robot Duel",
+      "description": "Transform your images with this samurai vs robot duel prompt for stunning creative effects.",
+      "prompt": "[Subject] as samurai facing humanoid robot in abandoned dojo at sunset, dust motes in air. Warm orange light contrasted with cool robot glow, wide-angle dynamic low-angle shot, high-action cinematic still, ultra-realistic epic confrontation.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "samurai",
+        "robot",
+        "cinematic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "15",
+      "slug": "wes-anderson-diner",
+      "title": "Wes Anderson Diner",
+      "description": "Transform your images with this wes anderson diner prompt for stunning creative effects.",
+      "prompt": "Perfectly symmetrical shot of [subject] sitting at pastel-colored train-car diner table. Flat lighting with quirky props and vintage outfits, Wes Anderson aesthetic with medium shot, cinematic charm, distinctive directorial style.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "wes-anderson",
+        "symmetrical",
+        "diner"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "16",
+      "slug": "wwii-bunker-portrait",
+      "title": "WWII Bunker Portrait",
+      "description": "Transform your images with this wwii bunker portrait prompt for stunning creative effects.",
+      "prompt": "[Subject] as weary soldier hunched over map inside dim concrete bunker during WWII. Flickering oil lamp light creates sharp shadows on rough walls, tight medium shot with muted olive-and-gray palette, cinematic claustrophobic hyper-realism.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "war",
+        "historical",
+        "cinematic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "17",
+      "slug": "mosaic-tile-art",
+      "title": "Mosaic Tile Art",
+      "description": "Transform your images with this mosaic tile art prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into detailed mosaic artwork composed of small colored tiles. Ancient Roman mosaic technique with tessellated pattern, classical artistic craftsmanship with stone and ceramic tile textures, museum-quality decorative art aesthetic.",
+      "category": "Classical Art",
+      "tags": [
+        "mosaic",
+        "classical",
+        "decorative"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "18",
+      "slug": "renaissance-oil-painting",
+      "title": "Renaissance Oil Painting",
+      "description": "Transform your images with this renaissance oil painting prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into Renaissance-style oil painting with classical composition and rich color palette. Visible brushstroke texture with chiaroscuro lighting technique, museum-quality artwork aesthetic, historical art masterpiece with period-appropriate styling and golden tones.",
+      "category": "Classical Art",
+      "tags": [
+        "renaissance",
+        "classical",
+        "artistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "19",
+      "slug": "bioluminescent-jungle-trek",
+      "title": "Bioluminescent Jungle Trek",
+      "description": "Transform your images with this bioluminescent jungle trek prompt for stunning creative effects.",
+      "prompt": "Bioluminescent jungle night trek with [subject] as explorer, flashlight illuminating glowing plants. Teal mist with cinematic adventure framing, alien world exploration aesthetic, sci-fi nature photography.",
+      "category": "Creative Effects",
+      "tags": [
+        "bioluminescent",
+        "jungle",
+        "explorer"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "20",
+      "slug": "cottage-painting-timelapse",
+      "title": "Cottage Painting Timelapse",
+      "description": "Transform your images with this cottage painting timelapse prompt for stunning creative effects.",
+      "prompt": "Cozy cottage interior speed-painting timelapse with [subject] at canvas mid-stroke, morning tea steam curls. Bird on windowsill with warm desaturated palette, artistic process documentation, creative workflow aesthetic.",
+      "category": "Creative Effects",
+      "tags": [
+        "cottage",
+        "painting",
+        "artistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "21",
+      "slug": "desert-biker",
+      "title": "Desert Biker",
+      "description": "Transform your images with this desert biker prompt for stunning creative effects.",
+      "prompt": "[Subject] as rugged biker riding across dusty desert plain at sunrise, orange and pink sky. Dust trail swirling behind with leather jacket flapping, low angle wide lens with golden rim lighting, photorealistic high-resolution dynamic action mood.",
+      "category": "Creative Effects",
+      "tags": [
+        "biker",
+        "desert",
+        "sunrise"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "22",
+      "slug": "desert-motorcycle-convoy",
+      "title": "Desert Motorcycle Convoy",
+      "description": "Transform your images with this desert motorcycle convoy prompt for stunning creative effects.",
+      "prompt": "Desert dune motorcycle convoy at blue hour with LED light strips trailing, sand kicked into glowing arcs. Motion-blur panning with action still photography, adventure cinematography, high-speed desert racing aesthetic.",
+      "category": "Creative Effects",
+      "tags": [
+        "motorcycle",
+        "desert",
+        "convoy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "23",
+      "slug": "deserted-carnival-scene",
+      "title": "Deserted Carnival Scene",
+      "description": "Transform your images with this deserted carnival scene prompt for stunning creative effects.",
+      "prompt": "Transform [subject] as lone child holding red balloon under towering Ferris wheel at deserted carnival late at night. Neon lights swirl overhead casting colorful glows on misty air, low-angle shot with shallow depth, hyper-detailed dreamlike nostalgic mood.",
+      "category": "Creative Effects",
+      "tags": [
+        "carnival",
+        "nostalgic",
+        "atmospheric"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "24",
+      "slug": "dramatic-spotlight-portrait",
+      "title": "Dramatic Spotlight Portrait",
+      "description": "Transform your images with this dramatic spotlight portrait prompt for stunning creative effects.",
+      "prompt": "Transform [subject] under dramatic spotlight in industrial setting with deep shadows and high contrast. Construction environment backdrop, moody atmospheric lighting creating sculptural shadows, professional cinematography style, ultra-realistic detail, award-winning portrait photography.",
+      "category": "Creative Effects",
+      "tags": [
+        "dramatic",
+        "industrial",
+        "spotlight"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "25",
+      "slug": "gladiator-arena-pov",
+      "title": "Gladiator Arena POV",
+      "description": "Transform your images with this gladiator arena pov prompt for stunning creative effects.",
+      "prompt": "Gladiator arena POV with dust swirling and crowd blur, sun flare behind helmet plume. Epic documentary realism with telephoto lens, ancient Roman combat, historical action cinematography.",
+      "category": "Creative Effects",
+      "tags": [
+        "gladiator",
+        "arena",
+        "ancient"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "26",
+      "slug": "golden-hour-enhancement",
+      "title": "Golden Hour Enhancement",
+      "description": "Transform your images with this golden hour enhancement prompt for stunning creative effects.",
+      "prompt": "Apply golden hour lighting to this image with warm sunlight, soft highlights, and long dramatic shadows. Dreamy golden hues throughout, natural volumetric lighting, professional outdoor photography style, award-winning portrait quality, HDR processing.",
+      "category": "Creative Effects",
+      "tags": [
+        "golden-hour",
+        "natural",
+        "warm"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "27",
+      "slug": "hyperreal-ice-cream-sneaker",
+      "title": "Hyperreal Ice Cream Sneaker",
+      "description": "Transform your images with this hyperreal ice cream sneaker prompt for stunning creative effects.",
+      "prompt": "Hyperreal close-up of dripping ice-cream cone melting over futuristic sneaker, studio strobe highlight. Commercial macro crispness with surreal product photography, luxury streetwear aesthetic, high-fashion food styling.",
+      "category": "Creative Effects",
+      "tags": [
+        "hyperreal",
+        "ice-cream",
+        "commercial"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "28",
+      "slug": "levitating-yoga-pose",
+      "title": "Levitating Yoga Pose",
+      "description": "Transform your images with this levitating yoga pose prompt for stunning creative effects.",
+      "prompt": "Futuristic yoga pose of [subject] on levitating platform above cloud sea, golden sunrise halo. Minimalist zen design with wide panoramic format, spiritual sci-fi aesthetic, transcendent meditation photography.",
+      "category": "Creative Effects",
+      "tags": [
+        "yoga",
+        "levitating",
+        "zen"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "29",
+      "slug": "limited-edition-toy-store-display",
+      "title": "Limited Edition Toy Store Display",
+      "description": "Transform your images with this limited edition toy store display prompt for stunning creative effects.",
+      "prompt": "Full-body action figure in window box packaging using [subject] likeness. '[Your name]' prominently displayed with 'Limited Edition' below, '[accessories]' arranged proportionally in inset slots. 3D animation style with soft lighting, toy store background, retro-modern design.",
+      "category": "Creative Effects",
+      "tags": [
+        "limited-edition",
+        "toy-store",
+        "retro"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "30",
+      "slug": "magical-library-scholar",
+      "title": "Magical Library Scholar",
+      "description": "Transform your images with this magical library scholar prompt for stunning creative effects.",
+      "prompt": "Grand library with books orbiting mid-air around seated [subject] as scholar, golden dust motes. Volumetric sunlight through stained glass with magical realism aesthetic, Harry Potter-esque wizarding academia, mystical knowledge sanctuary.",
+      "category": "Creative Effects",
+      "tags": [
+        "library",
+        "magical",
+        "scholar"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "31",
+      "slug": "molecular-gastronomy-chef",
+      "title": "Molecular Gastronomy Chef",
+      "description": "Transform your images with this molecular gastronomy chef prompt for stunning creative effects.",
+      "prompt": "Close-up hyperreal shot of [subject] as chef sprinkling edible gold over molecular dessert in glossy black kitchen. Narrow spotlight illumination with steam swirling, shallow depth macro lens, haute cuisine photography, culinary artistry.",
+      "category": "Creative Effects",
+      "tags": [
+        "chef",
+        "molecular",
+        "luxury"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "32",
+      "slug": "nature-literature-elegance",
+      "title": "Nature Literature Elegance",
+      "description": "Transform your images with this nature literature elegance prompt for stunning creative effects.",
+      "prompt": "Close-up of vibrant green-blue hummingbird perched atop stack of old books with [subject] in background. Soft natural light against plain neutral background, 85mm portrait shot focusing on feathers and pages, nature-meets-literature elegance aesthetic.",
+      "category": "Creative Effects",
+      "tags": [
+        "nature",
+        "books",
+        "elegant"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "33",
+      "slug": "neo-noir-car-chase",
+      "title": "Neo-Noir Car Chase",
+      "description": "Transform your images with this neo-noir car chase prompt for stunning creative effects.",
+      "prompt": "Two sleek classic cars racing through city streets in pouring rain, headlights reflecting off wet pavement. Camera inside car focused on [driver]'s tense profile, neon lights streaking past, shallow depth of field, intense neo-noir thriller vibe.",
+      "category": "Creative Effects",
+      "tags": [
+        "neo-noir",
+        "cars",
+        "rain"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "34",
+      "slug": "neo-noir-elevator-mirror",
+      "title": "Neo-Noir Elevator Mirror",
+      "description": "Transform your images with this neo-noir elevator mirror prompt for stunning creative effects.",
+      "prompt": "Neo-noir elevator mirror shot of [subject] adjusting tie, dual reflections creating infinite corridor. Red emergency lighting with shallow depth of field, psychological thriller cinematography, confined space tension.",
+      "category": "Creative Effects",
+      "tags": [
+        "neo-noir",
+        "elevator",
+        "mirrors"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "35",
+      "slug": "neon-sign-portrait",
+      "title": "Neon Sign Portrait",
+      "description": "Transform your images with this neon sign portrait prompt for stunning creative effects.",
+      "prompt": "Convert [subject] into glowing neon sign design against dark night background. Electric neon tube lighting with realistic glow effects, retro signage aesthetic with vibrant colors, vintage advertising style with authentic neon characteristics.",
+      "category": "Creative Effects",
+      "tags": [
+        "neon",
+        "retro",
+        "glowing"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "36",
+      "slug": "premium-collectible-action-figure",
+      "title": "Premium Collectible Action Figure",
+      "description": "Transform your images with this premium collectible action figure prompt for stunning creative effects.",
+      "prompt": "Realistic action figure of [subject] in blister pack with red header text '[your name]' in large white letters. '[Profession]' below with Ages 17+ label, beige background. Accessories include notebook, pen, camera, and laptop with [logo], photorealistic collectible toy quality.",
+      "category": "Creative Effects",
+      "tags": [
+        "premium",
+        "collectible",
+        "realistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "37",
+      "slug": "rainy-bus-shelter",
+      "title": "Rainy Bus Shelter",
+      "description": "Transform your images with this rainy bus shelter prompt for stunning creative effects.",
+      "prompt": "[Subject] as lone figure waiting inside glass bus shelter on rainy night. Streetlight bokeh through wet glass with faint steam rising from pavement, eye-level medium shot with cool blues and warm light accents, cinematic reflective 8K detail.",
+      "category": "Creative Effects",
+      "tags": [
+        "rain",
+        "urban",
+        "moody"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "38",
+      "slug": "samurai-bridge",
+      "title": "Samurai Bridge",
+      "description": "Transform your images with this samurai bridge prompt for stunning creative effects.",
+      "prompt": "[Subject] as lone samurai in full armor standing on rain-slicked wooden bridge at midnight. Moonlight glints off sword as cherry blossoms swirl around, soft blue ambient lighting with shallow depth of field, ultra-realistic cinematic hyper-detailed.",
+      "category": "Creative Effects",
+      "tags": [
+        "samurai",
+        "bridge",
+        "moonlight"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "39",
+      "slug": "streetwear-samurai",
+      "title": "Streetwear Samurai",
+      "description": "Transform your images with this streetwear samurai prompt for stunning creative effects.",
+      "prompt": "[Subject] as streetwear samurai leaning on glowing vending machine in rainy alley, katana reflecting magenta signage. Long trench fluttering with slow-shutter motion blur of passing crowd, urban warrior aesthetic, neon-lit street photography.",
+      "category": "Creative Effects",
+      "tags": [
+        "streetwear",
+        "samurai",
+        "urban"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "40",
+      "slug": "tranquil-lake-sunrise",
+      "title": "Tranquil Lake Sunrise",
+      "description": "Transform your images with this tranquil lake sunrise prompt for stunning creative effects.",
+      "prompt": "Transform scene with [subject] in old wooden rowboat drifting on glassy lake at sunrise, surrounded by early morning mist. Soft warm glow filtering through haze, eye-level wide shot with gentle pastel blues and pinks, ultra-photorealistic tranquil reflections.",
+      "category": "Creative Effects",
+      "tags": [
+        "lake",
+        "peaceful",
+        "sunrise"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "41",
+      "slug": "valkyrie-warrior",
+      "title": "Valkyrie Warrior",
+      "description": "Transform your images with this valkyrie warrior prompt for stunning creative effects.",
+      "prompt": "[Subject] dressed as Valkyrie with large wings, standing on windswept cliff edge at dawn. Mist below with dramatic sunrise light, armor reflecting gold hues, wide-angle shot with cinematic mythic realism, Norse mythology aesthetic.",
+      "category": "Creative Effects",
+      "tags": [
+        "valkyrie",
+        "warrior",
+        "mythic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "42",
+      "slug": "chrome-mech-caf",
+      "title": "Chrome Mech Café",
+      "description": "Transform your images with this chrome mech café prompt for stunning creative effects.",
+      "prompt": "Chrome mech sitting at tiny café table reading paperback, urban skyline twilight. Reflective surfaces catch pink neon with photo-real fantasy aesthetic, robot daily life, mechanical being integration.",
+      "category": "Cyberpunk & sci-fi",
+      "tags": [
+        "mech",
+        "café",
+        "fantasy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "43",
+      "slug": "cyberpunk-hacker",
+      "title": "Cyberpunk Hacker",
+      "description": "Transform your images with this cyberpunk hacker prompt for stunning creative effects.",
+      "prompt": "[Subject] as stealthy hacker crouched inside sleek skyscraper loft at night, neon cityscape outside floor-to-ceiling windows. Holographic screens floating around with ambient blue backlight, wide-angle lens, futuristic cyberpunk aesthetic, ultra-detailed cinematic.",
+      "category": "Cyberpunk & sci-fi",
+      "tags": [
+        "cyberpunk",
+        "hacker",
+        "futuristic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "44",
+      "slug": "cyberpunk-ramen-market",
+      "title": "Cyberpunk Ramen Market",
+      "description": "Transform your images with this cyberpunk ramen market prompt for stunning creative effects.",
+      "prompt": "Snowy cyberpunk market lane with [subject] as vendor grilling ramen under pink lanterns, steam rising. Overhead drone view with cinematic depth, neon-lit street food culture, urban sci-fi atmosphere.",
+      "category": "Cyberpunk & sci-fi",
+      "tags": [
+        "cyberpunk",
+        "ramen",
+        "market"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "45",
+      "slug": "cyberpunk-street-market",
+      "title": "Cyberpunk Street Market",
+      "description": "Transform your images with this cyberpunk street market prompt for stunning creative effects.",
+      "prompt": "[Subject] as vendor in neon-lit street market at night with cyberpunk feel, sampling exotic glowing fruit. Market stalls behind with vibrant signboards, slow shutter to blur crowd, moody ambient lighting, cinematic realism, urban sci-fi.",
+      "category": "Cyberpunk & sci-fi",
+      "tags": [
+        "cyberpunk",
+        "market",
+        "neon"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "46",
+      "slug": "ufo-cockpit-selfie",
+      "title": "UFO Cockpit Selfie",
+      "description": "Transform your images with this ufo cockpit selfie prompt for stunning creative effects.",
+      "prompt": "Vertical fisheye selfie of [subject] inside UFO cockpit with green control glyphs floating, making peace sign. Purple galaxy outside windshield with playful cartoon realism, sci-fi humor aesthetic, alien spacecraft interior.",
+      "category": "Cyberpunk & sci-fi",
+      "tags": [
+        "ufo",
+        "fisheye",
+        "sci-fi"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "47",
+      "slug": "3d-avatar-stickers",
+      "title": "3D Avatar Stickers",
+      "description": "Transform your images with this 3d avatar stickers prompt for stunning creative effects.",
+      "prompt": "10:16 canvas showing nine 3D avatar stickers of [subject], each in different outfits and expressions. Chibi-Pixar hybrid style with white border and gradient background, fun stickerpack vibe, collectible character design aesthetic.",
+      "category": "Digital Art",
+      "tags": [
+        "stickers",
+        "avatar",
+        "chibi"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "48",
+      "slug": "ascii-art-terminal",
+      "title": "ASCII Art Terminal",
+      "description": "Transform your images with this ascii art terminal prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into complex ASCII art made entirely of keyboard characters and symbols. Monospace terminal font aesthetic with retro computer terminal feel, pure text-based art with recognizable character patterns, vintage computing nostalgia.",
+      "category": "Digital Art",
+      "tags": [
+        "ascii",
+        "terminal",
+        "retro"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "49",
+      "slug": "comic-book-hero",
+      "title": "Comic Book Hero",
+      "description": "Transform your images with this comic book hero prompt for stunning creative effects.",
+      "prompt": "Convert [subject] into dynamic comic book superhero with bold outlines and vibrant halftone dot patterns. Classic comic book style with dramatic action pose, cape flowing and glowing eyes, dynamic superhero illustration with vintage comic aesthetic.",
+      "category": "Digital Art",
+      "tags": [
+        "comic",
+        "superhero",
+        "vintage"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "50",
+      "slug": "glitch-art-dj-booth",
+      "title": "Glitch Art DJ Booth",
+      "description": "Transform your images with this glitch art dj booth prompt for stunning creative effects.",
+      "prompt": "Glitch-art DJ booth floating in pixelated void with rainbow chromatic aberration edges, [subject] wearing LED visor. High-energy festival vibe with digital corruption aesthetic, electronic music visualization, cyber rave atmosphere.",
+      "category": "Digital Art",
+      "tags": [
+        "glitch-art",
+        "dj",
+        "festival"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "51",
+      "slug": "pixel-art-retro",
+      "title": "Pixel Art Retro",
+      "description": "Transform your images with this pixel art retro prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into pixel art with neon sunset background and retro 8-bit aesthetic. Blocky pixelated style with limited color palette, nostalgic video game character design, vintage arcade game visual with sharp geometric edges.",
+      "category": "Digital Art",
+      "tags": [
+        "pixel",
+        "retro",
+        "gaming"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "52",
+      "slug": "pop-art-gaming",
+      "title": "Pop Art Gaming",
+      "description": "Transform your images with this pop art gaming prompt for stunning creative effects.",
+      "prompt": "Pop art style of [subject] playing handheld console in neon-colored room with 90s décor. Bold outlines with halftone dots and saturated palette, vibrant retro illustration, comic book aesthetic, gaming culture art.",
+      "category": "Digital Art",
+      "tags": [
+        "pop-art",
+        "gaming",
+        "retro"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "53",
+      "slug": "editorial-food-photography-style",
+      "title": "Editorial Food Photography Style",
+      "description": "Transform your images with this editorial food photography style prompt for stunning creative effects.",
+      "prompt": "Editorial food-photo style of [subject] holding ornate pastry branded like [brand name]. Soft diffused box lighting highlights delicate textures, shallow depth macro lens, creamy marble table backdrop, surreal haute pâtisserie meets fashion advertisement aesthetic.",
+      "category": "Editorial Photography",
+      "tags": [
+        "editorial",
+        "food",
+        "luxury"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "54",
+      "slug": "hyperrealistic-flash-photography",
+      "title": "Hyperrealistic Flash Photography",
+      "description": "Transform your images with this hyperrealistic flash photography prompt for stunning creative effects.",
+      "prompt": "Transform into hyperrealistic flash photography with harsh direct flash, strong sculptural shadows, and tight cinematic framing. Intense texture clarity, editorial grit with photographic grain, stark background, surreal visual elements, professional editorial photography style.",
+      "category": "Editorial Photography",
+      "tags": [
+        "flash",
+        "editorial",
+        "hyperrealistic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "55",
+      "slug": "elven-archer-fantasy",
+      "title": "Elven Archer Fantasy",
+      "description": "Transform your images with this elven archer fantasy prompt for stunning creative effects.",
+      "prompt": "[Subject] as elven archer drawing glowing arrow in misty enchanted forest at dawn, fireflies dancing. Sunbeams piercing foliage with soft green and gold lighting, medium shot with shallow depth of field, fantasy photorealism, ultra-detailed.",
+      "category": "Fantasy & magic",
+      "tags": [
+        "fantasy",
+        "archer",
+        "forest"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "56",
+      "slug": "expressionist-cityscape",
+      "title": "Expressionist Cityscape",
+      "description": "Transform your images with this expressionist cityscape prompt for stunning creative effects.",
+      "prompt": "Expressionist cityscape with [subject] walking through distorted neon skyscrapers and warped reflections. Sharp angles with high contrast, monochrome with red accents, surreal psychological cinematic style, distorted reality aesthetic.",
+      "category": "Fantasy & magic",
+      "tags": [
+        "expressionist",
+        "cityscape",
+        "surreal"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "57",
+      "slug": "fire-wizard",
+      "title": "Fire Wizard",
+      "description": "Transform your images with this fire wizard prompt for stunning creative effects.",
+      "prompt": "[Subject] as fire wizard with palms outstretched conjuring glowing embers in dark cavern. Warm orange flicker lighting with cloak swirls, deep shadows and vapor haze, medium shot with epic fantasy atmosphere, ultra-realistic magical powers.",
+      "category": "Fantasy & magic",
+      "tags": [
+        "wizard",
+        "fire",
+        "fantasy"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "58",
+      "slug": "surreal-ice-cream-mountain",
+      "title": "Surreal Ice Cream Mountain",
+      "description": "Transform your images with this surreal ice cream mountain prompt for stunning creative effects.",
+      "prompt": "Surreal scene of giant ice-cream cone replacing mountain peak floating above desert plain. Golden-hour light with pastel sky, wide-angle lens, film-grain cinematic style, playful and dreamlike realism, whimsical landscape transformation.",
+      "category": "Fantasy & magic",
+      "tags": [
+        "surreal",
+        "dreamlike",
+        "landscape"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "59",
+      "slug": "floating-iceberg-runway",
+      "title": "Floating Iceberg Runway",
+      "description": "Transform your images with this floating iceberg runway prompt for stunning creative effects.",
+      "prompt": "High fashion runway on floating iceberg with [subject] as model in mirrored gown. Icy mist clouds with polar aurora overhead, drone top-down shot with cinematic blue-green tones, extreme fashion photography.",
+      "category": "Fashion Photography",
+      "tags": [
+        "fashion",
+        "iceberg",
+        "aurora"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "60",
+      "slug": "high-fashion-editorial",
+      "title": "High-Fashion Editorial",
+      "description": "Transform your images with this high-fashion editorial prompt for stunning creative effects.",
+      "prompt": "High-fashion editorial photography of [subject] with professional softbox lighting, glossy luxury textures, and cinematic color grading. Magazine-quality finish with rich shadows and enhanced highlights, shot on medium format camera, award-winning fashion photography style.",
+      "category": "Fashion Photography",
+      "tags": [
+        "fashion",
+        "editorial",
+        "luxury"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "61",
+      "slug": "blueprint-tech-portrait",
+      "title": "Blueprint Tech Portrait",
+      "description": "Transform your images with this blueprint tech portrait prompt for stunning creative effects.",
+      "prompt": "Portrait of [subject] with digital HUD annotations, facial features marked with measurements and holographic UI. Clean gray background with crisp CAD lines, tech concept showcasing aesthetic, futuristic analysis interface, scientific documentation style.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "blueprint",
+        "tech",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "62",
+      "slug": "cyber-witch-spellcaster",
+      "title": "Cyber Witch Spellcaster",
+      "description": "Transform your images with this cyber witch spellcaster prompt for stunning creative effects.",
+      "prompt": "[Subject] as cyber witch casting holographic code runes in abandoned server farm, sparks and static arcs. Moody cyan underlighting with atmospheric wide shot, tech-magic fusion aesthetic, digital sorcery cinematography.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "cyber-witch",
+        "holographic",
+        "tech-magic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "63",
+      "slug": "futuristic-hologram-lounge",
+      "title": "Futuristic Hologram Lounge",
+      "description": "Transform your images with this futuristic hologram lounge prompt for stunning creative effects.",
+      "prompt": "[Subject] seated at neon-lit hologram chat table in futuristic lounge. Floating AI interface glowing blue with rain-wet city skyline behind, extreme close-up with dramatic rim lighting, cyberpunk ultra-HD background bokeh, sci-fi atmosphere.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "futuristic",
+        "hologram",
+        "cyberpunk"
+      ],
+      "difficulty": "Beginner",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "64",
+      "slug": "hologram-rainbow-effect",
+      "title": "Hologram Rainbow Effect",
+      "description": "Transform your images with this hologram rainbow effect prompt for stunning creative effects.",
+      "prompt": "Apply holographic rainbow prism effect with iridescent color shifts across the image. Spectral light diffraction with metallic sheen, futuristic hologram aesthetic with color-changing surface, prismatic optical effect with rainbow gradients.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "hologram",
+        "rainbow",
+        "prismatic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "65",
+      "slug": "holographic-marble-gaming",
+      "title": "Holographic Marble Gaming",
+      "description": "Transform your images with this holographic marble gaming prompt for stunning creative effects.",
+      "prompt": "Two children playing holographic marbles on rooftop at dusk, neon skyline backdrop. Soft bokeh city lights with whimsical future nostalgia, sci-fi childhood games, technological play aesthetic.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "holographic",
+        "gaming",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "66",
+      "slug": "holographic-ui-interface",
+      "title": "Holographic UI Interface",
+      "description": "Transform your images with this holographic ui interface prompt for stunning creative effects.",
+      "prompt": "Transform [subject] with futuristic holographic UI overlay showing biometric data and digital annotations. Sci-fi interface elements with glowing cyan accents, advanced technology aesthetic with heads-up display graphics, cyberpunk data visualization style.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "holographic",
+        "sci-fi",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "67",
+      "slug": "tech-professional-action-figure",
+      "title": "Tech Professional Action Figure",
+      "description": "Transform your images with this tech professional action figure prompt for stunning creative effects.",
+      "prompt": "Modern tech-themed action figure packaging with sleek dark blue background and circuit patterns. [Subject] figure with perforated card edge, '[your name]' in bold yellow, '[profession]' in white. Three accessory compartments with laptop, pen, and phone, futuristic high-tech aesthetic.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "tech",
+        "professional",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "68",
+      "slug": "thermal-vision-effect",
+      "title": "Thermal Vision Effect",
+      "description": "Transform your images with this thermal vision effect prompt for stunning creative effects.",
+      "prompt": "Transform this image into thermal infrared vision with heat signature color mapping. False color temperature visualization with blue-to-red spectrum, scientific thermal imaging aesthetic, heat-sensitive camera technology visualization with technical overlay elements.",
+      "category": "Futuristic Tech",
+      "tags": [
+        "thermal",
+        "scientific",
+        "technical"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "69",
+      "slug": "retro-gaming-nostalgia",
+      "title": "Retro Gaming Nostalgia",
+      "description": "Transform your images with this retro gaming nostalgia prompt for stunning creative effects.",
+      "prompt": "Grungy analog photo of [subject] playing [game title] on N64 in dim bedroom with CRT TV. Seated on floor mid-action, glancing back at camera with paparazzi-style flash, raw nostalgic feel, authentic 90s color palette, vintage gaming aesthetic.",
+      "category": "Gaming Culture",
+      "tags": [
+        "retro",
+        "gaming",
+        "nostalgia"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "70",
+      "slug": "viking-storm-battle",
+      "title": "Viking Storm Battle",
+      "description": "Transform your images with this viking storm battle prompt for stunning creative effects.",
+      "prompt": "Viking longship breaching storm wave with [subject] as warrior gripping mast, lightning freezing action. Ultra-realistic spray droplets with epic movie poster feel, Norse adventure cinematography, maritime battle scene.",
+      "category": "Historical Epic",
+      "tags": [
+        "viking",
+        "storm",
+        "epic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "71",
+      "slug": "gothic-mansion-horror",
+      "title": "Gothic Mansion Horror",
+      "description": "Transform your images with this gothic mansion horror prompt for stunning creative effects.",
+      "prompt": "[Subject] cautiously opening grand old wooden door in dark mansion hallway. Candlelight flickering with dust motes visible and ominous shadows, medium shot with gothic suspense atmosphere, ultra-realistic horror cinematography.",
+      "category": "Horror & gothic",
+      "tags": [
+        "gothic",
+        "horror",
+        "mansion"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "72",
+      "slug": "minimalist-cartoon-action-figure",
+      "title": "Minimalist Cartoon Action Figure",
+      "description": "Transform your images with this minimalist cartoon action figure prompt for stunning creative effects.",
+      "prompt": "3D action figure toy named '[your name]' in transparent blister packaging, [subject] styled with [hair/face description]. Large '[name]' in white text, '[title]' below, dressed in [clothing]. Supporting job items [accessories], minimalist cardboard design with [brand] logo, cute cartoonish style.",
+      "category": "Minimalist Design",
+      "tags": [
+        "minimalist",
+        "cartoon",
+        "cute"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "73",
+      "slug": "minimalist-tech-portrait",
+      "title": "Minimalist Tech Portrait",
+      "description": "Transform your images with this minimalist tech portrait prompt for stunning creative effects.",
+      "prompt": "Infographic-style minimalist portrait of [subject] at center, surrounded by floating icons representing creativity, AI, and innovation. Clean white background with flat 2D vectors and subtle shadows, high-res modern tech advertisement aesthetic.",
+      "category": "Minimalist Design",
+      "tags": [
+        "minimalist",
+        "tech",
+        "infographic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "74",
+      "slug": "silhouette-shadow-art",
+      "title": "Silhouette Shadow Art",
+      "description": "Transform your images with this silhouette shadow art prompt for stunning creative effects.",
+      "prompt": "Transform [subject] into dramatic silhouette against bright backlight. High contrast black shadow figure with clean edges, minimalist artistic aesthetic with strong graphic impact, simple yet powerful visual composition with dramatic lighting.",
+      "category": "Minimalist Design",
+      "tags": [
+        "silhouette",
+        "minimalist",
+        "dramatic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "75",
+      "slug": "origami-paper-art-transformation",
+      "title": "Origami Paper Art Transformation",
+      "description": "Transform your images with this origami paper art transformation prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into intricate origami-style artwork with geometric paper folds and sharp creases. Clean minimalist color palette, soft even lighting emphasizing fold patterns, dimensional layered construction, contemporary paper art aesthetic, museum-quality craftsmanship, 8K detail resolution.",
+      "category": "Paper Art",
+      "tags": [
+        "origami",
+        "artistic",
+        "geometric"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "76",
+      "slug": "paper-cutout-collage",
+      "title": "Paper Cutout Collage",
+      "description": "Transform your images with this paper cutout collage prompt for stunning creative effects.",
+      "prompt": "Transform this image into layered paper cutout collage with dimensional depth. Handcrafted paper art aesthetic with visible edges and shadows, contemporary mixed media artwork with textured paper layers, artistic craftsmanship with clean geometric cuts.",
+      "category": "Paper Art",
+      "tags": [
+        "paper",
+        "collage",
+        "handcrafted"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "77",
+      "slug": "ultra-realistic-portrait-photography",
+      "title": "Ultra-Realistic Portrait Photography",
+      "description": "Transform your images with this ultra-realistic portrait photography prompt for stunning creative effects.",
+      "prompt": "Photorealistic corporate portrait of [subject] with professional three-point studio lighting and soft fill from large windows. Modern office environment backdrop, confident expression maintained, shot on Canon 5D Mark IV with 85mm lens, award-winning business photography style, 8K resolution, hyperrealistic detail.",
+      "category": "Portrait Photography",
+      "tags": [
+        "portrait",
+        "professional",
+        "photorealistic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "78",
+      "slug": "felt-puppet-theater-transformation",
+      "title": "Felt Puppet Theater Transformation",
+      "description": "Transform your images with this felt puppet theater transformation prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into handcrafted felt puppet character with googly eyes, stitched details, and yarn textures. Miniature theater stage setting, warm tungsten lighting, Jim Henson's Muppets aesthetic, professional macro photography, whimsical puppet craftsmanship.",
+      "category": "Puppet & felt art",
+      "tags": [
+        "puppet",
+        "felt",
+        "whimsical"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "79",
+      "slug": "bronze-statue-sculpture",
+      "title": "Bronze Statue Sculpture",
+      "description": "Transform your images with this bronze statue sculpture prompt for stunning creative effects.",
+      "prompt": "Convert [subject] into classical bronze statue with patinated metal finish. Monumental sculpture aesthetic with weathered bronze texture, museum-quality sculptural art with dramatic lighting casting strong shadows, timeless artistic monument style.",
+      "category": "Sculpture Art",
+      "tags": [
+        "bronze",
+        "sculpture",
+        "classical"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "80",
+      "slug": "ice-sculpture-art",
+      "title": "Ice Sculpture Art",
+      "description": "Transform your images with this ice sculpture art prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into translucent ice sculpture with crystal-clear frozen texture. Professional ice carving aesthetic with light refraction effects, winter art installation style with pristine ice clarity, ephemeral artistic medium with cold atmospheric lighting.",
+      "category": "Sculpture Art",
+      "tags": [
+        "ice",
+        "sculpture",
+        "translucent"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "81",
+      "slug": "youtube-thumbnail-style",
+      "title": "YouTube Thumbnail Style",
+      "description": "Transform your images with this youtube thumbnail style prompt for stunning creative effects.",
+      "prompt": "8K cinematic thumbnail of [subject] jumping into explosion of [objects] with shocked expression. Over-the-top chaos with motion-blur, bold text overlay '[TEXT]', YouTube style with ultra-saturated colors, viral content aesthetic.",
+      "category": "Social Media",
+      "tags": [
+        "youtube",
+        "thumbnail",
+        "explosive"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "82",
+      "slug": "steampunk-airship-captain",
+      "title": "Steampunk Airship Captain",
+      "description": "Transform your images with this steampunk airship captain prompt for stunning creative effects.",
+      "prompt": "[Subject] as steampunk airship captain at brass helm with gears whirring, window shows crimson sunset clouds. Warm tungsten cabin glow with tight medium shot, Victorian sci-fi adventure, mechanical fantasy aesthetic.",
+      "category": "Steampunk",
+      "tags": [
+        "steampunk",
+        "airship",
+        "captain"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "83",
+      "slug": "ghibli-bakery-interior",
+      "title": "Ghibli Bakery Interior",
+      "description": "Transform your images with this ghibli bakery interior prompt for stunning creative effects.",
+      "prompt": "Cozy Ghibli-style bakery interior at dawn with warm flour dust in air, [subject] as baker placing fresh melon bread on wooden shelf. Gentle orange rim light with soft pastel palette, Studio Ghibli animation aesthetic.",
+      "category": "Studio Ghibli",
+      "tags": [
+        "ghibli",
+        "bakery",
+        "cozy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "84",
+      "slug": "studio-ghibli-forest",
+      "title": "Studio Ghibli Forest",
+      "description": "Transform your images with this studio ghibli forest prompt for stunning creative effects.",
+      "prompt": "Soft pastel portrait of [subject] standing in sunlit forest clearing with wildflowers all around. Studio Ghibli film style with warm golden light filtering through leaves, dreamy depth, hyper-detailed magical realism, whimsical animation aesthetic.",
+      "category": "Studio Ghibli",
+      "tags": [
+        "ghibli",
+        "forest",
+        "magical"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "85",
+      "slug": "synthwave-highway",
+      "title": "Synthwave Highway",
+      "description": "Transform your images with this synthwave highway prompt for stunning creative effects.",
+      "prompt": "Synthwave highway with hovering muscle car and infinite neon grid, dual suns setting. VHS scanlines with cinematic lens flare, widescreen format, retro-futuristic racing aesthetic, 80s sci-fi nostalgia.",
+      "category": "Synthwave & vaporwave",
+      "tags": [
+        "synthwave",
+        "highway",
+        "retro-futuristic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "86",
+      "slug": "vaporwave-desert-astronaut",
+      "title": "Vaporwave Desert Astronaut",
+      "description": "Transform your images with this vaporwave desert astronaut prompt for stunning creative effects.",
+      "prompt": "Lone astronaut [subject] strolling through neon vaporwave desert at sundown, giant chrome planets on horizon. Vapor trail kicks up dust with synthwave sunset haze, ultra-HD cinematic wide shot, retro-futuristic aesthetic.",
+      "category": "Synthwave & vaporwave",
+      "tags": [
+        "vaporwave",
+        "astronaut",
+        "synthwave"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "87",
+      "slug": "vaporwave-90s-aesthetic",
+      "title": "Vaporwave/90s Aesthetic",
+      "description": "Transform your images with this vaporwave/90s aesthetic prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into vaporwave aesthetic with neon pink-cyan gradients, geometric grid background, and VHS scan line effects. Retro-futuristic elements, analog video artifacts, synthwave album cover style, nostalgic 90s digital aesthetic.",
+      "category": "Synthwave & vaporwave",
+      "tags": [
+        "vaporwave",
+        "retro",
+        "neon"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "88",
+      "slug": "barbie-box-packaging",
+      "title": "Barbie Box Packaging",
+      "description": "Transform your images with this barbie box packaging prompt for stunning creative effects.",
+      "prompt": "Barbie box packaging scene with [subject] as skateboarder edition, acrylic window shows skater mid-kickflip. Hot-pink clamp lights with plastic sparkles, toy-photography macro style, collectible figure aesthetic, premium packaging design.",
+      "category": "Toy Transformations",
+      "tags": [
+        "barbie",
+        "packaging",
+        "toy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "89",
+      "slug": "lego-minifigure-transformation",
+      "title": "LEGO Minifigure Transformation",
+      "description": "Transform your images with this lego minifigure transformation prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into LEGO minifigure with blocky geometric construction, smooth plastic finish, and characteristic printed facial features. Ensure stud on top of head piece if figure has no hair or hat. LEGO baseplate on floor with background following photograph's theme, even product photography lighting, official LEGO collectible series aesthetic.",
+      "category": "Toy Transformations",
+      "tags": [
+        "lego",
+        "blocky",
+        "toy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T23:41:03.585Z"
+    },
+    {
+      "id": "90",
+      "slug": "plush-ghost-toy-transformation",
+      "title": "Plush Ghost Toy Transformation",
+      "description": "Transform your images with this plush ghost toy transformation prompt for stunning creative effects.",
+      "prompt": "High-res 3D render of [subject] transformed into plush inflatable ghost toy with soft matte texture and subtle fabric creases. Gentle ambient lighting, minimal pale-blue background, playful collectible vibe, ultra-realistic and adorable finish.",
+      "category": "Toy Transformations",
+      "tags": [
+        "toy",
+        "3d-render",
+        "cute"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "91",
+      "slug": "political-action-figure",
+      "title": "Political Action Figure",
+      "description": "Transform your images with this political action figure prompt for stunning creative effects.",
+      "prompt": "Create action figure packaging of [subject] with strong orange blister card. Include individual blisters with [book title], [3-headed creature] with tag [name], and [book title 2]. Header text '[name]' and '[title] action figure', realistic toy packaging photography, political collectible aesthetic.",
+      "category": "Toy Transformations",
+      "tags": [
+        "action-figure",
+        "political",
+        "packaging"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "92",
+      "slug": "embroidery-textile-art",
+      "title": "Embroidery Textile Art",
+      "description": "Transform your images with this embroidery textile art prompt for stunning creative effects.",
+      "prompt": "Convert this image into detailed embroidery artwork with visible thread textures and stitching patterns. Traditional needlework aesthetic with fabric base, handcrafted textile art with colorful thread work, folk art embroidery style with intricate detail.",
+      "category": "Traditional Art",
+      "tags": [
+        "embroidery",
+        "textile",
+        "handcrafted"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "93",
+      "slug": "graffiti-street-art",
+      "title": "Graffiti Street Art",
+      "description": "Transform your images with this graffiti street art prompt for stunning creative effects.",
+      "prompt": "Convert [subject] into vibrant street graffiti mural on urban brick wall. Bold spray paint colors with urban art aesthetic, street culture style with tags and artistic flourishes, contemporary graffiti art with photorealistic wall texture.",
+      "category": "Traditional Art",
+      "tags": [
+        "graffiti",
+        "street",
+        "urban"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "94",
+      "slug": "kaleidoscope-pattern",
+      "title": "Kaleidoscope Pattern",
+      "description": "Transform your images with this kaleidoscope pattern prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into symmetrical kaleidoscope pattern with repeating geometric designs. Mandala-like radial symmetry with vibrant colors, psychedelic pattern aesthetic with intricate detail, mesmerizing optical art with hypnotic visual rhythm.",
+      "category": "Traditional Art",
+      "tags": [
+        "kaleidoscope",
+        "geometric",
+        "psychedelic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "95",
+      "slug": "sand-art-beach",
+      "title": "Sand Art Beach",
+      "description": "Transform your images with this sand art beach prompt for stunning creative effects.",
+      "prompt": "Transform [subject] into detailed sand sculpture on beach with ocean backdrop. Temporary beach art aesthetic with fine sand texture, seaside artistic creation with natural lighting, coastal art installation with realistic sand grain detail.",
+      "category": "Traditional Art",
+      "tags": [
+        "sand",
+        "beach",
+        "temporary"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "96",
+      "slug": "stained-glass-art",
+      "title": "Stained Glass Art",
+      "description": "Transform your images with this stained glass art prompt for stunning creative effects.",
+      "prompt": "Convert this portrait into intricate stained glass window artwork with colorful geometric segments. Lead came lines separating colored glass pieces, cathedral window aesthetic with light filtering through translucent colors, medieval artistic craftsmanship style.",
+      "category": "Traditional Art",
+      "tags": [
+        "stained-glass",
+        "medieval",
+        "artistic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "97",
+      "slug": "watercolor-dreamscape",
+      "title": "Watercolor Dreamscape",
+      "description": "Transform your images with this watercolor dreamscape prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into soft watercolor painting with flowing pigments and visible paper texture. Loose brushwork with color bleeding effects and transparent layers, traditional art technique aesthetic, dreamy artistic interpretation with gentle pastel palette.",
+      "category": "Traditional Art",
+      "tags": [
+        "watercolor",
+        "artistic",
+        "dreamy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "98",
+      "slug": "pet-to-human-portrait",
+      "title": "Pet-to-Human Portrait",
+      "description": "Transform your images with this pet-to-human portrait prompt for stunning creative effects.",
+      "prompt": "Ultra-realistic portrait of [pet] translated into stylish human with leash in hand, casual street outfit. Urban coffee shop background with natural daylight, portrait lens aesthetic, playful and uncanny transformation, anthropomorphic character design.",
+      "category": "Transformations",
+      "tags": [
+        "pet-to-human",
+        "transformation",
+        "anthropomorphic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "99",
+      "slug": "deep-sea-explorer",
+      "title": "Deep-Sea Explorer",
+      "description": "Transform your images with this deep-sea explorer prompt for stunning creative effects.",
+      "prompt": "[Subject] as scuba-suit-clad explorer hovering in glowing deep-sea cave with bioluminescent fish swirling. Light beams through water with bubbles rising, wide shot with ethereal blue-green tones, photorealistic cinematic high-detail ocean vibe.",
+      "category": "Underwater Photography",
+      "tags": [
+        "underwater",
+        "explorer",
+        "bioluminescent"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.453Z",
+      "updatedAt": "2025-06-29T13:42:17.453Z"
+    },
+    {
+      "id": "100",
+      "slug": "underwater-silk-fashion",
+      "title": "Underwater Silk Fashion",
+      "description": "Transform your images with this underwater silk fashion prompt for stunning creative effects.",
+      "prompt": "Underwater fashion shoot with [subject] in flowing silk dress rippling, sunbeams piercing turquoise. Tiny bubbles accent edges with shallow focus dreamscape, ethereal aquatic photography, submerged couture aesthetic.",
+      "category": "Underwater Photography",
+      "tags": [
+        "underwater",
+        "fashion",
+        "silk"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "101",
+      "slug": "underwater-thriller",
+      "title": "Underwater Thriller",
+      "description": "Transform your images with this underwater thriller prompt for stunning creative effects.",
+      "prompt": "Mid-action shot of [subject] swimming upward in flooded room, light streaming through ceiling crack. Debris floating with bubble trails and dramatic rays, wide-angle cinematic underwater thriller, emergency escape scene aesthetic.",
+      "category": "Underwater Photography",
+      "tags": [
+        "underwater",
+        "thriller",
+        "emergency"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "102",
+      "slug": "1980s-anime-poster",
+      "title": "1980s Anime Poster",
+      "description": "Transform your images with this 1980s anime poster prompt for stunning creative effects.",
+      "prompt": "1980s Japanese anime-style poster of [subject] in action pose with retro typography and VHS stripes. Bright color palette with dramatic lens flare and grainy edges, nostalgic cinematic art, vintage animation aesthetic.",
+      "category": "Vintage & retro",
+      "tags": [
+        "80s",
+        "anime",
+        "poster"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "103",
+      "slug": "pet-barista-portrait",
+      "title": "Pet Barista Portrait",
+      "description": "Transform your images with this pet barista portrait prompt for stunning creative effects.",
+      "prompt": "Pet-to-human portrait of [pet type] reinvented as friendly barista in vintage café, latte art heart in hand. Sepia film grain with portrait lens aesthetic, anthropomorphic character design, coffee shop transformation.",
+      "category": "Vintage & retro",
+      "tags": [
+        "pet-barista",
+        "anthropomorphic",
+        "vintage"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "104",
+      "slug": "symmetrical-train-diner",
+      "title": "Symmetrical Train Diner",
+      "description": "Transform your images with this symmetrical train diner prompt for stunning creative effects.",
+      "prompt": "Perfectly symmetrical train dining car with [subject] sipping coffee center frame, pastel green walls. Retro signage with flat lighting charm, Wes Anderson aesthetic, vintage railway travel photography.",
+      "category": "Vintage & retro",
+      "tags": [
+        "train",
+        "symmetrical",
+        "vintage"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "105",
+      "slug": "vintage-aviator",
+      "title": "Vintage Aviator",
+      "description": "Transform your images with this vintage aviator prompt for stunning creative effects.",
+      "prompt": "[Subject] as fearless aviator wearing leather flight jacket and goggles leaning out of vintage biplane cockpit, flying above cotton-white clouds at golden hour. Soft sunlight casting warm highlights, nostalgic cinematic crisp focus, adventure photography.",
+      "category": "Vintage & retro",
+      "tags": [
+        "aviator",
+        "vintage",
+        "golden-hour"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "106",
+      "slug": "vintage-film-grain",
+      "title": "Vintage Film Grain",
+      "description": "Transform your images with this vintage film grain prompt for stunning creative effects.",
+      "prompt": "Apply vintage film photography aesthetic with natural grain texture and warm color grading. Authentic analog film look with slight overexposure and soft focus, nostalgic photography style with retro color palette and classic film characteristics.",
+      "category": "Vintage & retro",
+      "tags": [
+        "vintage",
+        "film",
+        "nostalgic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "107",
+      "slug": "vintage-motorcycle-highway",
+      "title": "Vintage Motorcycle Highway",
+      "description": "Transform your images with this vintage motorcycle highway prompt for stunning creative effects.",
+      "prompt": "Long shot of [subject] leaning against vintage motorcycle on deserted highway at midnight. Starry sky and dimly-lit diner in background with cool moonlight, shallow focus with cinematic lens, moody crisp realism, road trip aesthetic.",
+      "category": "Vintage & retro",
+      "tags": [
+        "motorcycle",
+        "highway",
+        "vintage"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    },
+    {
+      "id": "108",
+      "slug": "y2k-computer-lab",
+      "title": "Y2K Computer Lab",
+      "description": "Transform your images with this y2k computer lab prompt for stunning creative effects.",
+      "prompt": "Retro Y2K computer lab with translucent iMacs, [subject] wearing metallic bubble jacket typing code. Chrome text overlay 'Cyber Dreams' with fluorescent tube lighting, 4:3 aspect ratio, millennium bug era nostalgia, tech aesthetic.",
+      "category": "Vintage & retro",
+      "tags": [
+        "y2k",
+        "computer",
+        "retro"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z"
+    }
+  ],
+  "lastUpdated": "2025-06-29T23:41:41.939Z"
+}

@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "a2117fc502f24c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cbce621ce4745d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75f01685e9fc1c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prompts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prompts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "06fa79ae3c720c43",
+    "type": "split",
+    "children": [
+      {
+        "id": "b88fd27bc0b7a93f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb8d02ed37241f5b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9d6d0ed26390c317",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bcffcb5418a9181b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb608505cfc66ea4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea0cf157cac78bf9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "995c6284e99e8be0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Prompts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Prompts"
+            }
+          },
+          {
+            "id": "c34913c8d71b3803",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Prompts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Prompts"
+            }
+          },
+          {
+            "id": "83133ff8882b61a5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e3b11ee44dbf17d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Prompts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Prompts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "75f01685e9fc1c1b",
+  "lastOpenFiles": [
+    "tsconfig.tsbuildinfo",
+    "lib/utils/cn.ts",
+    "lib/utils",
+    "node_modules/class-variance-authority/dist/types.d.ts",
+    "node_modules/class-variance-authority/dist/index.mjs.map",
+    "node_modules/class-variance-authority/dist/index.mjs",
+    "node_modules/class-variance-authority/dist/index.js.map",
+    "node_modules/class-variance-authority/dist/index.js",
+    "node_modules/class-variance-authority/dist/index.d.ts",
+    "node_modules/class-variance-authority/package.json",
+    "node_modules/class-variance-authority/dist",
+    "node_modules/class-variance-authority/README.md",
+    "node_modules/@radix-ui/react-compose-refs/README.md",
+    "node_modules/tailwind-merge/README.md",
+    "node_modules/tailwind-merge/LICENSE.md",
+    "node_modules/clsx/readme.md",
+    "node_modules/update-browserslist-db/README.md",
+    "node_modules/escalade/readme.md",
+    "node_modules/electron-to-chromium/README.md",
+    "node_modules/node-releases/README.md",
+    "node_modules/browserslist/README.md",
+    "node_modules/postcss-value-parser/README.md",
+    "node_modules/fraction.js/README.md",
+    "node_modules/normalize-range/readme.md",
+    "node_modules/autoprefixer/README.md",
+    "node_modules/goober/README.md",
+    "node_modules/goober/prefixer/README.md",
+    "node_modules/react-hot-toast/README.md",
+    "node_modules/@radix-ui/themes/README.md",
+    "node_modules/@radix-ui/react-slider/README.md",
+    "node_modules/@radix-ui/react-form/README.md",
+    "node_modules/@radix-ui/react-menubar/README.md",
+    "node_modules/@radix-ui/react-navigation-menu/README.md",
+    "node_modules/@radix-ui/react-one-time-password-field/README.md",
+    "node_modules/@radix-ui/react-hover-card/README.md",
+    "node_modules/@radix-ui/react-password-toggle-field/README.md",
+    "node_modules/@radix-ui/colors/colors.png",
+    "public/vercel.svg",
+    "public/window.svg",
+    "public/next.svg",
+    "public/globe.svg",
+    "public/file.svg",
+    "node_modules/highlight.js/styles/school-book.png",
+    "node_modules/highlight.js/styles/pojoaque.jpg",
+    "node_modules/highlight.js/styles/brown-papersq.png",
+    "node_modules/highlight.js/scss/school-book.png"
+  ]
+}
