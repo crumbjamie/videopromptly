@@ -298,7 +298,8 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Wes-Anderson-Diner.png"
-      }
+      },
+      "featured": true
     },
     {
       "id": "16",

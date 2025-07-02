@@ -11,5 +11,15 @@
     "app/api/search/route.ts": {
       "maxDuration": 10
     }
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "preview": true
+    }
+  },
+  "github": {
+    "enabled": true,
+    "autoAlias": true
   }
 }
