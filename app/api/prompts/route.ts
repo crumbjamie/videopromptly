@@ -4,7 +4,7 @@ import { checkRateLimit } from '@/lib/middleware/rate-limit';
 
 export async function GET(request: NextRequest) {
   // Check rate limit
-  const { allowed, remaining } = checkRateLimit(request);
+  const { allowed } = checkRateLimit(request);
   if (!allowed) {
     return NextResponse.json(
       { error: 'Too many requests' },
