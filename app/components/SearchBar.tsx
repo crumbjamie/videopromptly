@@ -6,9 +6,10 @@ import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
+  placeholder?: string;
 }
 
-export default function SearchBar({ value, onChange }: SearchBarProps) {
+export default function SearchBar({ value, onChange, placeholder = "Search prompts by title, description, or tags..." }: SearchBarProps) {
   const [localValue, setLocalValue] = useState(value);
 
   // Debounce search
@@ -27,7 +28,7 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
         type="search"
         value={localValue}
         onChange={(e) => setLocalValue(e.target.value)}
-        placeholder="Search prompts by title, description, or tags..."
+        placeholder={placeholder}
         className="w-full pl-10 pr-4 py-2.5 bg-stone-900 border border-stone-800 rounded-md text-white placeholder-stone-600 focus:outline-none focus:ring-1 focus:ring-stone-700 focus:border-stone-700 transition-all"
       />
       {localValue && (

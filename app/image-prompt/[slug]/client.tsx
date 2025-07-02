@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ChevronRightIcon, ExternalLinkIcon, HomeIcon, Pencil1Icon, CheckIcon, Cross2Icon } from '@radix-ui/react-icons';
+import Image from 'next/image';
+import { ChevronRightIcon, ExternalLinkIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
 import PromptCard from '@/app/components/PromptCard';
@@ -24,11 +25,7 @@ const difficultyColors = {
 
 export default function PromptDetailClient({ prompt }: PromptDetailClientProps) {
   const [relatedPrompts, setRelatedPrompts] = useState<ImagePrompt[]>([]);
-  const [isEditing, setIsEditing] = useState(false);
-  const [editedPrompt, setEditedPrompt] = useState(prompt.prompt);
-  const [currentPrompt, setCurrentPrompt] = useState(prompt.prompt);
-  const [isSaving, setIsSaving] = useState(false);
-  const [saveMessage, setSaveMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const [currentPrompt] = useState(prompt.prompt);
 
   useEffect(() => {
     const loadRelated = async () => {
@@ -59,47 +56,6 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
     };
   }, [prompt]);
 
-  const handleEdit = () => {
-    setIsEditing(true);
-    setEditedPrompt(currentPrompt);
-  };
-
-  const handleCancel = () => {
-    setIsEditing(false);
-    setEditedPrompt(currentPrompt);
-    setSaveMessage(null);
-  };
-
-  const handleSave = async () => {
-    setIsSaving(true);
-    setSaveMessage(null);
-    
-    try {
-      const response = await fetch(`/api/prompts/${prompt.id}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ prompt: editedPrompt }),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to update prompt');
-      }
-
-      setCurrentPrompt(editedPrompt);
-      setIsEditing(false);
-      setSaveMessage({ type: 'success', text: 'Prompt updated successfully!' });
-      
-      // Clear success message after 3 seconds
-      setTimeout(() => setSaveMessage(null), 3000);
-    } catch {
-      setSaveMessage({ type: 'error', text: 'Failed to save prompt. Please try again.' });
-    } finally {
-      setIsSaving(false);
-    }
-  };
-
   return (
     <>
       <Header />
@@ -124,6 +80,44 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
             {/* Title and Description */}
             <h1 className="text-3xl font-bold text-white mb-4">{prompt.title}</h1>
             <p className="text-lg text-stone-300 mb-6">{prompt.description}</p>
+            
+            {/* Before/After Preview */}
+            {prompt.thumbnail && (
+              <div className="mb-8">
+                <h2 className="text-xl font-semibold text-white mb-4">Example Transformation</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* Before Image */}
+                  <div className="space-y-2">
+                    <h3 className="text-sm font-medium text-stone-400">Before</h3>
+                    <div className="rounded-lg overflow-hidden bg-stone-800">
+                      <Image
+                        src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.before : 'woman-sample.jpg'}`}
+                        alt="Before transformation"
+                        width={512}
+                        height={512}
+                        className="w-full h-auto object-cover"
+                        priority
+                      />
+                    </div>
+                  </div>
+                  
+                  {/* After Image */}
+                  <div className="space-y-2">
+                    <h3 className="text-sm font-medium text-stone-400">After</h3>
+                    <div className="rounded-lg overflow-hidden bg-stone-800">
+                      <Image
+                        src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
+                        alt="After transformation"
+                        width={512}
+                        height={512}
+                        className="w-full h-auto object-cover"
+                        priority
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
             
             {/* Category and Difficulty */}
             <div className="flex flex-wrap items-center gap-3 mb-6">
@@ -163,69 +157,14 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
 
             {/* The Prompt */}
             <div className="mb-8">
-              <div className="flex items-center justify-between mb-4">
+              <div className="mb-4">
                 <h2 className="text-xl font-semibold text-white">The Prompt</h2>
-                {!isEditing && (
-                  <button
-                    onClick={handleEdit}
-                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-stone-800 text-stone-300 hover:bg-stone-700 transition-colors"
-                  >
-                    <Pencil1Icon className="w-4 h-4" />
-                    Edit
-                  </button>
-                )}
               </div>
-              
-              {/* Save message */}
-              {saveMessage && (
-                <div className={cn(
-                  "mb-4 px-4 py-2 rounded-lg text-sm",
-                  saveMessage.type === 'success' 
-                    ? 'bg-green-900/50 text-green-300 border border-green-800' 
-                    : 'bg-red-900/50 text-red-300 border border-red-800'
-                )}>
-                  {saveMessage.text}
-                </div>
-              )}
 
               <div className="bg-stone-950 border border-stone-800 rounded-lg p-6">
-                {isEditing ? (
-                  <div className="space-y-4">
-                    <textarea
-                      value={editedPrompt}
-                      onChange={(e) => setEditedPrompt(e.target.value)}
-                      className="w-full min-h-[200px] p-4 bg-stone-900 border border-stone-700 rounded-lg text-sm text-stone-300 font-mono resize-y focus:outline-none focus:ring-2 focus:ring-stone-600"
-                      placeholder="Enter your custom prompt..."
-                    />
-                    <div className="flex gap-3">
-                      <button
-                        onClick={handleSave}
-                        disabled={isSaving || editedPrompt === currentPrompt}
-                        className={cn(
-                          "inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors",
-                          isSaving || editedPrompt === currentPrompt
-                            ? "bg-stone-800 text-stone-500 cursor-not-allowed"
-                            : "bg-green-700 text-white hover:bg-green-600"
-                        )}
-                      >
-                        <CheckIcon className="w-4 h-4" />
-                        {isSaving ? 'Saving...' : 'Save'}
-                      </button>
-                      <button
-                        onClick={handleCancel}
-                        disabled={isSaving}
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-stone-700 text-white hover:bg-stone-600 transition-colors"
-                      >
-                        <Cross2Icon className="w-4 h-4" />
-                        Cancel
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <pre className="whitespace-pre-wrap text-sm text-stone-300 font-mono">
-                    {currentPrompt}
-                  </pre>
-                )}
+                <pre className="whitespace-pre-wrap text-sm text-stone-300 font-mono">
+                  {currentPrompt}
+                </pre>
               </div>
             </div>
 
@@ -286,6 +225,8 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                         src={thumbnail || `/thumbnails/${prompt.id}-${index}.webp`}
                         alt={`Example transformation ${index + 1} for ${prompt.title}`}
                         className="w-full"
+                        size="full"
+                        priority={index === 0}
                       />
                     </div>
                   </div>

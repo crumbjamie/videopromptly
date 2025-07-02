@@ -7,14 +7,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-lg font-semibold text-white">
-              ChatGPT Image Prompts
+              ImagePromptly 😱
             </span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-stone-300 hover:text-white transition-colors">
-              Browse
-            </Link>
             <Link href="/categories" className="text-stone-300 hover:text-white transition-colors">
               Categories
             </Link>

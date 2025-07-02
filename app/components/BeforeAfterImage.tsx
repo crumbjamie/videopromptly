@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { IMAGE_SIZES, IMAGE_QUALITY } from '@/lib/config/images';
 
 interface BeforeAfterImageProps {
   src: string;
@@ -9,22 +10,34 @@ interface BeforeAfterImageProps {
   width?: number;
   height?: number;
   className?: string;
+  size?: keyof typeof IMAGE_SIZES;
+  quality?: number;
+  priority?: boolean;
 }
 
 export default function BeforeAfterImage({ 
   src, 
   alt, 
-  width = 1024, 
-  height = 512,
-  className = ''
+  width,
+  height,
+  className = '',
+  size = 'thumbnail',
+  quality,
+  priority = false
 }: BeforeAfterImageProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
+  
+  // Get dimensions from size config or use provided values
+  const imageConfig = IMAGE_SIZES[size];
+  const imageWidth = width || imageConfig.width;
+  const imageHeight = height || imageConfig.height;
+  const imageQuality = quality || IMAGE_QUALITY[size] || 85;
 
   // Fallback placeholder if no thumbnail
   if (!src || hasError) {
     return (
-      <div className={`relative bg-stone-800 rounded-t-lg overflow-hidden ${className}`}>
+      <div className={`relative bg-stone-800 overflow-hidden ${className}`}>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
             <div className="text-stone-600 mb-2">
@@ -47,7 +60,7 @@ export default function BeforeAfterImage({
   }
 
   return (
-    <div className={`relative bg-stone-800 rounded-t-lg overflow-hidden ${className}`}>
+    <div className={`relative bg-stone-800 overflow-hidden ${className}`}>
       {isLoading && (
         <div className="absolute inset-0 bg-stone-800 animate-pulse" />
       )}
@@ -55,15 +68,17 @@ export default function BeforeAfterImage({
       <Image
         src={src}
         alt={alt}
-        width={width}
-        height={height}
+        width={imageWidth}
+        height={imageHeight}
         className="w-full h-auto"
+        sizes={imageConfig.sizes}
+        quality={imageQuality}
         onLoad={() => setIsLoading(false)}
         onError={() => {
           setIsLoading(false);
           setHasError(true);
         }}
-        priority
+        priority={priority}
       />
 
       {/* Before/After labels */}
@@ -72,7 +87,7 @@ export default function BeforeAfterImage({
           <div className="absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">
             Before
           </div>
-          <div className="absolute top-2 left-[516px] bg-black/70 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">
+          <div className="absolute top-2 left-[50%] ml-2 bg-black/70 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">
             After
           </div>
         </>

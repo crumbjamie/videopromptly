@@ -27,15 +27,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const title = `${prompt.title} - ChatGPT Image Prompt`;
-  const description = `${prompt.description} Transform your images with this ${prompt.difficulty.toLowerCase()} level ${prompt.category.toLowerCase()} prompt for ChatGPT.`;
+  const description = `${prompt.description} Transform your images with this ${prompt.difficulty.toLowerCase()} level ${prompt.category.toLowerCase()} prompt on ImagePromptly.`;
 
   return {
     title,
     description,
-    keywords: `${prompt.tags.join(', ')}, ChatGPT prompts, AI image transformation, ${prompt.category}, ${prompt.difficulty}`,
-    authors: [{ name: 'ChatGPT Image Prompts' }],
-    creator: 'ChatGPT Image Prompts',
-    publisher: 'ChatGPT Image Prompts',
+    keywords: `${prompt.tags.join(', ')}, ImagePromptly, ChatGPT prompts, AI image transformation, ${prompt.category}, ${prompt.difficulty}`,
+    authors: [{ name: 'ImagePromptly' }],
+    creator: 'ImagePromptly',
+    publisher: 'ImagePromptly',
     robots: {
       index: true,
       follow: true,
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'article',
       publishedTime: prompt.createdAt.toISOString(),
       modifiedTime: prompt.updatedAt.toISOString(),
-      authors: ['ChatGPT Image Prompts'],
+      authors: ['ImagePromptly'],
       tags: prompt.tags,
       images: prompt.thumbnails?.[0] ? [
         {

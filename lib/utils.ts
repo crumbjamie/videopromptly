@@ -6,8 +6,10 @@ export function slugify(text: string): string {
 }
 
 export function getChatGPTUrl(prompt: string): string {
-  // This creates a URL that will open ChatGPT with the prompt pre-filled but not sent
-  const encodedPrompt = encodeURIComponent(prompt);
+  // This creates a URL that will open ChatGPT with the prompt pre-filled
+  const prefix = "I want to create an image using the below prompt. Help me adjust the prompt as needed and then I will upload an image.\n\n";
+  const fullPrompt = prefix + prompt;
+  const encodedPrompt = encodeURIComponent(fullPrompt);
   return `https://chat.openai.com/?model=gpt-4&q=${encodedPrompt}`;
 }
 

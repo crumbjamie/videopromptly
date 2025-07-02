@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { ImagePrompt } from '@/lib/types';
 import { cn } from '@/lib/utils/cn';
-import BeforeAfterImage from './BeforeAfterImage';
+import ThumbnailImage from './ThumbnailImage';
 
 interface PromptCardProps {
   prompt: ImagePrompt;
@@ -20,11 +20,14 @@ export default function PromptCard({ prompt }: PromptCardProps) {
     <Link href={`/image-prompt/${prompt.slug}`} className="block h-full">
       <div className="h-full flex flex-col bg-stone-900 rounded-lg border border-stone-800 hover:border-stone-700 transition-all duration-200 cursor-pointer group overflow-hidden">
         {/* Thumbnail */}
-        <div className="aspect-[2/1] relative overflow-hidden bg-stone-800">
-          <BeforeAfterImage
-            src={prompt.thumbnail || `/thumbnails/${prompt.id}-0.webp`}
-            alt={`Before and after example for ${prompt.title}`}
-            className="w-full h-full object-cover"
+        <div className="aspect-square relative overflow-hidden bg-stone-800 flex items-center justify-center">
+          <ThumbnailImage
+            thumbnail={prompt.thumbnail}
+            promptId={prompt.id}
+            title={prompt.title}
+            className="w-full h-full object-contain"
+            size="thumbnail"
+            priority={false}
           />
         </div>
         

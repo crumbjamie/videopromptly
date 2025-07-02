@@ -9,8 +9,9 @@ export interface ImagePrompt {
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
   createdAt: Date;
   updatedAt: Date;
-  thumbnail?: string;
+  thumbnail?: string | { before: string; after: string };
   thumbnails?: string[];
+  featured?: boolean;
 }
 
 export type Category = 

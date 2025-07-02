@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chatgpt-image-prompts.com'),
+  metadataBase: new URL('https://ImagePromptly.com'),
   title: {
-    default: "ChatGPT Image Prompts - Transform Your Photos with AI",
-    template: "%s | ChatGPT Image Prompts"
+    default: "ImagePromptly - Effective ChatGPT Image Prompts to Transform Photos into Art & Effects",
+    template: "%s | ImagePromptly"
   },
-  description: "Discover and copy effective image prompts for ChatGPT. Transform photos into toys, art styles, and creative effects with our curated collection.",
-  keywords: ["ChatGPT", "image prompts", "photo transformation", "AI art", "toy transformation", "artistic styles", "DALL-E", "AI image generation", "creative prompts"],
-  authors: [{ name: "ChatGPT Image Prompts" }],
-  creator: "ChatGPT Image Prompts",
-  publisher: "ChatGPT Image Prompts",
+  description: "Discover and copy effective image prompts for ChatGPT with ImagePromptly. Transform photos into toys, art styles, and creative effects with our curated collection.",
+  keywords: ["ImagePromptly", "ChatGPT", "image prompts", "photo transformation", "AI art", "toy transformation", "artistic styles", "DALL-E", "AI image generation", "creative prompts"],
+  authors: [{ name: "ImagePromptly" }],
+  creator: "ImagePromptly",
+  publisher: "ImagePromptly",
   formatDetection: {
     email: false,
     address: false,
@@ -32,30 +33,30 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "ChatGPT Image Prompts - Transform Your Photos with AI",
-    description: "Discover and copy effective image prompts for ChatGPT. Transform photos into toys, art styles, and creative effects.",
-    url: "https://chatgpt-image-prompts.com",
-    siteName: "ChatGPT Image Prompts",
+    title: "ImagePromptly - Effective ChatGPT Image Prompts",
+    description: "Discover and copy effective image prompts for ChatGPT with ImagePromptly. Transform photos into toys, art styles, and creative effects.",
+    url: "https://ImagePromptly.com",
+    siteName: "ImagePromptly",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ChatGPT Image Prompts",
+        alt: "ImagePromptly - Discover and copy effective image prompts for ChatGPT",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ChatGPT Image Prompts",
-    description: "Transform photos with curated ChatGPT prompts",
-    images: ["/twitter-image.jpg"],
-    creator: "@chatgptprompts",
+    title: "ImagePromptly - Effective ChatGPT Image Prompts",
+    description: "Transform photos with curated ChatGPT prompts on ImagePromptly",
+    images: ["/images/og-image.jpg"],
+    creator: "@imagepromptly",
   },
   alternates: {
-    canonical: "https://chatgpt-image-prompts.com",
+    canonical: "https://ImagePromptly.com",
   },
   category: "technology",
 };
@@ -67,8 +68,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😱</text></svg>" />
+      </head>
       <body className={`${inter.className} bg-stone-950 text-white`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -6,6 +6,7 @@ import SearchBar from './components/SearchBar';
 import CategoryTags from './components/CategoryTags';
 import PromptGrid from './components/PromptGrid';
 import Pagination from './components/Pagination';
+import FeaturedPrompt from './components/FeaturedPrompt';
 import { getAllPrompts, getAllCategories } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
@@ -37,6 +38,11 @@ export default function Home() {
     loadData();
   }, []);
 
+  // Find featured prompt
+  const featuredPrompt = useMemo(() => {
+    return prompts.find(p => p.featured);
+  }, [prompts]);
+
   const filteredPrompts = useMemo(() => {
     let filtered = prompts;
 
@@ -57,8 +63,13 @@ export default function Home() {
       );
     }
 
+    // Remove featured prompt from regular grid if no filters are applied
+    if (!searchQuery && selectedCategories.length === 0 && featuredPrompt) {
+      filtered = filtered.filter(p => p.id !== featuredPrompt.id);
+    }
+
     return filtered;
-  }, [prompts, searchQuery, selectedCategories]);
+  }, [prompts, searchQuery, selectedCategories, featuredPrompt]);
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredPrompts.length / PROMPTS_PER_PAGE);
@@ -79,9 +90,9 @@ export default function Home() {
       <main className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8">
           {/* Hero Section */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 mt-16">
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Transform Your Photos with AI
+              Transform your photos with AI
             </h1>
             <p className="text-lg text-stone-300 max-w-3xl mx-auto">
               Discover and copy effective image prompts for ChatGPT. Transform your photos
@@ -109,6 +120,11 @@ export default function Home() {
               onClearAll={() => setSelectedCategories([])}
             />
           </div>
+
+          {/* Featured Prompt - Only show on first page with no filters */}
+          {!loading && featuredPrompt && !searchQuery && selectedCategories.length === 0 && currentPage === 1 && (
+            <FeaturedPrompt prompt={featuredPrompt} />
+          )}
 
           {/* Results Count */}
           {!loading && (
