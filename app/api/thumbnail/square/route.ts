@@ -12,12 +12,29 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Image path is required' }, { status: 400 });
     }
 
-    // Security: Only allow images from the public/thumbnails directory
-    if (!imagePath.startsWith('/thumbnails/')) {
+    // Security: Strict path validation to prevent traversal attacks
+    const normalizedPath = path.normalize(imagePath);
+    
+    // Check for path traversal attempts
+    if (normalizedPath.includes('..') || !normalizedPath.startsWith('/thumbnails/')) {
       return NextResponse.json({ error: 'Invalid image path' }, { status: 400 });
     }
+    
+    // Additional validation: only allow specific image extensions
+    const allowedExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
+    const fileExtension = path.extname(normalizedPath).toLowerCase();
+    if (!allowedExtensions.includes(fileExtension)) {
+      return NextResponse.json({ error: 'Invalid file type' }, { status: 400 });
+    }
 
-    const fullPath = path.join(process.cwd(), 'public', imagePath);
+    const fullPath = path.join(process.cwd(), 'public', normalizedPath);
+    
+    // Final security check: ensure resolved path is within public/thumbnails
+    const resolvedPath = path.resolve(fullPath);
+    const expectedBasePath = path.resolve(path.join(process.cwd(), 'public', 'thumbnails'));
+    if (!resolvedPath.startsWith(expectedBasePath)) {
+      return NextResponse.json({ error: 'Invalid image path' }, { status: 400 });
+    }
     
     try {
       await fs.access(fullPath);
