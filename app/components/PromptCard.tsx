@@ -26,7 +26,6 @@ export default function PromptCard({ prompt }: PromptCardProps) {
             promptId={prompt.id}
             title={prompt.title}
             className="w-full h-full object-contain"
-            size="thumbnail"
             priority={false}
           />
         </div>
