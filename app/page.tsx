@@ -6,7 +6,6 @@ import SearchBar from './components/SearchBar';
 import CategoryTags from './components/CategoryTags';
 import PromptGrid from './components/PromptGrid';
 import Pagination from './components/Pagination';
-import FeaturedPrompt from './components/FeaturedPrompt';
 import { getAllPrompts, getAllCategories } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
@@ -38,11 +37,6 @@ export default function Home() {
     loadData();
   }, []);
 
-  // Find featured prompt
-  const featuredPrompt = useMemo(() => {
-    return prompts.find(p => p.featured);
-  }, [prompts]);
-
   const filteredPrompts = useMemo(() => {
     let filtered = prompts;
 
@@ -63,13 +57,15 @@ export default function Home() {
       );
     }
 
-    // Remove featured prompt from regular grid if no filters are applied
-    if (!searchQuery && selectedCategories.length === 0 && featuredPrompt) {
-      filtered = filtered.filter(p => p.id !== featuredPrompt.id);
-    }
+    // Sort to put featured prompts first
+    filtered = filtered.sort((a, b) => {
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+      return 0;
+    });
 
     return filtered;
-  }, [prompts, searchQuery, selectedCategories, featuredPrompt]);
+  }, [prompts, searchQuery, selectedCategories]);
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredPrompts.length / PROMPTS_PER_PAGE);
@@ -121,10 +117,7 @@ export default function Home() {
             />
           </div>
 
-          {/* Featured Prompt - Only show on first page with no filters */}
-          {!loading && featuredPrompt && !searchQuery && selectedCategories.length === 0 && currentPage === 1 && (
-            <FeaturedPrompt prompt={featuredPrompt} />
-          )}
+          {/* Featured prompts are now shown in the regular grid */}
 
           {/* Results Count */}
           {!loading && (

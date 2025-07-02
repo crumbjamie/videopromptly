@@ -35,7 +35,7 @@ export default function ThumbnailImage({
     return (
       <div className={`relative bg-stone-800 ${className}`}>
         <div className="absolute inset-0 flex items-center justify-center">
-          <p className="text-sm text-stone-500">No preview</p>
+          <p className="text-sm text-stone-500">Preview coming soon</p>
         </div>
       </div>
     );

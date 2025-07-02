@@ -58,7 +58,8 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "3D-Pixar-Style-Cartoon.png"
-      }
+      },
+      "featured": true
     },
     {
       "id": "4",
@@ -78,7 +79,8 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Anime-Boss-Portrait.png"
-      }
+      },
+      "featured": true
     },
     {
       "id": "5",
@@ -575,7 +577,8 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Limited-Edition-Toy-Store-Display.png"
-      }
+      },
+      "featured": true
     },
     {
       "id": "30",

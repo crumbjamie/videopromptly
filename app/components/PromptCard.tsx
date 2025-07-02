@@ -28,6 +28,9 @@ export default function PromptCard({ prompt }: PromptCardProps) {
             className="w-full h-full object-contain"
             priority={false}
           />
+          {prompt.featured && (
+            <div className="absolute top-2 right-2 text-2xl">⭐</div>
+          )}
         </div>
         
         <div className="flex flex-col flex-grow p-6">
