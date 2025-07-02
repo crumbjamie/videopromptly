@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Header from '../components/Header';
 
 export const metadata: Metadata = {
@@ -20,7 +21,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-semibold text-white mb-4">Welcome to ImagePromptly 😱</h2>
                 <p className="text-stone-300 mb-6 leading-relaxed">
                   ImagePromptly is your ultimate resource for discovering and using effective image transformation prompts with ChatGPT. 
-                  We've curated a comprehensive collection of prompts that help you transform ordinary photos into extraordinary 
+                  We&apos;ve curated a comprehensive collection of prompts that help you transform ordinary photos into extraordinary 
                   artistic creations, from Pixar-style animations to vintage film aesthetics.
                 </p>
               </section>
@@ -28,7 +29,7 @@ export default function AboutPage() {
               <section className="mb-12">
                 <h2 className="text-2xl font-semibold text-white mb-4">What We Do</h2>
                 <p className="text-stone-300 mb-4 leading-relaxed">
-                  We provide carefully crafted prompts that work seamlessly with ChatGPT's image generation capabilities. 
+                  We provide carefully crafted prompts that work seamlessly with ChatGPT&apos;s image generation capabilities. 
                   Our prompts are:
                 </p>
                 <ul className="list-disc list-inside text-stone-300 space-y-2 mb-6">
@@ -75,7 +76,7 @@ export default function AboutPage() {
               <section className="mb-12">
                 <h2 className="text-2xl font-semibold text-white mb-4">Why ImagePromptly?</h2>
                 <p className="text-stone-300 mb-4 leading-relaxed">
-                  We understand that crafting the perfect prompt can be challenging. That's why we've done the hard work 
+                  We understand that crafting the perfect prompt can be challenging. That&apos;s why we&apos;ve done the hard work 
                   for you. Our prompts are:
                 </p>
                 <ul className="list-disc list-inside text-stone-300 space-y-2">
@@ -89,7 +90,7 @@ export default function AboutPage() {
               <section className="mb-12">
                 <h2 className="text-2xl font-semibold text-white mb-4">Get Started</h2>
                 <p className="text-stone-300 mb-6 leading-relaxed">
-                  Ready to transform your photos? Head back to our <a href="/" className="text-blue-400 hover:text-blue-300">homepage</a> and 
+                  Ready to transform your photos? Head back to our <Link href="/" className="text-yellow-400 hover:text-yellow-300 transition-colors">homepage</Link> and 
                   start exploring our collection. Each prompt includes example transformations to help you visualize the results.
                 </p>
                 <p className="text-stone-300 leading-relaxed">

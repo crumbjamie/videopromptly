@@ -51,7 +51,7 @@ export default function Footer() {
             </p>
             <p className="text-stone-500 text-xs leading-relaxed mb-4">
               <strong className="text-stone-400">Privacy & Image Usage:</strong> We never collect, store, or have access to your images. 
-              When you use our prompts with ChatGPT, your images are processed according to OpenAI's privacy policy 
+              When you use our prompts with ChatGPT, your images are processed according to OpenAI&apos;s privacy policy 
               and terms of service. We recommend reviewing their policies before uploading any images.
             </p>
             <p className="text-stone-500 text-xs leading-relaxed">

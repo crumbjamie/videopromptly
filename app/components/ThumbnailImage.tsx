@@ -14,7 +14,6 @@ interface ThumbnailImageProps {
 
 export default function ThumbnailImage({
   thumbnail,
-  promptId,
   title,
   priority = false,
   className = ''

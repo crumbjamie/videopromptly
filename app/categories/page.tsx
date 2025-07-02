@@ -1,11 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '../components/Header';
 import { getAllPrompts, getAllCategories } from '@/lib/database';
-import { ImagePrompt } from '@/lib/types';
 import { slugify } from '@/lib/utils';
 
 const categoryDescriptions: { [key: string]: string } = {
@@ -73,7 +71,6 @@ const categoryEmojis: { [key: string]: string } = {
 };
 
 export default function CategoriesPage() {
-  const [prompts, setPrompts] = useState<ImagePrompt[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [categoryCounts, setCategoryCounts] = useState<{ [key: string]: number }>({});
   const [loading, setLoading] = useState(true);
@@ -92,7 +89,6 @@ export default function CategoriesPage() {
           counts[category] = promptsData.filter(p => p.category === category).length;
         });
         
-        setPrompts(promptsData);
         setCategories(categoriesData);
         setCategoryCounts(counts);
       } catch (error) {
