@@ -83,7 +83,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-stone-950 pt-14">
+      <main id="main-content" className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8">
           {/* Hero Section */}
           <div className="text-center mb-12 mt-16">

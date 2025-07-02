@@ -72,6 +72,9 @@ export default function RootLayout({
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😱</text></svg>" />
       </head>
       <body className={`${inter.className} bg-stone-950 text-white`}>
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50">
+          Skip to main content
+        </a>
         {children}
         <Footer />
       </body>

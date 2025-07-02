@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '../components/Header';
+import ProtectedEmail from '../components/ProtectedEmail';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -90,13 +91,21 @@ export default function AboutPage() {
               <section className="mb-12">
                 <h2 className="text-2xl font-semibold text-white mb-4">Get Started</h2>
                 <p className="text-stone-300 mb-6 leading-relaxed">
-                  Ready to transform your photos? Head back to our <Link href="/" className="text-yellow-400 hover:text-yellow-300 transition-colors">homepage</Link> and 
+                  Ready to transform your photos? Head back to our <Link href="/" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">homepage</Link> and 
                   start exploring our collection. Each prompt includes example transformations to help you visualize the results.
                 </p>
                 <p className="text-stone-300 leading-relaxed">
                   Remember, the key to great results is experimenting with different prompts and finding the styles that 
                   resonate with your creative vision. Happy transforming! 🎨
                 </p>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
+                <p className="text-stone-300 mb-6 leading-relaxed">
+                  Have questions, suggestions, or want to share your amazing creations? We&apos;d love to hear from you!
+                </p>
+                <ProtectedEmail />
               </section>
             </div>
           </div>

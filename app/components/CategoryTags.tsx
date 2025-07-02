@@ -37,7 +37,7 @@ export default function CategoryTags({
         <button
           onClick={onClearAll}
           className={cn(
-            "px-3 py-1.5 rounded-md text-sm font-medium transition-colors",
+            "px-3 py-1.5 rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500",
             selectedCategories.length === 0
               ? "bg-stone-700 text-white"
               : "bg-stone-900 text-stone-300 hover:bg-stone-800 hover:text-white border border-stone-800"

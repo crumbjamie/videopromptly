@@ -12,10 +12,10 @@ export default function Header() {
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/categories" className="text-stone-300 hover:text-white transition-colors">
+            <Link href="/categories" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               Categories
             </Link>
-            <Link href="/about" className="text-stone-300 hover:text-white transition-colors">
+            <Link href="/about" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               About
             </Link>
           </nav>
