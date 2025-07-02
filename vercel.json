@@ -14,8 +14,7 @@
   },
   "git": {
     "deploymentEnabled": {
-      "main": true,
-      "preview": false
+      "main": true
     }
   },
   "github": {
