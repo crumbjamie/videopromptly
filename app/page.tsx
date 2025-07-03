@@ -5,7 +5,7 @@ import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import CategoryTags from './components/CategoryTags';
 import PromptGrid from './components/PromptGrid';
-import Pagination from './components/Pagination';
+import PaginationWithCount from './components/PaginationWithCount';
 import { getAllPrompts, getAllCategories } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
@@ -119,32 +119,17 @@ export default function Home() {
 
           {/* Featured prompts are now shown in the regular grid */}
 
-          {/* Results Count */}
-          {!loading && (
-            <div className="mb-6 text-sm text-stone-400">
-              {filteredPrompts.length === prompts.length ? (
-                <span>Showing all {prompts.length} prompts</span>
-              ) : (
-                <span>
-                  Found {filteredPrompts.length} of {prompts.length} prompts
-                </span>
-              )}
-              {totalPages > 1 && (
-                <span className="ml-2">
-                  • Page {currentPage} of {totalPages}
-                </span>
-              )}
-            </div>
-          )}
 
           {/* Prompt Grid */}
           <PromptGrid prompts={paginatedPrompts} loading={loading} />
           
-          {/* Pagination */}
-          {!loading && totalPages > 1 && (
-            <Pagination
+          {/* Pagination with Count */}
+          {!loading && filteredPrompts.length > 0 && (
+            <PaginationWithCount
               currentPage={currentPage}
               totalPages={totalPages}
+              totalItems={filteredPrompts.length}
+              itemsPerPage={PROMPTS_PER_PAGE}
               onPageChange={setCurrentPage}
             />
           )}

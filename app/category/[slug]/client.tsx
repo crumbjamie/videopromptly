@@ -6,7 +6,7 @@ import { ChevronRightIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import SearchBar from '@/app/components/SearchBar';
 import PromptGrid from '@/app/components/PromptGrid';
-import Pagination from '@/app/components/Pagination';
+import PaginationWithCount from '@/app/components/PaginationWithCount';
 import { getAllPrompts } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
@@ -134,32 +134,17 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
             />
           </div>
 
-          {/* Results Count */}
-          {!loading && (
-            <div className="mb-6 text-sm text-stone-400">
-              {filteredPrompts.length === prompts.length ? (
-                <span>Showing all {prompts.length} prompts</span>
-              ) : (
-                <span>
-                  Found {filteredPrompts.length} of {prompts.length} prompts
-                </span>
-              )}
-              {totalPages > 1 && (
-                <span className="ml-2">
-                  • Page {currentPage} of {totalPages}
-                </span>
-              )}
-            </div>
-          )}
 
           {/* Prompt Grid */}
           <PromptGrid prompts={paginatedPrompts} loading={loading} />
           
-          {/* Pagination */}
-          {!loading && totalPages > 1 && (
-            <Pagination
+          {/* Pagination with Count */}
+          {!loading && filteredPrompts.length > 0 && (
+            <PaginationWithCount
               currentPage={currentPage}
               totalPages={totalPages}
+              totalItems={filteredPrompts.length}
+              itemsPerPage={PROMPTS_PER_PAGE}
               onPageChange={setCurrentPage}
             />
           )}
