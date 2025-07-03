@@ -8,6 +8,7 @@ import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
 import PromptCard from '@/app/components/PromptCard';
 import BeforeAfterImage from '@/app/components/BeforeAfterImage';
+import ImageModal from '@/app/components/ImageModal';
 import { ImagePrompt } from '@/lib/types';
 import { getRelatedPrompts } from '@/lib/database';
 import { getChatGPTUrl } from '@/lib/utils';
@@ -26,6 +27,7 @@ const difficultyColors = {
 export default function PromptDetailClient({ prompt }: PromptDetailClientProps) {
   const [relatedPrompts, setRelatedPrompts] = useState<ImagePrompt[]>([]);
   const [currentPrompt] = useState(prompt.prompt);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const loadRelated = async () => {
@@ -103,8 +105,11 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                   
                   {/* After Image */}
                   <div className="space-y-2">
-                    <h3 className="text-sm font-medium text-stone-400">After</h3>
-                    <div className="rounded-lg overflow-hidden bg-stone-800">
+                    <h3 className="text-sm font-medium text-stone-400">After (click to enlarge)</h3>
+                    <div 
+                      className="rounded-lg overflow-hidden bg-stone-800 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all"
+                      onClick={() => setIsModalOpen(true)}
+                    >
                       <Image
                         src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
                         alt="After transformation"
@@ -248,6 +253,16 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           )}
         </div>
       </main>
+      
+      {/* Image Modal */}
+      {prompt.thumbnail && (
+        <ImageModal
+          src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
+          alt={`${prompt.title} - After transformation`}
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
     </>
   );
 }
