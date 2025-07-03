@@ -20,14 +20,5 @@
   "github": {
     "enabled": true,
     "autoAlias": true
-  },
-  "outputFileTracing": {
-    "ignore": [
-      "node_modules/sharp/**/*",
-      "scripts/**/*",
-      "*.md",
-      "*.backup.json",
-      "public/thumbnails/square/**/*"
-    ]
   }
 }
