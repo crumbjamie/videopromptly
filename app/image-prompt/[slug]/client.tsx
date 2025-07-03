@@ -9,6 +9,7 @@ import CopyButton from '@/app/components/CopyButton';
 import PromptCard from '@/app/components/PromptCard';
 import BeforeAfterImage from '@/app/components/BeforeAfterImage';
 import ImageModal from '@/app/components/ImageModal';
+import ImageWithSkeleton from '@/app/components/ImageWithSkeleton';
 import { ImagePrompt } from '@/lib/types';
 import { getRelatedPrompts } from '@/lib/database';
 import { getChatGPTUrl } from '@/lib/utils';

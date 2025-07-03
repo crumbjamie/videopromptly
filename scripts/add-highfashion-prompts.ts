@@ -154,7 +154,7 @@ const newPrompts = parsedPrompts.map(parsed => {
   const slug = generateSlug(parsed.title);
   
   return {
-    id: nextId++.toString(),
+    id: (nextId++).toString(),
     slug,
     title: parsed.title,
     description: `Transform your images with this ${slug.replace(/-/g, ' ')} prompt for stunning creative effects.`,

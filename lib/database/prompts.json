@@ -357,7 +357,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Renaissance-Oil-Painting.png"
+      }
     },
     {
       "id": "19",
@@ -734,7 +738,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Rainy-Bus-Shelter.png"
+      }
     },
     {
       "id": "38",
@@ -770,7 +778,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Streetwear-Samurai.png"
+      }
     },
     {
       "id": "40",
@@ -1142,7 +1154,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Blueprint-Tech-Portrait.png"
+      }
     },
     {
       "id": "62",
@@ -1158,7 +1174,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cyber-Witch-Spellcaster.png"
+      }
     },
     {
       "id": "63",
@@ -1174,7 +1194,11 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Futuristic-Hologram-Lounge.png"
+      }
     },
     {
       "id": "64",
@@ -1190,7 +1214,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Hologram-Rainbow-Effect.png"
+      }
     },
     {
       "id": "65",
@@ -1222,7 +1250,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Holographic-UI-Interface.png"
+      }
     },
     {
       "id": "67",
@@ -1238,7 +1270,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-07-03T16:04:30.615Z"
+      "updatedAt": "2025-07-03T16:04:30.615Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Tech-Professional-Action-Figure.png"
+      }
     },
     {
       "id": "68",
@@ -1254,7 +1290,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Thermal-Vision-Effect.png"
+      }
     },
     {
       "id": "69",
@@ -1334,7 +1374,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Minimalist-Tech-Portrait.png"
+      }
     },
     {
       "id": "74",
@@ -1382,7 +1426,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Paper-Cutout-Collage.png"
+      }
     },
     {
       "id": "77",
@@ -1398,7 +1446,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Ultra-Realistic-Portrait-Photography.png"
+      }
     },
     {
       "id": "78",
@@ -1414,7 +1466,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Felt-Puppet-Theater-Transformation.png"
+      }
     },
     {
       "id": "79",
@@ -1430,7 +1486,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Bronze-Statue-Sculpture.png"
+      }
     },
     {
       "id": "80",
@@ -1446,7 +1506,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Ice-Sculpture-Art.png"
+      }
     },
     {
       "id": "81",
