@@ -14,7 +14,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cliff-Diver-Frozen-Action.png"
+      }
     },
     {
       "id": "2",
@@ -30,7 +34,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Fisheye-Skater-Action.png"
+      }
     },
     {
       "id": "3",
@@ -46,26 +54,15 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-07-02T13:22:24.531Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "3D-Pixar-Style-Cartoon.png"
+      },
+      "featured": true
     },
     {
       "id": "4",
-      "slug": "3d-pixar-style-cartoon",
-      "title": "3D Pixar-Style Cartoon",
-      "description": "Transform your images with this 3d pixar-style cartoon prompt for stunning creative effects.",
-      "prompt": "Convert this image into 3D Pixar-style cartoon with clean geometric forms, soft three-point lighting, and exaggerated expressive features. Vibrant saturated colors, smooth subsurface scattering, cinematic composition, award-winning animation studio quality, 4K rendering.",
-      "category": "Anime & animation",
-      "tags": [
-        "pixar",
-        "cartoon",
-        "3d"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "5",
       "slug": "anime-boss-portrait",
       "title": "Anime Boss Portrait",
       "description": "Transform your images with this anime boss portrait prompt for stunning creative effects.",
@@ -78,10 +75,15 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Anime-Boss-Portrait.png"
+      },
+      "featured": true
     },
     {
-      "id": "6",
+      "id": "5",
       "slug": "anime-meadow-picnic",
       "title": "Anime Meadow Picnic",
       "description": "Transform your images with this anime meadow picnic prompt for stunning creative effects.",
@@ -94,42 +96,34 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Anime-Meadow-Picnic.png"
+      }
+    },
+    {
+      "id": "6",
+      "slug": "claymation-character-transformation",
+      "title": "Claymation Character Transformation",
+      "description": "Transform your images with this claymation character transformation prompt for stunning creative effects.",
+      "prompt": "Transform this portrait into claymation-style character with soft modeling clay textures and visible sculpting marks. Warm stop-motion animation lighting, handcrafted appearance, Aardman Animations aesthetic, professional studio lighting, award-winning character design, tactile clay finish.",
+      "category": "Anime & animation",
+      "tags": [
+        "claymation",
+        "animation",
+        "handcrafted"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Claymation-Character-Transformation.png"
+      }
     },
     {
       "id": "7",
-      "slug": "claymation-character-transformation",
-      "title": "Claymation Character Transformation",
-      "description": "Transform your images with this claymation character transformation prompt for stunning creative effects.",
-      "prompt": "Transform this portrait into claymation-style character with soft modeling clay textures and visible sculpting marks. Warm stop-motion animation lighting, handcrafted appearance, Aardman Animations aesthetic, professional studio lighting, award-winning character design, tactile clay finish.",
-      "category": "Anime & animation",
-      "tags": [
-        "claymation",
-        "animation",
-        "handcrafted"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "8",
-      "slug": "claymation-character-transformation",
-      "title": "Claymation Character Transformation",
-      "description": "Transform your images with this claymation character transformation prompt for stunning creative effects.",
-      "prompt": "Transform this portrait into claymation-style character with soft modeling clay textures and visible sculpting marks. Warm stop-motion animation lighting, handcrafted appearance, Aardman Animations aesthetic, professional studio lighting, award-winning character design, tactile clay finish.",
-      "category": "Anime & animation",
-      "tags": [
-        "claymation",
-        "animation",
-        "handcrafted"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "9",
       "slug": "disney-princess-fantasy",
       "title": "Disney Princess Fantasy",
       "description": "Transform your images with this disney princess fantasy prompt for stunning creative effects.",
@@ -142,10 +136,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Disney-Princess-Fantasy.png"
+      }
     },
     {
-      "id": "10",
+      "id": "8",
       "slug": "chessboard-pattern-portrait",
       "title": "Chessboard Pattern Portrait",
       "description": "Transform your images with this chessboard pattern portrait prompt for stunning creative effects.",
@@ -158,10 +156,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Chessboard-Pattern-Portrait.png"
+      }
     },
     {
-      "id": "11",
+      "id": "9",
       "slug": "double-exposure-ocean",
       "title": "Double Exposure Ocean",
       "description": "Transform your images with this double exposure ocean prompt for stunning creative effects.",
@@ -174,74 +176,54 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Double-Exposure-Ocean.png"
+      }
+    },
+    {
+      "id": "10",
+      "slug": "cinematic-motion-blur-scene",
+      "title": "Cinematic Motion Blur Scene",
+      "description": "Transform your images with this cinematic motion blur scene prompt for stunning creative effects.",
+      "prompt": "Cinematic side profile of [subject] with motion-blurred crowd background, sharp focus maintained on subject. Moody urban lighting, 35mm film aesthetic, shallow depth of field, professional cinematography style, award-winning street photography.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "cinematic",
+        "motion",
+        "urban"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cinematic-Motion-Blur-Scene.png"
+      }
+    },
+    {
+      "id": "11",
+      "slug": "cinematic-neo-noir-style",
+      "title": "Cinematic Neo-Noir Style",
+      "description": "Transform your images with this cinematic neo-noir style prompt for stunning creative effects.",
+      "prompt": "Transform this image into neo-noir cinematography with moody neon lighting in deep blue and magenta tones. Rain-streaked atmosphere, dramatic shadows, high contrast lighting, shot with 35mm film aesthetic, professional thriller movie still quality, ultra-realistic rendering.",
+      "category": "Cinematic Styles",
+      "tags": [
+        "cinematic",
+        "noir",
+        "atmospheric"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-06-29T13:42:17.454Z",
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cinematic-Neo-Noir-Style.png"
+      }
     },
     {
       "id": "12",
-      "slug": "cinematic-motion-blur-scene",
-      "title": "Cinematic Motion Blur Scene",
-      "description": "Transform your images with this cinematic motion blur scene prompt for stunning creative effects.",
-      "prompt": "Cinematic side profile of [subject] with motion-blurred crowd background, sharp focus maintained on subject. Moody urban lighting, 35mm film aesthetic, shallow depth of field, professional cinematography style, award-winning street photography.",
-      "category": "Cinematic Styles",
-      "tags": [
-        "cinematic",
-        "motion",
-        "urban"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "13",
-      "slug": "cinematic-motion-blur-scene",
-      "title": "Cinematic Motion Blur Scene",
-      "description": "Transform your images with this cinematic motion blur scene prompt for stunning creative effects.",
-      "prompt": "Cinematic side profile of [subject] with motion-blurred crowd background, sharp focus maintained on subject. Moody urban lighting, 35mm film aesthetic, shallow depth of field, professional cinematography style, award-winning street photography.",
-      "category": "Cinematic Styles",
-      "tags": [
-        "cinematic",
-        "motion",
-        "urban"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "14",
-      "slug": "cinematic-neo-noir-style",
-      "title": "Cinematic Neo-Noir Style",
-      "description": "Transform your images with this cinematic neo-noir style prompt for stunning creative effects.",
-      "prompt": "Transform this image into neo-noir cinematography with moody neon lighting in deep blue and magenta tones. Rain-streaked atmosphere, dramatic shadows, high contrast lighting, shot with 35mm film aesthetic, professional thriller movie still quality, ultra-realistic rendering.",
-      "category": "Cinematic Styles",
-      "tags": [
-        "cinematic",
-        "noir",
-        "atmospheric"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "15",
-      "slug": "cinematic-neo-noir-style",
-      "title": "Cinematic Neo-Noir Style",
-      "description": "Transform your images with this cinematic neo-noir style prompt for stunning creative effects.",
-      "prompt": "Transform this image into neo-noir cinematography with moody neon lighting in deep blue and magenta tones. Rain-streaked atmosphere, dramatic shadows, high contrast lighting, shot with 35mm film aesthetic, professional thriller movie still quality, ultra-realistic rendering.",
-      "category": "Cinematic Styles",
-      "tags": [
-        "cinematic",
-        "noir",
-        "atmospheric"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "16",
       "slug": "detective-noir-tunnel",
       "title": "Detective Noir Tunnel",
       "description": "Transform your images with this detective noir tunnel prompt for stunning creative effects.",
@@ -254,10 +236,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Detective-Noir-Tunnel.png"
+      }
     },
     {
-      "id": "17",
+      "id": "13",
       "slug": "film-noir-detective",
       "title": "Film Noir Detective",
       "description": "Transform your images with this film noir detective prompt for stunning creative effects.",
@@ -270,10 +256,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Film-Noir-Detective.png"
+      }
     },
     {
-      "id": "18",
+      "id": "14",
       "slug": "samurai-vs-robot-duel",
       "title": "Samurai vs Robot Duel",
       "description": "Transform your images with this samurai vs robot duel prompt for stunning creative effects.",
@@ -286,10 +276,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Samurai-vs-Robot-Duel.png"
+      }
     },
     {
-      "id": "19",
+      "id": "15",
       "slug": "wes-anderson-diner",
       "title": "Wes Anderson Diner",
       "description": "Transform your images with this wes anderson diner prompt for stunning creative effects.",
@@ -302,10 +296,15 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Wes-Anderson-Diner.png"
+      },
+      "featured": true
     },
     {
-      "id": "20",
+      "id": "16",
       "slug": "wwii-bunker-portrait",
       "title": "WWII Bunker Portrait",
       "description": "Transform your images with this wwii bunker portrait prompt for stunning creative effects.",
@@ -318,10 +317,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "WWII-Bunker-Portrait.png"
+      }
     },
     {
-      "id": "21",
+      "id": "17",
       "slug": "mosaic-tile-art",
       "title": "Mosaic Tile Art",
       "description": "Transform your images with this mosaic tile art prompt for stunning creative effects.",
@@ -334,10 +337,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Mosaic-Tile-Art.png"
+      }
     },
     {
-      "id": "22",
+      "id": "18",
       "slug": "renaissance-oil-painting",
       "title": "Renaissance Oil Painting",
       "description": "Transform your images with this renaissance oil painting prompt for stunning creative effects.",
@@ -353,7 +360,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "23",
+      "id": "19",
       "slug": "bioluminescent-jungle-trek",
       "title": "Bioluminescent Jungle Trek",
       "description": "Transform your images with this bioluminescent jungle trek prompt for stunning creative effects.",
@@ -366,10 +373,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Bioluminescent-Jungle-Trek.png"
+      }
     },
     {
-      "id": "24",
+      "id": "20",
       "slug": "cottage-painting-timelapse",
       "title": "Cottage Painting Timelapse",
       "description": "Transform your images with this cottage painting timelapse prompt for stunning creative effects.",
@@ -382,10 +393,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cottage-Painting-Timelapse.png"
+      }
     },
     {
-      "id": "25",
+      "id": "21",
       "slug": "desert-biker",
       "title": "Desert Biker",
       "description": "Transform your images with this desert biker prompt for stunning creative effects.",
@@ -398,10 +413,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Desert-Biker.png"
+      }
     },
     {
-      "id": "26",
+      "id": "22",
       "slug": "desert-motorcycle-convoy",
       "title": "Desert Motorcycle Convoy",
       "description": "Transform your images with this desert motorcycle convoy prompt for stunning creative effects.",
@@ -414,10 +433,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Desert-Motorcycle-Convoy.png"
+      }
     },
     {
-      "id": "27",
+      "id": "23",
       "slug": "deserted-carnival-scene",
       "title": "Deserted Carnival Scene",
       "description": "Transform your images with this deserted carnival scene prompt for stunning creative effects.",
@@ -430,10 +453,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Deserted-Carnival-Scene.png"
+      }
     },
     {
-      "id": "28",
+      "id": "24",
       "slug": "dramatic-spotlight-portrait",
       "title": "Dramatic Spotlight Portrait",
       "description": "Transform your images with this dramatic spotlight portrait prompt for stunning creative effects.",
@@ -446,26 +473,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Dramatic-Spotlight-Portrait.png"
+      }
     },
     {
-      "id": "29",
-      "slug": "dramatic-spotlight-portrait",
-      "title": "Dramatic Spotlight Portrait",
-      "description": "Transform your images with this dramatic spotlight portrait prompt for stunning creative effects.",
-      "prompt": "Transform [subject] under dramatic spotlight in industrial setting with deep shadows and high contrast. Construction environment backdrop, moody atmospheric lighting creating sculptural shadows, professional cinematography style, ultra-realistic detail, award-winning portrait photography.",
-      "category": "Creative Effects",
-      "tags": [
-        "dramatic",
-        "industrial",
-        "spotlight"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "30",
+      "id": "25",
       "slug": "gladiator-arena-pov",
       "title": "Gladiator Arena POV",
       "description": "Transform your images with this gladiator arena pov prompt for stunning creative effects.",
@@ -478,10 +493,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Gladiator-Arena-POV.png"
+      }
     },
     {
-      "id": "31",
+      "id": "26",
       "slug": "golden-hour-enhancement",
       "title": "Golden Hour Enhancement",
       "description": "Transform your images with this golden hour enhancement prompt for stunning creative effects.",
@@ -494,26 +513,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Golden-Hour-Enhancement.png"
+      }
     },
     {
-      "id": "32",
-      "slug": "golden-hour-enhancement",
-      "title": "Golden Hour Enhancement",
-      "description": "Transform your images with this golden hour enhancement prompt for stunning creative effects.",
-      "prompt": "Apply golden hour lighting to this image with warm sunlight, soft highlights, and long dramatic shadows. Dreamy golden hues throughout, natural volumetric lighting, professional outdoor photography style, award-winning portrait quality, HDR processing.",
-      "category": "Creative Effects",
-      "tags": [
-        "golden-hour",
-        "natural",
-        "warm"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "33",
+      "id": "27",
       "slug": "hyperreal-ice-cream-sneaker",
       "title": "Hyperreal Ice Cream Sneaker",
       "description": "Transform your images with this hyperreal ice cream sneaker prompt for stunning creative effects.",
@@ -526,10 +533,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Hyperreal-Ice-Cream-Sneaker.png"
+      }
     },
     {
-      "id": "34",
+      "id": "28",
       "slug": "levitating-yoga-pose",
       "title": "Levitating Yoga Pose",
       "description": "Transform your images with this levitating yoga pose prompt for stunning creative effects.",
@@ -542,10 +553,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Levitating-Yoga-Pose.png"
+      }
     },
     {
-      "id": "35",
+      "id": "29",
       "slug": "limited-edition-toy-store-display",
       "title": "Limited Edition Toy Store Display",
       "description": "Transform your images with this limited edition toy store display prompt for stunning creative effects.",
@@ -558,10 +573,15 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Limited-Edition-Toy-Store-Display.png"
+      },
+      "featured": true
     },
     {
-      "id": "36",
+      "id": "30",
       "slug": "magical-library-scholar",
       "title": "Magical Library Scholar",
       "description": "Transform your images with this magical library scholar prompt for stunning creative effects.",
@@ -574,10 +594,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Magical-Library-Scholar.png"
+      }
     },
     {
-      "id": "37",
+      "id": "31",
       "slug": "molecular-gastronomy-chef",
       "title": "Molecular Gastronomy Chef",
       "description": "Transform your images with this molecular gastronomy chef prompt for stunning creative effects.",
@@ -590,10 +614,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Molecular-Gastronomy-Chef.png"
+      }
     },
     {
-      "id": "38",
+      "id": "32",
       "slug": "nature-literature-elegance",
       "title": "Nature Literature Elegance",
       "description": "Transform your images with this nature literature elegance prompt for stunning creative effects.",
@@ -606,10 +634,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Nature-Literature-Elegance.png"
+      }
     },
     {
-      "id": "39",
+      "id": "33",
       "slug": "neo-noir-car-chase",
       "title": "Neo-Noir Car Chase",
       "description": "Transform your images with this neo-noir car chase prompt for stunning creative effects.",
@@ -622,10 +654,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Neo-Noir-Car-Chase.png"
+      }
     },
     {
-      "id": "40",
+      "id": "34",
       "slug": "neo-noir-elevator-mirror",
       "title": "Neo-Noir Elevator Mirror",
       "description": "Transform your images with this neo-noir elevator mirror prompt for stunning creative effects.",
@@ -638,10 +674,14 @@
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Neo-Noir-Elevator-Mirror.png"
+      }
     },
     {
-      "id": "41",
+      "id": "35",
       "slug": "neon-sign-portrait",
       "title": "Neon Sign Portrait",
       "description": "Transform your images with this neon sign portrait prompt for stunning creative effects.",
@@ -654,10 +694,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Neon-Sign-Portrait.png"
+      }
     },
     {
-      "id": "42",
+      "id": "36",
       "slug": "premium-collectible-action-figure",
       "title": "Premium Collectible Action Figure",
       "description": "Transform your images with this premium collectible action figure prompt for stunning creative effects.",
@@ -670,10 +714,14 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Premium-Collectible-Action-Figure.png"
+      }
     },
     {
-      "id": "43",
+      "id": "37",
       "slug": "rainy-bus-shelter",
       "title": "Rainy Bus Shelter",
       "description": "Transform your images with this rainy bus shelter prompt for stunning creative effects.",
@@ -689,7 +737,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "44",
+      "id": "38",
       "slug": "samurai-bridge",
       "title": "Samurai Bridge",
       "description": "Transform your images with this samurai bridge prompt for stunning creative effects.",
@@ -702,10 +750,14 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Samurai-Bridge.png"
+      }
     },
     {
-      "id": "45",
+      "id": "39",
       "slug": "streetwear-samurai",
       "title": "Streetwear Samurai",
       "description": "Transform your images with this streetwear samurai prompt for stunning creative effects.",
@@ -721,7 +773,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "46",
+      "id": "40",
       "slug": "tranquil-lake-sunrise",
       "title": "Tranquil Lake Sunrise",
       "description": "Transform your images with this tranquil lake sunrise prompt for stunning creative effects.",
@@ -737,7 +789,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "47",
+      "id": "41",
       "slug": "valkyrie-warrior",
       "title": "Valkyrie Warrior",
       "description": "Transform your images with this valkyrie warrior prompt for stunning creative effects.",
@@ -753,7 +805,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "48",
+      "id": "42",
       "slug": "chrome-mech-caf",
       "title": "Chrome Mech Café",
       "description": "Transform your images with this chrome mech café prompt for stunning creative effects.",
@@ -769,7 +821,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "49",
+      "id": "43",
       "slug": "cyberpunk-hacker",
       "title": "Cyberpunk Hacker",
       "description": "Transform your images with this cyberpunk hacker prompt for stunning creative effects.",
@@ -785,7 +837,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "50",
+      "id": "44",
       "slug": "cyberpunk-ramen-market",
       "title": "Cyberpunk Ramen Market",
       "description": "Transform your images with this cyberpunk ramen market prompt for stunning creative effects.",
@@ -801,7 +853,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "51",
+      "id": "45",
       "slug": "cyberpunk-street-market",
       "title": "Cyberpunk Street Market",
       "description": "Transform your images with this cyberpunk street market prompt for stunning creative effects.",
@@ -817,7 +869,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "52",
+      "id": "46",
       "slug": "ufo-cockpit-selfie",
       "title": "UFO Cockpit Selfie",
       "description": "Transform your images with this ufo cockpit selfie prompt for stunning creative effects.",
@@ -833,7 +885,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "53",
+      "id": "47",
       "slug": "3d-avatar-stickers",
       "title": "3D Avatar Stickers",
       "description": "Transform your images with this 3d avatar stickers prompt for stunning creative effects.",
@@ -849,7 +901,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "54",
+      "id": "48",
       "slug": "ascii-art-terminal",
       "title": "ASCII Art Terminal",
       "description": "Transform your images with this ascii art terminal prompt for stunning creative effects.",
@@ -865,7 +917,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "55",
+      "id": "49",
       "slug": "comic-book-hero",
       "title": "Comic Book Hero",
       "description": "Transform your images with this comic book hero prompt for stunning creative effects.",
@@ -881,7 +933,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "56",
+      "id": "50",
       "slug": "glitch-art-dj-booth",
       "title": "Glitch Art DJ Booth",
       "description": "Transform your images with this glitch art dj booth prompt for stunning creative effects.",
@@ -897,7 +949,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "57",
+      "id": "51",
       "slug": "pixel-art-retro",
       "title": "Pixel Art Retro",
       "description": "Transform your images with this pixel art retro prompt for stunning creative effects.",
@@ -913,7 +965,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "58",
+      "id": "52",
       "slug": "pop-art-gaming",
       "title": "Pop Art Gaming",
       "description": "Transform your images with this pop art gaming prompt for stunning creative effects.",
@@ -929,7 +981,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "59",
+      "id": "53",
       "slug": "editorial-food-photography-style",
       "title": "Editorial Food Photography Style",
       "description": "Transform your images with this editorial food photography style prompt for stunning creative effects.",
@@ -945,7 +997,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "60",
+      "id": "54",
       "slug": "hyperrealistic-flash-photography",
       "title": "Hyperrealistic Flash Photography",
       "description": "Transform your images with this hyperrealistic flash photography prompt for stunning creative effects.",
@@ -961,23 +1013,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "61",
-      "slug": "hyperrealistic-flash-photography",
-      "title": "Hyperrealistic Flash Photography",
-      "description": "Transform your images with this hyperrealistic flash photography prompt for stunning creative effects.",
-      "prompt": "Transform into hyperrealistic flash photography with harsh direct flash, strong sculptural shadows, and tight cinematic framing. Intense texture clarity, editorial grit with photographic grain, stark background, surreal visual elements, professional editorial photography style.",
-      "category": "Editorial Photography",
-      "tags": [
-        "flash",
-        "editorial",
-        "hyperrealistic"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "62",
+      "id": "55",
       "slug": "elven-archer-fantasy",
       "title": "Elven Archer Fantasy",
       "description": "Transform your images with this elven archer fantasy prompt for stunning creative effects.",
@@ -993,7 +1029,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "63",
+      "id": "56",
       "slug": "expressionist-cityscape",
       "title": "Expressionist Cityscape",
       "description": "Transform your images with this expressionist cityscape prompt for stunning creative effects.",
@@ -1009,7 +1045,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "64",
+      "id": "57",
       "slug": "fire-wizard",
       "title": "Fire Wizard",
       "description": "Transform your images with this fire wizard prompt for stunning creative effects.",
@@ -1025,7 +1061,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "65",
+      "id": "58",
       "slug": "surreal-ice-cream-mountain",
       "title": "Surreal Ice Cream Mountain",
       "description": "Transform your images with this surreal ice cream mountain prompt for stunning creative effects.",
@@ -1041,7 +1077,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "66",
+      "id": "59",
       "slug": "floating-iceberg-runway",
       "title": "Floating Iceberg Runway",
       "description": "Transform your images with this floating iceberg runway prompt for stunning creative effects.",
@@ -1057,7 +1093,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "67",
+      "id": "60",
       "slug": "high-fashion-editorial",
       "title": "High-Fashion Editorial",
       "description": "Transform your images with this high-fashion editorial prompt for stunning creative effects.",
@@ -1073,23 +1109,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "68",
-      "slug": "high-fashion-editorial",
-      "title": "High-Fashion Editorial",
-      "description": "Transform your images with this high-fashion editorial prompt for stunning creative effects.",
-      "prompt": "High-fashion editorial photography of [subject] with professional softbox lighting, glossy luxury textures, and cinematic color grading. Magazine-quality finish with rich shadows and enhanced highlights, shot on medium format camera, award-winning fashion photography style.",
-      "category": "Fashion Photography",
-      "tags": [
-        "fashion",
-        "editorial",
-        "luxury"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "69",
+      "id": "61",
       "slug": "blueprint-tech-portrait",
       "title": "Blueprint Tech Portrait",
       "description": "Transform your images with this blueprint tech portrait prompt for stunning creative effects.",
@@ -1105,7 +1125,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "70",
+      "id": "62",
       "slug": "cyber-witch-spellcaster",
       "title": "Cyber Witch Spellcaster",
       "description": "Transform your images with this cyber witch spellcaster prompt for stunning creative effects.",
@@ -1121,7 +1141,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "71",
+      "id": "63",
       "slug": "futuristic-hologram-lounge",
       "title": "Futuristic Hologram Lounge",
       "description": "Transform your images with this futuristic hologram lounge prompt for stunning creative effects.",
@@ -1137,7 +1157,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "72",
+      "id": "64",
       "slug": "hologram-rainbow-effect",
       "title": "Hologram Rainbow Effect",
       "description": "Transform your images with this hologram rainbow effect prompt for stunning creative effects.",
@@ -1153,7 +1173,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "73",
+      "id": "65",
       "slug": "holographic-marble-gaming",
       "title": "Holographic Marble Gaming",
       "description": "Transform your images with this holographic marble gaming prompt for stunning creative effects.",
@@ -1169,7 +1189,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "74",
+      "id": "66",
       "slug": "holographic-ui-interface",
       "title": "Holographic UI Interface",
       "description": "Transform your images with this holographic ui interface prompt for stunning creative effects.",
@@ -1185,7 +1205,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "75",
+      "id": "67",
       "slug": "tech-professional-action-figure",
       "title": "Tech Professional Action Figure",
       "description": "Transform your images with this tech professional action figure prompt for stunning creative effects.",
@@ -1201,7 +1221,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "76",
+      "id": "68",
       "slug": "thermal-vision-effect",
       "title": "Thermal Vision Effect",
       "description": "Transform your images with this thermal vision effect prompt for stunning creative effects.",
@@ -1217,7 +1237,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "77",
+      "id": "69",
       "slug": "retro-gaming-nostalgia",
       "title": "Retro Gaming Nostalgia",
       "description": "Transform your images with this retro gaming nostalgia prompt for stunning creative effects.",
@@ -1233,7 +1253,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "78",
+      "id": "70",
       "slug": "viking-storm-battle",
       "title": "Viking Storm Battle",
       "description": "Transform your images with this viking storm battle prompt for stunning creative effects.",
@@ -1249,7 +1269,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "79",
+      "id": "71",
       "slug": "gothic-mansion-horror",
       "title": "Gothic Mansion Horror",
       "description": "Transform your images with this gothic mansion horror prompt for stunning creative effects.",
@@ -1265,7 +1285,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "80",
+      "id": "72",
       "slug": "minimalist-cartoon-action-figure",
       "title": "Minimalist Cartoon Action Figure",
       "description": "Transform your images with this minimalist cartoon action figure prompt for stunning creative effects.",
@@ -1281,7 +1301,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "81",
+      "id": "73",
       "slug": "minimalist-tech-portrait",
       "title": "Minimalist Tech Portrait",
       "description": "Transform your images with this minimalist tech portrait prompt for stunning creative effects.",
@@ -1297,7 +1317,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "82",
+      "id": "74",
       "slug": "silhouette-shadow-art",
       "title": "Silhouette Shadow Art",
       "description": "Transform your images with this silhouette shadow art prompt for stunning creative effects.",
@@ -1313,7 +1333,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "83",
+      "id": "75",
       "slug": "origami-paper-art-transformation",
       "title": "Origami Paper Art Transformation",
       "description": "Transform your images with this origami paper art transformation prompt for stunning creative effects.",
@@ -1329,23 +1349,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "84",
-      "slug": "origami-paper-art-transformation",
-      "title": "Origami Paper Art Transformation",
-      "description": "Transform your images with this origami paper art transformation prompt for stunning creative effects.",
-      "prompt": "Convert this portrait into intricate origami-style artwork with geometric paper folds and sharp creases. Clean minimalist color palette, soft even lighting emphasizing fold patterns, dimensional layered construction, contemporary paper art aesthetic, museum-quality craftsmanship, 8K detail resolution.",
-      "category": "Paper Art",
-      "tags": [
-        "origami",
-        "artistic",
-        "geometric"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "85",
+      "id": "76",
       "slug": "paper-cutout-collage",
       "title": "Paper Cutout Collage",
       "description": "Transform your images with this paper cutout collage prompt for stunning creative effects.",
@@ -1361,7 +1365,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "86",
+      "id": "77",
       "slug": "ultra-realistic-portrait-photography",
       "title": "Ultra-Realistic Portrait Photography",
       "description": "Transform your images with this ultra-realistic portrait photography prompt for stunning creative effects.",
@@ -1377,7 +1381,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "87",
+      "id": "78",
       "slug": "felt-puppet-theater-transformation",
       "title": "Felt Puppet Theater Transformation",
       "description": "Transform your images with this felt puppet theater transformation prompt for stunning creative effects.",
@@ -1393,23 +1397,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "88",
-      "slug": "felt-puppet-theater-transformation",
-      "title": "Felt Puppet Theater Transformation",
-      "description": "Transform your images with this felt puppet theater transformation prompt for stunning creative effects.",
-      "prompt": "Transform this portrait into handcrafted felt puppet character with googly eyes, stitched details, and yarn textures. Miniature theater stage setting, warm tungsten lighting, Jim Henson's Muppets aesthetic, professional macro photography, whimsical puppet craftsmanship.",
-      "category": "Puppet & felt art",
-      "tags": [
-        "puppet",
-        "felt",
-        "whimsical"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "89",
+      "id": "79",
       "slug": "bronze-statue-sculpture",
       "title": "Bronze Statue Sculpture",
       "description": "Transform your images with this bronze statue sculpture prompt for stunning creative effects.",
@@ -1425,7 +1413,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "90",
+      "id": "80",
       "slug": "ice-sculpture-art",
       "title": "Ice Sculpture Art",
       "description": "Transform your images with this ice sculpture art prompt for stunning creative effects.",
@@ -1441,7 +1429,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "91",
+      "id": "81",
       "slug": "youtube-thumbnail-style",
       "title": "YouTube Thumbnail Style",
       "description": "Transform your images with this youtube thumbnail style prompt for stunning creative effects.",
@@ -1457,7 +1445,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "92",
+      "id": "82",
       "slug": "steampunk-airship-captain",
       "title": "Steampunk Airship Captain",
       "description": "Transform your images with this steampunk airship captain prompt for stunning creative effects.",
@@ -1473,7 +1461,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "93",
+      "id": "83",
       "slug": "ghibli-bakery-interior",
       "title": "Ghibli Bakery Interior",
       "description": "Transform your images with this ghibli bakery interior prompt for stunning creative effects.",
@@ -1489,7 +1477,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "94",
+      "id": "84",
       "slug": "studio-ghibli-forest",
       "title": "Studio Ghibli Forest",
       "description": "Transform your images with this studio ghibli forest prompt for stunning creative effects.",
@@ -1505,7 +1493,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "95",
+      "id": "85",
       "slug": "synthwave-highway",
       "title": "Synthwave Highway",
       "description": "Transform your images with this synthwave highway prompt for stunning creative effects.",
@@ -1521,7 +1509,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "96",
+      "id": "86",
       "slug": "vaporwave-desert-astronaut",
       "title": "Vaporwave Desert Astronaut",
       "description": "Transform your images with this vaporwave desert astronaut prompt for stunning creative effects.",
@@ -1537,7 +1525,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "97",
+      "id": "87",
       "slug": "vaporwave-90s-aesthetic",
       "title": "Vaporwave/90s Aesthetic",
       "description": "Transform your images with this vaporwave/90s aesthetic prompt for stunning creative effects.",
@@ -1553,23 +1541,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "98",
-      "slug": "vaporwave-90s-aesthetic",
-      "title": "Vaporwave/90s Aesthetic",
-      "description": "Transform your images with this vaporwave/90s aesthetic prompt for stunning creative effects.",
-      "prompt": "Transform this portrait into vaporwave aesthetic with neon pink-cyan gradients, geometric grid background, and VHS scan line effects. Retro-futuristic elements, analog video artifacts, synthwave album cover style, nostalgic 90s digital aesthetic.",
-      "category": "Synthwave & vaporwave",
-      "tags": [
-        "vaporwave",
-        "retro",
-        "neon"
-      ],
-      "difficulty": "Intermediate",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "99",
+      "id": "88",
       "slug": "barbie-box-packaging",
       "title": "Barbie Box Packaging",
       "description": "Transform your images with this barbie box packaging prompt for stunning creative effects.",
@@ -1585,11 +1557,11 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "100",
+      "id": "89",
       "slug": "lego-minifigure-transformation",
       "title": "LEGO Minifigure Transformation",
       "description": "Transform your images with this lego minifigure transformation prompt for stunning creative effects.",
-      "prompt": "Convert this portrait into LEGO minifigure with blocky geometric construction, smooth plastic finish, and characteristic printed facial features. Bright LEGO baseplate setting, even product photography lighting, official LEGO collectible series aesthetic, 16K detail.",
+      "prompt": "Convert this portrait into LEGO minifigure with blocky geometric construction, smooth plastic finish, and characteristic printed facial features. Ensure stud on top of head piece if figure has no hair or hat. LEGO baseplate on floor with background following photograph's theme, even product photography lighting, official LEGO collectible series aesthetic.",
       "category": "Toy Transformations",
       "tags": [
         "lego",
@@ -1598,26 +1570,10 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T23:41:03.585Z"
     },
     {
-      "id": "101",
-      "slug": "lego-minifigure-transformation",
-      "title": "LEGO Minifigure Transformation",
-      "description": "Transform your images with this lego minifigure transformation prompt for stunning creative effects.",
-      "prompt": "Convert this portrait into LEGO minifigure with blocky geometric construction, smooth plastic finish, and characteristic printed facial features. Bright LEGO baseplate setting, even product photography lighting, official LEGO collectible series aesthetic, 16K detail.",
-      "category": "Toy Transformations",
-      "tags": [
-        "lego",
-        "blocky",
-        "toy"
-      ],
-      "difficulty": "Intermediate",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
-    },
-    {
-      "id": "102",
+      "id": "90",
       "slug": "plush-ghost-toy-transformation",
       "title": "Plush Ghost Toy Transformation",
       "description": "Transform your images with this plush ghost toy transformation prompt for stunning creative effects.",
@@ -1633,7 +1589,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "103",
+      "id": "91",
       "slug": "political-action-figure",
       "title": "Political Action Figure",
       "description": "Transform your images with this political action figure prompt for stunning creative effects.",
@@ -1649,7 +1605,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "104",
+      "id": "92",
       "slug": "embroidery-textile-art",
       "title": "Embroidery Textile Art",
       "description": "Transform your images with this embroidery textile art prompt for stunning creative effects.",
@@ -1665,7 +1621,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "105",
+      "id": "93",
       "slug": "graffiti-street-art",
       "title": "Graffiti Street Art",
       "description": "Transform your images with this graffiti street art prompt for stunning creative effects.",
@@ -1681,7 +1637,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "106",
+      "id": "94",
       "slug": "kaleidoscope-pattern",
       "title": "Kaleidoscope Pattern",
       "description": "Transform your images with this kaleidoscope pattern prompt for stunning creative effects.",
@@ -1697,7 +1653,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "107",
+      "id": "95",
       "slug": "sand-art-beach",
       "title": "Sand Art Beach",
       "description": "Transform your images with this sand art beach prompt for stunning creative effects.",
@@ -1713,7 +1669,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "108",
+      "id": "96",
       "slug": "stained-glass-art",
       "title": "Stained Glass Art",
       "description": "Transform your images with this stained glass art prompt for stunning creative effects.",
@@ -1729,7 +1685,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "109",
+      "id": "97",
       "slug": "watercolor-dreamscape",
       "title": "Watercolor Dreamscape",
       "description": "Transform your images with this watercolor dreamscape prompt for stunning creative effects.",
@@ -1745,7 +1701,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "110",
+      "id": "98",
       "slug": "pet-to-human-portrait",
       "title": "Pet-to-Human Portrait",
       "description": "Transform your images with this pet-to-human portrait prompt for stunning creative effects.",
@@ -1761,7 +1717,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "111",
+      "id": "99",
       "slug": "deep-sea-explorer",
       "title": "Deep-Sea Explorer",
       "description": "Transform your images with this deep-sea explorer prompt for stunning creative effects.",
@@ -1777,7 +1733,7 @@
       "updatedAt": "2025-06-29T13:42:17.453Z"
     },
     {
-      "id": "112",
+      "id": "100",
       "slug": "underwater-silk-fashion",
       "title": "Underwater Silk Fashion",
       "description": "Transform your images with this underwater silk fashion prompt for stunning creative effects.",
@@ -1793,7 +1749,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "113",
+      "id": "101",
       "slug": "underwater-thriller",
       "title": "Underwater Thriller",
       "description": "Transform your images with this underwater thriller prompt for stunning creative effects.",
@@ -1809,7 +1765,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "114",
+      "id": "102",
       "slug": "1980s-anime-poster",
       "title": "1980s Anime Poster",
       "description": "Transform your images with this 1980s anime poster prompt for stunning creative effects.",
@@ -1825,7 +1781,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "115",
+      "id": "103",
       "slug": "pet-barista-portrait",
       "title": "Pet Barista Portrait",
       "description": "Transform your images with this pet barista portrait prompt for stunning creative effects.",
@@ -1841,7 +1797,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "116",
+      "id": "104",
       "slug": "symmetrical-train-diner",
       "title": "Symmetrical Train Diner",
       "description": "Transform your images with this symmetrical train diner prompt for stunning creative effects.",
@@ -1857,7 +1813,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "117",
+      "id": "105",
       "slug": "vintage-aviator",
       "title": "Vintage Aviator",
       "description": "Transform your images with this vintage aviator prompt for stunning creative effects.",
@@ -1873,7 +1829,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "118",
+      "id": "106",
       "slug": "vintage-film-grain",
       "title": "Vintage Film Grain",
       "description": "Transform your images with this vintage film grain prompt for stunning creative effects.",
@@ -1889,7 +1845,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "119",
+      "id": "107",
       "slug": "vintage-motorcycle-highway",
       "title": "Vintage Motorcycle Highway",
       "description": "Transform your images with this vintage motorcycle highway prompt for stunning creative effects.",
@@ -1905,7 +1861,7 @@
       "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
-      "id": "120",
+      "id": "108",
       "slug": "y2k-computer-lab",
       "title": "Y2K Computer Lab",
       "description": "Transform your images with this y2k computer lab prompt for stunning creative effects.",
@@ -1920,5 +1876,6 @@
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z"
     }
-  ]
+  ],
+  "lastUpdated": "2025-06-29T23:41:41.939Z"
 }
