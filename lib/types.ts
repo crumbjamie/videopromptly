@@ -5,6 +5,7 @@ export interface ImagePrompt {
   description: string;
   prompt: string;
   category: string;
+  categories?: string[];
   tags: string[];
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
   createdAt: Date;

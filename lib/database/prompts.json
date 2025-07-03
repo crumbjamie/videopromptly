@@ -1026,7 +1026,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Elven-Archer-Fantasy.png"
+      }
     },
     {
       "id": "56",
@@ -1058,7 +1062,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Fire-Wizard.png"
+      }
     },
     {
       "id": "58",
@@ -1074,7 +1082,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Surreal-Ice-Cream-Mountain.png"
+      }
     },
     {
       "id": "59",
@@ -1090,7 +1102,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Floating-Iceberg-Runway.png"
+      }
     },
     {
       "id": "60",
@@ -1106,7 +1122,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "High-Fashion-Editorial.png"
+      }
     },
     {
       "id": "61",
@@ -1442,7 +1462,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "YouTube-Thumbnail-Style.png"
+      }
     },
     {
       "id": "82",
@@ -1458,7 +1482,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Steampunk-Airship-Captain.png"
+      }
     },
     {
       "id": "83",
@@ -1474,7 +1502,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Ghibli-Bakery-Interior.png"
+      }
     },
     {
       "id": "84",
@@ -1490,7 +1522,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Studio-Ghibli-Forest.png"
+      }
     },
     {
       "id": "85",
@@ -1570,7 +1606,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T23:41:03.585Z"
+      "updatedAt": "2025-06-29T23:41:03.585Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "LEGO-Minifigure-Transformation.png"
+      }
     },
     {
       "id": "90",
@@ -1586,7 +1626,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Plush-Ghost-Toy-Transformation.png"
+      }
     },
     {
       "id": "91",
@@ -1618,7 +1662,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Embroidery-Textile-Art.png"
+      }
     },
     {
       "id": "93",
@@ -1634,7 +1682,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Graffiti-Street-Art.png"
+      }
     },
     {
       "id": "94",
@@ -1650,7 +1702,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Kaleidoscope-Pattern.png"
+      }
     },
     {
       "id": "95",
@@ -1666,7 +1722,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Sand-Art-Beach.png"
+      }
     },
     {
       "id": "96",
@@ -1682,7 +1742,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Stained-Glass-Art.png"
+      }
     },
     {
       "id": "97",
@@ -1698,7 +1762,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Watercolor-Dreamscape.png"
+      }
     },
     {
       "id": "98",
@@ -1730,7 +1798,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Deep-Sea-Explorer.png"
+      }
     },
     {
       "id": "100",
@@ -1746,7 +1818,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Underwater-Silk-Fashion.png"
+      }
     },
     {
       "id": "101",
@@ -1762,7 +1838,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Underwater-Thriller.png"
+      }
     },
     {
       "id": "102",
@@ -1778,7 +1858,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "1980s-Anime-Poster.png"
+      }
     },
     {
       "id": "103",
@@ -1794,7 +1878,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Pet-Barista-Portrait.png"
+      }
     },
     {
       "id": "104",
@@ -1826,7 +1914,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Vintage-Aviator.png"
+      }
     },
     {
       "id": "106",
@@ -1842,7 +1934,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Vintage-Film-Grain.png"
+      }
     },
     {
       "id": "107",
@@ -1858,7 +1954,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Vintage-Motorcycle-Highway.png"
+      }
     },
     {
       "id": "108",
@@ -1874,8 +1974,1520 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Y2K-Computer-Lab.png"
+      }
+    },
+    {
+      "id": "109",
+      "slug": "classic-corporate-executive",
+      "title": "Classic Corporate Executive",
+      "description": "Transform your images with this classic corporate executive prompt for stunning creative effects.",
+      "prompt": "Professional headshot of [subject] as confident business executive wearing tailored navy suit with subtle pinstripe pattern, crisp white dress shirt, and silk tie, seated at polished mahogany desk. Shot with Canon EOS R5, 85mm f/1.4 lens, f/2.8 aperture, soft Rembrandt lighting with key light at 45 degrees. Clean neutral gray studio background with subtle gradient, sharp focus on eyes with natural skin texture and confident smile. Professional corporate photography style suitable for annual reports and executive profiles.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "corporate",
+        "executive",
+        "headshot",
+        "professional"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "classic-corporate-executive.png"
+      }
+    },
+    {
+      "id": "110",
+      "slug": "modern-tech-professional",
+      "title": "Modern Tech Professional",
+      "description": "Transform your images with this modern tech professional prompt for stunning creative effects.",
+      "prompt": "Contemporary professional headshot of [subject] as tech industry leader wearing modern black turtleneck and tailored charcoal blazer in sleek glass office with city skyline backdrop. Captured using Sony A7R IV, 50mm f/1.8 lens, natural window lighting with softbox fill light. Clean minimalist composition with shallow depth of field, professional yet approachable expression with direct eye contact. Perfect for LinkedIn profiles and tech company websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "tech",
+        "modern",
+        "professional",
+        "linkedin"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "modern-tech-professional.png"
+      }
+    },
+    {
+      "id": "111",
+      "slug": "creative-business-professional",
+      "title": "Creative Business Professional",
+      "description": "Transform your images with this creative business professional prompt for stunning creative effects.",
+      "prompt": "Stylish professional headshot of [subject] as marketing creative director wearing well-fitted burgundy blazer over crisp white shirt in modern design studio with geometric patterns and warm wood accents. Shot with Fujifilm X-T4, 56mm f/1.2 lens, soft golden hour lighting with large softbox at 30 degrees. Warm approachable expression with slight smile, creative yet professional atmosphere suitable for agency portfolios.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "creative",
+        "marketing",
+        "stylish",
+        "agency"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "creative-business-professional.png"
+      }
+    },
+    {
+      "id": "112",
+      "slug": "financial-services-professional",
+      "title": "Financial Services Professional",
+      "description": "Transform your images with this financial services professional prompt for stunning creative effects.",
+      "prompt": "Distinguished professional headshot of [subject] as financial advisor wearing classic charcoal three-piece suit with conservative tie and pocket square, seated in traditional office with leather-bound books and tasteful artwork. Captured with Nikon D850, 105mm f/1.4 lens, classic studio lighting with umbrella softbox. Traditional corporate background in deep forest green, trustworthy and authoritative expression perfect for wealth management marketing.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "financial",
+        "distinguished",
+        "traditional",
+        "trustworthy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "financial-services-professional.png"
+      }
+    },
+    {
+      "id": "113",
+      "slug": "healthcare-professional",
+      "title": "Healthcare Professional",
+      "description": "Transform your images with this healthcare professional prompt for stunning creative effects.",
+      "prompt": "Professional medical headshot of [subject] as doctor wearing pristine white lab coat over navy scrubs with stethoscope around neck in clean modern medical facility. Shot with Canon EOS R6, 70-200mm f/2.8 lens at 135mm, soft even lighting with large octagon softbox. Clean white and blue color palette, compassionate and confident expression suitable for medical practice websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "medical",
+        "healthcare",
+        "doctor",
+        "compassionate"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "healthcare-professional.png"
+      }
+    },
+    {
+      "id": "114",
+      "slug": "senior-executive-portrait",
+      "title": "Senior Executive Portrait",
+      "description": "Transform your images with this senior executive portrait prompt for stunning creative effects.",
+      "prompt": "Full-body corporate portrait of [subject] as senior executive wearing impeccably tailored dark blue suit with subtle windowpane pattern, standing confidently in corner office with panoramic city views. Captured using Phase One XF IQ4, 80mm f/2.8 lens, balanced lighting with softbox key light and natural window light. Commanding presence with professional posture, authoritative yet approachable expression perfect for annual reports and board member profiles.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "senior-executive",
+        "full-body",
+        "corporate",
+        "authoritative"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "senior-executive-portrait.png"
+      }
+    },
+    {
+      "id": "115",
+      "slug": "female-business-leader",
+      "title": "Female Business Leader",
+      "description": "Transform your images with this female business leader prompt for stunning creative effects.",
+      "prompt": "Elegant corporate portrait of [subject] as female CEO wearing perfectly fitted emerald green blazer with matching pencil skirt and cream silk blouse, seated in modern boardroom with sleek conference table. Shot with Leica SL2, 90mm f/2.8 lens, soft beauty lighting with large softbox positioned high and slightly to the right. Professional yet warm expression with confident posture, sophisticated color palette suitable for corporate communications.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "female-ceo",
+        "elegant",
+        "boardroom",
+        "leadership"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "female-business-leader.png"
+      }
+    },
+    {
+      "id": "116",
+      "slug": "startup-founder",
+      "title": "Startup Founder",
+      "description": "Transform your images with this startup founder prompt for stunning creative effects.",
+      "prompt": "Dynamic corporate portrait of [subject] as young entrepreneur wearing modern slim-fit navy suit with no tie, white dress shirt with top button undone, standing in trendy coworking space with exposed brick walls. Captured with Sony A7 III, 35mm f/1.4 lens, natural lighting from large industrial windows mixed with subtle LED panel fill. Energetic and innovative expression with casual confidence, modern startup atmosphere perfect for investor pitches.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "startup",
+        "entrepreneur",
+        "dynamic",
+        "innovative"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "startup-founder.png"
+      }
+    },
+    {
+      "id": "117",
+      "slug": "consultant-professional",
+      "title": "Consultant Professional",
+      "description": "Transform your images with this consultant professional prompt for stunning creative effects.",
+      "prompt": "Professional LinkedIn headshot of [subject] as business consultant wearing sophisticated charcoal gray suit with subtle texture, paired with crisp light blue dress shirt and coordinating tie against clean modern office backdrop. Shot with Canon EOS R5, 85mm f/1.2 lens, soft even lighting using large umbrella softbox at 45 degrees. Approachable smile with direct eye contact, LinkedIn-optimized composition with subject positioned slightly off-center, perfect for professional networking.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Social Media"
+      ],
+      "tags": [
+        "consultant",
+        "linkedin",
+        "networking",
+        "approachable"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "consultant-professional.png"
+      }
+    },
+    {
+      "id": "118",
+      "slug": "real-estate-professional",
+      "title": "Real Estate Professional",
+      "description": "Transform your images with this real estate professional prompt for stunning creative effects.",
+      "prompt": "Polished LinkedIn profile photo of [subject] as real estate agent wearing tailored royal blue blazer over white blouse with subtle pearl earrings, standing in front of luxury home entrance with elegant columns softly blurred in background. Captured using Nikon Z7 II, 105mm f/1.4 lens, golden hour natural lighting with reflector for even illumination. Confident and trustworthy expression with genuine smile, professional real estate presentation suitable for MLS profiles.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Social Media"
+      ],
+      "tags": [
+        "real-estate",
+        "luxury",
+        "confident",
+        "trustworthy"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "real-estate-professional.png"
+      }
+    },
+    {
+      "id": "119",
+      "slug": "hr-manager",
+      "title": "HR Manager",
+      "description": "Transform your images with this hr manager prompt for stunning creative effects.",
+      "prompt": "Professional LinkedIn headshot of [subject] as HR manager wearing warm coral blazer over cream-colored blouse with minimal jewelry, seated in modern office environment with plants and soft textures in background. Shot with Fujifilm GFX 100S, 63mm f/2.8 lens, soft diffused lighting from large softbox above. Warm approachable expression with genuine smile, human resources industry atmosphere perfect for company websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Social Media"
+      ],
+      "tags": [
+        "hr-manager",
+        "warm",
+        "approachable",
+        "modern"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "hr-manager.png"
+      }
+    },
+    {
+      "id": "120",
+      "slug": "attorney-portrait",
+      "title": "Attorney Portrait",
+      "description": "Transform your images with this attorney portrait prompt for stunning creative effects.",
+      "prompt": "Professional business card portrait of [subject] as corporate attorney wearing traditional black suit with crisp white dress shirt and conservative dark tie, photographed from chest up against rich mahogany background. Captured with Hasselblad X1D II, 90mm f/3.2 lens, classic portrait lighting with softbox at 30 degrees. Serious and authoritative expression with direct gaze, formal composition suitable for business cards and legal directory listings.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "attorney",
+        "legal",
+        "formal",
+        "authoritative"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "attorney-portrait.png"
+      }
+    },
+    {
+      "id": "121",
+      "slug": "financial-advisor",
+      "title": "Financial Advisor",
+      "description": "Transform your images with this financial advisor prompt for stunning creative effects.",
+      "prompt": "Distinguished business card headshot of [subject] as financial advisor wearing deep navy pinstripe suit with silver tie and American flag lapel pin against neutral taupe background with subtle vignette. Shot with Canon EOS-1D X Mark III, 70-200mm f/2.8 lens at 200mm, professional studio lighting with beauty dish positioned directly in front. Trustworthy and confident expression with slight smile, compact composition optimized for business card reproduction.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "financial-advisor",
+        "distinguished",
+        "trustworthy",
+        "patriotic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "financial-advisor.png"
+      }
+    },
+    {
+      "id": "122",
+      "slug": "insurance-agent",
+      "title": "Insurance Agent",
+      "description": "Transform your images with this insurance agent prompt for stunning creative effects.",
+      "prompt": "Professional business card portrait of [subject] as insurance agent wearing medium gray suit with light blue dress shirt and complementary tie against clean white background with subtle gradient. Captured using Sony A7R V, 85mm f/1.4 lens, clean even lighting with large softbox directly in front. Friendly and approachable expression with warm smile, high-contrast composition suitable for business cards and marketing materials.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "insurance",
+        "friendly",
+        "clean",
+        "marketing"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "insurance-agent.png"
+      }
+    },
+    {
+      "id": "123",
+      "slug": "medical-practice-team",
+      "title": "Medical Practice Team",
+      "description": "Transform your images with this medical practice team prompt for stunning creative effects.",
+      "prompt": "Professional group portrait of [subject] with medical practice team arranged in contemporary medical facility lobby with modern seating and natural lighting from large windows. All wearing coordinated medical attire including white lab coats and navy scrubs. Captured with Canon EOS R6, 24-70mm f/2.8 lens at 35mm, balanced lighting combining natural window light with softbox fill. Professional healthcare atmosphere with team unity and expertise conveyed through coordinated positioning.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "medical-team",
+        "group",
+        "healthcare",
+        "coordinated"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "medical-practice-team.png"
+      }
+    },
+    {
+      "id": "124",
+      "slug": "law-firm-partners",
+      "title": "Law Firm Partners",
+      "description": "Transform your images with this law firm partners prompt for stunning creative effects.",
+      "prompt": "Formal group portrait of [subject] with law firm partners wearing coordinated business attire in navy and charcoal suits, positioned in prestigious law library with leather-bound legal volumes and rich wood paneling. Captured using Phase One XT, 55mm f/2.8 lens, classic portrait lighting with multiple softboxes for even illumination. Traditional legal profession atmosphere with authoritative and trustworthy expressions suitable for law firm websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "law-firm",
+        "partners",
+        "traditional",
+        "prestigious"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "law-firm-partners.png"
+      }
+    },
+    {
+      "id": "125",
+      "slug": "tech-startup-team",
+      "title": "Tech Startup Team",
+      "description": "Transform your images with this tech startup team prompt for stunning creative effects.",
+      "prompt": "Dynamic group portrait of [subject] with diverse tech startup team wearing modern business casual attire including blazers and designer jeans, arranged in open-concept office space with exposed brick walls and large windows. Captured with Sony A7 IV, 24-105mm f/4.0 lens at 50mm, natural lighting from windows supplemented with LED panels. Energetic and innovative expressions with relaxed but confident postures, modern technology industry presentation.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Corporate Photography"
+      ],
+      "tags": [
+        "startup-team",
+        "diverse",
+        "casual",
+        "innovative"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "tech-startup-team.png"
+      }
+    },
+    {
+      "id": "126",
+      "slug": "advertising-executive",
+      "title": "Advertising Executive",
+      "description": "Transform your images with this advertising executive prompt for stunning creative effects.",
+      "prompt": "Stylish professional headshot of [subject] as advertising executive wearing fashionable burgundy velvet blazer over black turtleneck with statement eyewear, positioned in creative agency environment with colorful artwork and modern design elements. Shot with Leica Q2, 28mm f/1.7 lens, creative lighting with colored gels creating subtle purple and orange accents. Artistic and innovative expression with confident posture, perfect for advertising agency portfolios.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Creative Effects"
+      ],
+      "tags": [
+        "advertising",
+        "creative",
+        "stylish",
+        "artistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "advertising-executive.png"
+      }
+    },
+    {
+      "id": "127",
+      "slug": "architecture-firm-principal",
+      "title": "Architecture Firm Principal",
+      "description": "Transform your images with this architecture firm principal prompt for stunning creative effects.",
+      "prompt": "Professional portrait of [subject] as architecture firm principal wearing modern charcoal suit with subtle architectural details, positioned in front of contemporary building with clean lines and geometric patterns. Captured with Nikon D850, 50mm f/1.4 lens, architectural lighting with strong directional light creating interesting shadows. Professional yet creative expression reflecting architectural expertise, suitable for architectural firm websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Creative Effects"
+      ],
+      "tags": [
+        "architecture",
+        "geometric",
+        "professional",
+        "creative"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "architecture-firm-principal.png"
+      }
+    },
+    {
+      "id": "128",
+      "slug": "management-consultant",
+      "title": "Management Consultant",
+      "description": "Transform your images with this management consultant prompt for stunning creative effects.",
+      "prompt": "Executive business portrait of [subject] as management consultant wearing sophisticated charcoal three-piece suit with subtle pattern, silk pocket square, and luxury watch, seated in high-end hotel lobby with marble columns and elegant furnishings. Captured with Canon EOS R5, 135mm f/2.0 lens, elegant lighting with large softbox creating subtle Rembrandt lighting. Distinguished and authoritative expression perfect for executive consulting websites.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Professional Photography",
+        "Creative Effects"
+      ],
+      "tags": [
+        "management",
+        "consultant",
+        "luxury",
+        "distinguished"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "management-consultant.png"
+      }
+    },
+    {
+      "id": "129",
+      "slug": "high-fashion-editorial-portrait",
+      "title": "High-Fashion Editorial Portrait",
+      "description": "Transform your images with this high fashion editorial portrait prompt for stunning creative effects.",
+      "prompt": "Fashion editorial photography of [subject] as professional model in full-body shot wearing flowing black turtleneck with dramatic black silhouette against burnt umber to honey amber gradient backdrop. Shot with Hasselblad X2D 100c, XCD 90mm f/2.5 lens, cinematic sepia color grading with golden hour warmth. Avant-garde composition with tilted head pose, profound gaze, professional fresnel light at 60 degrees with silk diffusion and rim light with CTO gel. Haze machine for ethereal atmosphere, ultra sharp details inspired by Paolo Roversi lighting.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Editorial Photography",
+        "Portrait Photography"
+      ],
+      "tags": [
+        "editorial",
+        "high-fashion",
+        "avant-garde",
+        "cinematic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "high-fashion-editorial-portrait.png"
+      }
+    },
+    {
+      "id": "130",
+      "slug": "vogue-style-beauty-editorial",
+      "title": "Vogue-Style Beauty Editorial",
+      "description": "Transform your images with this vogue style beauty editorial prompt for stunning creative effects.",
+      "prompt": "High-fashion editorial portrait of [subject] in foggy backdrop featuring fanciful cenote hats and massive futuristic haute couture outfits with minimalist makeup and seventies vibe. Shot with Pentax K1000, styled with Mario Testino's precision for abstract avant-garde theme. Emphasizing oversized shapes, bold colors, and unique textures blending past and future trends in refined dramatic fashion narrative suitable for Vogue publication.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Editorial Photography",
+        "Portrait Photography"
+      ],
+      "tags": [
+        "vogue",
+        "beauty",
+        "editorial",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "vogue-style-beauty-editorial.png"
+      }
+    },
+    {
+      "id": "131",
+      "slug": "black-white-editorial-portrait",
+      "title": "Black & White Editorial Portrait",
+      "description": "Transform your images with this black white editorial portrait prompt for stunning creative effects.",
+      "prompt": "Black and white fashion editorial close-up portrait of [subject] as beautiful model in studio lights in style of Herb Ritts. Professional photography with cinematic angle, dynamic back lighting creating glossy texture and dramatic shadows. Minimalist composition capturing timeless elegance with strong contrast and sophisticated lighting setup, award-winning photography quality.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Editorial Photography",
+        "Portrait Photography"
+      ],
+      "tags": [
+        "black-white",
+        "editorial",
+        "herb-ritts",
+        "timeless"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "black-white-editorial-portrait.png"
+      }
+    },
+    {
+      "id": "132",
+      "slug": "luxury-brand-campaign",
+      "title": "Luxury Brand Campaign",
+      "description": "Transform your images with this luxury brand campaign prompt for stunning creative effects.",
+      "prompt": "High-resolution 4K Gucci-inspired commercial featuring [subject] as beautiful model in modern luxury outfit with HDR quality highlighting intricate clothing details. Model posed elegantly in minimalist modern interior with neutral tones, sophisticated slicked-back hairstyle, delicate accessories including wristwatch and classic leather tote. Refined understated timeless look with soft professional lighting, luxury brand aesthetic.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Commercial Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "luxury",
+        "gucci",
+        "commercial",
+        "timeless"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "luxury-brand-campaign.png"
+      }
+    },
+    {
+      "id": "133",
+      "slug": "streetwear-commercial-photography",
+      "title": "Streetwear Commercial Photography",
+      "description": "Transform your images with this streetwear commercial photography prompt for stunning creative effects.",
+      "prompt": "Fashion photography of [subject] as professional model in streetwear style with holographic effect on wear and luminescent sneaker soles against dark backdrop with deep purple atmospheric lighting. Shot with Canon EOS R3, 50mm f/1.2 RF lens, professional studio setup with two LED strip lights at floor level and overhead softbox. Cyberpunk aesthetic with side profile pose, dramatic contrast, ultra sharp details.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Commercial Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "streetwear",
+        "commercial",
+        "cyberpunk",
+        "futuristic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "streetwear-commercial-photography.png"
+      }
+    },
+    {
+      "id": "134",
+      "slug": "dior-inspired-cinematic-shoot",
+      "title": "Dior-Inspired Cinematic Shoot",
+      "description": "Transform your images with this dior inspired cinematic shoot prompt for stunning creative effects.",
+      "prompt": "Cinematic photography shoot of [subject] as supermodel in high fashion pose styled by Dior, wearing clear ice dress against backdrop of breathtaking glaciers under clear sky. Bright lighting and close-up shots highlighting dress's intricate details with crisp all-white background. Capturing intersection of high fashion and majestic beauty of nature, professional editorial quality fashion photography.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Commercial Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "dior",
+        "cinematic",
+        "ice-dress",
+        "nature"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "dior-inspired-cinematic-shoot.png"
+      }
+    },
+    {
+      "id": "135",
+      "slug": "futuristic-avant-garde-portrait",
+      "title": "Futuristic Avant-Garde Portrait",
+      "description": "Transform your images with this futuristic avant garde portrait prompt for stunning creative effects.",
+      "prompt": "Portrait of [subject] as beautiful young woman with futuristic gas mask on head, wearing white dress with light in minimalistic design against white neon backlight. Photographed in avant-garde style with full body shot, ethereal atmosphere, sharp focus. Experimental fashion design with clean geometric lines, high contrast lighting, modern architectural background emphasizing innovative textures and unconventional silhouettes.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Avant-Garde",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "futuristic",
+        "avant-garde",
+        "experimental",
+        "ethereal"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "futuristic-avant-garde-portrait.png"
+      }
+    },
+    {
+      "id": "136",
+      "slug": "sculptural-fashion-editorial",
+      "title": "Sculptural Fashion Editorial",
+      "description": "Transform your images with this sculptural fashion editorial prompt for stunning creative effects.",
+      "prompt": "Fashion editorial of [subject] as model in avant-garde streetwear outfit on minimalist white runway. Pink heavily cropped mock turtleneck top with black long sleeves creating bold color-blocking effect, wide-leg low rise cargo pants in pastel pink with utility pockets. Oversized flowing silhouette with black combat boots, straight black shoulder-length hair, natural makeup with bold lips, bright even lighting.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Avant-Garde",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "sculptural",
+        "avant-garde",
+        "color-blocking",
+        "minimalist"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "sculptural-fashion-editorial.png"
+      }
+    },
+    {
+      "id": "137",
+      "slug": "metamorphic-fashion-portrait",
+      "title": "Metamorphic Fashion Portrait",
+      "description": "Transform your images with this metamorphic fashion portrait prompt for stunning creative effects.",
+      "prompt": "High-resolution portrait of [subject] as young model in center front view with half upper-body covered in iridescent holographic texture. Dramatic lighting with high contrast, sharp focus, studio photography against dark background. Intricate details with vibrant colors, hologram texture effect, metallic sheen, cyberpunk aesthetic, intense gaze, avant-garde concept blending reality with synthetic elements.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Avant-Garde",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "metamorphic",
+        "holographic",
+        "cyberpunk",
+        "synthetic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "metamorphic-fashion-portrait.png"
+      }
+    },
+    {
+      "id": "138",
+      "slug": "urban-streetwear-editorial",
+      "title": "Urban Streetwear Editorial",
+      "description": "Transform your images with this urban streetwear editorial prompt for stunning creative effects.",
+      "prompt": "Professional streetwear photography of [subject] as model striding down bustling city street, capturing energy and movement of urban life. Oversized hoodie layered with sleek bomber jacket, distressed skinny jeans and high-top sneakers. Dynamic composition with natural street lighting, candid movement, contemporary casual aesthetic, urban setting with graffiti backdrop, high-quality fashion photography.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Street Photography",
+        "Urban Photography"
+      ],
+      "tags": [
+        "urban",
+        "streetwear",
+        "movement",
+        "graffiti"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "urban-streetwear-editorial.png"
+      }
+    },
+    {
+      "id": "139",
+      "slug": "neon-lit-street-fashion",
+      "title": "Neon-Lit Street Fashion",
+      "description": "Transform your images with this neon lit street fashion prompt for stunning creative effects.",
+      "prompt": "Nighttime street style photography of [subject] as model with teal colored short hair in neon lights and reflective surfaces with futuristic aesthetic. Captured with 35mm f/2.8 lens, slower shutter speed showcasing movement and motion blur. Cyberpunk streetwear elements with luminescent details, urban night photography, dramatic lighting contrasts, professional composition.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Street Photography",
+        "Urban Photography"
+      ],
+      "tags": [
+        "neon",
+        "street-fashion",
+        "cyberpunk",
+        "nighttime"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "neon-lit-street-fashion.png"
+      }
+    },
+    {
+      "id": "140",
+      "slug": "old-money-aesthetic-campaign",
+      "title": "Old Money Aesthetic Campaign",
+      "description": "Transform your images with this old money aesthetic campaign prompt for stunning creative effects.",
+      "prompt": "High fashion photography of [subject] as model wearing golden glowy maxi dress with Bentley car in New York penthouse setting, old money aesthetic on cloudy day. Luxurious setting with warm golden lighting, sophisticated composition, editorial photography with vintage luxury elements. Refined elegance with high-end fashion photography, cinematic quality, rich textures and materials.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Luxury Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "old-money",
+        "luxury",
+        "golden",
+        "vintage"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "old-money-aesthetic-campaign.png"
+      }
+    },
+    {
+      "id": "141",
+      "slug": "minimalist-luxury-portrait",
+      "title": "Minimalist Luxury Portrait",
+      "description": "Transform your images with this minimalist luxury portrait prompt for stunning creative effects.",
+      "prompt": "Photorealistic portrait of [subject] as model showcasing minimalist fashion style with clean lines and simplicity. Sleek monochrome ensemble: tailored white blouse paired with high-waisted black wide-leg trousers, sophisticated slicked-back hairstyle. Elegant pose in modern minimalist interior with neutral tones, minimal accessories, delicate jewelry, refined timeless look with soft professional lighting.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Luxury Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "minimalist",
+        "luxury",
+        "monochrome",
+        "timeless"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "minimalist-luxury-portrait.png"
+      }
+    },
+    {
+      "id": "142",
+      "slug": "haute-couture-elegance",
+      "title": "Haute Couture Elegance",
+      "description": "Transform your images with this haute couture elegance prompt for stunning creative effects.",
+      "prompt": "Professional fashion photography of [subject] as model wearing expensive haute couture with military high fashion influence. Innovative gorgeous couture design with model posing dynamically, architectural dress silhouette in high-class ambiance. Synthesis of modern couture and timeless luxury with sophisticated lighting setup, editorial photography capturing intricate fabric details and craftsmanship.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Luxury Photography",
+        "Commercial Photography"
+      ],
+      "tags": [
+        "haute-couture",
+        "military",
+        "architectural",
+        "elegant"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "haute-couture-elegance.png"
+      }
+    },
+    {
+      "id": "143",
+      "slug": "natural-beauty-portrait",
+      "title": "Natural Beauty Portrait",
+      "description": "Transform your images with this natural beauty portrait prompt for stunning creative effects.",
+      "prompt": "Medium-shot portrait of [subject] as joyful model in sideways 3/4 pose for beauty products commercial style. Blue eyes, dark brown hair, fair skin with beautiful smile and self-confident expression, wearing white linen shirt. Interior studio photography with pale pink background, photorealistic with sharp focus, commercial photography emphasizing skin details with 85mm lens and professional beauty lighting.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Portrait Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "natural-beauty",
+        "commercial",
+        "joyful",
+        "photorealistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "natural-beauty-portrait.png"
+      }
+    },
+    {
+      "id": "144",
+      "slug": "dramatic-fashion-portrait",
+      "title": "Dramatic Fashion Portrait",
+      "description": "Transform your images with this dramatic fashion portrait prompt for stunning creative effects.",
+      "prompt": "Studio portrait of [subject] as female model in elegant couture dress with bold makeup and dramatic lighting. Shot with 50mm portrait lens for crisp details and soft background blur, 8K resolution with high contrast lighting setup. Emphasizing texture and fabric details, professional fashion photography with editorial quality, sophisticated composition capturing emotion and style.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Portrait Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "dramatic",
+        "couture",
+        "bold-makeup",
+        "editorial"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "dramatic-fashion-portrait.png"
+      }
+    },
+    {
+      "id": "145",
+      "slug": "ethereal-fashion-study",
+      "title": "Ethereal Fashion Study",
+      "description": "Transform your images with this ethereal fashion study prompt for stunning creative effects.",
+      "prompt": "Close-up ethereal photo of [subject] with white feathers intertwined with wavy hair, soft natural lighting with shallow depth of field blurring background. Focus on capturing delicate dreamy atmosphere in fashion editorial style, artistic composition with minimalist aesthetic. Emphasizing texture and movement, professional beauty photography with magazine-quality results.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Portrait Photography",
+        "Studio Photography"
+      ],
+      "tags": [
+        "ethereal",
+        "feathers",
+        "dreamy",
+        "artistic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "ethereal-fashion-study.png"
+      }
+    },
+    {
+      "id": "146",
+      "slug": "conceptual-fashion-art",
+      "title": "Conceptual Fashion Art",
+      "description": "Transform your images with this conceptual fashion art prompt for stunning creative effects.",
+      "prompt": "Fashion photography of [subject] mixed with minimalist abstract art in high fashion editorial style. Artistic interpretation with creative composition, experimental lighting, avant-garde aesthetic with contemporary art influence. Sophisticated visual storytelling with professional studio setup, innovative use of shadows and highlights, editorial photography for art publications showcasing conceptual fashion design.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "conceptual",
+        "abstract-art",
+        "experimental",
+        "sophisticated"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "conceptual-fashion-art.png"
+      }
+    },
+    {
+      "id": "147",
+      "slug": "vintage-inspired-fashion",
+      "title": "Vintage-Inspired Fashion",
+      "description": "Transform your images with this vintage inspired fashion prompt for stunning creative effects.",
+      "prompt": "Candid photo of [subject] as eccentric artistic model in modern haute couture, posing in white modern living room with animal print fashion in black and brown pastel colors. 35mm photography aesthetic with vintage film grain, nostalgic lighting, artistic composition. Editorial fashion photography with timeless elegance, sophisticated styling, professional fashion portraiture.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "vintage",
+        "artistic",
+        "haute-couture",
+        "nostalgic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "vintage-inspired-fashion.png"
+      }
+    },
+    {
+      "id": "148",
+      "slug": "surreal-fashion-fantasy",
+      "title": "Surreal Fashion Fantasy",
+      "description": "Transform your images with this surreal fashion fantasy prompt for stunning creative effects.",
+      "prompt": "High-fashion Gothic ensemble of [subject] featuring well-crafted corset and voluminous skirt in luxury fabrics like velvet and lace, accentuated with Gothic accessories. Detailed embroidery and beadwork balancing high-fashion with Gothic vibe, dramatic lighting with mystical atmosphere. Editorial photography style with artistic interpretation, professional composition, magazine-quality execution.",
+      "category": "Fashion Photography",
+      "categories": [
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "surreal",
+        "gothic",
+        "luxury-fabrics",
+        "mystical"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "surreal-fashion-fantasy.png"
+      }
+    },
+    {
+      "id": "149",
+      "slug": "executive-portrait-with-environmental-context",
+      "title": "Executive Portrait with Environmental Context",
+      "description": "Transform your images with this executive portrait with environmental context prompt for stunning creative effects.",
+      "prompt": "Professional portrait of [subject] as confident executive wearing tailored navy blazer, positioned using rule of thirds composition in modern office setting. Dramatic golden hour lighting streaming through floor-to-ceiling windows creating soft rim lighting and natural shadows. Shot with Canon EOS R5, 85mm f/1.4 lens, shallow depth of field with sharp focus on eyes, warm skin tones, editorial quality.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "executive",
+        "environmental",
+        "golden-hour",
+        "editorial"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "executive-portrait-with-environmental-context.png"
+      }
+    },
+    {
+      "id": "150",
+      "slug": "healthcare-professional-portrait",
+      "title": "Healthcare Professional Portrait",
+      "description": "Transform your images with this healthcare professional portrait prompt for stunning creative effects.",
+      "prompt": "Environmental portrait of [subject] as skilled healthcare professional wearing surgical scrubs with stethoscope around neck in clean medical facility. Soft even lighting with subtle shadows, three-quarter pose showing confidence and compassion. Background features modern medical equipment slightly out of focus, Canon 5D Mark IV, 50mm f/2.8 lens, natural color grading, professional documentary style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "healthcare",
+        "environmental",
+        "compassionate",
+        "documentary"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "healthcare-professional-portrait.png"
+      }
+    },
+    {
+      "id": "151",
+      "slug": "academic-scholar-portrait",
+      "title": "Academic Scholar Portrait",
+      "description": "Transform your images with this academic scholar portrait prompt for stunning creative effects.",
+      "prompt": "Distinguished portrait of [subject] as professor in private study surrounded by books and academic materials. Warm intimate lighting from desk lamp creating Rembrandt lighting pattern with signature triangular highlight on cheek. Wearing tweed blazer, holding reading glasses, expression conveying wisdom and intellectual curiosity. Shot with Nikon D850, 85mm f/1.2 lens, rich color palette, classical portrait style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "academic",
+        "scholar",
+        "rembrandt-lighting",
+        "classical"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "academic-scholar-portrait.png"
+      }
+    },
+    {
+      "id": "152",
+      "slug": "fine-art-portrait-with-dramatic-lighting",
+      "title": "Fine Art Portrait with Dramatic Lighting",
+      "description": "Transform your images with this fine art portrait with dramatic lighting prompt for stunning creative effects.",
+      "prompt": "Artistic portrait of [subject] as young person with flowing hair, using split lighting technique to illuminate only half of face, creating high contrast and dramatic shadows. Positioned off-center following rule of thirds, wearing simple black clothing against dark background. Cinematic mood with deep shadows and warm highlights, shot with Leica M10, 90mm f/2 lens, black and white film simulation.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "fine-art",
+        "dramatic",
+        "split-lighting",
+        "cinematic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "fine-art-portrait-with-dramatic-lighting.png"
+      }
+    },
+    {
+      "id": "153",
+      "slug": "conceptual-portrait-with-color-psychology",
+      "title": "Conceptual Portrait with Color Psychology",
+      "description": "Transform your images with this conceptual portrait with color psychology prompt for stunning creative effects.",
+      "prompt": "Creative portrait of [subject] as musician holding their instrument, bathed in moody blue and purple gel lighting that reflects artistic personality. Low-key lighting setup with strong chiaroscuro effect, emphasizing texture and emotion. Expression shows passionate concentration, background features abstract musical elements, shot with Sony A7R IV, 35mm f/1.4 lens, high contrast digital art style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "conceptual",
+        "musician",
+        "color-psychology",
+        "chiaroscuro"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "conceptual-portrait-with-color-psychology.png"
+      }
+    },
+    {
+      "id": "154",
+      "slug": "painterly-portrait-with-soft-aesthetics",
+      "title": "Painterly Portrait with Soft Aesthetics",
+      "description": "Transform your images with this painterly portrait with soft aesthetics prompt for stunning creative effects.",
+      "prompt": "Romantic portrait of [subject] in natural light inspired by Renaissance oil painting techniques. Soft diffused lighting creating gentle shadows and warm skin tones with visible brush-stroke texture effects. Wearing flowing fabric with serene expression, eyes positioned on upper third line, surrounded by delicate floral elements. Shot with Fujifilm GFX 100S, 110mm f/2 lens, dreamy watercolor palette.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ],
+      "tags": [
+        "painterly",
+        "renaissance",
+        "romantic",
+        "watercolor"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "painterly-portrait-with-soft-aesthetics.png"
+      }
+    },
+    {
+      "id": "155",
+      "slug": "classic-studio-portrait-with-butterfly-lighting",
+      "title": "Classic Studio Portrait with Butterfly Lighting",
+      "description": "Transform your images with this classic studio portrait with butterfly lighting prompt for stunning creative effects.",
+      "prompt": "Professional headshot of [subject] using butterfly lighting setup with key light directly above and in front, creating symmetrical shadow under nose. Wearing elegant business attire with confident smile, eyes sharp and engaging. Clean white background with subtle gradient, shot with Canon EOS 5DS R, 85mm f/1.2 lens, perfect skin texture detail, commercial photography quality.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Studio Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "studio",
+        "butterfly-lighting",
+        "professional",
+        "commercial"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "classic-studio-portrait-with-butterfly-lighting.png"
+      }
+    },
+    {
+      "id": "156",
+      "slug": "fashion-style-studio-portrait",
+      "title": "Fashion-Style Studio Portrait",
+      "description": "Transform your images with this fashion style studio portrait prompt for stunning creative effects.",
+      "prompt": "High-fashion portrait of [subject] with dramatic side lighting and color gel effects, creating bold shadows and vibrant highlights. Wearing contemporary designer clothing with striking pose, strong eye contact and confident expression. Background features geometric patterns and modern textures, shot with Hasselblad H6D-100c, 80mm f/2.8 lens, editorial style with saturated colors and sharp details.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Studio Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "fashion-style",
+        "studio",
+        "color-gels",
+        "geometric"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "fashion-style-studio-portrait.png"
+      }
+    },
+    {
+      "id": "157",
+      "slug": "beauty-portrait-with-ring-light-effect",
+      "title": "Beauty Portrait with Ring Light Effect",
+      "description": "Transform your images with this beauty portrait with ring light effect prompt for stunning creative effects.",
+      "prompt": "Glamorous beauty portrait of [subject] using ring light setup for even, shadowless illumination that enhances facial features. Flawless makeup with jewelry and elegant styling, expression showing grace and sophistication. Shallow depth of field with creamy bokeh background, shot with Sony A7R V, 85mm f/1.4 lens, luxury beauty campaign style with perfect skin retouching.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Studio Photography",
+        "Professional Photography"
+      ],
+      "tags": [
+        "beauty",
+        "ring-light",
+        "glamorous",
+        "luxury"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "beauty-portrait-with-ring-light-effect.png"
+      }
+    },
+    {
+      "id": "158",
+      "slug": "urban-street-portrait",
+      "title": "Urban Street Portrait",
+      "description": "Transform your images with this urban street portrait prompt for stunning creative effects.",
+      "prompt": "Lifestyle portrait of [subject] as young entrepreneur on busy city street, using natural light with urban architecture as backdrop. Positioned using rule of thirds, wearing casual business attire with confident and approachable expression. Background features blurred city elements and leading lines, shot with Canon RF 50mm f/1.8 lens, documentary style with authentic street photography feel.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Lifestyle Photography"
+      ],
+      "tags": [
+        "urban",
+        "street",
+        "entrepreneur",
+        "documentary"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "urban-street-portrait.png"
+      }
+    },
+    {
+      "id": "159",
+      "slug": "nature-environment-portrait",
+      "title": "Nature Environment Portrait",
+      "description": "Transform your images with this nature environment portrait prompt for stunning creative effects.",
+      "prompt": "Outdoor portrait of [subject] as hiking enthusiast in forest setting, using dappled sunlight filtering through trees to create natural spot lighting. Wearing outdoor gear with genuine smile showing connection with nature, positioned against organic leading lines of tree trunks. Shot with Nikon Z7, 24-70mm f/2.8 lens, natural color grading emphasizing earth tones.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Lifestyle Photography"
+      ],
+      "tags": [
+        "nature",
+        "outdoor",
+        "hiking",
+        "organic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "nature-environment-portrait.png"
+      }
+    },
+    {
+      "id": "160",
+      "slug": "home-studio-environmental-portrait",
+      "title": "Home Studio Environmental Portrait",
+      "description": "Transform your images with this home studio environmental portrait prompt for stunning creative effects.",
+      "prompt": "Cozy indoor portrait of [subject] as artist in their creative workspace, using window light mixed with warm lamp lighting. Surrounded by art supplies and creative tools with relaxed expression showing passion for craft. Shallow depth of field emphasizing personality while showing environmental context, shot with Leica Q2, 28mm f/1.7 lens, intimate documentary style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Environmental Photography",
+        "Lifestyle Photography"
+      ],
+      "tags": [
+        "home-studio",
+        "artist",
+        "cozy",
+        "intimate"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "home-studio-environmental-portrait.png"
+      }
+    },
+    {
+      "id": "161",
+      "slug": "active-lifestyle-portrait",
+      "title": "Active Lifestyle Portrait",
+      "description": "Transform your images with this active lifestyle portrait prompt for stunning creative effects.",
+      "prompt": "Dynamic portrait of [subject] as fitness enthusiast during golden hour, using natural backlighting to create rim lighting effect around subject. Action-oriented pose showing movement and energy, wearing athletic wear with expression of determination and joy. Background features urban fitness environment, shot with Sony A9 II, 70-200mm f/2.8 lens, high-energy lifestyle photography style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Lifestyle Photography",
+        "Documentary Photography"
+      ],
+      "tags": [
+        "active",
+        "fitness",
+        "golden-hour",
+        "dynamic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "active-lifestyle-portrait.png"
+      }
+    },
+    {
+      "id": "162",
+      "slug": "culinary-lifestyle-portrait",
+      "title": "Culinary Lifestyle Portrait",
+      "description": "Transform your images with this culinary lifestyle portrait prompt for stunning creative effects.",
+      "prompt": "Environmental portrait of [subject] as chef in their kitchen, using mixed lighting from overhead fixtures and natural window light. Engaged in cooking activity wearing chef's attire, expression showing passion and concentration. Background features kitchen elements and food preparation, shot with Canon EOS R6, 35mm f/1.4 lens, warm color palette with authentic lifestyle feel.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Lifestyle Photography",
+        "Documentary Photography"
+      ],
+      "tags": [
+        "culinary",
+        "chef",
+        "kitchen",
+        "authentic"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "culinary-lifestyle-portrait.png"
+      }
+    },
+    {
+      "id": "163",
+      "slug": "travel-lifestyle-portrait",
+      "title": "Travel Lifestyle Portrait",
+      "description": "Transform your images with this travel lifestyle portrait prompt for stunning creative effects.",
+      "prompt": "Wanderlust portrait of [subject] as traveler in exotic location, using golden hour natural lighting with cultural architecture as backdrop. Wearing travel-appropriate clothing with expression showing wonder and adventure, positioned to show both personality and destination. Shot with Fujifilm X-T4, 56mm f/1.2 lens, vibrant color grading capturing travel spirit.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Lifestyle Photography",
+        "Documentary Photography"
+      ],
+      "tags": [
+        "travel",
+        "wanderlust",
+        "adventure",
+        "cultural"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "travel-lifestyle-portrait.png"
+      }
+    },
+    {
+      "id": "164",
+      "slug": "emotional-character-study",
+      "title": "Emotional Character Study",
+      "description": "Transform your images with this emotional character study prompt for stunning creative effects.",
+      "prompt": "Intimate portrait of [subject] capturing deep emotion and personality, using soft window light with reflector for fill lighting. Expression shows vulnerability and strength with eyes positioned on intersection of rule of thirds grid. Minimal background to emphasize character, shot with Leica M11, 75mm f/1.25 lens, black and white with rich tonal range, documentary portraiture style.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Documentary Photography",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "emotional",
+        "character",
+        "intimate",
+        "documentary"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "emotional-character-study.png"
+      }
+    },
+    {
+      "id": "165",
+      "slug": "cultural-heritage-portrait",
+      "title": "Cultural Heritage Portrait",
+      "description": "Transform your images with this cultural heritage portrait prompt for stunning creative effects.",
+      "prompt": "Portrait of [subject] celebrating cultural identity, wearing traditional clothing and accessories that reflect heritage. Natural lighting mixed with warm artificial light creating respectful and dignified presentation. Background features cultural elements and textures with expression showing pride and connection to tradition, shot with Canon EOS R5, 85mm f/1.2 lens, rich color palette honoring cultural significance.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Documentary Photography",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "cultural",
+        "heritage",
+        "traditional",
+        "dignified"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "cultural-heritage-portrait.png"
+      }
+    },
+    {
+      "id": "166",
+      "slug": "generational-portrait",
+      "title": "Generational Portrait",
+      "description": "Transform your images with this generational portrait prompt for stunning creative effects.",
+      "prompt": "Multi-generational family portrait of [subject] showing connections across ages, using soft natural lighting that flatters all subjects. Careful positioning following rule of thirds with leading lines connecting family members. Expressions show love, wisdom, and family bonds with background featuring meaningful family environment, shot with Nikon D850, 24-70mm f/2.8 lens, warm color grading emphasizing family connections.",
+      "category": "Portrait Photography",
+      "categories": [
+        "Portrait Photography",
+        "Documentary Photography",
+        "Artistic Styles"
+      ],
+      "tags": [
+        "generational",
+        "family",
+        "connections",
+        "meaningful"
+      ],
+      "difficulty": "Intermediate",
+      "createdAt": "2025-07-03T15:53:34.469Z",
+      "updatedAt": "2025-07-03T15:53:34.469Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "generational-portrait.png"
+      }
     }
   ],
-  "lastUpdated": "2025-06-29T23:41:41.939Z"
+  "lastUpdated": "2025-07-03T15:53:34.469Z"
 }
