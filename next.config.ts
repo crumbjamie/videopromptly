@@ -32,12 +32,12 @@ const securityHeaders = [
       script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com;
       style-src 'self' 'unsafe-inline';
       img-src 'self' blob: data: https: https://www.google-analytics.com;
-      font-src 'self';
+      font-src 'self' data:;
       object-src 'none';
       base-uri 'self';
       form-action 'self';
       frame-ancestors 'none';
-      connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com;
+      connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://*.doubleclick.net https://stats.g.doubleclick.net;
       upgrade-insecure-requests;
     `.replace(/\s{2,}/g, ' ').trim()
   }
