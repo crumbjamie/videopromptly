@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { IMAGE_QUALITY } from '@/lib/config/images';
 
@@ -17,32 +17,36 @@ export default function SquareThumbnail({
   className = '',
   priority = false
 }: SquareThumbnailProps) {
-  const [imageSrc, setImageSrc] = useState(src);
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
   
-  useEffect(() => {
-    // Check if we need to use the square API
-    if (src && src.includes('/thumbnails/')) {
-      // For landscape images, use the square API
-      const checkAndSetSquare = async () => {
-        try {
-          // First, try to load the image to check dimensions
-          const img = new window.Image();
-          img.onload = () => {
-            if (img.width > img.height) {
-              // Landscape image - use square API
-              setImageSrc(`/api/thumbnail/square?image=${encodeURIComponent(src)}`);
-            }
-          };
-          img.src = src;
-        } catch (error) {
-          console.error('Error checking image dimensions:', error);
-        }
-      };
-      checkAndSetSquare();
+  // Convert regular thumbnail path to square thumbnail path
+  const getSquareSrc = (originalSrc: string) => {
+    if (!originalSrc || !originalSrc.includes('/thumbnails/')) {
+      return originalSrc;
     }
-  }, [src]);
+    
+    // Extract filename and add -square suffix before extension
+    const lastSlash = originalSrc.lastIndexOf('/');
+    const lastDot = originalSrc.lastIndexOf('.');
+    
+    if (lastSlash === -1 || lastDot === -1 || lastDot <= lastSlash) {
+      return originalSrc;
+    }
+    
+    const path = originalSrc.substring(0, lastSlash + 1);
+    const filename = originalSrc.substring(lastSlash + 1, lastDot);
+    const extension = originalSrc.substring(lastDot);
+    
+    // Check if it already has -square suffix
+    if (filename.endsWith('-square')) {
+      return originalSrc;
+    }
+    
+    return `${path}${filename}-square${extension}`;
+  };
+  
+  const [imageSrc, setImageSrc] = useState(() => getSquareSrc(src));
 
   if (!src || hasError) {
     return (
@@ -70,14 +74,19 @@ export default function SquareThumbnail({
       <Image
         src={imageSrc}
         alt={alt}
-        width={1024}
-        height={1024}
+        width={400}
+        height={400}
         className="w-full h-full object-cover"
         quality={IMAGE_QUALITY.thumbnail}
         onLoad={() => setIsLoading(false)}
         onError={() => {
-          setIsLoading(false);
-          setHasError(true);
+          // If square version fails, try original
+          if (imageSrc !== src) {
+            setImageSrc(src);
+          } else {
+            setIsLoading(false);
+            setHasError(true);
+          }
         }}
         priority={priority}
       />
