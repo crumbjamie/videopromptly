@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 interface ImageModalProps {
@@ -11,6 +11,8 @@ interface ImageModalProps {
 }
 
 export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProps) {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -21,6 +23,7 @@ export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProp
     if (isOpen) {
       document.addEventListener('keydown', handleEscape);
       document.body.style.overflow = 'hidden';
+      setIsLoading(true); // Reset loading state when modal opens
     }
 
     return () => {
@@ -51,14 +54,22 @@ export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProp
         </button>
         
         <div className="relative">
+          {isLoading && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-32 h-32 bg-stone-800 animate-pulse rounded-lg" />
+            </div>
+          )}
           <Image
             src={src}
             alt={alt}
             width={2048}
             height={2048}
-            className="max-w-full max-h-[90vh] w-auto h-auto object-contain"
+            className={`max-w-full max-h-[90vh] w-auto h-auto object-contain transition-opacity duration-300 ${
+              isLoading ? 'opacity-0' : 'opacity-100'
+            }`}
             quality={90}
             priority
+            onLoadingComplete={() => setIsLoading(false)}
           />
         </div>
       </div>

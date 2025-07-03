@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ChevronRightIcon, ExternalLinkIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
@@ -93,7 +92,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                   <div className="space-y-2">
                     <h3 className="text-sm font-medium text-stone-400">Before</h3>
                     <div className="rounded-lg overflow-hidden bg-stone-800">
-                      <Image
+                      <ImageWithSkeleton
                         src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.before : 'woman-sample.jpg'}`}
                         alt="Before transformation"
                         width={512}
@@ -109,15 +108,15 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                     <h3 className="text-sm font-medium text-stone-400">After (click to enlarge)</h3>
                     <div 
                       className="rounded-lg overflow-hidden bg-stone-800 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all"
-                      onClick={() => setIsModalOpen(true)}
                     >
-                      <Image
+                      <ImageWithSkeleton
                         src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
                         alt="After transformation"
                         width={512}
                         height={512}
                         className="w-full h-auto object-cover"
                         priority
+                        onClick={() => setIsModalOpen(true)}
                       />
                     </div>
                   </div>
