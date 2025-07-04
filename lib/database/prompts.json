@@ -830,7 +830,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Chrome-Mech-Café.png"
+      }
     },
     {
       "id": "43",
@@ -846,7 +850,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cyberpunk-Hacker.png"
+      }
     },
     {
       "id": "44",
@@ -862,7 +870,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cyberpunk-Ramen-Market.png"
+      }
     },
     {
       "id": "45",
@@ -878,7 +890,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Cyberpunk-Street-Market.png"
+      }
     },
     {
       "id": "46",
@@ -894,7 +910,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "UFO-Cockpit-Selfie.png"
+      }
     },
     {
       "id": "47",
@@ -910,7 +930,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "3D-Avatar-Stickers.png"
+      }
     },
     {
       "id": "48",
@@ -942,7 +966,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Comic-Book-Hero.png"
+      }
     },
     {
       "id": "50",
@@ -958,7 +986,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Glitch-Art-DJ-Booth.png"
+      }
     },
     {
       "id": "51",
@@ -974,7 +1006,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Pixel-Art-Retro.png"
+      }
     },
     {
       "id": "52",
@@ -1006,7 +1042,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
-      "updatedAt": "2025-06-29T13:42:17.453Z"
+      "updatedAt": "2025-06-29T13:42:17.453Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Editorial-Food-Photography-Style.png"
+      }
     },
     {
       "id": "54",
@@ -1022,7 +1062,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Hyperrealistic-Flash-Photography.png"
+      }
     },
     {
       "id": "55",
@@ -1058,7 +1102,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Expressionist-Cityscape.png"
+      }
     },
     {
       "id": "57",
@@ -2647,7 +2695,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "black-white-editorial-portrait.png"
+        "after": "Black-&-White-Editorial-Portrait.png"
       }
     },
     {
@@ -3558,6 +3606,32 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "generational-portrait.png"
+      }
+    },
+    {
+      "id": "167",
+      "slug": "toddler-podcast-interview",
+      "title": "Toddler Podcast Interview",
+      "description": "Transform your images with this toddler podcast interview prompt for stunning creative effects.",
+      "prompt": "Hyperrealistic portrait of [subject] transformed into their 2-year-old toddler self, wearing the exact same clothing scaled down to toddler proportions. Subject shown in profile or three-quarter view, not facing camera, as if being interviewed on a podcast. Sitting in oversized podcast studio chair with professional microphone at toddler height. Same hairstyle adapted to toddler texture and length, chubby toddler cheeks and proportions, maintaining recognizable facial features. Soft studio lighting creating gentle shadows, shot with Canon 5D Mark IV, 85mm f/1.4 lens at child's eye level. Background shows blurred podcast studio setup with warm lighting. Ultra-detailed skin texture showing baby-soft complexion, capturing authentic toddler body language and posture.",
+      "category": "Transformations",
+      "categories": [
+        "Transformations",
+        "Portrait Photography",
+        "Creative Effects"
+      ],
+      "tags": [
+        "toddler",
+        "podcast",
+        "age-regression",
+        "hyperrealistic"
+      ],
+      "difficulty": "Advanced",
+      "createdAt": "2025-07-04T00:00:00.000Z",
+      "updatedAt": "2025-07-04T00:00:00.000Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "toddler-podcast-interview.png"
       }
     }
   ],
