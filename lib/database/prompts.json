@@ -1846,7 +1846,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "animal.jpg",
+        "after": "pet-to-human.png"
+      }
     },
     {
       "id": "99",
@@ -1944,7 +1948,7 @@
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
       "thumbnail": {
-        "before": "woman-sample.jpg",
+        "before": "animal.jpg",
         "after": "Pet-Barista-Portrait.png"
       }
     },
@@ -1962,7 +1966,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Symmetrical-Train-Diner.png"
+      }
     },
     {
       "id": "105",
@@ -2067,7 +2075,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "classic-corporate-executive.png"
+        "after": "Classic-Corporate-Executive.png"
       }
     },
     {
@@ -2093,7 +2101,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "modern-tech-professional.png"
+        "after": "Modern-Tech-Professional.png"
       }
     },
     {
@@ -2119,7 +2127,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "creative-business-professional.png"
+        "after": "Creative-Business-Professional.png"
       }
     },
     {
@@ -2145,7 +2153,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "financial-services-professional.png"
+        "after": "Financial-Services-Professional.png"
       }
     },
     {
@@ -2171,7 +2179,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "healthcare-professional.png"
+        "after": "Healthcare-Professional.png"
       }
     },
     {
@@ -2197,7 +2205,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "senior-executive-portrait.png"
+        "after": "Senior-Executive-Portrait.png"
       }
     },
     {
@@ -2223,7 +2231,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "female-business-leader.png"
+        "after": "Female-Business-Leader.png"
       }
     },
     {
@@ -2249,7 +2257,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "startup-founder.png"
+        "after": "Startup-Founder.png"
       }
     },
     {
@@ -2275,7 +2283,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "consultant-professional.png"
+        "after": "Consultant-Professional.png"
       }
     },
     {
@@ -2301,7 +2309,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "real-estate-professional.png"
+        "after": "Real-Estate-Professional.png"
       }
     },
     {
@@ -2327,7 +2335,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "hr-manager.png"
+        "after": "HR-Manager.png"
       }
     },
     {
@@ -2353,7 +2361,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "attorney-portrait.png"
+        "after": "Attorney-Portrait.png"
       }
     },
     {
@@ -2379,7 +2387,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "financial-advisor.png"
+        "after": "Financial-Advisor.png"
       }
     },
     {
@@ -2405,7 +2413,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "insurance-agent.png"
+        "after": "Insurance-Agent.png"
       }
     },
     {
@@ -2431,7 +2439,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "medical-practice-team.png"
+        "after": "Medical-Practice-Team.png"
       }
     },
     {
@@ -2439,7 +2447,7 @@
       "slug": "law-firm-partners",
       "title": "Law Firm Partners",
       "description": "Transform your images with this law firm partners prompt for stunning creative effects.",
-      "prompt": "Formal group portrait of [subject] with law firm partners wearing coordinated business attire in navy and charcoal suits, positioned in prestigious law library with leather-bound legal volumes and rich wood paneling. Captured using Phase One XT, 55mm f/2.8 lens, classic portrait lighting with multiple softboxes for even illumination. Traditional legal profession atmosphere with authoritative and trustworthy expressions suitable for law firm websites.",
+      "prompt": "Professional group portrait of [subject] with minimum 4 law firm partners of diverse ages, races, and genders, wearing well-tailored suits in various colors with crisp white shirts, some with ties and some without. At least 2 partners seated in leather chairs with others standing, positioned in prestigious law library with leather-bound legal volumes and rich wood paneling. Captured using Phase One XT, 55mm f/2.8 lens, classic portrait lighting with multiple softboxes for even illumination. Traditional legal profession atmosphere with confident and approachable expressions suitable for modern law firm websites.",
       "category": "Portrait Photography",
       "categories": [
         "Portrait Photography",
@@ -2483,7 +2491,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "tech-startup-team.png"
+        "after": "Tech-Startup-Team.png"
       }
     },
     {
@@ -2509,7 +2517,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "advertising-executive.png"
+        "after": "Advertising-Executive.png"
       }
     },
     {
@@ -2535,7 +2543,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "architecture-firm-principal.png"
+        "after": "Architecture-Firm-Principal.png"
       }
     },
     {
@@ -2543,7 +2551,7 @@
       "slug": "management-consultant",
       "title": "Management Consultant",
       "description": "Transform your images with this management consultant prompt for stunning creative effects.",
-      "prompt": "Executive business portrait of [subject] as management consultant wearing sophisticated charcoal three-piece suit with subtle pattern, silk pocket square, and luxury watch, seated in high-end hotel lobby with marble columns and elegant furnishings. Captured with Canon EOS R5, 135mm f/2.0 lens, elegant lighting with large softbox creating subtle Rembrandt lighting. Distinguished and authoritative expression perfect for executive consulting websites.",
+      "prompt": "Executive business portrait of [subject] as management consultant. For males: wearing sophisticated charcoal three-piece suit with subtle pattern, silk pocket square, and luxury watch. For females: wearing tailored women's business suit without tie, legs elegantly crossed while seated. Both versions seated in high-end hotel lobby with marble columns and elegant furnishings. Captured with Canon EOS R5, 135mm f/2.0 lens, elegant lighting with large softbox creating subtle Rembrandt lighting. Distinguished and authoritative expression perfect for executive consulting websites.",
       "category": "Portrait Photography",
       "categories": [
         "Portrait Photography",
@@ -2587,7 +2595,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "high-fashion-editorial-portrait.png"
+        "after": "High-Fashion-Editorial-Portrait.png"
       }
     },
     {
@@ -2595,7 +2603,7 @@
       "slug": "vogue-style-beauty-editorial",
       "title": "Vogue-Style Beauty Editorial",
       "description": "Transform your images with this vogue style beauty editorial prompt for stunning creative effects.",
-      "prompt": "High-fashion editorial portrait of [subject] in foggy backdrop featuring fanciful cenote hats and massive futuristic haute couture outfits with minimalist makeup and seventies vibe. Shot with Pentax K1000, styled with Mario Testino's precision for abstract avant-garde theme. Emphasizing oversized shapes, bold colors, and unique textures blending past and future trends in refined dramatic fashion narrative suitable for Vogue publication.",
+      "prompt": "High-fashion editorial portrait of [subject] in a foggy dreamscape, wearing an artistic couture hat inspired by natural cenotes and dressed in voluminous futuristic fashion. The look combines minimalist makeup with a retro seventies flair. Captured in a cinematic style reminiscent of classic Pentax K1000 photography. Styled with bold colours, striking silhouettes, and unique textures to create a visually arresting, avant-garde aesthetic suitable for a fashion magazine spread.",
       "category": "Fashion Photography",
       "categories": [
         "Fashion Photography",
@@ -2613,7 +2621,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "vogue-style-beauty-editorial.png"
+        "after": "Vogue-Style-Beauty-Editorial.png"
       }
     },
     {
@@ -2621,7 +2629,7 @@
       "slug": "black-white-editorial-portrait",
       "title": "Black & White Editorial Portrait",
       "description": "Transform your images with this black white editorial portrait prompt for stunning creative effects.",
-      "prompt": "Black and white fashion editorial close-up portrait of [subject] as beautiful model in studio lights in style of Herb Ritts. Professional photography with cinematic angle, dynamic back lighting creating glossy texture and dramatic shadows. Minimalist composition capturing timeless elegance with strong contrast and sophisticated lighting setup, award-winning photography quality.",
+      "prompt": "Ultra-realistic black and white fashion editorial close-up portrait of [subject] as beautiful model, shot with Hasselblad H6D-400c, 120mm f/4 macro lens at f/5.6, in style of Herb Ritts. Hyper-detailed professional photography with cinematic angle, dramatic Profoto B10X strobe lighting with silver reflectors creating glossy texture and deep dramatic shadows. Ultra-sharp focus on eyes with shallow depth of field, capturing every pore and texture. Minimalist composition with extreme tonal range from pure blacks to bright whites, sophisticated multi-light setup with key light at 45 degrees and rim lighting for separation, award-winning editorial photography quality.",
       "category": "Fashion Photography",
       "categories": [
         "Fashion Photography",
@@ -2665,7 +2673,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "luxury-brand-campaign.png"
+        "after": "Luxury-Brand-Campaign.png"
       }
     },
     {
@@ -2691,7 +2699,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "streetwear-commercial-photography.png"
+        "after": "Streetwear-Commercial-Photography.png"
       }
     },
     {
@@ -2717,7 +2725,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "dior-inspired-cinematic-shoot.png"
+        "after": "Dior-Inspired-Cinematic-Shoot.png"
       }
     },
     {
@@ -2743,7 +2751,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "futuristic-avant-garde-portrait.png"
+        "after": "Futuristic-Avant-Garde-Portrait.png"
       }
     },
     {
@@ -2769,7 +2777,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "sculptural-fashion-editorial.png"
+        "after": "Sculptural-Fashion-Editorial.png"
       }
     },
     {

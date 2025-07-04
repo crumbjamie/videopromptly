@@ -85,6 +85,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
             
             {/* Before/After Preview */}
             {prompt.thumbnail && (
+              typeof prompt.thumbnail === 'string' || 
+              (typeof prompt.thumbnail === 'object' && prompt.thumbnail.after)
+            ) && (
               <div className="mb-8">
                 <h2 className="text-xl font-semibold text-white mb-4">Example Transformation</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -256,6 +259,9 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       
       {/* Image Modal */}
       {prompt.thumbnail && (
+        typeof prompt.thumbnail === 'string' || 
+        (typeof prompt.thumbnail === 'object' && prompt.thumbnail.after)
+      ) && (
         <ImageModal
           src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
           alt={`${prompt.title} - After transformation`}
