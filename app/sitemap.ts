@@ -7,9 +7,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const categories = await getAllCategories();
   const baseUrl = 'https://imagepromptly.com';
   
-  // Calculate total pages for pagination
-  const PROMPTS_PER_PAGE = 40;
-  const totalPages = Math.ceil(prompts.length / PROMPTS_PER_PAGE);
 
   // Individual prompt pages
   const promptUrls = prompts.map((prompt) => ({
@@ -27,15 +24,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
   
-  // Paginated home pages
-  const paginatedUrls = Array.from({ length: totalPages }, (_, i) => i + 1)
-    .filter(page => page > 1) // Skip page 1 as it's the home page
-    .map(page => ({
-      url: `${baseUrl}/?page=${page}`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
-    }));
 
   return [
     {
@@ -56,7 +44,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly',
       priority: 0.7,
     },
-    ...paginatedUrls,
     ...categoryUrls,
     ...promptUrls,
   ];

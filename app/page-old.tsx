@@ -5,11 +5,9 @@ import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import CategoryTags from './components/CategoryTags';
 import PromptGrid from './components/PromptGrid';
-import PaginationWithCount from './components/PaginationWithCount';
 import { getAllPrompts, getAllCategories } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
-const PROMPTS_PER_PAGE = 40;
 
 export default function Home() {
   const [prompts, setPrompts] = useState<ImagePrompt[]>([]);
@@ -17,7 +15,6 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [allCategories, setAllCategories] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     const loadData = async () => {
@@ -67,18 +64,6 @@ export default function Home() {
     return filtered;
   }, [prompts, searchQuery, selectedCategories]);
 
-  // Calculate pagination
-  const totalPages = Math.ceil(filteredPrompts.length / PROMPTS_PER_PAGE);
-  const paginatedPrompts = useMemo(() => {
-    const startIndex = (currentPage - 1) * PROMPTS_PER_PAGE;
-    const endIndex = startIndex + PROMPTS_PER_PAGE;
-    return filteredPrompts.slice(startIndex, endIndex);
-  }, [filteredPrompts, currentPage]);
-
-  // Reset to page 1 when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchQuery, selectedCategories]);
 
   return (
     <>
@@ -121,17 +106,13 @@ export default function Home() {
 
 
           {/* Prompt Grid */}
-          <PromptGrid prompts={paginatedPrompts} loading={loading} />
+          <PromptGrid prompts={filteredPrompts} loading={loading} />
           
-          {/* Pagination with Count */}
+          {/* Results count */}
           {!loading && filteredPrompts.length > 0 && (
-            <PaginationWithCount
-              currentPage={currentPage}
-              totalPages={totalPages}
-              totalItems={filteredPrompts.length}
-              itemsPerPage={PROMPTS_PER_PAGE}
-              onPageChange={setCurrentPage}
-            />
+            <div className="text-center mt-8 text-gray-400">
+              Showing {filteredPrompts.length} prompt{filteredPrompts.length !== 1 ? 's' : ''}
+            </div>
           )}
         </div>
       </main>
