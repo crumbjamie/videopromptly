@@ -24,6 +24,21 @@ export default function ImageWithSkeleton({
   onClick
 }: ImageWithSkeletonProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
+
+  if (hasError) {
+    return (
+      <div 
+        className={cn(
+          "bg-stone-800 rounded-lg flex items-center justify-center",
+          className
+        )}
+        style={{ aspectRatio: `${width}/${height}` }}
+      >
+        <p className="text-stone-500 text-sm">Image unavailable</p>
+      </div>
+    );
+  }
 
   return (
     <div className="relative">
@@ -47,7 +62,11 @@ export default function ImageWithSkeleton({
           className
         )}
         priority={priority}
-        onLoadingComplete={() => setIsLoading(false)}
+        onLoad={() => setIsLoading(false)}
+        onError={() => {
+          setIsLoading(false);
+          setHasError(true);
+        }}
         onClick={onClick}
       />
     </div>

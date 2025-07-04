@@ -107,7 +107,7 @@ export default function CategoriesPage() {
         <div className="container mx-auto px-4 py-8 max-w-6xl">
           <div className="mt-16 mb-12">
             <h1 className="text-4xl font-bold text-white mb-4">Browse by category</h1>
-            <p className="text-lg text-stone-300">
+            <p className="text-lg text-white">
               Explore our collection of prompts organized by style and theme
             </p>
           </div>

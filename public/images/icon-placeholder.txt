@@ -1,0 +1,20 @@
+To create the PWA icons:
+
+1. Option A - Use the generate-icons.html file:
+   - Open /public/images/generate-icons.html in a browser
+   - Right-click each canvas and save as PNG with the correct filename
+
+2. Option B - Use an online tool:
+   - Go to https://realfavicongenerator.net/
+   - Upload the icon.svg file
+   - Generate icons for PWA
+
+3. Option C - Use ImageMagick:
+   ```bash
+   convert icon.svg -resize 192x192 icon-192x192.png
+   convert icon.svg -resize 512x512 icon-512x512.png
+   ```
+
+The icons should be saved as:
+- /public/images/icon-192x192.png
+- /public/images/icon-512x512.png

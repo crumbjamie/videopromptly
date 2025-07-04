@@ -40,7 +40,7 @@ export default function CategoryTags({
             "px-3 py-1.5 rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500",
             selectedCategories.length === 0
               ? "bg-stone-700 text-white"
-              : "bg-stone-900 text-stone-300 hover:bg-stone-800 hover:text-white border border-stone-800"
+              : "bg-stone-900 text-stone-300 hover:bg-stone-800 hover:text-white"
           )}
         >
           All
@@ -56,7 +56,7 @@ export default function CategoryTags({
                 "px-3 py-1.5 rounded-md text-sm font-medium transition-colors",
                 isSelected
                   ? "bg-stone-700 text-white"
-                  : "bg-stone-900 text-stone-300 hover:bg-stone-800 hover:text-white border border-stone-800"
+                  : "bg-stone-900 text-stone-300 hover:bg-stone-800 hover:text-white"
               )}
             >
               {category}
@@ -67,7 +67,7 @@ export default function CategoryTags({
         {categories.length > 12 && (
           <button
             onClick={() => setShowingAll(!showingAll)}
-            className="px-3 py-1.5 rounded-md text-sm font-medium bg-stone-900 text-stone-400 hover:text-stone-200 transition-colors border border-stone-800"
+            className="px-3 py-1.5 rounded-md text-sm font-medium bg-stone-900 text-stone-400 hover:bg-stone-800 hover:text-stone-200 transition-colors"
           >
             {showingAll ? 'Show less' : `+${categories.length - 12} more`}
           </button>

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import Header from './Header';
 import SearchBar from './SearchBar';
 import CategoryTags from './CategoryTags';
@@ -28,36 +28,37 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const router = useRouter();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   
   const [prompts] = useState<ImagePrompt[]>(initialPrompts);
+  const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState(initialSearch || '');
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     initialCategory ? [initialCategory] : []
   );
-  const [currentPage, setCurrentPage] = useState(initialPage);
 
-  // Update URL when page, search, or category changes
-  const updateURL = useCallback((newPage: number, newSearch?: string, newCategories?: string[]) => {
+  // Update URL without causing re-render
+  const updateURL = useCallback((newPage: number, newSearch: string, newCategories: string[]) => {
     const params = new URLSearchParams();
     
     if (newPage > 1) {
       params.set('page', newPage.toString());
     }
     
-    const search = newSearch !== undefined ? newSearch : searchQuery;
-    if (search) {
-      params.set('search', search);
+    if (newSearch) {
+      params.set('search', newSearch);
     }
     
-    const categories = newCategories !== undefined ? newCategories : selectedCategories;
-    if (categories.length > 0) {
-      params.set('category', categories[0]); // For simplicity, just use first category
+    if (newCategories.length > 0) {
+      params.set('category', newCategories[0]); // For simplicity, just use first category
     }
     
     const queryString = params.toString();
-    const url = queryString ? `${pathname}?${queryString}` : pathname;
-    router.push(url, { scroll: false });
-  }, [pathname, router, searchQuery, selectedCategories]);
+    const newUrl = queryString ? `${pathname}?${queryString}` : pathname;
+    
+    // Update URL without navigation
+    window.history.replaceState({}, '', newUrl);
+  }, [pathname]);
 
   const filteredPrompts = useMemo(() => {
     let filtered = prompts;
@@ -68,7 +69,8 @@ export default function HomePageClient({
       filtered = filtered.filter(prompt =>
         prompt.title.toLowerCase().includes(query) ||
         prompt.description.toLowerCase().includes(query) ||
-        prompt.tags.some(tag => tag.toLowerCase().includes(query))
+        prompt.tags.some(tag => tag.toLowerCase().includes(query)) ||
+        prompt.category.toLowerCase().includes(query)
       );
     }
 
@@ -101,7 +103,7 @@ export default function HomePageClient({
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
     setCurrentPage(1);
-    updateURL(1, value);
+    updateURL(1, value, selectedCategories);
   };
 
   // Handle category change
@@ -112,20 +114,20 @@ export default function HomePageClient({
     
     setSelectedCategories(newCategories);
     setCurrentPage(1);
-    updateURL(1, undefined, newCategories);
+    updateURL(1, searchQuery, newCategories);
   };
 
   // Handle clear all categories
   const handleClearAll = () => {
     setSelectedCategories([]);
     setCurrentPage(1);
-    updateURL(1, undefined, []);
+    updateURL(1, searchQuery, []);
   };
 
   // Handle page change
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    updateURL(page);
+    updateURL(page, searchQuery, selectedCategories);
     // Scroll to top of content
     document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -134,9 +136,10 @@ export default function HomePageClient({
   useEffect(() => {
     if (currentPage > totalPages && totalPages > 0) {
       setCurrentPage(1);
-      updateURL(1);
+      updateURL(1, searchQuery, selectedCategories);
     }
-  }, [currentPage, totalPages]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [totalPages]); // Only depend on totalPages changing
 
   return (
     <>
@@ -148,7 +151,7 @@ export default function HomePageClient({
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Transform your photos with AI
             </h1>
-            <p className="text-lg text-stone-300 max-w-3xl mx-auto">
+            <p className="text-lg text-white max-w-3xl mx-auto">
               Discover and copy effective image prompts for ChatGPT. Transform your photos
               into toys, art styles, and creative effects with our curated collection.
             </p>

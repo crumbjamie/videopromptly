@@ -16,22 +16,29 @@ When adding new thumbnails to prompts:
 
 ### Available Scripts for Thumbnail Management
 
-1. **Update thumbnails in database**: `node scripts/update-thumbnails.js`
+1. **Process all thumbnails (complete workflow)**: `npm run process:thumbnails`
+   - Runs the complete thumbnail processing workflow in order:
+     - Renames files with spaces to use hyphens
+     - Generates square thumbnails
+     - Matches thumbnails to prompts in database
+   - This is the main command to use when adding new images
+
+2. **Update thumbnails in database**: `node scripts/update-thumbnails.js`
    - Maps thumbnail files to prompts based on slug names
    - Updates prompts.json with thumbnail references
    - Adds thumbnails as `{ before: 'woman-sample.jpg', after: thumbnailFile }`
 
-2. **Generate square thumbnails**: `npx tsx scripts/generate-square-thumbnails.ts`
+3. **Generate square thumbnails**: `npx tsx scripts/generate-square-thumbnails.ts`
    - Creates 1024x1024 square versions from existing thumbnails
    - Saves to `/public/thumbnails/square/` directory
    - Converts to WebP format with 85% quality
    - Automatically crops landscape/portrait images to center
 
-3. **Find unmatched thumbnails**: `node scripts/find-unmatched-thumbnails.js`
+4. **Find unmatched thumbnails**: `node scripts/find-unmatched-thumbnails.js`
    - Lists thumbnail files that don't have matching prompts
    - Helps identify orphaned files
 
-4. **Generate new thumbnails with AI**: `npx tsx scripts/generate-thumbnails.ts`
+5. **Generate new thumbnails with AI**: `npx tsx scripts/generate-thumbnails.ts`
    - Uses DALL-E 3 API to generate thumbnails
    - Creates before/after composite images
    - Requires API keys and sample images
@@ -39,10 +46,11 @@ When adding new thumbnails to prompts:
 ### Workflow for Adding New Thumbnails
 
 1. Place new thumbnail images in `/public/thumbnails/`
-2. Ensure filenames match prompt slugs (spaces replaced with hyphens)
-3. Run `npx tsx scripts/generate-square-thumbnails.ts` to create square versions
-4. Run `node scripts/update-thumbnails.js` to update the database
-5. Check for any unmatched files with `node scripts/find-unmatched-thumbnails.js`
+2. Run `npm run process:thumbnails` - This single command will:
+   - Rename files with spaces to use hyphens
+   - Generate square thumbnails
+   - Update the database with thumbnail references
+3. Check for any unmatched files with `node scripts/find-unmatched-thumbnails.js`
 
 ## Running Linting and Type Checking
 

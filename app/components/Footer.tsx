@@ -4,24 +4,24 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-stone-950 border-t border-stone-800 mt-16">
+    <footer className="bg-stone-950 border-t border-stone-800 mt-16" role="contentinfo" aria-label="Site footer">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* About Section */}
-            <div>
-              <h3 className="text-white font-semibold mb-3">ImagePromptly 😱</h3>
+            <section aria-labelledby="footer-about">
+              <h3 id="footer-about" className="text-white font-semibold mb-3">ImagePromptly 😱</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
                 Discover and copy effective image prompts for ChatGPT. Transform your photos 
                 into amazing art styles and creative effects.
               </p>
-            </div>
+            </section>
             
             {/* Quick Links */}
-            <div>
-              <h3 className="text-white font-semibold mb-3">Quick Links</h3>
-              <ul className="space-y-2">
+            <nav aria-labelledby="footer-nav">
+              <h3 id="footer-nav" className="text-white font-semibold mb-3">Quick Links</h3>
+              <ul className="space-y-2" role="list">
                 <li>
                   <Link href="/" className="text-stone-400 hover:text-white hover:underline text-sm transition-colors">
                     Browse Prompts
@@ -38,12 +38,12 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </nav>
           </div>
           
           {/* Disclaimer */}
-          <div className="border-t border-stone-800 pt-8 mb-6">
-            <h4 className="text-white font-semibold mb-3">Disclaimer</h4>
+          <section className="border-t border-stone-800 pt-8 mb-6" aria-labelledby="footer-disclaimer">
+            <h4 id="footer-disclaimer" className="text-white font-semibold mb-3">Disclaimer</h4>
             <p className="text-stone-500 text-xs leading-relaxed mb-4">
               ImagePromptly provides prompt suggestions for use with ChatGPT and other AI image generation tools. 
               We do not store, process, or have access to any images you upload to ChatGPT or other services. 
@@ -60,12 +60,12 @@ export default function Footer() {
               Users are responsible for ensuring they have the right to use and modify any images they upload, and for 
               complying with all applicable laws and the terms of service of the AI platforms they use.
             </p>
-          </div>
+          </section>
           
           {/* Copyright */}
           <div className="border-t border-stone-800 pt-6 text-center">
             <p className="text-stone-500 text-sm">
-              © {currentYear} ImagePromptly. All rights reserved. | Transform your photos with AI-powered creativity.
+              © <time dateTime={`${currentYear}`}>{currentYear}</time> ImagePromptly. All rights reserved. | Transform your photos with AI-powered creativity.
             </p>
           </div>
         </div>

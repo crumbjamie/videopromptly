@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 import { ChevronRightIcon, ExternalLinkIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
@@ -13,6 +14,7 @@ import { ImagePrompt } from '@/lib/types';
 import { getRelatedPrompts } from '@/lib/database';
 import { getChatGPTUrl } from '@/lib/utils';
 import { cn } from '@/lib/utils/cn';
+import { generatePromptSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 interface PromptDetailClientProps {
   prompt: ImagePrompt;
@@ -28,6 +30,14 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   const [relatedPrompts, setRelatedPrompts] = useState<ImagePrompt[]>([]);
   const [currentPrompt] = useState(prompt.prompt);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  
+  // Generate structured data
+  const promptSchema = generatePromptSchema(prompt);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: 'https://imagepromptly.com' },
+    { name: prompt.category, url: `https://imagepromptly.com/category/${prompt.category.toLowerCase().replace(/\s+/g, '-')}` },
+    { name: prompt.title, url: `https://imagepromptly.com/image-prompt/${prompt.slug}` },
+  ]);
 
   useEffect(() => {
     const loadRelated = async () => {
@@ -60,6 +70,17 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
 
   return (
     <>
+      <Script
+        id="prompt-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(promptSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      
       <Header />
       <main className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -81,7 +102,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           <div className="bg-stone-900 rounded-lg border border-stone-800 p-8 mb-8">
             {/* Title and Description */}
             <h1 className="text-3xl font-bold text-white mb-4">{prompt.title}</h1>
-            <p className="text-lg text-stone-300 mb-6">{prompt.description}</p>
+            <p className="text-lg text-white mb-6">{prompt.description}</p>
             
             {/* Before/After Preview */}
             {prompt.thumbnail && (
@@ -92,8 +113,8 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                 <h2 className="text-xl font-semibold text-white mb-4">Example Transformation</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Before Image */}
-                  <div className="space-y-2">
-                    <h3 className="text-sm font-medium text-stone-400">Before</h3>
+                  <div className="relative">
+                    <span className="absolute top-2 left-2 z-10 px-2 py-1 text-xs font-medium bg-stone-900 text-stone-300 rounded">Before</span>
                     <div className="rounded-lg overflow-hidden bg-stone-800">
                       <ImageWithSkeleton
                         src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.before : 'woman-sample.jpg'}`}
@@ -107,10 +128,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
                   </div>
                   
                   {/* After Image */}
-                  <div className="space-y-2">
-                    <h3 className="text-sm font-medium text-stone-400">After (click to enlarge)</h3>
+                  <div className="relative">
+                    <span className="absolute top-2 left-2 z-10 px-2 py-1 text-xs font-medium bg-stone-900 text-stone-300 rounded">After</span>
                     <div 
-                      className="rounded-lg overflow-hidden bg-stone-800 cursor-pointer hover:ring-2 hover:ring-blue-500 transition-all"
+                      className="rounded-lg overflow-hidden bg-stone-800 cursor-pointer"
                     >
                       <ImageWithSkeleton
                         src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}

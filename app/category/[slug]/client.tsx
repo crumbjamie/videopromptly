@@ -120,7 +120,7 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
                 {category}
               </h1>
             </div>
-            <p className="text-lg text-stone-300">
+            <p className="text-lg text-white">
               Browse {prompts.length} prompts in this category
             </p>
           </div>

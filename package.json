@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate:test-thumbnail": "ts-node scripts/test-thumbnail-generation.ts",
-    "generate:thumbnails": "ts-node scripts/generate-thumbnails.ts"
+    "generate:thumbnails": "ts-node scripts/generate-thumbnails.ts",
+    "process:thumbnails": "node scripts/process-new-thumbnails.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",

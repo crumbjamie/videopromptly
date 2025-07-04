@@ -1,115 +1,169 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '../components/Header';
-import ProtectedEmail from '../components/ProtectedEmail';
+import UseCases from '../components/UseCases';
+import Script from 'next/script';
+import { generateHowToSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'Learn about ImagePromptly and how we help you transform images with ChatGPT prompts.',
+  title: 'About ImagePromptly - Transform Your Photos with AI',
+  description: 'Learn how ImagePromptly helps you transform photos with AI using curated ChatGPT prompts. Discover use cases, benefits, and how to get started.',
+  alternates: {
+    canonical: 'https://imagepromptly.com/about',
+  },
 };
 
 export default function AboutPage() {
+  const howToSchema = generateHowToSchema();
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: 'https://imagepromptly.com' },
+    { name: 'About', url: 'https://imagepromptly.com/about' },
+  ]);
+
   return (
     <>
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <Script
+        id="breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      
       <Header />
-      <main className="min-h-screen bg-stone-950 pt-14">
-        <div className="container mx-auto px-4 py-8 max-w-4xl">
-          <div className="mt-16 mb-12">
-            <h1 className="text-4xl font-bold text-white mb-8">About ImagePromptly</h1>
-            
+      <main id="main-content" className="min-h-screen bg-stone-950 pt-14">
+        <article className="container mx-auto px-4 py-16 max-w-4xl">
+          {/* Hero Section */}
+          <header className="text-center mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Transform Your Photos with AI-Powered Creativity
+            </h1>
+            <p className="text-xl text-white leading-relaxed">
+              ImagePromptly is your gateway to endless creative possibilities with ChatGPT and DALL-E
+            </p>
+          </header>
+
+          {/* Introduction */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-6">What is ImagePromptly?</h2>
             <div className="prose prose-invert max-w-none">
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">Welcome to ImagePromptly 😱</h2>
-                <p className="text-stone-300 mb-6 leading-relaxed">
-                  ImagePromptly is your ultimate resource for discovering and using effective image transformation prompts with ChatGPT. 
-                  We&apos;ve curated a comprehensive collection of prompts that help you transform ordinary photos into extraordinary 
-                  artistic creations, from Pixar-style animations to vintage film aesthetics.
-                </p>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">What We Do</h2>
-                <p className="text-stone-300 mb-4 leading-relaxed">
-                  We provide carefully crafted prompts that work seamlessly with ChatGPT&apos;s image generation capabilities. 
-                  Our prompts are:
-                </p>
-                <ul className="list-disc list-inside text-stone-300 space-y-2 mb-6">
-                  <li>Tested and optimized for best results</li>
-                  <li>Organized by category and difficulty level</li>
-                  <li>Easy to copy and customize</li>
-                  <li>Regularly updated with new creative styles</li>
-                </ul>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">How It Works</h2>
-                <ol className="list-decimal list-inside text-stone-300 space-y-3">
-                  <li>Browse our collection of image transformation prompts</li>
-                  <li>Find a style that matches your creative vision</li>
-                  <li>Copy the prompt or open it directly in ChatGPT</li>
-                  <li>Upload your image to ChatGPT</li>
-                  <li>Watch as your photo is transformed into amazing art!</li>
-                </ol>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">Our Categories</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-300">
-                  <div>
-                    <h3 className="font-semibold text-white mb-2">🎨 Artistic Styles</h3>
-                    <p>Transform photos into various art movements and techniques</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-white mb-2">🎬 Cinematic Effects</h3>
-                    <p>Create movie-quality scenes and dramatic atmospheres</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-white mb-2">🧸 Toy Transformations</h3>
-                    <p>Turn subjects into collectible figures and playful characters</p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-white mb-2">✨ Creative Effects</h3>
-                    <p>Apply unique and imaginative transformations</p>
-                  </div>
-                </div>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">Why ImagePromptly?</h2>
-                <p className="text-stone-300 mb-4 leading-relaxed">
-                  We understand that crafting the perfect prompt can be challenging. That&apos;s why we&apos;ve done the hard work 
-                  for you. Our prompts are:
-                </p>
-                <ul className="list-disc list-inside text-stone-300 space-y-2">
-                  <li><strong className="text-white">Precise:</strong> Each prompt includes specific details for consistent results</li>
-                  <li><strong className="text-white">Versatile:</strong> Works with any type of photo or subject</li>
-                  <li><strong className="text-white">Creative:</strong> Explore styles you might never have imagined</li>
-                  <li><strong className="text-white">Free:</strong> Access our entire collection at no cost</li>
-                </ul>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">Get Started</h2>
-                <p className="text-stone-300 mb-6 leading-relaxed">
-                  Ready to transform your photos? Head back to our <Link href="/" className="text-blue-400 hover:text-blue-300 hover:underline transition-colors">homepage</Link> and 
-                  start exploring our collection. Each prompt includes example transformations to help you visualize the results.
-                </p>
-                <p className="text-stone-300 leading-relaxed">
-                  Remember, the key to great results is experimenting with different prompts and finding the styles that 
-                  resonate with your creative vision. Happy transforming! 🎨
-                </p>
-              </section>
-
-              <section className="mb-12">
-                <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
-                <p className="text-stone-300 mb-6 leading-relaxed">
-                  Have questions, suggestions, or want to share your amazing creations? We&apos;d love to hear from you!
-                </p>
-                <ProtectedEmail />
-              </section>
+              <p className="text-lg text-white mb-4">
+                ImagePromptly is a carefully curated collection of over 160+ image transformation prompts designed specifically for ChatGPT and DALL-E. We&apos;ve taken the guesswork out of AI image generation by providing tested, effective prompts that deliver stunning results every time.
+              </p>
+              <p className="text-lg text-white mb-4">
+                Whether you&apos;re a professional looking to enhance your online presence, a content creator seeking unique visuals, or someone who simply loves experimenting with AI art, ImagePromptly provides the tools you need to transform ordinary photos into extraordinary creations.
+              </p>
             </div>
-          </div>
-        </div>
+          </section>
+
+          {/* Benefits Section */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">Why Choose ImagePromptly?</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">🚀 Save Time & Effort</h3>
+                <p className="text-white">
+                  No more trial and error with prompts. Our tested formulas work consistently, saving you hours of experimentation.
+                </p>
+              </div>
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">🎨 Professional Quality</h3>
+                <p className="text-white">
+                  Each prompt is crafted to produce high-quality, professional-looking results suitable for any purpose.
+                </p>
+              </div>
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">📚 Organized Collection</h3>
+                <p className="text-white">
+                  Browse by category, difficulty, or style to find exactly what you need quickly and efficiently.
+                </p>
+              </div>
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">💡 Learn & Improve</h3>
+                <p className="text-white">
+                  Understand prompt engineering by studying our examples and modifying them for your needs.
+                </p>
+              </div>
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">🆓 Completely Free</h3>
+                <p className="text-white">
+                  Access our entire collection without any subscriptions, sign-ups, or hidden fees.
+                </p>
+              </div>
+              <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
+                <h3 className="text-xl font-semibold text-white mb-3">🔄 Regular Updates</h3>
+                <p className="text-white">
+                  We continuously add new prompts based on trends, user feedback, and AI advancements.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* How It Works */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">How It Works</h2>
+            <ol className="space-y-4">
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">1</span>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">Browse Our Collection</h3>
+                  <p className="text-white">Explore prompts by category or search for specific styles and effects.</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">2</span>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">Copy Your Chosen Prompt</h3>
+                  <p className="text-white">Click the copy button to instantly copy any prompt to your clipboard.</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">3</span>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">Open ChatGPT</h3>
+                  <p className="text-white">Start a new conversation in ChatGPT (Plus subscription required for image generation).</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">4</span>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">Upload Your Image</h3>
+                  <p className="text-white">Attach the photo you want to transform using ChatGPT&apos;s image upload feature.</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">5</span>
+                <div>
+                  <h3 className="font-semibold text-white mb-1">Paste & Transform</h3>
+                  <p className="text-white">Paste the prompt and watch as ChatGPT transforms your image into something amazing!</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          {/* Use Cases Section */}
+          <UseCases />
+
+          {/* CTA Section */}
+          <section className="text-center py-12 bg-stone-900 rounded-lg border border-stone-800">
+            <h2 className="text-3xl font-bold text-white mb-4">Ready to Transform Your Photos?</h2>
+            <p className="text-xl text-white mb-8">
+              Start exploring our collection of 160+ prompts and unleash your creativity
+            </p>
+            <Link 
+              href="/" 
+              className="inline-flex items-center px-8 py-3 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+            >
+              Browse Prompts
+              <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </section>
+        </article>
       </main>
     </>
   );
