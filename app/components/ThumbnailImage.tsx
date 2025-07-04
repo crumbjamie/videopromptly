@@ -43,9 +43,6 @@ export default function ThumbnailImage({
   
   // Use square WebP version
   const squareSrc = `/thumbnails/square/${thumbnailFileName}.webp`;
-  
-  // Check if the image exists by trying the original PNG first as fallback
-  const fallbackSrc = `/thumbnails/${thumbnailFileName}.png`;
 
   if (hasError) {
     return (

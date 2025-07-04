@@ -718,7 +718,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-07-03T16:04:30.615Z"
+      "updatedAt": "2025-07-03T16:04:30.615Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Premium-Collectible-Action-Figure.png"
+      }
     },
     {
       "id": "37",
@@ -794,7 +798,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Tranquil-Lake-Sunrise.png"
+      }
     },
     {
       "id": "41",
@@ -810,7 +818,11 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Valkyrie-Warrior.png"
+      }
     },
     {
       "id": "42",
@@ -1278,7 +1290,11 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Holographic-Marble-Gaming.png"
+      }
     },
     {
       "id": "66",
@@ -1992,7 +2008,7 @@
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
       "thumbnail": {
-        "before": "animal.jpg",
+        "before": "woman-sample.jpg",
         "after": "Pet-Barista-Portrait.png"
       }
     },
@@ -2509,7 +2525,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "law-firm-partners.png"
+        "after": "Law-Firm-Partners.png"
       }
     },
     {
@@ -2613,7 +2629,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "management-consultant.png"
+        "after": "Management-Consultant.png"
       }
     },
     {
@@ -2847,7 +2863,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "metamorphic-fashion-portrait.png"
+        "after": "Metamorphic-Fashion-Portrait.png"
       }
     },
     {
@@ -2899,7 +2915,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "neon-lit-street-fashion.png"
+        "after": "Neon-Lit-Street-Fashion.png"
       }
     },
     {
@@ -2925,7 +2941,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "old-money-aesthetic-campaign.png"
+        "after": "Old-Money-Aesthetic-Campaign.png"
       }
     },
     {
@@ -2951,7 +2967,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "minimalist-luxury-portrait.png"
+        "after": "Minimalist-Luxury-Portrait.png"
       }
     },
     {
@@ -2977,7 +2993,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "haute-couture-elegance.png"
+        "after": "Haute-Couture-Elegance.png"
       }
     },
     {
@@ -3003,7 +3019,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "natural-beauty-portrait.png"
+        "after": "Natural-Beauty-Portrait.png"
       }
     },
     {
@@ -3029,7 +3045,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "dramatic-fashion-portrait.png"
+        "after": "Dramatic-Fashion-Portrait.png"
       }
     },
     {
@@ -3055,7 +3071,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "ethereal-fashion-study.png"
+        "after": "Ethereal-Fashion-Study.png"
       }
     },
     {
@@ -3081,7 +3097,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "conceptual-fashion-art.png"
+        "after": "Conceptual-Fashion-Art.png"
       }
     },
     {
@@ -3107,7 +3123,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "vintage-inspired-fashion.png"
+        "after": "Vintage-Inspired-Fashion.png"
       }
     },
     {
@@ -3133,7 +3149,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "surreal-fashion-fantasy.png"
+        "after": "Surreal-Fashion-Fantasy.png"
       }
     },
     {
@@ -3159,7 +3175,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "executive-portrait-with-environmental-context.png"
+        "after": "Executive-Portrait-with-Environmental-Context.png"
       }
     },
     {
@@ -3185,7 +3201,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "healthcare-professional-portrait.png"
+        "after": "Healthcare-Professional-Portrait.png"
       }
     },
     {
@@ -3211,7 +3227,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "academic-scholar-portrait.png"
+        "after": "Academic-Scholar-Portrait.png"
       }
     },
     {
@@ -3237,7 +3253,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "fine-art-portrait-with-dramatic-lighting.png"
+        "after": "Fine-Art-Portrait-with-Dramatic-Lighting.png"
       }
     },
     {
@@ -3289,7 +3305,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "painterly-portrait-with-soft-aesthetics.png"
+        "after": "Painterly-Portrait-with-Soft-Aesthetics.png"
       }
     },
     {
@@ -3315,7 +3331,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "classic-studio-portrait-with-butterfly-lighting.png"
+        "after": "Classic-Studio-Portrait-with-Butterfly-Lighting.png"
       }
     },
     {
@@ -3341,7 +3357,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "fashion-style-studio-portrait.png"
+        "after": "Fashion-Style-Studio-Portrait.png"
       }
     },
     {
@@ -3367,7 +3383,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "beauty-portrait-with-ring-light-effect.png"
+        "after": "Beauty-Portrait-with-Ring-Light-Effect.png"
       }
     },
     {
@@ -3393,7 +3409,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "urban-street-portrait.png"
+        "after": "Urban-Street-Portrait.png"
       }
     },
     {
@@ -3419,7 +3435,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "nature-environment-portrait.png"
+        "after": "Nature-Environment-Portrait.png"
       }
     },
     {
@@ -3445,7 +3461,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "home-studio-environmental-portrait.png"
+        "after": "Home-Studio-Environmental-Portrait.png"
       }
     },
     {
@@ -3471,7 +3487,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "active-lifestyle-portrait.png"
+        "after": "Active-Lifestyle-Portrait.png"
       }
     },
     {
@@ -3497,7 +3513,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "culinary-lifestyle-portrait.png"
+        "after": "Culinary-Lifestyle-Portrait.png"
       }
     },
     {
@@ -3523,7 +3539,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "travel-lifestyle-portrait.png"
+        "after": "Travel-Lifestyle-Portrait.png"
       }
     },
     {
@@ -3549,7 +3565,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "emotional-character-study.png"
+        "after": "Emotional-Character-Study.png"
       }
     },
     {
@@ -3575,7 +3591,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "cultural-heritage-portrait.png"
+        "after": "Cultural-Heritage-Portrait.png"
       }
     },
     {
@@ -3601,7 +3617,7 @@
       "updatedAt": "2025-07-03T15:53:34.469Z",
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "generational-portrait.png"
+        "after": "Generational-Portrait.png"
       }
     },
     {

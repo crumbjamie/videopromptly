@@ -6,11 +6,8 @@ import { ChevronRightIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import SearchBar from '@/app/components/SearchBar';
 import PromptGrid from '@/app/components/PromptGrid';
-import PaginationWithCount from '@/app/components/PaginationWithCount';
 import { getAllPrompts } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
-
-const PROMPTS_PER_PAGE = 40;
 
 const categoryEmojis: { [key: string]: string } = {
   'Action & Sports': '🏃‍♂️',
@@ -53,7 +50,6 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
   const [filteredPrompts, setFilteredPrompts] = useState<ImagePrompt[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     const loadPrompts = async () => {
@@ -83,15 +79,8 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
     } else {
       setFilteredPrompts(prompts);
     }
-    setCurrentPage(1);
   }, [searchQuery, prompts]);
 
-  // Calculate pagination
-  const totalPages = Math.ceil(filteredPrompts.length / PROMPTS_PER_PAGE);
-  const paginatedPrompts = filteredPrompts.slice(
-    (currentPage - 1) * PROMPTS_PER_PAGE,
-    currentPage * PROMPTS_PER_PAGE
-  );
 
   return (
     <>
@@ -136,17 +125,13 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
 
 
           {/* Prompt Grid */}
-          <PromptGrid prompts={paginatedPrompts} loading={loading} />
+          <PromptGrid prompts={filteredPrompts} loading={loading} />
           
-          {/* Pagination with Count */}
+          {/* Results count */}
           {!loading && filteredPrompts.length > 0 && (
-            <PaginationWithCount
-              currentPage={currentPage}
-              totalPages={totalPages}
-              totalItems={filteredPrompts.length}
-              itemsPerPage={PROMPTS_PER_PAGE}
-              onPageChange={setCurrentPage}
-            />
+            <div className="text-center mt-8 text-gray-400">
+              Showing {filteredPrompts.length} prompt{filteredPrompts.length !== 1 ? 's' : ''}
+            </div>
           )}
         </div>
       </main>

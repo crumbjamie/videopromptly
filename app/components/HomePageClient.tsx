@@ -1,20 +1,15 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { useState, useMemo } from 'react';
 import Header from './Header';
 import SearchBar from './SearchBar';
 import CategoryTags from './CategoryTags';
 import PromptGrid from './PromptGrid';
-import PaginationWithCount from './PaginationWithCount';
 import { ImagePrompt } from '@/lib/types';
-
-const PROMPTS_PER_PAGE = 40;
 
 interface HomePageClientProps {
   initialPrompts: ImagePrompt[];
   allCategories: string[];
-  initialPage: number;
   initialCategory?: string;
   initialSearch?: string;
 }
@@ -22,43 +17,15 @@ interface HomePageClientProps {
 export default function HomePageClient({
   initialPrompts,
   allCategories,
-  initialPage,
   initialCategory,
   initialSearch
 }: HomePageClientProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  
   const [prompts] = useState<ImagePrompt[]>(initialPrompts);
-  const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState(initialSearch || '');
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     initialCategory ? [initialCategory] : []
   );
 
-  // Update URL without causing re-render
-  const updateURL = useCallback((newPage: number, newSearch: string, newCategories: string[]) => {
-    const params = new URLSearchParams();
-    
-    if (newPage > 1) {
-      params.set('page', newPage.toString());
-    }
-    
-    if (newSearch) {
-      params.set('search', newSearch);
-    }
-    
-    if (newCategories.length > 0) {
-      params.set('category', newCategories[0]); // For simplicity, just use first category
-    }
-    
-    const queryString = params.toString();
-    const newUrl = queryString ? `${pathname}?${queryString}` : pathname;
-    
-    // Update URL without navigation
-    window.history.replaceState({}, '', newUrl);
-  }, [pathname]);
 
   const filteredPrompts = useMemo(() => {
     let filtered = prompts;
@@ -91,19 +58,10 @@ export default function HomePageClient({
     return filtered;
   }, [prompts, searchQuery, selectedCategories]);
 
-  // Calculate pagination
-  const totalPages = Math.ceil(filteredPrompts.length / PROMPTS_PER_PAGE);
-  const paginatedPrompts = useMemo(() => {
-    const startIndex = (currentPage - 1) * PROMPTS_PER_PAGE;
-    const endIndex = startIndex + PROMPTS_PER_PAGE;
-    return filteredPrompts.slice(startIndex, endIndex);
-  }, [filteredPrompts, currentPage]);
 
   // Handle search change
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
-    setCurrentPage(1);
-    updateURL(1, value, selectedCategories);
   };
 
   // Handle category change
@@ -113,33 +71,14 @@ export default function HomePageClient({
       : [...selectedCategories, category];
     
     setSelectedCategories(newCategories);
-    setCurrentPage(1);
-    updateURL(1, searchQuery, newCategories);
   };
 
   // Handle clear all categories
   const handleClearAll = () => {
     setSelectedCategories([]);
-    setCurrentPage(1);
-    updateURL(1, searchQuery, []);
   };
 
-  // Handle page change
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-    updateURL(page, searchQuery, selectedCategories);
-    // Scroll to top of content
-    document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' });
-  };
 
-  // Reset to page 1 if current page is out of bounds
-  useEffect(() => {
-    if (currentPage > totalPages && totalPages > 0) {
-      setCurrentPage(1);
-      updateURL(1, searchQuery, selectedCategories);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [totalPages]); // Only depend on totalPages changing
 
   return (
     <>
@@ -173,17 +112,13 @@ export default function HomePageClient({
           </div>
 
           {/* Prompt Grid */}
-          <PromptGrid prompts={paginatedPrompts} loading={false} />
+          <PromptGrid prompts={filteredPrompts} loading={false} />
           
-          {/* Pagination with Count */}
+          {/* Results count */}
           {filteredPrompts.length > 0 && (
-            <PaginationWithCount
-              currentPage={currentPage}
-              totalPages={totalPages}
-              totalItems={filteredPrompts.length}
-              itemsPerPage={PROMPTS_PER_PAGE}
-              onPageChange={handlePageChange}
-            />
+            <div className="text-center mt-8 text-gray-400">
+              Showing {filteredPrompts.length} prompt{filteredPrompts.length !== 1 ? 's' : ''}
+            </div>
           )}
         </div>
       </main>

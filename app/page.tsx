@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 
 export default async function HomePage({ searchParams }: PageProps) {
   const params = await searchParams;
-  const page = typeof params.page === 'string' ? parseInt(params.page) : 1;
   const category = typeof params.category === 'string' ? params.category : undefined;
   const search = typeof params.search === 'string' ? params.search : undefined;
   
@@ -27,7 +26,6 @@ export default async function HomePage({ searchParams }: PageProps) {
     <HomePageClient 
       initialPrompts={prompts}
       allCategories={categories}
-      initialPage={page}
       initialCategory={category}
       initialSearch={search}
     />
