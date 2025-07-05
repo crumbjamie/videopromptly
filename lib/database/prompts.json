@@ -20,7 +20,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cliff-Diver-Frozen-Action.png"
-      }
+      },
+      "categories": [
+        "Action & Sports",
+        "Creative Effects"
+      ]
     },
     {
       "id": "2",
@@ -42,7 +46,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fisheye-Skater-Action.png"
-      }
+      },
+      "categories": [
+        "Action & Sports",
+        "Creative Effects"
+      ]
     },
     {
       "id": "3",
@@ -66,7 +74,14 @@
       },
       "featured": true,
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Anime & animation",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Digital Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "4",
@@ -92,7 +107,11 @@
       "ratingCount": 1,
       "categories": [
         "Anime & animation",
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Vintage & retro",
+        "Studio Ghibli",
+        "Creative Effects"
       ]
     },
     {
@@ -115,7 +134,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Anime-Meadow-Picnic.png"
-      }
+      },
+      "categories": [
+        "Anime & animation",
+        "Studio Ghibli",
+        "Creative Effects"
+      ]
     },
     {
       "id": "6",
@@ -137,7 +161,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Claymation-Character-Transformation.png"
-      }
+      },
+      "categories": [
+        "Anime & animation",
+        "Digital Art",
+        "Studio Ghibli",
+        "Creative Effects"
+      ]
     },
     {
       "id": "7",
@@ -159,7 +189,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Disney-Princess-Fantasy.png"
-      }
+      },
+      "categories": [
+        "Anime & animation",
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "8",
@@ -184,7 +219,11 @@
       },
       "categories": [
         "Artistic Styles",
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Fashion Photography",
+        "Editorial Photography",
+        "Creative Effects"
       ]
     },
     {
@@ -208,7 +247,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Double-Exposure-Ocean.png"
-      }
+      },
+      "categories": [
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "10",
@@ -230,7 +273,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cinematic-Motion-Blur-Scene.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "11",
@@ -252,7 +299,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cinematic-Neo-Noir-Style.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "12",
@@ -274,7 +327,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Detective-Noir-Tunnel.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "13",
@@ -296,7 +353,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Film-Noir-Detective.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "14",
@@ -318,7 +379,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Samurai-vs-Robot-Duel.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "15",
@@ -342,7 +407,11 @@
       },
       "featured": true,
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "16",
@@ -364,7 +433,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "WWII-Bunker-Portrait.png"
-      }
+      },
+      "categories": [
+        "Cinematic Styles",
+        "Portrait Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "17",
@@ -386,7 +460,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Mosaic-Tile-Art.png"
-      }
+      },
+      "categories": [
+        "Classical Art",
+        "Artistic Styles",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "18",
@@ -408,7 +488,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Renaissance-Oil-Painting.png"
-      }
+      },
+      "categories": [
+        "Classical Art",
+        "Artistic Styles",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "19",
@@ -452,7 +538,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cottage-Painting-Timelapse.png"
-      }
+      },
+      "categories": [
+        "Creative Effects",
+        "Artistic Styles"
+      ]
     },
     {
       "id": "21",
@@ -543,7 +633,10 @@
         "after": "Dramatic-Spotlight-Portrait.png"
       },
       "categories": [
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Cinematic Styles",
+        "Creative Effects"
       ]
     },
     {
@@ -588,7 +681,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Golden-Hour-Enhancement.png"
-      }
+      },
+      "categories": [
+        "Creative Effects",
+        "Vintage & retro"
+      ]
     },
     {
       "id": "27",
@@ -656,7 +753,11 @@
       },
       "featured": true,
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Creative Effects",
+        "Vintage & retro"
+      ]
     },
     {
       "id": "30",
@@ -678,7 +779,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Magical-Library-Scholar.png"
-      }
+      },
+      "categories": [
+        "Creative Effects",
+        "Fantasy & magic"
+      ]
     },
     {
       "id": "31",
@@ -788,7 +893,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Neon-Sign-Portrait.png"
-      }
+      },
+      "categories": [
+        "Creative Effects",
+        "Portrait Photography",
+        "Cyberpunk & sci-fi",
+        "Vintage & retro"
+      ]
     },
     {
       "id": "36",
@@ -942,7 +1053,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Chrome-Mech-Café.png"
-      }
+      },
+      "categories": [
+        "Cyberpunk & sci-fi",
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "43",
@@ -964,7 +1080,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Hacker.png"
-      }
+      },
+      "categories": [
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "44",
@@ -986,7 +1106,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Ramen-Market.png"
-      }
+      },
+      "categories": [
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "45",
@@ -1008,7 +1132,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Street-Market.png"
-      }
+      },
+      "categories": [
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "46",
@@ -1030,7 +1158,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "UFO-Cockpit-Selfie.png"
-      }
+      },
+      "categories": [
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "47",
@@ -1052,7 +1184,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "3D-Avatar-Stickers.png"
-      }
+      },
+      "categories": [
+        "Digital Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "49",
@@ -1074,7 +1210,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Comic-Book-Hero.png"
-      }
+      },
+      "categories": [
+        "Digital Art",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "50",
@@ -1096,7 +1237,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Glitch-Art-DJ-Booth.png"
-      }
+      },
+      "categories": [
+        "Digital Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "51",
@@ -1118,7 +1264,14 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pixel-Art-Retro.png"
-      }
+      },
+      "categories": [
+        "Digital Art",
+        "Artistic Styles",
+        "Vintage & retro",
+        "Gaming Culture",
+        "Creative Effects"
+      ]
     },
     {
       "id": "52",
@@ -1140,7 +1293,14 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pop-Art-Gaming.png"
-      }
+      },
+      "categories": [
+        "Digital Art",
+        "Artistic Styles",
+        "Vintage & retro",
+        "Gaming Culture",
+        "Creative Effects"
+      ]
     },
     {
       "id": "53",
@@ -1162,7 +1322,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Editorial-Food-Photography-Style.png"
-      }
+      },
+      "categories": [
+        "Editorial Photography",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "54",
@@ -1185,7 +1351,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Hyperrealistic-Flash-Photography.png"
-      }
+      },
+      "categories": [
+        "Editorial Photography",
+        "Fashion Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "55",
@@ -1207,7 +1378,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Elven-Archer-Fantasy.png"
-      }
+      },
+      "categories": [
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "56",
@@ -1229,7 +1404,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Expressionist-Cityscape.png"
-      }
+      },
+      "categories": [
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "57",
@@ -1251,7 +1430,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fire-Wizard.png"
-      }
+      },
+      "categories": [
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "58",
@@ -1273,7 +1456,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Surreal-Ice-Cream-Mountain.png"
-      }
+      },
+      "categories": [
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "59",
@@ -1295,7 +1482,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Floating-Iceberg-Runway.png"
-      }
+      },
+      "categories": [
+        "Fashion Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "60",
@@ -1317,7 +1508,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "High-Fashion-Editorial.png"
-      }
+      },
+      "categories": [
+        "Fashion Photography",
+        "Editorial Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "61",
@@ -1342,7 +1538,10 @@
       },
       "categories": [
         "Futuristic Tech",
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ]
     },
     {
@@ -1365,7 +1564,14 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyber-Witch-Spellcaster.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Digital Art",
+        "Cyberpunk & sci-fi",
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "63",
@@ -1387,7 +1593,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Futuristic-Hologram-Lounge.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "64",
@@ -1409,7 +1620,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Hologram-Rainbow-Effect.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Creative Effects"
+      ]
     },
     {
       "id": "65",
@@ -1431,7 +1646,14 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Holographic-Marble-Gaming.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Digital Art",
+        "Cyberpunk & sci-fi",
+        "Gaming Culture",
+        "Creative Effects"
+      ]
     },
     {
       "id": "66",
@@ -1453,7 +1675,14 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Holographic-UI-Interface.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Portrait Photography",
+        "Digital Art",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "67",
@@ -1477,7 +1706,15 @@
         "after": "Tech-Professional-Action-Figure.png"
       },
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Futuristic Tech",
+        "Portrait Photography",
+        "Headshots",
+        "Cyberpunk & sci-fi",
+        "Editorial Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "68",
@@ -1499,7 +1736,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Thermal-Vision-Effect.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
+      ]
     },
     {
       "id": "69",
@@ -1522,7 +1764,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Retro-Gaming-Nostalgia.png"
-      }
+      },
+      "categories": [
+        "Gaming Culture",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "70",
@@ -1544,7 +1791,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Viking-Storm-Battle.png"
-      }
+      },
+      "categories": [
+        "Historical Epic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "71",
@@ -1566,7 +1817,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Gothic-Mansion-Horror.png"
-      }
+      },
+      "categories": [
+        "Horror & gothic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "72",
@@ -1589,7 +1844,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Minimalist-Cartoon-Action-Figure.png"
-      }
+      },
+      "categories": [
+        "Minimalist Design",
+        "Artistic Styles",
+        "Anime & animation",
+        "Creative Effects"
+      ]
     },
     {
       "id": "73",
@@ -1614,7 +1875,11 @@
       },
       "categories": [
         "Minimalist Design",
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Digital Art",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ]
     },
     {
@@ -1637,7 +1902,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Silhouette-Shadow-Art.png"
-      }
+      },
+      "categories": [
+        "Minimalist Design",
+        "Artistic Styles",
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "75",
@@ -1659,7 +1930,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Origami-Paper-Art-Transformation.png"
-      }
+      },
+      "categories": [
+        "Paper Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "76",
@@ -1681,7 +1957,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Paper-Cutout-Collage.png"
-      }
+      },
+      "categories": [
+        "Paper Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "77",
@@ -1705,7 +1985,10 @@
         "after": "Ultra-Realistic-Portrait-Photography.png"
       },
       "categories": [
-        "Headshots"
+        "Headshots",
+        "Portrait Photography",
+        "Editorial Photography",
+        "Creative Effects"
       ]
     },
     {
@@ -1728,7 +2011,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Felt-Puppet-Theater-Transformation.png"
-      }
+      },
+      "categories": [
+        "Puppet & felt art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "79",
@@ -1750,7 +2037,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Bronze-Statue-Sculpture.png"
-      }
+      },
+      "categories": [
+        "Sculpture Art",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "80",
@@ -1772,7 +2064,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ice-Sculpture-Art.png"
-      }
+      },
+      "categories": [
+        "Sculpture Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "81",
@@ -1795,7 +2092,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "YouTube-Thumbnail-Style.png"
-      }
+      },
+      "categories": [
+        "Social Media",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "82",
@@ -1817,7 +2120,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Steampunk-Airship-Captain.png"
-      }
+      },
+      "categories": [
+        "Steampunk",
+        "Creative Effects"
+      ]
     },
     {
       "id": "83",
@@ -1839,7 +2146,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ghibli-Bakery-Interior.png"
-      }
+      },
+      "categories": [
+        "Studio Ghibli",
+        "Creative Effects"
+      ]
     },
     {
       "id": "84",
@@ -1862,7 +2173,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Studio-Ghibli-Forest.png"
-      }
+      },
+      "categories": [
+        "Studio Ghibli",
+        "Anime & animation",
+        "Fantasy & magic",
+        "Creative Effects"
+      ]
     },
     {
       "id": "85",
@@ -1884,7 +2201,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Synthwave-Highway.png"
-      }
+      },
+      "categories": [
+        "Synthwave & vaporwave",
+        "Cyberpunk & sci-fi",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "86",
@@ -1906,7 +2229,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vaporwave-Desert-Astronaut.png"
-      }
+      },
+      "categories": [
+        "Synthwave & vaporwave",
+        "Creative Effects"
+      ]
     },
     {
       "id": "87",
@@ -1928,7 +2255,13 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vaporwave-90s-Aesthetic.png"
-      }
+      },
+      "categories": [
+        "Synthwave & vaporwave",
+        "Cyberpunk & sci-fi",
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "88",
@@ -1951,7 +2284,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Barbie-Box-Packaging.png"
-      }
+      },
+      "categories": [
+        "Toy Transformations",
+        "Creative Effects"
+      ]
     },
     {
       "id": "89",
@@ -1974,7 +2311,11 @@
         "after": "LEGO-Minifigure-Transformation.png"
       },
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Toy Transformations",
+        "Creative Effects"
+      ]
     },
     {
       "id": "90",
@@ -1996,7 +2337,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Plush-Ghost-Toy-Transformation.png"
-      }
+      },
+      "categories": [
+        "Toy Transformations",
+        "Digital Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "91",
@@ -2018,7 +2364,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Political-Action-Figure.png"
-      }
+      },
+      "categories": [
+        "Toy Transformations",
+        "Creative Effects"
+      ]
     },
     {
       "id": "92",
@@ -2040,7 +2390,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Embroidery-Textile-Art.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "93",
@@ -2062,7 +2417,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Graffiti-Street-Art.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "94",
@@ -2084,7 +2444,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Kaleidoscope-Pattern.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "95",
@@ -2106,7 +2470,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Sand-Art-Beach.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "96",
@@ -2128,7 +2497,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Stained-Glass-Art.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "97",
@@ -2150,7 +2524,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Watercolor-Dreamscape.png"
-      }
+      },
+      "categories": [
+        "Traditional Art",
+        "Artistic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "98",
@@ -2172,7 +2551,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pet-to-Human-Portrait.png"
-      }
+      },
+      "categories": [
+        "Transformations",
+        "Portrait Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "99",
@@ -2194,7 +2578,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Deep-Sea-Explorer.png"
-      }
+      },
+      "categories": [
+        "Underwater Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "100",
@@ -2216,7 +2604,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Underwater-Silk-Fashion.png"
-      }
+      },
+      "categories": [
+        "Underwater Photography",
+        "Fashion Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "101",
@@ -2238,7 +2631,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Underwater-Thriller.png"
-      }
+      },
+      "categories": [
+        "Underwater Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "102",
@@ -2261,7 +2658,13 @@
         "after": "1980s-Anime-Poster.png"
       },
       "rating": 5,
-      "ratingCount": 1
+      "ratingCount": 1,
+      "categories": [
+        "Vintage & retro",
+        "Anime & animation",
+        "Studio Ghibli",
+        "Creative Effects"
+      ]
     },
     {
       "id": "103",
@@ -2283,7 +2686,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pet-Barista-Portrait.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Portrait Photography",
+        "Creative Effects"
+      ]
     },
     {
       "id": "104",
@@ -2305,7 +2713,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Symmetrical-Train-Diner.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "105",
@@ -2327,7 +2739,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Aviator.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "106",
@@ -2349,7 +2765,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Film-Grain.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Cinematic Styles",
+        "Creative Effects"
+      ]
     },
     {
       "id": "107",
@@ -2371,7 +2792,11 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Motorcycle-Highway.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Creative Effects"
+      ]
     },
     {
       "id": "108",
@@ -2393,7 +2818,12 @@
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Y2K-Computer-Lab.png"
-      }
+      },
+      "categories": [
+        "Vintage & retro",
+        "Digital Art",
+        "Creative Effects"
+      ]
     },
     {
       "id": "109",
@@ -2405,7 +2835,11 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots",
+        "Vintage & retro",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "corporate",
@@ -2433,7 +2867,12 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots",
+        "Artistic Styles",
+        "Cyberpunk & sci-fi",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "tech",
@@ -2461,7 +2900,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "creative",
@@ -2490,7 +2932,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "financial",
@@ -2518,7 +2963,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "medical",
@@ -2547,7 +2995,8 @@
         "Portrait Photography",
         "Professional Photography",
         "Corporate Photography",
-        "Headshots"
+        "Headshots",
+        "Creative Effects"
       ],
       "tags": [
         "senior-executive",
@@ -2575,7 +3024,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Headshots",
+        "Creative Effects"
       ],
       "tags": [
         "female-ceo",
@@ -2603,7 +3054,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "startup",
@@ -2631,7 +3084,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Social Media"
+        "Social Media",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "consultant",
@@ -2659,7 +3115,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Social Media"
+        "Social Media",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "real-estate",
@@ -2687,7 +3146,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Social Media"
+        "Social Media",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "hr-manager",
@@ -2716,7 +3177,8 @@
         "Portrait Photography",
         "Professional Photography",
         "Commercial Photography",
-        "Headshots"
+        "Headshots",
+        "Creative Effects"
       ],
       "tags": [
         "attorney",
@@ -2744,7 +3206,8 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "financial-advisor",
@@ -2772,7 +3235,8 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "insurance",
@@ -2800,7 +3264,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Headshots",
+        "Creative Effects"
       ],
       "tags": [
         "medical-team",
@@ -2828,7 +3294,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "law-firm",
@@ -2856,7 +3324,10 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Artistic Styles",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "startup-team",
@@ -2884,7 +3355,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Creative Effects"
+        "Creative Effects",
+        "Headshots",
+        "Artistic Styles"
       ],
       "tags": [
         "advertising",
@@ -2913,7 +3386,9 @@
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Creative Effects"
+        "Creative Effects",
+        "Headshots",
+        "Editorial Photography"
       ],
       "tags": [
         "architecture",
@@ -2970,7 +3445,9 @@
       "categories": [
         "Fashion Photography",
         "Editorial Photography",
-        "Portrait Photography"
+        "Portrait Photography",
+        "Cinematic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "editorial",
@@ -2998,7 +3475,10 @@
       "categories": [
         "Fashion Photography",
         "Editorial Photography",
-        "Portrait Photography"
+        "Portrait Photography",
+        "Artistic Styles",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "vogue",
@@ -3027,7 +3507,8 @@
         "Fashion Photography",
         "Editorial Photography",
         "Portrait Photography",
-        "Headshots"
+        "Headshots",
+        "Creative Effects"
       ],
       "tags": [
         "black-white",
@@ -3056,7 +3537,8 @@
       "categories": [
         "Fashion Photography",
         "Commercial Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Creative Effects"
       ],
       "tags": [
         "luxury",
@@ -3084,7 +3566,9 @@
       "categories": [
         "Fashion Photography",
         "Commercial Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "streetwear",
@@ -3112,7 +3596,9 @@
       "categories": [
         "Fashion Photography",
         "Commercial Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Cinematic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "dior",
@@ -3140,7 +3626,10 @@
       "categories": [
         "Fashion Photography",
         "Avant-Garde",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Portrait Photography",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "futuristic",
@@ -3168,7 +3657,9 @@
       "categories": [
         "Fashion Photography",
         "Avant-Garde",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "sculptural",
@@ -3196,7 +3687,11 @@
       "categories": [
         "Fashion Photography",
         "Avant-Garde",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Portrait Photography",
+        "Digital Art",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "metamorphic",
@@ -3224,7 +3719,9 @@
       "categories": [
         "Fashion Photography",
         "Street Photography",
-        "Urban Photography"
+        "Urban Photography",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "urban",
@@ -3252,7 +3749,9 @@
       "categories": [
         "Fashion Photography",
         "Street Photography",
-        "Urban Photography"
+        "Urban Photography",
+        "Cyberpunk & sci-fi",
+        "Creative Effects"
       ],
       "tags": [
         "neon",
@@ -3280,7 +3779,9 @@
       "categories": [
         "Fashion Photography",
         "Luxury Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Vintage & retro",
+        "Creative Effects"
       ],
       "tags": [
         "old-money",
@@ -3308,7 +3809,9 @@
       "categories": [
         "Fashion Photography",
         "Luxury Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Portrait Photography",
+        "Creative Effects"
       ],
       "tags": [
         "minimalist",
@@ -3336,7 +3839,8 @@
       "categories": [
         "Fashion Photography",
         "Luxury Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "haute-couture",
@@ -3364,7 +3868,8 @@
       "categories": [
         "Fashion Photography",
         "Portrait Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Creative Effects"
       ],
       "tags": [
         "natural-beauty",
@@ -3392,7 +3897,11 @@
       "categories": [
         "Fashion Photography",
         "Portrait Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Vintage & retro",
+        "Cinematic Styles",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "dramatic",
@@ -3420,7 +3929,9 @@
       "categories": [
         "Fashion Photography",
         "Portrait Photography",
-        "Studio Photography"
+        "Studio Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "ethereal",
@@ -3476,7 +3987,8 @@
       "categories": [
         "Fashion Photography",
         "Artistic Styles",
-        "Creative Effects"
+        "Creative Effects",
+        "Vintage & retro"
       ],
       "tags": [
         "vintage",
@@ -3504,7 +4016,9 @@
       "categories": [
         "Fashion Photography",
         "Artistic Styles",
-        "Creative Effects"
+        "Creative Effects",
+        "Horror & gothic",
+        "Fantasy & magic"
       ],
       "tags": [
         "surreal",
@@ -3533,7 +4047,11 @@
         "Portrait Photography",
         "Environmental Photography",
         "Professional Photography",
-        "Headshots"
+        "Headshots",
+        "Fashion Photography",
+        "Vintage & retro",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "executive",
@@ -3561,7 +4079,10 @@
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Headshots",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "healthcare",
@@ -3590,7 +4111,9 @@
         "Portrait Photography",
         "Environmental Photography",
         "Professional Photography",
-        "Headshots"
+        "Headshots",
+        "Vintage & retro",
+        "Creative Effects"
       ],
       "tags": [
         "academic",
@@ -3619,7 +4142,8 @@
         "Portrait Photography",
         "Artistic Styles",
         "Creative Effects",
-        "Headshots"
+        "Headshots",
+        "Cinematic Styles"
       ],
       "tags": [
         "fine-art",
@@ -3705,7 +4229,10 @@
         "Portrait Photography",
         "Studio Photography",
         "Professional Photography",
-        "Headshots"
+        "Headshots",
+        "Vintage & retro",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "studio",
@@ -3733,7 +4260,10 @@
       "categories": [
         "Portrait Photography",
         "Studio Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "fashion-style",
@@ -3762,7 +4292,9 @@
         "Portrait Photography",
         "Studio Photography",
         "Professional Photography",
-        "Headshots"
+        "Headshots",
+        "Fashion Photography",
+        "Creative Effects"
       ],
       "tags": [
         "beauty",
@@ -3790,7 +4322,9 @@
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Lifestyle Photography"
+        "Lifestyle Photography",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "urban",
@@ -3818,7 +4352,8 @@
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Lifestyle Photography"
+        "Lifestyle Photography",
+        "Creative Effects"
       ],
       "tags": [
         "nature",
@@ -3847,7 +4382,9 @@
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Lifestyle Photography"
+        "Lifestyle Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "home-studio",
@@ -3876,7 +4413,11 @@
       "categories": [
         "Portrait Photography",
         "Lifestyle Photography",
-        "Documentary Photography"
+        "Documentary Photography",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Vintage & retro",
+        "Creative Effects"
       ],
       "tags": [
         "active",
@@ -3904,7 +4445,10 @@
       "categories": [
         "Portrait Photography",
         "Lifestyle Photography",
-        "Documentary Photography"
+        "Documentary Photography",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "culinary",
@@ -3932,7 +4476,10 @@
       "categories": [
         "Portrait Photography",
         "Lifestyle Photography",
-        "Documentary Photography"
+        "Documentary Photography",
+        "Fashion Photography",
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "travel",
@@ -3960,7 +4507,9 @@
       "categories": [
         "Portrait Photography",
         "Documentary Photography",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Editorial Photography",
+        "Creative Effects"
       ],
       "tags": [
         "emotional",
@@ -3988,7 +4537,8 @@
       "categories": [
         "Portrait Photography",
         "Documentary Photography",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "cultural",
@@ -4016,7 +4566,8 @@
       "categories": [
         "Portrait Photography",
         "Documentary Photography",
-        "Artistic Styles"
+        "Artistic Styles",
+        "Creative Effects"
       ],
       "tags": [
         "generational",
