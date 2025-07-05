@@ -13,6 +13,8 @@ export interface ImagePrompt {
   thumbnail?: string | { before: string; after: string };
   thumbnails?: string[];
   featured?: boolean;
+  rating?: number;
+  ratingCount?: number;
 }
 
 export type Category = 

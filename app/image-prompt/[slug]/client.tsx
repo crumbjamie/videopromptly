@@ -15,6 +15,7 @@ import { getRelatedPrompts } from '@/lib/database';
 import { getChatGPTUrl } from '@/lib/utils';
 import { cn } from '@/lib/utils/cn';
 import { generatePromptSchema, generateBreadcrumbSchema } from '@/lib/schema';
+import StarRating from '@/app/components/StarRating';
 
 interface PromptDetailClientProps {
   prompt: ImagePrompt;
@@ -30,6 +31,7 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
   const [relatedPrompts, setRelatedPrompts] = useState<ImagePrompt[]>([]);
   const [currentPrompt] = useState(prompt.prompt);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const currentRating = prompt.rating || 0;
   
   // Generate structured data
   const promptSchema = generatePromptSchema(prompt);
@@ -102,7 +104,15 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
           <div className="bg-stone-900 rounded-lg border border-stone-800 p-8 mb-8">
             {/* Title and Description */}
             <h1 className="text-3xl font-bold text-white mb-4">{prompt.title}</h1>
-            <p className="text-lg text-white mb-6">{prompt.description}</p>
+            <p className="text-lg text-white mb-4">{prompt.description}</p>
+            
+            {/* Rating */}
+            <div className="mb-6">
+              <StarRating 
+                rating={currentRating} 
+                size="sm"
+              />
+            </div>
             
             {/* Before/After Preview */}
             {prompt.thumbnail && (

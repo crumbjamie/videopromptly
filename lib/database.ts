@@ -63,9 +63,17 @@ export async function getPromptsByCategory(category: string): Promise<ImagePromp
   return new Promise((resolve) => {
     setTimeout(() => {
       const results = promptsData.prompts
-        .filter(prompt => 
-          prompt.category.toLowerCase() === category.toLowerCase()
-        )
+        .filter(prompt => {
+          // Check primary category
+          if (prompt.category.toLowerCase() === category.toLowerCase()) {
+            return true;
+          }
+          // Check categories array if it exists
+          if (prompt.categories && Array.isArray(prompt.categories)) {
+            return prompt.categories.some(cat => cat.toLowerCase() === category.toLowerCase());
+          }
+          return false;
+        })
         .map(p => ({
           ...p,
           createdAt: new Date(p.createdAt),
@@ -135,11 +143,34 @@ export function getAllCategories(): string[] {
   return Array.from(categories);
 }
 
-export async function getAllTags(): Promise<string[]> {
+export function getAllCategoriesWithCount(): { name: string; count: number }[] {
+  const categoryCounts = new Map<string, number>();
+  
+  promptsData.prompts.forEach(prompt => {
+    categoryCounts.set(prompt.category, (categoryCounts.get(prompt.category) || 0) + 1);
+  });
+  
+  return Array.from(categoryCounts.entries())
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export async function getAllTags(): Promise<{ name: string; count: number }[]> {
   return new Promise((resolve) => {
     setTimeout(() => {
-      const tags = new Set(promptsData.prompts.flatMap(p => p.tags));
-      resolve(Array.from(tags).sort());
+      const tagCounts = new Map<string, number>();
+      
+      promptsData.prompts.forEach(prompt => {
+        prompt.tags.forEach(tag => {
+          tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+        });
+      });
+      
+      const tags = Array.from(tagCounts.entries())
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      
+      resolve(tags);
     }, 50);
   });
 }

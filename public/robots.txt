@@ -1,0 +1,38 @@
+# Robots.txt for ImagePromptly
+# Protect API and prevent aggressive crawling
+
+User-agent: *
+Disallow: /api/
+Disallow: /api/prompts
+Disallow: /api/search
+Crawl-delay: 2
+
+# Block known AI/scraping bots
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Allow search engines but with restrictions
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://imagepromptly.com/sitemap.xml

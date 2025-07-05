@@ -15,6 +15,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cliff-Diver-Frozen-Action.png"
@@ -35,6 +37,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fisheye-Skater-Action.png"
@@ -50,7 +54,8 @@
       "tags": [
         "pixar",
         "cartoon",
-        "3d"
+        "3d",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
@@ -59,7 +64,9 @@
         "before": "woman-sample.jpg",
         "after": "3D-Pixar-Style-Cartoon.png"
       },
-      "featured": true
+      "featured": true,
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "4",
@@ -80,7 +87,13 @@
         "before": "woman-sample.jpg",
         "after": "Anime-Boss-Portrait.png"
       },
-      "featured": true
+      "featured": true,
+      "rating": 5,
+      "ratingCount": 1,
+      "categories": [
+        "Anime & animation",
+        "Headshots"
+      ]
     },
     {
       "id": "5",
@@ -97,6 +110,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 4,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Anime-Meadow-Picnic.png"
@@ -117,6 +132,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Claymation-Character-Transformation.png"
@@ -137,6 +154,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Disney-Princess-Fantasy.png"
@@ -157,10 +176,16 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Chessboard-Pattern-Portrait.png"
-      }
+      },
+      "categories": [
+        "Artistic Styles",
+        "Headshots"
+      ]
     },
     {
       "id": "9",
@@ -172,11 +197,14 @@
       "tags": [
         "double-exposure",
         "ocean",
-        "artistic"
+        "artistic",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Double-Exposure-Ocean.png"
@@ -197,6 +225,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cinematic-Motion-Blur-Scene.png"
@@ -217,6 +247,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cinematic-Neo-Noir-Style.png"
@@ -237,6 +269,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Detective-Noir-Tunnel.png"
@@ -257,6 +291,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Film-Noir-Detective.png"
@@ -277,6 +313,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Samurai-vs-Robot-Duel.png"
@@ -292,7 +330,8 @@
       "tags": [
         "wes-anderson",
         "symmetrical",
-        "diner"
+        "diner",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
@@ -301,7 +340,9 @@
         "before": "woman-sample.jpg",
         "after": "Wes-Anderson-Diner.png"
       },
-      "featured": true
+      "featured": true,
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "16",
@@ -318,6 +359,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "WWII-Bunker-Portrait.png"
@@ -338,6 +381,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Mosaic-Tile-Art.png"
@@ -358,6 +403,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Renaissance-Oil-Painting.png"
@@ -378,6 +425,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Bioluminescent-Jungle-Trek.png"
@@ -398,6 +447,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cottage-Painting-Timelapse.png"
@@ -418,6 +469,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Desert-Biker.png"
@@ -438,6 +491,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Desert-Motorcycle-Convoy.png"
@@ -448,7 +503,7 @@
       "slug": "deserted-carnival-scene",
       "title": "Deserted Carnival Scene",
       "description": "Transform your images with this deserted carnival scene prompt for stunning creative effects.",
-      "prompt": "Transform [subject] as lone child holding red balloon under towering Ferris wheel at deserted carnival late at night. Neon lights swirl overhead casting colorful glows on misty air, low-angle shot with shallow depth, hyper-detailed dreamlike nostalgic mood.",
+      "prompt": "Transform [subject] holding red balloon under towering Ferris wheel at deserted carnival late at night. Neon lights swirl overhead casting colorful glows on misty air, low-angle shot with shallow depth, hyper-detailed dreamlike nostalgic mood.",
       "category": "Creative Effects",
       "tags": [
         "carnival",
@@ -458,6 +513,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Deserted-Carnival-Scene.png"
@@ -469,19 +526,25 @@
       "title": "Dramatic Spotlight Portrait",
       "description": "Transform your images with this dramatic spotlight portrait prompt for stunning creative effects.",
       "prompt": "Transform [subject] under dramatic spotlight in industrial setting with deep shadows and high contrast. Construction environment backdrop, moody atmospheric lighting creating sculptural shadows, professional cinematography style, ultra-realistic detail, award-winning portrait photography.",
-      "category": "Creative Effects",
+      "category": "Headshots",
       "tags": [
         "dramatic",
         "industrial",
-        "spotlight"
+        "spotlight",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Dramatic-Spotlight-Portrait.png"
-      }
+      },
+      "categories": [
+        "Headshots"
+      ]
     },
     {
       "id": "25",
@@ -498,6 +561,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Gladiator-Arena-POV.png"
@@ -518,6 +583,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Golden-Hour-Enhancement.png"
@@ -538,6 +605,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Hyperreal-Ice-Cream-Sneaker.png"
@@ -558,6 +627,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Levitating-Yoga-Pose.png"
@@ -573,7 +644,8 @@
       "tags": [
         "limited-edition",
         "toy-store",
-        "retro"
+        "retro",
+        "featured"
       ],
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
@@ -582,7 +654,9 @@
         "before": "woman-sample.jpg",
         "after": "Limited-Edition-Toy-Store-Display.png"
       },
-      "featured": true
+      "featured": true,
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "30",
@@ -599,6 +673,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Magical-Library-Scholar.png"
@@ -619,6 +695,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Molecular-Gastronomy-Chef.png"
@@ -639,6 +717,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Nature-Literature-Elegance.png"
@@ -659,6 +739,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Neo-Noir-Car-Chase.png"
@@ -679,6 +761,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Neo-Noir-Elevator-Mirror.png"
@@ -699,6 +783,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Neon-Sign-Portrait.png"
@@ -719,6 +805,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-07-03T16:04:30.615Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Premium-Collectible-Action-Figure.png"
@@ -739,6 +827,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Rainy-Bus-Shelter.png"
@@ -759,6 +849,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Samurai-Bridge.png"
@@ -779,6 +871,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Streetwear-Samurai.png"
@@ -799,6 +893,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Tranquil-Lake-Sunrise.png"
@@ -819,6 +915,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Valkyrie-Warrior.png"
@@ -839,6 +937,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Chrome-Mech-Café.png"
@@ -859,6 +959,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Hacker.png"
@@ -879,6 +981,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Ramen-Market.png"
@@ -899,6 +1003,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyberpunk-Street-Market.png"
@@ -919,6 +1025,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "UFO-Cockpit-Selfie.png"
@@ -939,26 +1047,12 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "3D-Avatar-Stickers.png"
       }
-    },
-    {
-      "id": "48",
-      "slug": "ascii-art-terminal",
-      "title": "ASCII Art Terminal",
-      "description": "Transform your images with this ascii art terminal prompt for stunning creative effects.",
-      "prompt": "Convert this portrait into complex ASCII art made entirely of keyboard characters and symbols. Monospace terminal font aesthetic with retro computer terminal feel, pure text-based art with recognizable character patterns, vintage computing nostalgia.",
-      "category": "Digital Art",
-      "tags": [
-        "ascii",
-        "terminal",
-        "retro"
-      ],
-      "difficulty": "Advanced",
-      "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
     },
     {
       "id": "49",
@@ -975,6 +1069,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Comic-Book-Hero.png"
@@ -995,6 +1091,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Glitch-Art-DJ-Booth.png"
@@ -1015,6 +1113,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pixel-Art-Retro.png"
@@ -1034,7 +1134,13 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Pop-Art-Gaming.png"
+      }
     },
     {
       "id": "53",
@@ -1051,6 +1157,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Editorial-Food-Photography-Style.png"
@@ -1066,11 +1174,14 @@
       "tags": [
         "flash",
         "editorial",
-        "hyperrealistic"
+        "hyperrealistic",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Hyperrealistic-Flash-Photography.png"
@@ -1091,6 +1202,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Elven-Archer-Fantasy.png"
@@ -1111,6 +1224,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Expressionist-Cityscape.png"
@@ -1131,6 +1246,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fire-Wizard.png"
@@ -1151,6 +1268,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Surreal-Ice-Cream-Mountain.png"
@@ -1171,6 +1290,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Floating-Iceberg-Runway.png"
@@ -1191,6 +1312,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "High-Fashion-Editorial.png"
@@ -1211,10 +1334,16 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Blueprint-Tech-Portrait.png"
-      }
+      },
+      "categories": [
+        "Futuristic Tech",
+        "Headshots"
+      ]
     },
     {
       "id": "62",
@@ -1231,6 +1360,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cyber-Witch-Spellcaster.png"
@@ -1251,6 +1382,8 @@
       "difficulty": "Beginner",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Futuristic-Hologram-Lounge.png"
@@ -1271,6 +1404,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Hologram-Rainbow-Effect.png"
@@ -1291,6 +1426,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Holographic-Marble-Gaming.png"
@@ -1311,6 +1448,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Holographic-UI-Interface.png"
@@ -1326,15 +1465,19 @@
       "tags": [
         "tech",
         "professional",
-        "futuristic"
+        "futuristic",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-07-03T16:04:30.615Z",
+      "featured": true,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Tech-Professional-Action-Figure.png"
-      }
+      },
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "68",
@@ -1351,6 +1494,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Thermal-Vision-Effect.png"
@@ -1366,11 +1511,18 @@
       "tags": [
         "retro",
         "gaming",
-        "nostalgia"
+        "nostalgia",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Retro-Gaming-Nostalgia.png"
+      }
     },
     {
       "id": "70",
@@ -1386,7 +1538,13 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Viking-Storm-Battle.png"
+      }
     },
     {
       "id": "71",
@@ -1402,7 +1560,13 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Gothic-Mansion-Horror.png"
+      }
     },
     {
       "id": "72",
@@ -1414,11 +1578,18 @@
       "tags": [
         "minimalist",
         "cartoon",
-        "cute"
+        "cute",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-07-03T16:04:30.616Z"
+      "updatedAt": "2025-07-03T16:04:30.616Z",
+      "rating": 5,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Minimalist-Cartoon-Action-Figure.png"
+      }
     },
     {
       "id": "73",
@@ -1435,10 +1606,16 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Minimalist-Tech-Portrait.png"
-      }
+      },
+      "categories": [
+        "Minimalist Design",
+        "Headshots"
+      ]
     },
     {
       "id": "74",
@@ -1454,7 +1631,13 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Silhouette-Shadow-Art.png"
+      }
     },
     {
       "id": "75",
@@ -1470,7 +1653,13 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Origami-Paper-Art-Transformation.png"
+      }
     },
     {
       "id": "76",
@@ -1487,6 +1676,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Paper-Cutout-Collage.png"
@@ -1498,7 +1689,7 @@
       "title": "Ultra-Realistic Portrait Photography",
       "description": "Transform your images with this ultra-realistic portrait photography prompt for stunning creative effects.",
       "prompt": "Photorealistic corporate portrait of [subject] with professional three-point studio lighting and soft fill from large windows. Modern office environment backdrop, confident expression maintained, shot on Canon 5D Mark IV with 85mm lens, award-winning business photography style, 8K resolution, hyperrealistic detail.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "tags": [
         "portrait",
         "professional",
@@ -1507,10 +1698,15 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ultra-Realistic-Portrait-Photography.png"
-      }
+      },
+      "categories": [
+        "Headshots"
+      ]
     },
     {
       "id": "78",
@@ -1527,6 +1723,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Felt-Puppet-Theater-Transformation.png"
@@ -1547,6 +1745,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Bronze-Statue-Sculpture.png"
@@ -1567,6 +1767,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ice-Sculpture-Art.png"
@@ -1582,11 +1784,14 @@
       "tags": [
         "youtube",
         "thumbnail",
-        "explosive"
+        "explosive",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "YouTube-Thumbnail-Style.png"
@@ -1607,6 +1812,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Steampunk-Airship-Captain.png"
@@ -1627,6 +1834,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ghibli-Bakery-Interior.png"
@@ -1642,11 +1851,14 @@
       "tags": [
         "ghibli",
         "forest",
-        "magical"
+        "magical",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Studio-Ghibli-Forest.png"
@@ -1657,7 +1869,7 @@
       "slug": "synthwave-highway",
       "title": "Synthwave Highway",
       "description": "Transform your images with this synthwave highway prompt for stunning creative effects.",
-      "prompt": "Synthwave highway with hovering muscle car and infinite neon grid, dual suns setting. VHS scanlines with cinematic lens flare, widescreen format, retro-futuristic racing aesthetic, 80s sci-fi nostalgia.",
+      "prompt": "Synthwave highway at dusk with an infinite neon grid stretching to the horizon. A hovering retro muscle car in the distance. Two suns are setting in the sky, casting a warm magenta-orange glow. Add VHS scanlines, cinematic lens flare, and widescreen crop for a retro-futuristic 80s sci-fi racing aesthetic. Insert [subject] as the central character standing on the highway foreground. Style them with a cyberpunk/synthwave outfit: glowing visor shades, futuristic leather jacket with neon trims, and dark techwear pants. Add reflective boots with LED accents. Pose them facing the horizon, back toward the viewer, legs slightly apart in a heroic stance—evoking mystery and momentum. Make the subject blend naturally into the lighting and atmosphere.",
       "category": "Synthwave & vaporwave",
       "tags": [
         "synthwave",
@@ -1666,7 +1878,13 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Synthwave-Highway.png"
+      }
     },
     {
       "id": "86",
@@ -1682,7 +1900,13 @@
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Vaporwave-Desert-Astronaut.png"
+      }
     },
     {
       "id": "87",
@@ -1698,7 +1922,13 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-06-29T13:42:17.454Z"
+      "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Vaporwave-90s-Aesthetic.png"
+      }
     },
     {
       "id": "88",
@@ -1710,11 +1940,18 @@
       "tags": [
         "barbie",
         "packaging",
-        "toy"
+        "toy",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-07-03T16:04:30.616Z"
+      "updatedAt": "2025-07-03T16:04:30.616Z",
+      "rating": 5,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Barbie-Box-Packaging.png"
+      }
     },
     {
       "id": "89",
@@ -1731,10 +1968,13 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T23:41:03.585Z",
+      "featured": true,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "LEGO-Minifigure-Transformation.png"
-      }
+      },
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "90",
@@ -1751,6 +1991,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-07-03T16:04:30.616Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Plush-Ghost-Toy-Transformation.png"
@@ -1770,7 +2012,13 @@
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
-      "updatedAt": "2025-07-03T16:04:30.616Z"
+      "updatedAt": "2025-07-03T16:04:30.616Z",
+      "rating": 5,
+      "ratingCount": 2,
+      "thumbnail": {
+        "before": "woman-sample.jpg",
+        "after": "Political-Action-Figure.png"
+      }
     },
     {
       "id": "92",
@@ -1787,6 +2035,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Embroidery-Textile-Art.png"
@@ -1807,6 +2057,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Graffiti-Street-Art.png"
@@ -1827,6 +2079,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Kaleidoscope-Pattern.png"
@@ -1847,6 +2101,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Sand-Art-Beach.png"
@@ -1867,6 +2123,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Stained-Glass-Art.png"
@@ -1887,6 +2145,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Watercolor-Dreamscape.png"
@@ -1907,9 +2167,11 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
-        "before": "animal.jpg",
-        "after": "pet-to-human.png"
+        "before": "woman-sample.jpg",
+        "after": "Pet-to-Human-Portrait.png"
       }
     },
     {
@@ -1927,6 +2189,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.453Z",
       "updatedAt": "2025-06-29T13:42:17.453Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Deep-Sea-Explorer.png"
@@ -1947,6 +2211,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Underwater-Silk-Fashion.png"
@@ -1967,6 +2233,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Underwater-Thriller.png"
@@ -1987,10 +2255,13 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "featured": true,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "1980s-Anime-Poster.png"
-      }
+      },
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "103",
@@ -2007,6 +2278,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Pet-Barista-Portrait.png"
@@ -2027,6 +2300,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Symmetrical-Train-Diner.png"
@@ -2047,6 +2322,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Aviator.png"
@@ -2067,6 +2344,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Film-Grain.png"
@@ -2087,6 +2366,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Motorcycle-Highway.png"
@@ -2107,6 +2388,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-06-29T13:42:17.454Z",
       "updatedAt": "2025-06-29T13:42:17.454Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Y2K-Computer-Lab.png"
@@ -2133,6 +2416,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Classic-Corporate-Executive.png"
@@ -2159,6 +2444,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Modern-Tech-Professional.png"
@@ -2180,11 +2467,14 @@
         "creative",
         "marketing",
         "stylish",
-        "agency"
+        "agency",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Creative-Business-Professional.png"
@@ -2211,6 +2501,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Financial-Services-Professional.png"
@@ -2237,6 +2529,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Healthcare-Professional.png"
@@ -2248,11 +2542,12 @@
       "title": "Senior Executive Portrait",
       "description": "Transform your images with this senior executive portrait prompt for stunning creative effects.",
       "prompt": "Full-body corporate portrait of [subject] as senior executive wearing impeccably tailored dark blue suit with subtle windowpane pattern, standing confidently in corner office with panoramic city views. Captured using Phase One XF IQ4, 80mm f/2.8 lens, balanced lighting with softbox key light and natural window light. Commanding presence with professional posture, authoritative yet approachable expression perfect for annual reports and board member profiles.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Corporate Photography"
+        "Corporate Photography",
+        "Headshots"
       ],
       "tags": [
         "senior-executive",
@@ -2263,6 +2558,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Senior-Executive-Portrait.png"
@@ -2289,6 +2586,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Female-Business-Leader.png"
@@ -2315,6 +2614,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Startup-Founder.png"
@@ -2341,6 +2642,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Consultant-Professional.png"
@@ -2367,6 +2670,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Real-Estate-Professional.png"
@@ -2393,6 +2698,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "HR-Manager.png"
@@ -2404,11 +2711,12 @@
       "title": "Attorney Portrait",
       "description": "Transform your images with this attorney portrait prompt for stunning creative effects.",
       "prompt": "Professional business card portrait of [subject] as corporate attorney wearing traditional black suit with crisp white dress shirt and conservative dark tie, photographed from chest up against rich mahogany background. Captured with Hasselblad X1D II, 90mm f/3.2 lens, classic portrait lighting with softbox at 30 degrees. Serious and authoritative expression with direct gaze, formal composition suitable for business cards and legal directory listings.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Professional Photography",
-        "Commercial Photography"
+        "Commercial Photography",
+        "Headshots"
       ],
       "tags": [
         "attorney",
@@ -2419,6 +2727,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Attorney-Portrait.png"
@@ -2445,6 +2755,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Financial-Advisor.png"
@@ -2471,6 +2783,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Insurance-Agent.png"
@@ -2497,6 +2811,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Medical-Practice-Team.png"
@@ -2523,6 +2839,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Law-Firm-Partners.png"
@@ -2549,6 +2867,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Tech-Startup-Team.png"
@@ -2570,11 +2890,14 @@
         "advertising",
         "creative",
         "stylish",
-        "artistic"
+        "artistic",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Advertising-Executive.png"
@@ -2596,11 +2919,14 @@
         "architecture",
         "geometric",
         "professional",
-        "creative"
+        "creative",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Architecture-Firm-Principal.png"
@@ -2627,6 +2953,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Management-Consultant.png"
@@ -2653,6 +2981,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "High-Fashion-Editorial-Portrait.png"
@@ -2679,6 +3009,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vogue-Style-Beauty-Editorial.png"
@@ -2690,24 +3022,28 @@
       "title": "Black & White Editorial Portrait",
       "description": "Transform your images with this black white editorial portrait prompt for stunning creative effects.",
       "prompt": "Ultra-realistic black and white fashion editorial close-up portrait of [subject] as beautiful model, shot with Hasselblad H6D-400c, 120mm f/4 macro lens at f/5.6, in style of Herb Ritts. Hyper-detailed professional photography with cinematic angle, dramatic Profoto B10X strobe lighting with silver reflectors creating glossy texture and deep dramatic shadows. Ultra-sharp focus on eyes with shallow depth of field, capturing every pore and texture. Minimalist composition with extreme tonal range from pure blacks to bright whites, sophisticated multi-light setup with key light at 45 degrees and rim lighting for separation, award-winning editorial photography quality.",
-      "category": "Fashion Photography",
+      "category": "Headshots",
       "categories": [
         "Fashion Photography",
         "Editorial Photography",
-        "Portrait Photography"
+        "Portrait Photography",
+        "Headshots"
       ],
       "tags": [
         "black-white",
         "editorial",
         "herb-ritts",
-        "timeless"
+        "timeless",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "Black-&-White-Editorial-Portrait.png"
+        "after": "Black-White-Editorial-Portrait.png"
       }
     },
     {
@@ -2731,6 +3067,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Luxury-Brand-Campaign.png"
@@ -2757,6 +3095,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Streetwear-Commercial-Photography.png"
@@ -2783,6 +3123,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Dior-Inspired-Cinematic-Shoot.png"
@@ -2809,6 +3151,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Futuristic-Avant-Garde-Portrait.png"
@@ -2835,6 +3179,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Sculptural-Fashion-Editorial.png"
@@ -2861,6 +3207,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Metamorphic-Fashion-Portrait.png"
@@ -2887,9 +3235,11 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "urban-streetwear-editorial.png"
+        "after": "Urban-Streetwear-Editorial.png"
       }
     },
     {
@@ -2913,6 +3263,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Neon-Lit-Street-Fashion.png"
@@ -2939,6 +3291,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Old-Money-Aesthetic-Campaign.png"
@@ -2965,6 +3319,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Minimalist-Luxury-Portrait.png"
@@ -2991,6 +3347,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Haute-Couture-Elegance.png"
@@ -3017,6 +3375,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Natural-Beauty-Portrait.png"
@@ -3043,6 +3403,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Dramatic-Fashion-Portrait.png"
@@ -3069,6 +3431,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Ethereal-Fashion-Study.png"
@@ -3095,6 +3459,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Conceptual-Fashion-Art.png"
@@ -3121,6 +3487,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Vintage-Inspired-Fashion.png"
@@ -3147,6 +3515,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Surreal-Fashion-Fantasy.png"
@@ -3158,11 +3528,12 @@
       "title": "Executive Portrait with Environmental Context",
       "description": "Transform your images with this executive portrait with environmental context prompt for stunning creative effects.",
       "prompt": "Professional portrait of [subject] as confident executive wearing tailored navy blazer, positioned using rule of thirds composition in modern office setting. Dramatic golden hour lighting streaming through floor-to-ceiling windows creating soft rim lighting and natural shadows. Shot with Canon EOS R5, 85mm f/1.4 lens, shallow depth of field with sharp focus on eyes, warm skin tones, editorial quality.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Headshots"
       ],
       "tags": [
         "executive",
@@ -3173,6 +3544,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Executive-Portrait-with-Environmental-Context.png"
@@ -3199,6 +3572,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Healthcare-Professional-Portrait.png"
@@ -3210,11 +3585,12 @@
       "title": "Academic Scholar Portrait",
       "description": "Transform your images with this academic scholar portrait prompt for stunning creative effects.",
       "prompt": "Distinguished portrait of [subject] as professor in private study surrounded by books and academic materials. Warm intimate lighting from desk lamp creating Rembrandt lighting pattern with signature triangular highlight on cheek. Wearing tweed blazer, holding reading glasses, expression conveying wisdom and intellectual curiosity. Shot with Nikon D850, 85mm f/1.2 lens, rich color palette, classical portrait style.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Environmental Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Headshots"
       ],
       "tags": [
         "academic",
@@ -3225,6 +3601,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Academic-Scholar-Portrait.png"
@@ -3236,21 +3614,25 @@
       "title": "Fine Art Portrait with Dramatic Lighting",
       "description": "Transform your images with this fine art portrait with dramatic lighting prompt for stunning creative effects.",
       "prompt": "Artistic portrait of [subject] as young person with flowing hair, using split lighting technique to illuminate only half of face, creating high contrast and dramatic shadows. Positioned off-center following rule of thirds, wearing simple black clothing against dark background. Cinematic mood with deep shadows and warm highlights, shot with Leica M10, 90mm f/2 lens, black and white film simulation.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Artistic Styles",
-        "Creative Effects"
+        "Creative Effects",
+        "Headshots"
       ],
       "tags": [
         "fine-art",
         "dramatic",
         "split-lighting",
-        "cinematic"
+        "cinematic",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fine-Art-Portrait-with-Dramatic-Lighting.png"
@@ -3277,9 +3659,11 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "conceptual-portrait-with-color-psychology.png"
+        "after": "Conceptual-Portrait-with-Color-Psychology.png"
       }
     },
     {
@@ -3303,6 +3687,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Painterly-Portrait-with-Soft-Aesthetics.png"
@@ -3314,11 +3700,12 @@
       "title": "Classic Studio Portrait with Butterfly Lighting",
       "description": "Transform your images with this classic studio portrait with butterfly lighting prompt for stunning creative effects.",
       "prompt": "Professional headshot of [subject] using butterfly lighting setup with key light directly above and in front, creating symmetrical shadow under nose. Wearing elegant business attire with confident smile, eyes sharp and engaging. Clean white background with subtle gradient, shot with Canon EOS 5DS R, 85mm f/1.2 lens, perfect skin texture detail, commercial photography quality.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Studio Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Headshots"
       ],
       "tags": [
         "studio",
@@ -3329,6 +3716,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Classic-Studio-Portrait-with-Butterfly-Lighting.png"
@@ -3355,6 +3744,8 @@
       "difficulty": "Advanced",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Fashion-Style-Studio-Portrait.png"
@@ -3366,11 +3757,12 @@
       "title": "Beauty Portrait with Ring Light Effect",
       "description": "Transform your images with this beauty portrait with ring light effect prompt for stunning creative effects.",
       "prompt": "Glamorous beauty portrait of [subject] using ring light setup for even, shadowless illumination that enhances facial features. Flawless makeup with jewelry and elegant styling, expression showing grace and sophistication. Shallow depth of field with creamy bokeh background, shot with Sony A7R V, 85mm f/1.4 lens, luxury beauty campaign style with perfect skin retouching.",
-      "category": "Portrait Photography",
+      "category": "Headshots",
       "categories": [
         "Portrait Photography",
         "Studio Photography",
-        "Professional Photography"
+        "Professional Photography",
+        "Headshots"
       ],
       "tags": [
         "beauty",
@@ -3381,6 +3773,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Beauty-Portrait-with-Ring-Light-Effect.png"
@@ -3407,6 +3801,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Urban-Street-Portrait.png"
@@ -3428,11 +3824,14 @@
         "nature",
         "outdoor",
         "hiking",
-        "organic"
+        "organic",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Nature-Environment-Portrait.png"
@@ -3454,11 +3853,14 @@
         "home-studio",
         "artist",
         "cozy",
-        "intimate"
+        "intimate",
+        "featured"
       ],
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Home-Studio-Environmental-Portrait.png"
@@ -3485,6 +3887,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Active-Lifestyle-Portrait.png"
@@ -3511,6 +3915,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Culinary-Lifestyle-Portrait.png"
@@ -3537,6 +3943,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Travel-Lifestyle-Portrait.png"
@@ -3563,6 +3971,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Emotional-Character-Study.png"
@@ -3589,6 +3999,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 3,
+      "ratingCount": 1,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Cultural-Heritage-Portrait.png"
@@ -3615,6 +4027,8 @@
       "difficulty": "Intermediate",
       "createdAt": "2025-07-03T15:53:34.469Z",
       "updatedAt": "2025-07-03T15:53:34.469Z",
+      "rating": 4,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
         "after": "Generational-Portrait.png"
@@ -3636,14 +4050,17 @@
         "toddler",
         "podcast",
         "age-regression",
-        "hyperrealistic"
+        "hyperrealistic",
+        "featured"
       ],
       "difficulty": "Advanced",
       "createdAt": "2025-07-04T00:00:00.000Z",
       "updatedAt": "2025-07-04T00:00:00.000Z",
+      "rating": 5,
+      "ratingCount": 2,
       "thumbnail": {
         "before": "woman-sample.jpg",
-        "after": "toddler-podcast-interview.png"
+        "after": "Toddler-Podcast-Interview.png"
       }
     }
   ],

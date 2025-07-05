@@ -1,9 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 import { ImagePrompt } from '@/lib/types';
 import { cn } from '@/lib/utils/cn';
 import ThumbnailImage from './ThumbnailImage';
+import StarRating from './StarRating';
+import DevRating from './DevRating';
+import { Folder } from 'lucide-react';
 
 interface PromptCardProps {
   prompt: ImagePrompt;
@@ -16,11 +20,17 @@ const difficultyColors = {
 };
 
 export default function PromptCard({ prompt }: PromptCardProps) {
+  const [isLocalhost, setIsLocalhost] = useState(false);
+  
+  useEffect(() => {
+    setIsLocalhost(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+  }, []);
+  
   return (
-    <article className="h-full">
+    <article className="h-full flex flex-col">
       <Link 
         href={`/image-prompt/${prompt.slug}`} 
-        className="block h-full"
+        className="block flex-grow"
         aria-label={`View ${prompt.title} prompt details`}
       >
         <div className="h-full flex flex-col bg-stone-950 rounded-lg transition-all duration-200 cursor-pointer group overflow-hidden border border-stone-800 hover:border-stone-700">
@@ -33,9 +43,6 @@ export default function PromptCard({ prompt }: PromptCardProps) {
               className="w-full h-full object-contain"
               priority={false}
             />
-            {prompt.featured && (
-              <div className="absolute top-2 right-2 text-2xl" aria-label="Featured prompt">⭐</div>
-            )}
           </figure>
           
           <div className="flex flex-col flex-grow p-6">
@@ -44,6 +51,15 @@ export default function PromptCard({ prompt }: PromptCardProps) {
               {prompt.title}
             </h3>
           
+          {/* Rating */}
+          <div className="mb-3">
+            <StarRating 
+              rating={prompt.rating || 0} 
+              readonly 
+              size="sm"
+            />
+          </div>
+          
           {/* Description */}
           <p className="text-stone-400 text-sm mb-4 line-clamp-3 flex-grow">
             {prompt.description}
@@ -51,7 +67,8 @@ export default function PromptCard({ prompt }: PromptCardProps) {
           
           {/* Category and Difficulty */}
           <div className="flex items-center gap-2 mb-3">
-            <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-stone-800 text-stone-400">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md text-xs font-medium bg-stone-800 text-stone-400">
+              <Folder className="w-3 h-3" />
               {prompt.category}
             </span>
             <span className={cn(
@@ -71,6 +88,15 @@ export default function PromptCard({ prompt }: PromptCardProps) {
         </div>
       </div>
     </Link>
+    
+    {/* Dev Rating - Outside of Link and Card - Only on localhost */}
+    {isLocalhost && (
+      <DevRating 
+        promptId={prompt.id} 
+        currentRating={prompt.rating || 0}
+        isFeatured={prompt.tags.includes('featured')}
+      />
+    )}
     </article>
   );
 }

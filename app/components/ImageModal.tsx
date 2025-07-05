@@ -1,18 +1,18 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Image from 'next/image';
+import { X } from 'lucide-react';
 
 interface ImageModalProps {
-  src: string;
-  alt: string;
   isOpen: boolean;
   onClose: () => void;
+  imageSrc: string;
+  imageAlt: string;
 }
 
-export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProps) {
-  const [isLoading, setIsLoading] = useState(true);
-
+export default function ImageModal({ isOpen, onClose, imageSrc, imageAlt }: ImageModalProps) {
+  // Close modal on Escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -22,8 +22,8 @@ export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProp
 
     if (isOpen) {
       document.addEventListener('keydown', handleEscape);
+      // Prevent body scroll when modal is open
       document.body.style.overflow = 'hidden';
-      setIsLoading(true); // Reset loading state when modal opens
     }
 
     return () => {
@@ -36,42 +36,38 @@ export default function ImageModal({ src, alt, isOpen, onClose }: ImageModalProp
 
   return (
     <div 
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-80 backdrop-blur-sm"
       onClick={onClose}
     >
       <div 
-        className="relative max-w-7xl max-h-[90vh] overflow-hidden rounded-lg"
+        className="relative max-w-4xl max-h-[90vh] w-full"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
+          className="absolute -top-12 right-0 text-white hover:text-stone-300 transition-colors"
           aria-label="Close modal"
         >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
+          <X className="w-8 h-8" />
         </button>
         
-        <div className="relative">
-          {isLoading && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-32 h-32 bg-stone-800 animate-pulse rounded-lg" />
-            </div>
-          )}
+        {/* Image */}
+        <div className="relative w-full h-full flex items-center justify-center">
           <Image
-            src={src}
-            alt={alt}
-            width={2048}
-            height={2048}
-            className={`max-w-full max-h-[90vh] w-auto h-auto object-contain transition-opacity duration-300 ${
-              isLoading ? 'opacity-0' : 'opacity-100'
-            }`}
-            quality={90}
+            src={imageSrc}
+            alt={imageAlt}
+            width={800}
+            height={800}
+            className="object-contain max-h-[90vh] w-auto h-auto rounded-lg"
             priority
-            onLoadingComplete={() => setIsLoading(false)}
           />
         </div>
+        
+        {/* Caption */}
+        <p className="text-center text-white mt-4 text-sm">
+          {imageAlt}
+        </p>
       </div>
     </div>
   );
