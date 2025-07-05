@@ -1,11 +1,13 @@
 import { MetadataRoute } from 'next';
 import { getAllPrompts, getAllCategories, getAllTags } from '@/lib/database';
 import { slugify } from '@/lib/utils';
+import { getAllBlogPosts } from '@/lib/blog';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const prompts = await getAllPrompts();
   const categories = await getAllCategories();
   const tags = await getAllTags();
+  const blogPosts = await getAllBlogPosts();
   const baseUrl = 'https://imagepromptly.com';
   
 
@@ -41,12 +43,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/blog/complete-guide-chatgpt-image-transformation`,
-      lastModified: new Date('2024-01-15'),
+    ...blogPosts.map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.date),
       changeFrequency: 'monthly' as const,
       priority: 0.9,
-    },
+    })),
   ];
 
   return [

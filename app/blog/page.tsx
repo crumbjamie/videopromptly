@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '../components/Header';
 import { getCanonicalUrl } from '@/lib/seo';
 import { ArrowRight, Calendar, Clock, User } from 'lucide-react';
+import { getAllBlogPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Blog & Guides - Learn AI Image Transformation | ImagePromptly',
@@ -18,48 +19,11 @@ export const metadata: Metadata = {
   },
 };
 
-// Mock blog posts data - in production, this would come from a database
-const blogPosts = [
-  {
-    slug: 'complete-guide-chatgpt-image-transformation',
-    title: 'The Complete Guide to ChatGPT Image Transformation',
-    excerpt: 'Everything you need to know about transforming images with ChatGPT and DALL-E 3. From basics to advanced techniques.',
-    date: '2024-01-15',
-    readTime: '10 min read',
-    author: 'ImagePromptly Team',
-    category: 'Guides',
-    featured: true,
-  },
-  {
-    slug: 'best-prompts-portrait-transformation',
-    title: '10 Best Prompts for Portrait Transformation in 2024',
-    excerpt: 'Discover the most effective prompts for transforming portraits into various artistic styles using ChatGPT.',
-    date: '2024-01-10',
-    readTime: '7 min read',
-    author: 'ImagePromptly Team',
-    category: 'Prompts',
-  },
-  {
-    slug: 'chatgpt-vs-midjourney-comparison',
-    title: 'ChatGPT vs Midjourney: Which is Better for Image Creation?',
-    excerpt: 'An in-depth comparison of ChatGPT with DALL-E 3 and Midjourney for AI image generation and transformation.',
-    date: '2024-01-05',
-    readTime: '12 min read',
-    author: 'ImagePromptly Team',
-    category: 'Comparison',
-  },
-  {
-    slug: 'troubleshooting-common-errors',
-    title: 'Troubleshooting Common ChatGPT Image Errors',
-    excerpt: 'Solutions to the most common problems when using ChatGPT for image transformation.',
-    date: '2024-01-01',
-    readTime: '5 min read',
-    author: 'ImagePromptly Team',
-    category: 'Troubleshooting',
-  },
-];
+export default async function BlogPage() {
+  const posts = await getAllBlogPosts();
+  const featuredPost = posts.find(post => post.featured);
+  const regularPosts = posts.filter(post => !post.featured);
 
-export default function BlogPage() {
   return (
     <>
       <Header />
@@ -76,79 +40,80 @@ export default function BlogPage() {
           </div>
 
           {/* Featured Post */}
-          <div className="mb-16">
-            <h2 className="text-2xl font-semibold text-white mb-6">Featured Guide</h2>
-            {blogPosts.filter(post => post.featured).map(post => (
+          {featuredPost && (
+            <div className="mb-16">
+              <h2 className="text-2xl font-semibold text-white mb-6">Featured Guide</h2>
               <Link 
-                key={post.slug}
-                href={`/blog/${post.slug}`}
+                href={`/blog/${featuredPost.slug}`}
                 className="block bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-blue-800/50 rounded-lg p-8 hover:border-blue-700 transition-all group"
               >
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
                   <h3 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
-                    {post.title}
+                    {featuredPost.title}
                   </h3>
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-900/50 text-blue-300">
-                    {post.category}
+                    {featuredPost.category}
                   </span>
                 </div>
-                <p className="text-white mb-4">{post.excerpt}</p>
+                <p className="text-white mb-4">{featuredPost.description}</p>
                 <div className="flex items-center gap-4 text-sm text-stone-400">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    {new Date(featuredPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                   </span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />
-                    {post.readTime}
+                    {featuredPost.readTime}
                   </span>
                   <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
-                    {post.author}
+                    {featuredPost.author}
                   </span>
                 </div>
               </Link>
-            ))}
-          </div>
+            </div>
+          )}
 
           {/* All Posts */}
-          <div>
-            <h2 className="text-2xl font-semibold text-white mb-6">All Guides & Articles</h2>
-            <div className="grid gap-6">
-              {blogPosts.filter(post => !post.featured).map(post => (
-                <Link 
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  className="block bg-stone-900 border border-stone-800 rounded-lg p-6 hover:bg-stone-800 hover:border-stone-700 transition-all group"
-                >
-                  <div className="flex flex-col md:flex-row justify-between items-start gap-4">
-                    <div className="flex-1">
-                      <div className="flex items-start gap-3 mb-2">
-                        <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
-                          {post.title}
-                        </h3>
+          {regularPosts.length > 0 && (
+            <div>
+              <h2 className="text-2xl font-semibold text-white mb-6">All Guides & Articles</h2>
+              <div className="grid gap-6">
+                {regularPosts.map(post => (
+                  <Link 
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="block bg-stone-900 border border-stone-800 rounded-lg p-6 hover:bg-stone-800 hover:border-stone-700 transition-all group"
+                  >
+                    <div className="flex flex-col md:flex-row justify-between items-start gap-4">
+                      <div className="flex-1">
+                        <div className="flex items-start gap-3 mb-2">
+                          <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
+                            {post.title}
+                          </h3>
+                        </div>
+                        <p className="text-stone-300 mb-3">{post.description}</p>
+                        <div className="flex items-center gap-4 text-sm text-stone-400">
+                          <span className="flex items-center gap-1">
+                            <Calendar className="w-4 h-4" />
+                            {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                          </span>
+                          <span className="flex items-center gap-1">
+                            <Clock className="w-4 h-4" />
+                            {post.readTime}
+                          </span>
+                          <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-stone-800 text-stone-300">
+                            {post.category}
+                          </span>
+                        </div>
                       </div>
-                      <p className="text-stone-300 mb-3">{post.excerpt}</p>
-                      <div className="flex items-center gap-4 text-sm text-stone-400">
-                        <span className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4" />
-                          {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
-                          {post.readTime}
-                        </span>
-                        <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-stone-800 text-stone-300">
-                          {post.category}
-                        </span>
-                      </div>
+                      <ArrowRight className="w-5 h-5 text-stone-400 group-hover:text-blue-400 transition-colors flex-shrink-0" />
                     </div>
-                    <ArrowRight className="w-5 h-5 text-stone-400 group-hover:text-blue-400 transition-colors flex-shrink-0" />
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* SEO Content */}
           <div className="mt-16 grid md:grid-cols-2 gap-8">
