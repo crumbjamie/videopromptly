@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
 interface TagPageProps {
-  params: { tag: string };
+  params: Promise<{ tag: string }>;
 }
 
 function formatTagName(tag: string): string {
@@ -12,7 +12,8 @@ function formatTagName(tag: string): string {
 }
 
 export async function generateMetadata({ params }: TagPageProps): Promise<Metadata> {
-  const tagName = formatTagName(decodeURIComponent(params.tag));
+  const { tag } = await params;
+  const tagName = formatTagName(decodeURIComponent(tag));
   
   return {
     title: `${tagName} AI Image Prompts | Image Promptly`,
@@ -33,7 +34,8 @@ export async function generateStaticParams() {
 }
 
 export default async function TagPage({ params }: TagPageProps) {
-  const tagSlug = decodeURIComponent(params.tag);
+  const { tag } = await params;
+  const tagSlug = decodeURIComponent(tag);
   const tagName = formatTagName(tagSlug);
   
   // Get all tags to verify this one exists
