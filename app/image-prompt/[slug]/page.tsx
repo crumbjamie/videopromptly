@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPromptBySlug, getAllPrompts } from '@/lib/database';
 import PromptDetailClient from './client';
+import { getCanonicalUrl, generateArticleSchema, generateHowToSchema, generateAggregateRatingSchema } from '@/lib/seo';
+import Script from 'next/script';
 
 interface PageProps {
   params: Promise<{
@@ -26,13 +28,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${prompt.title} - ChatGPT Image Prompt`;
-  const description = `${prompt.description} Transform your images with this ${prompt.difficulty.toLowerCase()} level ${prompt.category.toLowerCase()} prompt on ImagePromptly.`;
+  const title = `${prompt.title} - ChatGPT Image Prompt | Copy & Use`;
+  const description = `${prompt.description} ✨ ${prompt.difficulty} level prompt ✨ Copy & paste into ChatGPT ✨ Transform photos to ${prompt.category.toLowerCase()} style instantly!`;
 
   return {
     title,
     description,
-    keywords: `${prompt.tags.join(', ')}, ImagePromptly, ChatGPT prompts, AI image transformation, ${prompt.category}, ${prompt.difficulty}`,
+    keywords: `${prompt.tags.join(', ')}, ${prompt.title} prompt, ChatGPT ${prompt.category}, DALL-E 3 ${prompt.category}, AI image transformation, ${prompt.difficulty} prompts`,
     authors: [{ name: 'ImagePromptly' }],
     creator: 'ImagePromptly',
     publisher: 'ImagePromptly',
@@ -48,7 +50,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
     },
     alternates: {
-      canonical: `/image-prompt/${slug}`,
+      canonical: getCanonicalUrl(`/image-prompt/${slug}`),
+    },
+    other: {
+      'article:author': 'ImagePromptly',
+      'article:tag': prompt.tags.join(', '),
     },
     openGraph: {
       title,
@@ -84,5 +90,31 @@ export default async function PromptPage({ params }: PageProps) {
     notFound();
   }
 
-  return <PromptDetailClient prompt={prompt} />;
+  // Generate schemas
+  const articleSchema = generateArticleSchema(prompt);
+  const howToSchema = generateHowToSchema(prompt);
+  const ratingSchema = prompt.rating ? generateAggregateRatingSchema(prompt.rating) : null;
+
+  return (
+    <>
+      <Script
+        id="article-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <Script
+        id="howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      {ratingSchema && (
+        <Script
+          id="rating-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }}
+        />
+      )}
+      <PromptDetailClient prompt={prompt} />
+    </>
+  );
 }

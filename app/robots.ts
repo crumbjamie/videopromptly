@@ -22,7 +22,11 @@ export default function robots(): MetadataRoute.Robots {
         allow: ['/thumbnails/', '/images/'],
       },
     ],
-    sitemap: 'https://imagepromptly.com/sitemap.xml',
+    sitemap: [
+      'https://imagepromptly.com/sitemap-index.xml',
+      'https://imagepromptly.com/sitemap.xml',
+      'https://imagepromptly.com/sitemap-images.xml'
+    ],
     host: 'https://imagepromptly.com',
   };
 }

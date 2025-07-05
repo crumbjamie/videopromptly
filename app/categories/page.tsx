@@ -3,10 +3,14 @@ import Link from 'next/link';
 import Header from '../components/Header';
 import { slugify } from '@/lib/utils';
 import { Metadata } from 'next';
+import { getCanonicalUrl } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Browse AI Image Prompts by Category | Image Promptly',
   description: 'Explore our collection of AI image transformation prompts organized by categories like anime, cyberpunk, vintage, fashion, and more.',
+  alternates: {
+    canonical: getCanonicalUrl('/categories'),
+  },
   openGraph: {
     title: 'Browse AI Image Prompts by Category',
     description: 'Explore our collection of AI image transformation prompts organized by category.',
@@ -134,7 +138,7 @@ export default async function CategoriesPage() {
               <div className="prose prose-invert max-w-none">
                 <p className="text-stone-300 mb-4">
                   Our categories organize prompts by artistic style, theme, and application. 
-                  Whether you're looking to transform your photos into anime characters, 
+                  Whether you&apos;re looking to transform your photos into anime characters, 
                   create cyberpunk atmospheres, or apply vintage filters, our category system 
                   makes it easy to find exactly what you need.
                 </p>

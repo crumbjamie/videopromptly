@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import CategoryPageClient from './client';
 import { getAllCategories } from '@/lib/database';
 import { slugify } from '@/lib/utils';
+import { getCanonicalUrl } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{
@@ -31,13 +32,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${category} Prompts`;
-  const description = `Browse ${category.toLowerCase()} image transformation prompts. Transform your photos with curated ChatGPT prompts on ImagePromptly.`;
+  const title = `${category} ChatGPT Prompts - Transform Photos to ${category} Style`;
+  const description = `Explore ${category.toLowerCase()} image prompts for ChatGPT & DALL-E 3. ✨ Instant copy & paste ✨ Professional results ✨ All skill levels. Transform your photos now!`;
 
   return {
     title,
     description,
     keywords: `${category}, ImagePromptly, ChatGPT prompts, AI image transformation`,
+    alternates: {
+      canonical: getCanonicalUrl(`/category/${slug}`),
+    },
     openGraph: {
       title: `${category} Prompts | ImagePromptly`,
       description,

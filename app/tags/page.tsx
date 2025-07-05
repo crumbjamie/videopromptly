@@ -3,10 +3,14 @@ import Link from 'next/link';
 import Header from '@/app/components/Header';
 import { Tag } from 'lucide-react';
 import { Metadata } from 'next';
+import { getCanonicalUrl } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Browse AI Image Prompts by Tag | Image Promptly',
   description: 'Explore our collection of AI image transformation prompts organized by tags. Find prompts for specific styles, effects, and themes.',
+  alternates: {
+    canonical: getCanonicalUrl('/tags'),
+  },
   openGraph: {
     title: 'Browse AI Image Prompts by Tag',
     description: 'Explore our collection of AI image transformation prompts organized by tags.',
@@ -63,7 +67,7 @@ export default async function TagsPage() {
               <div className="prose prose-invert max-w-none">
                 <p className="text-stone-300 mb-4">
                   Tags help you find specific styles and effects for your AI image transformations. 
-                  Whether you're looking for cyberpunk aesthetics, vintage filters, or artistic styles, 
+                  Whether you&apos;re looking for cyberpunk aesthetics, vintage filters, or artistic styles, 
                   our tag system makes it easy to discover the perfect prompt for your creative vision.
                 </p>
                 <h3 className="text-xl font-semibold text-white mt-6 mb-3">

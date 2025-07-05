@@ -26,6 +26,9 @@ export default function Header() {
             <Link href="/tags" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               Tags
             </Link>
+            <Link href="/blog" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
+              Blog
+            </Link>
             <Link href="/about" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               About
             </Link>
@@ -80,6 +83,13 @@ export default function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Tags
+            </Link>
+            <Link 
+              href="/blog" 
+              className="block px-4 py-2 text-stone-300 hover:text-white hover:bg-stone-900 transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Blog
             </Link>
             <Link 
               href="/about" 

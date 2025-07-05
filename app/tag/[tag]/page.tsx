@@ -66,14 +66,14 @@ export default async function TagPage({ params }: TagPageProps) {
               </h2>
               <div className="prose prose-invert max-w-none">
                 <p className="text-stone-300 mb-4">
-                  Discover our collection of {prompts.length} AI image transformation prompts tagged with "{tagName}". 
+                  Discover our collection of {prompts.length} AI image transformation prompts tagged with &quot;{tagName}&quot;. 
                   These prompts are designed to help you create stunning {tagName} effects and styles using AI image generation tools.
                 </p>
                 
                 {prompts.length > 0 && (
                   <>
                     <h3 className="text-xl font-semibold text-white mt-6 mb-3">
-                      What You'll Find
+                      What You&apos;ll Find
                     </h3>
                     <p className="text-stone-300">
                       Our {tagName} prompts cover a variety of categories including {allCategories.slice(0, 3).join(', ')}

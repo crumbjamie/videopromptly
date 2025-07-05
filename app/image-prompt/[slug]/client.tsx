@@ -294,8 +294,8 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
         (typeof prompt.thumbnail === 'object' && prompt.thumbnail.after)
       ) && (
         <ImageModal
-          src={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
-          alt={`${prompt.title} - After transformation`}
+          imageSrc={`/thumbnails/${typeof prompt.thumbnail === 'object' ? prompt.thumbnail.after : prompt.thumbnail}`}
+          imageAlt={`${prompt.title} - After transformation`}
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
         />
