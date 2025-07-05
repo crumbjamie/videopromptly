@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+import Script from 'next/script';
 import Header from '../components/Header';
 import { getCanonicalUrl } from '@/lib/seo';
 import { ArrowRight, Calendar, Clock, User } from 'lucide-react';
@@ -21,103 +23,134 @@ export const metadata: Metadata = {
 
 export default async function BlogPage() {
   const posts = await getAllBlogPosts();
-  const featuredPost = posts.find(post => post.featured);
-  const regularPosts = posts.filter(post => !post.featured);
+
+  // Schema.org markup for Blog
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'ImagePromptly Blog',
+    description: 'Expert guides on using ChatGPT for image transformation',
+    url: getCanonicalUrl('/blog'),
+    publisher: {
+      '@type': 'Organization',
+      name: 'ImagePromptly',
+      url: getCanonicalUrl('/'),
+    },
+    blogPost: posts.map(post => ({
+      '@type': 'BlogPosting',
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      author: {
+        '@type': 'Person',
+        name: post.author,
+      },
+      url: getCanonicalUrl(`/blog/${post.slug}`),
+      image: post.featuredImage ? getCanonicalUrl(post.featuredImage) : undefined,
+    })),
+  };
+
+  // Map blog slugs to thumbnail images
+  const thumbnailMap: Record<string, string> = {
+    'complete-guide-chatgpt-image-transformation': '/blog/images/thumbnails/complete-guide-thumb.png',
+    'best-prompts-portrait-transformation': '/blog/images/thumbnails/portrait-prompts-thumb.png',
+    'chatgpt-vs-midjourney-comparison': '/blog/images/thumbnails/comparison-thumb.png',
+    'troubleshooting-common-errors': '/blog/images/thumbnails/troubleshooting-thumb.png'
+  };
 
   return (
     <>
+      <Script
+        id="blog-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <Header />
       <main className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8">
           {/* Hero Section */}
-          <div className="text-center mb-16 mt-16">
+          <header className="text-center mb-16 mt-16">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Blog & Guides
             </h1>
             <p className="text-xl text-white max-w-3xl mx-auto">
               Master AI image transformation with our expert guides, tutorials, and tips for using ChatGPT and DALL-E 3.
             </p>
-          </div>
+          </header>
 
-          {/* Featured Post */}
-          {featuredPost && (
-            <div className="mb-16">
-              <h2 className="text-2xl font-semibold text-white mb-6">Featured Guide</h2>
-              <Link 
-                href={`/blog/${featuredPost.slug}`}
-                className="block bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-blue-800/50 rounded-lg p-8 hover:border-blue-700 transition-all group"
-              >
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
-                  <h3 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
-                    {featuredPost.title}
-                  </h3>
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-900/50 text-blue-300">
-                    {featuredPost.category}
-                  </span>
-                </div>
-                <p className="text-white mb-4">{featuredPost.description}</p>
-                <div className="flex items-center gap-4 text-sm text-stone-400">
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    {new Date(featuredPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-4 h-4" />
-                    {featuredPost.readTime}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <User className="w-4 h-4" />
-                    {featuredPost.author}
-                  </span>
-                </div>
-              </Link>
-            </div>
-          )}
-
-          {/* All Posts */}
-          {regularPosts.length > 0 && (
-            <div>
-              <h2 className="text-2xl font-semibold text-white mb-6">All Guides & Articles</h2>
-              <div className="grid gap-6">
-                {regularPosts.map(post => (
-                  <Link 
-                    key={post.slug}
-                    href={`/blog/${post.slug}`}
-                    className="block bg-stone-900 border border-stone-800 rounded-lg p-6 hover:bg-stone-800 hover:border-stone-700 transition-all group"
-                  >
-                    <div className="flex flex-col md:flex-row justify-between items-start gap-4">
-                      <div className="flex-1">
-                        <div className="flex items-start gap-3 mb-2">
-                          <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors">
+          {/* Blog Posts Grid */}
+          <section aria-label="Blog posts">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {posts.map(post => {
+                const thumbnailSrc = thumbnailMap[post.slug];
+                
+                return (
+                  <article key={post.slug} className="h-full flex flex-col">
+                    <Link 
+                      href={`/blog/${post.slug}`}
+                      className="block flex-grow"
+                      aria-label={`Read ${post.title}`}
+                    >
+                      <div className="h-full flex flex-col bg-stone-950 rounded-lg transition-all duration-200 cursor-pointer group overflow-hidden border border-stone-800 hover:border-stone-700">
+                        {/* Thumbnail */}
+                        {thumbnailSrc && (
+                          <figure className="aspect-video relative overflow-hidden bg-stone-800">
+                            <Image
+                              src={thumbnailSrc}
+                              alt={post.title}
+                              fill
+                              className="object-cover group-hover:scale-105 transition-transform duration-300"
+                              sizes="(max-width: 768px) 100vw, 50vw"
+                            />
+                          </figure>
+                        )}
+                        
+                        <div className="flex flex-col flex-grow p-6">
+                          {/* Title */}
+                          <h2 className="text-xl font-semibold text-white mb-3 line-clamp-2 group-hover:text-blue-400 transition-colors">
                             {post.title}
-                          </h3>
-                        </div>
-                        <p className="text-stone-300 mb-3">{post.description}</p>
-                        <div className="flex items-center gap-4 text-sm text-stone-400">
-                          <span className="flex items-center gap-1">
-                            <Calendar className="w-4 h-4" />
-                            {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <Clock className="w-4 h-4" />
-                            {post.readTime}
-                          </span>
-                          <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-stone-800 text-stone-300">
-                            {post.category}
-                          </span>
+                          </h2>
+                          
+                          {/* Description */}
+                          <p className="text-stone-400 text-sm mb-4 line-clamp-3 flex-grow">
+                            {post.description}
+                          </p>
+                          
+                          {/* Meta Information */}
+                          <div className="flex flex-wrap items-center gap-3 text-xs text-stone-500 mb-4">
+                            <time dateTime={post.date} className="flex items-center gap-1">
+                              <Calendar className="w-3.5 h-3.5" />
+                              {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                            </time>
+                            <span className="flex items-center gap-1">
+                              <Clock className="w-3.5 h-3.5" />
+                              {post.readTime}
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <User className="w-3.5 h-3.5" />
+                              {post.author}
+                            </span>
+                          </div>
+                          
+                          {/* Category Badge */}
+                          <div className="flex items-center justify-between">
+                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-stone-800 text-stone-400">
+                              {post.category}
+                            </span>
+                            <ArrowRight className="w-4 h-4 text-stone-500 group-hover:text-blue-400 transition-colors" />
+                          </div>
                         </div>
                       </div>
-                      <ArrowRight className="w-5 h-5 text-stone-400 group-hover:text-blue-400 transition-colors flex-shrink-0" />
-                    </div>
-                  </Link>
-                ))}
-              </div>
+                    </Link>
+                  </article>
+                );
+              })}
             </div>
-          )}
+          </section>
 
           {/* SEO Content */}
-          <div className="mt-16 grid md:grid-cols-2 gap-8">
-            <div className="bg-stone-900 rounded-lg p-8 border border-stone-800">
+          <section className="mt-16 grid md:grid-cols-2 gap-8" aria-label="Additional information">
+            <aside className="bg-stone-900 rounded-lg p-8 border border-stone-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Learn AI Image Transformation
               </h2>
@@ -131,9 +164,9 @@ export default async function BlogPage() {
                 <li>• Troubleshooting common issues</li>
                 <li>• Comparison with other AI tools</li>
               </ul>
-            </div>
+            </aside>
             
-            <div className="bg-stone-900 rounded-lg p-8 border border-stone-800">
+            <aside className="bg-stone-900 rounded-lg p-8 border border-stone-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Stay Updated
               </h2>
@@ -141,7 +174,7 @@ export default async function BlogPage() {
                 AI image generation is rapidly evolving. Our blog keeps you updated with the latest features, 
                 techniques, and best practices for ChatGPT and DALL-E 3.
               </p>
-              <div className="space-y-3">
+              <nav className="space-y-3" aria-label="Blog links">
                 <Link 
                   href="/blog/rss.xml" 
                   className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
@@ -156,9 +189,9 @@ export default async function BlogPage() {
                   <ArrowRight className="w-4 h-4" />
                   Browse Image Prompts
                 </Link>
-              </div>
-            </div>
-          </div>
+              </nav>
+            </aside>
+          </section>
         </div>
       </main>
     </>

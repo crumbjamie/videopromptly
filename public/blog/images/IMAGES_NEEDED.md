@@ -1,66 +1,41 @@
-# Blog Images Needed
+# ChatGPT Image Generation Prompts for Blog
+
+## Instructions for ChatGPT
+
+When generating these images, please:
+- Use original-image.jpg as the base image for transformations
+- Create clean images without any text overlays
+- Do not add backgrounds unless specified
+- Output as a grid or individual images only
+- Focus on visual content without labels or captions
+- Generate images at 1200x630px for main images (items 1-4)
+- Generate images at 400x300px for thumbnails (item 5)
+- Output will be in PNG format - convert to JPG after download if needed
 
 ## 1. Complete Guide Hero Image
-**Filename:** `complete-guide-hero.jpg`
-**Dimensions:** 1200x630px (OG image size)
-**Description:** A collage or grid showing 4-6 different AI transformation styles of the same portrait:
-- Original photo (top left)
-- Anime style transformation
-- Oil painting style
-- Cyberpunk/futuristic style
-- Minimalist line art
-- 3D Pixar style
 
-**Prompt suggestion for DALL-E 3:**
-"Create a promotional hero image showing AI image transformation examples. Display a 2x3 grid with: original portrait photo of a person, same person as anime character, oil painting style, cyberpunk neon style, minimalist line art, and 3D Pixar animation style. Clean modern design with subtle borders between images."
+Generate a 2x3 grid showing different AI transformation styles of original-image.jpg. Include the original in the top-left position, then show transformations: anime style, oil painting, cyberpunk aesthetic, minimalist line art, and 3D animation style. Keep each panel clean without text.
 
-## 2. Portrait Transformation Examples
-**Filename:** `portrait-transformation-examples.jpg`
-**Dimensions:** 1200x630px
-**Description:** A before/after comparison showing one portrait transformed into multiple artistic styles
+## 2. Portrait Transformation Examples  
 
-**Prompt suggestion:**
-"Professional before and after image showing portrait photography transformations. Left side: original professional headshot. Right side: 4 smaller images showing same person as anime character, Renaissance painting, cyberpunk style, and watercolor art. Clean layout with labels."
+Create a visual showing portrait transformations of original-image.jpg. Display the original alongside various artistic styles including anime, Renaissance painting, cyberpunk, and watercolor effects. Present as a clean grid layout.
 
 ## 3. ChatGPT vs Midjourney Comparison
-**Filename:** `chatgpt-vs-midjourney.jpg`
-**Dimensions:** 1200x630px
-**Description:** Split-screen comparison showing outputs from both platforms
 
-**Prompt suggestion:**
-"Create a versus comparison image split down the middle. Left side labeled 'ChatGPT + DALL-E 3' showing clean, accurate text rendering and consistent style. Right side labeled 'Midjourney' showing artistic, cinematic quality. Use same subject/prompt to show differences."
+Generate a side-by-side visual comparison using original-image.jpg. Transform it in two different styles to show rendering differences - one cleaner/accurate style (left) and one more artistic/cinematic style (right). No text or labels needed.
 
 ## 4. Troubleshooting Guide Visual
-**Filename:** `troubleshooting-errors.jpg`
-**Dimensions:** 1200x630px
-**Description:** Infographic showing common errors and their solutions
 
-**Prompt suggestion:**
-"Create an infographic showing common AI image generation errors and solutions. Include icons for: file size limits, content policy, rate limits, and quality issues. Modern tech design with dark background and blue accents."
+Create abstract visual representations of common issues: file size (large vs small icon), content policy (shield icon), rate limits (clock/hourglass), and quality (pixelated vs sharp). Use simple, modern iconography without text.
 
 ## 5. Blog Thumbnail Images
-For each blog post, create a smaller thumbnail version:
-- `complete-guide-thumb.jpg` (400x300px)
-- `portrait-prompts-thumb.jpg` (400x300px)
-- `comparison-thumb.jpg` (400x300px)
-- `troubleshooting-thumb.jpg` (400x300px)
 
-## How to Create These Images:
+Create individual transformations of original-image.jpg suitable for blog post previews:
+- Transform to vibrant anime style for the complete guide
+- Transform to elegant portrait style for the portrait prompts post  
+- Create a split style transformation for the comparison post
+- Transform to a technical/digital style for the troubleshooting post
 
-1. **Using ChatGPT/DALL-E 3:**
-   - Use the prompts above
-   - Ask for specific dimensions
-   - Request high quality output
+---
 
-2. **Using Canva/Figma:**
-   - Create layouts manually
-   - Use screenshots from actual transformations
-   - Add text overlays and branding
-
-3. **Using Your Existing Thumbnails:**
-   - Combine existing transformation examples
-   - Create collages from your prompt collection
-   - Add blog-specific text overlays
-
-## Temporary Placeholder
-Until you create these images, the blog will use a placeholder image or no image.
+**Remember:** Output only the images themselves - no text overlays, no backgrounds unless part of the artistic style, and no labels or captions within the generated images.

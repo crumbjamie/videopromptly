@@ -5,7 +5,7 @@ export default async function generateImageSitemap() {
   const prompts = await getAllPrompts();
   
   const imageEntries = prompts
-    .filter(prompt => prompt.thumbnail || prompt.thumbnails?.length > 0)
+    .filter(prompt => prompt.thumbnail || (prompt.thumbnails && prompt.thumbnails.length > 0))
     .map(prompt => {
       const images = [];
       

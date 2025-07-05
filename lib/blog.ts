@@ -101,7 +101,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
       htmlContent,
       ...data,
     } as BlogPost;
-  } catch (error) {
+  } catch {
     return null;
   }
 }

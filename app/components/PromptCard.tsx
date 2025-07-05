@@ -55,7 +55,6 @@ export default function PromptCard({ prompt }: PromptCardProps) {
           <div className="mb-3">
             <StarRating 
               rating={prompt.rating || 0} 
-              readonly 
               size="sm"
             />
           </div>

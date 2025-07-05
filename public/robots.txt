@@ -34,5 +34,7 @@ Allow: /
 Disallow: /api/
 Crawl-delay: 1
 
-# Sitemap location
+# Sitemap locations
 Sitemap: https://imagepromptly.com/sitemap.xml
+Sitemap: https://imagepromptly.com/sitemap-images.xml
+Sitemap: https://imagepromptly.com/sitemap-index.xml

@@ -7,7 +7,7 @@ export async function GET() {
   const rss = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ImagePromptly Blog - AI Image Transformation Guides</title>
+    <title>ImagePromptly Blog - AI image transformation guides</title>
     <link>${SITE_URL}/blog</link>
     <description>Expert guides on using ChatGPT for image transformation. Learn techniques, tips, and best practices for AI-powered photo editing.</description>
     <language>en-US</language>

@@ -1,12 +1,12 @@
 ---
-title: "Troubleshooting Common ChatGPT Image Errors"
+title: "Troubleshooting common ChatGPT image errors"
 description: "Solutions to the most common problems when using ChatGPT for image transformation. Fix errors, improve results, and avoid frustration."
-date: "2024-01-01"
+date: "2025-01-02"
 author: "ImagePromptly Team"
 category: "Troubleshooting"
 readTime: "5 min read"
 featured: false
-featuredImage: "/blog/images/troubleshooting-errors.jpg"
+featuredImage: "/blog/images/troubleshooting-errors.png"
 featuredImageAlt: "Infographic showing common ChatGPT image generation errors and their solutions"
 keywords:
   - ChatGPT errors
@@ -18,7 +18,7 @@ keywords:
 
 Running into errors with ChatGPT image generation? You're not alone. Here are solutions to the most common issues users face, along with tips to avoid them in the future.
 
-## Common Errors and Solutions
+## Common errors and solutions
 
 ### 1. "I can't generate images of people"
 
@@ -38,7 +38,7 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 
 **Error Message:** "This request may violate our content policy."
 
-**Common Triggers:**
+**Common triggers:**
 - Celebrity names
 - Brand logos
 - Potentially sensitive content
@@ -52,7 +52,7 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 
 ### 3. "I'm unable to process this image"
 
-**Possible Causes:**
+**Possible causes:**
 - File size too large (over 20MB)
 - Unsupported format
 - Corrupted file
@@ -65,7 +65,7 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 - Try uploading again
 - Clear browser cache
 
-### 4. Rate Limit Errors
+### 4. Rate limit errors
 
 **Error Message:** "You've reached your image generation limit."
 
@@ -80,9 +80,9 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 - Use variations wisely
 - Consider upgrading plan if needed
 
-### 5. Poor Quality Results
+### 5. Poor quality results
 
-**Common Issues:**
+**Common issues:**
 - Blurry images
 - Wrong style applied
 - Lost subject identity
@@ -90,22 +90,22 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 
 **Solutions:**
 
-**For Blurry Images:**
+**For blurry images:**
 - Add "high quality," "sharp," "detailed"
 - Specify "4K" or "HD"
 - Avoid overly complex prompts
 
-**For Wrong Style:**
+**For wrong style:**
 - Be more specific about style
 - Reference known artists or movements
 - Use multiple style descriptors
 
-**For Lost Identity:**
+**For lost identity:**
 - Add "while maintaining likeness"
 - Use "preserve facial features"
 - Include "keep the same person"
 
-### 6. Text Rendering Issues
+### 6. Text rendering issues
 
 **Problem:** Text appears garbled or incorrect
 
@@ -116,11 +116,11 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 - Use simple fonts
 - Check spelling in prompt
 
-### 7. Aspect Ratio Problems
+### 7. Aspect ratio problems
 
 **Issue:** Images are always square
 
-**Current Limitations:**
+**Current limitations:**
 - DALL-E 3 outputs 1024x1024 by default
 - Limited aspect ratio options
 
@@ -130,7 +130,7 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 - Request "cinematic widescreen"
 - Crop afterward if needed
 
-### 8. Consistency Issues
+### 8. Consistency issues
 
 **Problem:** Can't maintain consistent style across images
 
@@ -141,90 +141,90 @@ Running into errors with ChatGPT image generation? You're not alone. Here are so
 - Create prompt templates
 - Be extremely specific
 
-## Optimization Tips
+## Optimization tips
 
-### For Better Results:
+### For better results:
 
-1. **Structure Your Prompts**
+1. **Structure your prompts**
    ```
    [Subject] + [Action] + [Style] + [Details] + [Quality modifiers]
    ```
 
-2. **Use Power Words**
+2. **Use power words**
    - "Professional"
    - "High-quality"
    - "Detailed"
    - "Masterpiece"
    - "Award-winning"
 
-3. **Avoid Ambiguity**
+3. **Avoid ambiguity**
    - Be specific about colors
    - Define lighting clearly
    - Specify backgrounds
    - Clarify compositions
 
-### Prompt Templates That Work
+### Prompt templates that work
 
-**For Portraits:**
+**For portraits:**
 ```
 "Transform this portrait into [style], maintaining facial features and expression, with [lighting type] lighting and [background description]"
 ```
 
-**For Artistic Styles:**
+**For artistic styles:**
 ```
 "Apply [artist/movement] style to this image, emphasizing [key characteristics], while preserving the subject's identity"
 ```
 
-**For Environmental Changes:**
+**For environmental changes:**
 ```
 "Place the subject in [environment], with [time of day] lighting, maintaining original pose and proportions"
 ```
 
-## Prevention Strategies
+## Prevention strategies
 
-### Before You Start:
+### Before you start:
 
-1. **Prepare Your Images**
+1. **Prepare your images**
    - Resize to under 20MB
    - Use good lighting
    - Clear subjects
    - Simple backgrounds
 
-2. **Plan Your Prompts**
+2. **Plan your prompts**
    - Write them out first
    - Check for trigger words
    - Be specific but concise
    - Have alternatives ready
 
-3. **Test Incrementally**
+3. **Test incrementally**
    - Start simple
    - Add details gradually
    - Save working prompts
    - Build a prompt library
 
-## When All Else Fails
+## When all else fails
 
-### Last Resort Options:
+### Last resort options:
 
-1. **Simplify Everything**
+1. **Simplify everything**
    - Reduce prompt to basics
    - Try different wording
    - Remove style references
    - Start fresh
 
-2. **Try Alternative Approaches**
+2. **Try alternative approaches**
    - Describe differently
    - Focus on different aspects
    - Use analogies
    - Reference similar concepts
 
-3. **Community Help**
+3. **Community help**
    - Check forums
    - Ask other users
    - Share specific errors
    - Learn from examples
 
-## Quick Reference Checklist
+## Quick reference checklist
 
 Before generating, check:
 - [ ] Image under 20MB
