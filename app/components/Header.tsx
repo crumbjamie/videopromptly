@@ -27,7 +27,7 @@ export default function Header() {
               Tags
             </Link>
             <Link href="/blog" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
-              Blog
+              Guides
             </Link>
             <Link href="/about" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               About
@@ -89,7 +89,7 @@ export default function Header() {
               className="block px-4 py-2 text-stone-300 hover:text-white hover:bg-stone-900 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Blog
+              Guides
             </Link>
             <Link 
               href="/about" 

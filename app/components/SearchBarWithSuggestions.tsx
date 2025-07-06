@@ -21,7 +21,7 @@ export default function SearchBarWithSuggestions({
   tags,
   onCategorySelect,
   onTagSelect,
-  placeholder = "Search prompts by title, description, or tags..." 
+  placeholder = "Search by keywords, categories and tags" 
 }: SearchBarWithSuggestionsProps) {
   const [localValue, setLocalValue] = useState(value);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -130,7 +130,7 @@ export default function SearchBarWithSuggestions({
       <label htmlFor="search-prompts" className="sr-only">
         Search prompts
       </label>
-      <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-stone-500 w-5 h-5" />
+      <MagnifyingGlassIcon className="absolute left-4 top-1/2 transform -translate-y-1/2 text-stone-100 w-5 h-5" />
       <input
         ref={inputRef}
         id="search-prompts"
@@ -140,7 +140,7 @@ export default function SearchBarWithSuggestions({
         onFocus={handleFocus}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        className="w-full pl-10 pr-4 py-2.5 bg-stone-900 border border-stone-800 rounded-md text-white placeholder-stone-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+        className="w-full pl-10 pr-10 py-3 bg-stone-900 border border-stone-700 rounded-full text-stone-200 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-stone-200 focus:border-transparent transition-all"
       />
       {localValue && (
         <button
@@ -149,7 +149,7 @@ export default function SearchBarWithSuggestions({
             setShowSuggestions(false);
           }}
           aria-label="Clear search"
-          className="absolute right-3 top-1/2 transform -translate-y-1/2 text-stone-500 hover:text-stone-300 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+          className="absolute right-3 top-1/2 transform -translate-y-1/2 text-stone-500 hover:text-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-200 rounded"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
