@@ -9,7 +9,7 @@ import TagFilter from './TagFilter';
 import ActiveFilters from './ActiveFilters';
 import PromptGrid from './PromptGrid';
 import PromptCardSkeleton from './PromptCardSkeleton';
-import ImageModal from './ImageModal';
+import SortDropdown, { SortOption } from './SortDropdown';
 import { ImagePrompt } from '@/lib/types';
 
 const PROMPTS_PER_PAGE = 20;
@@ -40,7 +40,7 @@ export default function HomePageClient({
   );
   const [displayCount, setDisplayCount] = useState(PROMPTS_PER_PAGE);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [sortBy, setSortBy] = useState<SortOption>('featured');
 
   // Get all unique tags from prompts
   const allTags = useMemo(() => {
@@ -85,24 +85,40 @@ export default function HomePageClient({
     
     return matchesFilter;
   }).sort((a, b) => {
-    // First, sort by featured status
-    const aFeatured = a.tags.includes('featured');
-    const bFeatured = b.tags.includes('featured');
-    
-    if (aFeatured && !bFeatured) return -1;
-    if (!aFeatured && bFeatured) return 1;
-    
-    // Then sort by rating (highest first)
-    const ratingA = a.rating || 0;
-    const ratingB = b.rating || 0;
-    if (ratingA !== ratingB) {
-      return ratingB - ratingA;
+    switch (sortBy) {
+      case 'featured':
+        // First, sort by featured status
+        const aFeatured = a.tags.includes('featured');
+        const bFeatured = b.tags.includes('featured');
+        
+        if (aFeatured && !bFeatured) return -1;
+        if (!aFeatured && bFeatured) return 1;
+        
+        // Then sort by rating (highest first)
+        const ratingA = a.rating || 0;
+        const ratingB = b.rating || 0;
+        if (ratingA !== ratingB) {
+          return ratingB - ratingA;
+        }
+        // If ratings are equal, randomize order using a stable hash of the ID
+        // This ensures consistent ordering across page loads
+        const hashA = a.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+        const hashB = b.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+        return hashA - hashB;
+        
+      case 'recent':
+        // Sort by created date (newest first)
+        const dateA = new Date(a.createdAt || 0).getTime();
+        const dateB = new Date(b.createdAt || 0).getTime();
+        return dateB - dateA;
+        
+      case 'stars':
+        // Sort by rating (highest first)
+        return (b.rating || 0) - (a.rating || 0);
+        
+      default:
+        return 0;
     }
-    // If ratings are equal, randomize order using a stable hash of the ID
-    // This ensures consistent ordering across page loads
-    const hashA = a.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    const hashB = b.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    return hashA - hashB;
   });
 
   // Get prompts to display
@@ -145,10 +161,10 @@ export default function HomePageClient({
     };
   }, [handleObserver, hasMore]);
 
-  // Reset display count when filters change
+  // Reset display count when filters or sort change
   useEffect(() => {
     setDisplayCount(PROMPTS_PER_PAGE);
-  }, [searchQuery, selectedCategories, selectedTags]);
+  }, [searchQuery, selectedCategories, selectedTags, sortBy]);
 
   // Handle search change
   const handleSearchChange = (value: string) => {
@@ -195,15 +211,62 @@ export default function HomePageClient({
       <main id="main-content" className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8">
           {/* Hero Section */}
-          <div className="text-center mb-12 mt-16">
+          <div className="text-center mb-12 mt-12">
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Transform your photos with AI
             </h1>
-            <p className="text-lg text-white max-w-3xl mx-auto">
+            <p className="text-base text-white max-w-3xl mx-auto mb-8">
               Discover and copy AI image prompts for ChatGPT. Transform your photos into 
               anime characters, vintage styles, action figures, and more. Click any prompt 
               to copy and open directly in ChatGPT.
             </p>
+            
+            {/* Before/After Example */}
+            <div className="flex items-center justify-center gap-4 mb-8 mt-8">
+              <div className="text-center">
+                <div className="relative w-32 h-32 md:w-40 md:h-40 mb-2">
+                  <Image 
+                    src="/thumbnails/woman-sample.jpg" 
+                    alt="Before - Original photo" 
+                    fill
+                    className="rounded-lg object-cover"
+                    sizes="(max-width: 768px) 128px, 160px"
+                  />
+                </div>
+                <span className="text-sm text-stone-400">Before</span>
+              </div>
+              <span className="text-2xl text-stone-500">→</span>
+              <div className="text-center">
+                <div className="relative w-32 h-32 md:w-40 md:h-40 mb-2">
+                  <Image 
+                    src="/thumbnails/Black-White-Editorial-Portrait.png" 
+                    alt="After - Black & White Editorial Portrait transformation" 
+                    fill
+                    className="rounded-lg object-cover"
+                    sizes="(max-width: 768px) 128px, 160px"
+                  />
+                </div>
+                <span className="text-sm text-stone-400">After</span>
+              </div>
+            </div>
+            
+            {/* Simple Instructions */}
+            <div className="flex items-center justify-center flex-wrap gap-2 text-white max-w-2xl mx-auto">
+              <span className="flex items-center gap-2">
+                <span className="text-white font-medium">1.</span>
+                <span>View the prompt you like below</span>
+              </span>
+              <span className="text-stone-500">→</span>
+              <span className="flex items-center gap-2">
+                <span className="text-white font-medium">2.</span>
+                <span>Click &ldquo;Open in ChatGPT&rdquo;</span>
+              </span>
+              <span className="text-stone-500">→</span>
+              <span className="flex items-center gap-2">
+                <span className="text-white font-medium">3.</span>
+                <span>Upload your image and run the prompt</span>
+              </span>
+            </div>
           </div>
 
           {/* Search Bar */}
@@ -218,10 +281,10 @@ export default function HomePageClient({
             />
           </div>
 
-          {/* Filters */}
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-4">
+          {/* Filters and Sort */}
+          <div className="mb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div className="flex flex-wrap items-center gap-4">
-              <span className="text-sm font-medium text-stone-400">Filters:</span>
+              <span className="text-sm font-medium text-white">Filter by</span>
               <CategoryTags
                 categories={allCategories}
                 selectedCategories={selectedCategories}
@@ -236,22 +299,11 @@ export default function HomePageClient({
               />
             </div>
             
-            {/* Reference Image - Hidden on mobile */}
-            <button
-              onClick={() => setIsModalOpen(true)}
-              className="hidden md:flex items-center gap-3 bg-stone-900 border border-stone-800 rounded-lg px-3 py-2 hover:bg-stone-800 hover:border-stone-700 transition-colors cursor-pointer"
-            >
-              <p className="text-xs text-stone-400">Reference image</p>
-              <div className="relative w-12 h-12">
-                <Image 
-                  src="/thumbnails/woman-sample.jpg" 
-                  alt="Reference image for prompts" 
-                  fill
-                  className="rounded object-cover"
-                  sizes="48px"
-                />
-              </div>
-            </button>
+            {/* Sort Dropdown */}
+            <div className="flex items-center gap-4">
+              <span className="text-sm font-medium text-white">Sort by</span>
+              <SortDropdown value={sortBy} onChange={setSortBy} />
+            </div>
           </div>
 
           {/* Active Filters */}
@@ -294,14 +346,6 @@ export default function HomePageClient({
           )}
         </div>
       </main>
-      
-      {/* Image Modal */}
-      <ImageModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        imageSrc="/thumbnails/woman-sample.jpg"
-        imageAlt="Reference image for AI prompts - Portrait of a woman used as the base image for transformations"
-      />
     </>
   );
 }
