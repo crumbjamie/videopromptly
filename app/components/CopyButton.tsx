@@ -4,19 +4,28 @@ import { useState } from 'react';
 import { CheckIcon, ClipboardCopyIcon } from '@radix-ui/react-icons';
 import { cn } from '@/lib/utils/cn';
 import { copyToClipboard } from '@/lib/utils';
+import { analytics } from '@/lib/analytics';
 
 interface CopyButtonProps {
   text: string;
   className?: string;
+  promptId?: string;
+  promptTitle?: string;
 }
 
-export default function CopyButton({ text, className }: CopyButtonProps) {
+export default function CopyButton({ text, className, promptId, promptTitle }: CopyButtonProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
     try {
       await copyToClipboard(text);
       setCopied(true);
+      
+      // Track copy event if prompt info is provided
+      if (promptId && promptTitle) {
+        analytics.trackCopyPrompt(promptId, promptTitle);
+      }
+      
       setTimeout(() => setCopied(false), 2000);
     } catch (error) {
       console.error('Failed to copy:', error);
@@ -33,6 +42,9 @@ export default function CopyButton({ text, className }: CopyButtonProps) {
           : "bg-white text-stone-900 hover:bg-stone-100",
         className
       )}
+      data-gtm-event="copy_prompt"
+      data-gtm-prompt-id={promptId}
+      data-gtm-prompt-title={promptTitle}
     >
       {copied ? (
         <>

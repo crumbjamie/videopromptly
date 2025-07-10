@@ -16,6 +16,7 @@ import { getChatGPTUrl } from '@/lib/utils';
 import { cn } from '@/lib/utils/cn';
 import { generatePromptSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import StarRating from '@/app/components/StarRating';
+import { analytics } from '@/lib/analytics';
 
 interface PromptDetailClientProps {
   prompt: ImagePrompt;
@@ -47,7 +48,10 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
       setRelatedPrompts(related);
     };
     loadRelated();
-  }, [prompt.id]);
+    
+    // Track prompt view
+    analytics.trackPromptView(prompt.id, prompt.title, prompt.category);
+  }, [prompt.id, prompt.title, prompt.category]);
 
   // Add structured data for SEO
   useEffect(() => {
@@ -209,12 +213,20 @@ export default function PromptDetailClient({ prompt }: PromptDetailClientProps) 
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
-              <CopyButton text={currentPrompt} />
+              <CopyButton 
+                text={currentPrompt} 
+                promptId={prompt.id} 
+                promptTitle={prompt.title} 
+              />
               <a
                 href={getChatGPTUrl(currentPrompt)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-stone-700 text-white hover:bg-stone-600 transition-colors"
+                onClick={() => analytics.trackChatGPTClick(prompt.id, prompt.title)}
+                data-gtm-event="chatgpt_click"
+                data-gtm-prompt-id={prompt.id}
+                data-gtm-prompt-title={prompt.title}
               >
                 <ExternalLinkIcon className="w-4 h-4" />
                 Open in ChatGPT

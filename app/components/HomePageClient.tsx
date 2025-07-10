@@ -11,6 +11,7 @@ import PromptGrid from './PromptGrid';
 import PromptCardSkeleton from './PromptCardSkeleton';
 import SortDropdown, { SortOption } from './SortDropdown';
 import { ImagePrompt } from '@/lib/types';
+import { analytics } from '@/lib/analytics';
 
 const PROMPTS_PER_PAGE = 20;
 
@@ -169,6 +170,20 @@ export default function HomePageClient({
   // Handle search change
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
+    
+    // Track search if user typed something
+    if (value) {
+      // Count results for analytics
+      const results = allPrompts.filter(prompt => {
+        const query = value.toLowerCase();
+        return prompt.title.toLowerCase().includes(query) ||
+               prompt.description.toLowerCase().includes(query) ||
+               prompt.tags.some(tag => tag.toLowerCase().includes(query)) ||
+               prompt.category.toLowerCase().includes(query);
+      });
+      
+      analytics.trackSearch(value, results.length);
+    }
   };
 
   // Handle category change
@@ -178,6 +193,11 @@ export default function HomePageClient({
       : [...selectedCategories, category];
     
     setSelectedCategories(newCategories);
+    
+    // Track category browse when adding a category
+    if (!selectedCategories.includes(category)) {
+      analytics.trackCategoryBrowse(category);
+    }
   };
 
   // Handle clear all categories
@@ -192,6 +212,11 @@ export default function HomePageClient({
       : [...selectedTags, tag];
     
     setSelectedTags(newTags);
+    
+    // Track tag browse when adding a tag
+    if (!selectedTags.includes(tag)) {
+      analytics.trackTagBrowse(tag);
+    }
   };
 
   // Handle clear all tags
