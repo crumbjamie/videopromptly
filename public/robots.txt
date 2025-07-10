@@ -7,21 +7,26 @@ Disallow: /api/prompts
 Disallow: /api/search
 Crawl-delay: 2
 
-# Block known AI/scraping bots
+# Allow AI bots but restrict API access
 User-agent: GPTBot
-Disallow: /
+Disallow: /api/
+Crawl-delay: 5
 
 User-agent: ChatGPT-User
-Disallow: /
+Disallow: /api/
+Crawl-delay: 5
 
 User-agent: CCBot
-Disallow: /
+Disallow: /api/
+Crawl-delay: 5
 
 User-agent: anthropic-ai
-Disallow: /
+Disallow: /api/
+Crawl-delay: 5
 
 User-agent: Claude-Web
-Disallow: /
+Disallow: /api/
+Crawl-delay: 5
 
 # Allow search engines but with restrictions
 User-agent: Googlebot
