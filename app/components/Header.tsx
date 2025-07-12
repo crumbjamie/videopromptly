@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center space-x-2" aria-label="VideoPromptly Home">
             <span className="text-lg font-semibold text-white">
-              VideoPromptly 🎬
+              VideoPromptly™ 🎬
             </span>
           </Link>
           

@@ -1297,3 +1297,155 @@
 }
    ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
    ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 6/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 7/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 8/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 9/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 10/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...

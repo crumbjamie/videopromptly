@@ -11,10 +11,10 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* About Section */}
             <section aria-labelledby="footer-about">
-              <h3 id="footer-about" className="text-white font-semibold mb-3">ImagePromptly 😱</h3>
+              <h3 id="footer-about" className="text-white font-semibold mb-3">VideoPromptly™ 🎬</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Discover and copy effective image prompts for ChatGPT. Transform your photos 
-                into amazing art styles and creative effects.
+                Discover and copy effective video prompts for Veo3 and AI video tools. Create 
+                stunning videos with our curated prompt collection.
               </p>
             </section>
             
@@ -24,7 +24,7 @@ export default function Footer() {
               <ul className="space-y-2" role="list">
                 <li>
                   <Link href="/" className="text-stone-400 hover:text-white hover:underline text-sm transition-colors">
-                    Browse Prompts
+                    Browse Video Prompts
                   </Link>
                 </li>
                 <li>
@@ -45,19 +45,19 @@ export default function Footer() {
           <section className="border-t border-stone-800 pt-8 mb-6" aria-labelledby="footer-disclaimer">
             <h4 id="footer-disclaimer" className="text-white font-semibold mb-3">Disclaimer</h4>
             <p className="text-stone-500 text-xs leading-relaxed mb-4">
-              ImagePromptly provides prompt suggestions for use with ChatGPT and other AI image generation tools. 
-              We do not store, process, or have access to any images you upload to ChatGPT or other services. 
-              All image processing occurs directly between you and the AI service you choose to use.
+              VideoPromptly provides prompt suggestions for use with Veo3 and other AI video generation tools. 
+              We do not store, process, or have access to any videos you create or content you generate. 
+              All video processing occurs directly between you and the AI service you choose to use.
             </p>
             <p className="text-stone-500 text-xs leading-relaxed mb-4">
-              <strong className="text-stone-400">Privacy & Image Usage:</strong> We never collect, store, or have access to your images. 
-              When you use our prompts with ChatGPT, your images are processed according to OpenAI&apos;s privacy policy 
-              and terms of service. We recommend reviewing their policies before uploading any images.
+              <strong className="text-stone-400">Privacy & Video Usage:</strong> We never collect, store, or have access to your videos. 
+              When you use our prompts with Veo3 or other AI tools, your content is processed according to the respective service&apos;s privacy policy 
+              and terms of service. We recommend reviewing their policies before creating any content.
             </p>
             <p className="text-stone-500 text-xs leading-relaxed">
-              <strong className="text-stone-400">Limitation of Liability:</strong> ImagePromptly is not responsible for the results generated 
+              <strong className="text-stone-400">Limitation of Liability:</strong> VideoPromptly is not responsible for the results generated 
               by AI services, any misuse of the prompts, or any issues arising from the use of third-party AI platforms. 
-              Users are responsible for ensuring they have the right to use and modify any images they upload, and for 
+              Users are responsible for ensuring they have the right to create and use any content they generate, and for 
               complying with all applicable laws and the terms of service of the AI platforms they use.
             </p>
           </section>
@@ -65,7 +65,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="border-t border-stone-800 pt-6 text-center">
             <p className="text-stone-500 text-sm">
-              © <time dateTime={`${currentYear}`}>{currentYear}</time> ImagePromptly. All rights reserved. | Transform your photos with AI-powered creativity.
+              © <time dateTime={`${currentYear}`}>{currentYear}</time> VideoPromptly™. All rights reserved. | Create stunning videos with AI-powered prompts.
             </p>
           </div>
         </div>

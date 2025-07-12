@@ -859,3 +859,286 @@
 }
    ⏳ Status: processing (successFlag: 0) - Still generating...
    ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 0958c51c40944927f595f3332833ebc1
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0958c51c40944927f595f3332833ebc1",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303006000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 0958c51c40944927f595f3332833ebc1
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0958c51c40944927f595f3332833ebc1",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "fbde2a8cb3ee404e8c21742afd8393bb",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/051d92b3-0473-40b4-9cec-0f3e64a8f956_watermarked.mp4"
+      ],
+      "seeds": [
+        66487
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752303106000,
+    "createTime": 1752303006000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/051d92b3-0473-40b4-9cec-0f3e64a8f956_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/051d92b3-0473-40b4-9cec-0f3e64a8f956_watermarked.mp4
+   To: prompt-416.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.3% (0.00 MB)   📊 Progress: 0.4% (0.00 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.01 MB)   📊 Progress: 1.1% (0.01 MB)   📊 Progress: 1.2% (0.01 MB)   📊 Progress: 1.3% (0.01 MB)   📊 Progress: 1.4% (0.01 MB)   📊 Progress: 1.6% (0.02 MB)   📊 Progress: 1.7% (0.02 MB)   📊 Progress: 1.8% (0.02 MB)   📊 Progress: 2.0% (0.02 MB)   📊 Progress: 2.1% (0.02 MB)   📊 Progress: 2.2% (0.02 MB)   📊 Progress: 2.4% (0.02 MB)   📊 Progress: 2.5% (0.02 MB)   📊 Progress: 2.6% (0.03 MB)   📊 Progress: 2.8% (0.03 MB)   📊 Progress: 2.9% (0.03 MB)   📊 Progress: 3.0% (0.03 MB)   📊 Progress: 3.2% (0.03 MB)   📊 Progress: 3.3% (0.03 MB)   📊 Progress: 3.4% (0.03 MB)   📊 Progress: 3.5% (0.04 MB)   📊 Progress: 3.7% (0.04 MB)   📊 Progress: 3.8% (0.04 MB)   📊 Progress: 3.9% (0.04 MB)   📊 Progress: 4.1% (0.04 MB)   📊 Progress: 4.2% (0.04 MB)   📊 Progress: 4.3% (0.04 MB)   📊 Progress: 4.5% (0.04 MB)   📊 Progress: 4.6% (0.05 MB)   📊 Progress: 4.7% (0.05 MB)   📊 Progress: 4.9% (0.05 MB)   📊 Progress: 5.0% (0.05 MB)   📊 Progress: 5.1% (0.05 MB)   📊 Progress: 5.3% (0.05 MB)   📊 Progress: 5.7% (0.06 MB)   📊 Progress: 6.1% (0.06 MB)   📊 Progress: 6.3% (0.06 MB)   📊 Progress: 6.7% (0.07 MB)   📊 Progress: 7.1% (0.07 MB)   📊 Progress: 7.5% (0.07 MB)   📊 Progress: 7.9% (0.08 MB)   📊 Progress: 8.3% (0.08 MB)   📊 Progress: 8.7% (0.09 MB)   📊 Progress: 9.1% (0.09 MB)   📊 Progress: 9.5% (0.09 MB)   📊 Progress: 9.9% (0.10 MB)   📊 Progress: 10.3% (0.10 MB)   📊 Progress: 10.7% (0.11 MB)   📊 Progress: 11.0% (0.11 MB)   📊 Progress: 11.4% (0.11 MB)   📊 Progress: 11.8% (0.12 MB)   📊 Progress: 12.3% (0.12 MB)   📊 Progress: 12.6% (0.13 MB)   📊 Progress: 13.0% (0.13 MB)   📊 Progress: 13.4% (0.13 MB)   📊 Progress: 13.8% (0.14 MB)   📊 Progress: 14.2% (0.14 MB)   📊 Progress: 14.6% (0.14 MB)   📊 Progress: 15.0% (0.15 MB)   📊 Progress: 15.4% (0.15 MB)   📊 Progress: 15.8% (0.16 MB)   📊 Progress: 16.2% (0.16 MB)   📊 Progress: 16.6% (0.16 MB)   📊 Progress: 17.0% (0.17 MB)   📊 Progress: 17.3% (0.17 MB)   📊 Progress: 17.7% (0.18 MB)   📊 Progress: 18.2% (0.18 MB)   📊 Progress: 18.6% (0.18 MB)   📊 Progress: 18.9% (0.19 MB)   📊 Progress: 19.3% (0.19 MB)   📊 Progress: 19.7% (0.20 MB)   📊 Progress: 20.1% (0.20 MB)   📊 Progress: 20.5% (0.20 MB)   📊 Progress: 21.0% (0.21 MB)   📊 Progress: 22.1% (0.22 MB)   📊 Progress: 23.6% (0.23 MB)   📊 Progress: 25.2% (0.25 MB)   📊 Progress: 26.8% (0.27 MB)   📊 Progress: 28.4% (0.28 MB)   📊 Progress: 30.0% (0.30 MB)   📊 Progress: 31.5% (0.31 MB)   📊 Progress: 33.1% (0.33 MB)   📊 Progress: 34.7% (0.34 MB)   📊 Progress: 36.3% (0.36 MB)   📊 Progress: 37.8% (0.38 MB)   📊 Progress: 39.4% (0.39 MB)   📊 Progress: 40.6% (0.40 MB)   📊 Progress: 42.2% (0.42 MB)   📊 Progress: 43.7% (0.43 MB)   📊 Progress: 45.3% (0.45 MB)   📊 Progress: 46.9% (0.46 MB)   📊 Progress: 48.5% (0.48 MB)   📊 Progress: 50.0% (0.50 MB)   📊 Progress: 51.6% (0.51 MB)   📊 Progress: 53.2% (0.53 MB)   📊 Progress: 54.8% (0.54 MB)   📊 Progress: 56.4% (0.56 MB)   📊 Progress: 57.9% (0.57 MB)   📊 Progress: 59.5% (0.59 MB)   📊 Progress: 61.1% (0.61 MB)   📊 Progress: 62.7% (0.62 MB)   📊 Progress: 64.2% (0.64 MB)   📊 Progress: 65.8% (0.65 MB)   📊 Progress: 67.4% (0.67 MB)   📊 Progress: 69.0% (0.68 MB)   📊 Progress: 70.5% (0.70 MB)   📊 Progress: 72.1% (0.71 MB)   📊 Progress: 73.7% (0.73 MB)   📊 Progress: 75.3% (0.75 MB)   📊 Progress: 76.8% (0.76 MB)   📊 Progress: 78.4% (0.78 MB)   📊 Progress: 80.0% (0.79 MB)   📊 Progress: 81.6% (0.81 MB)   📊 Progress: 83.2% (0.82 MB)   📊 Progress: 84.7% (0.84 MB)   📊 Progress: 86.3% (0.86 MB)   📊 Progress: 87.9% (0.87 MB)   📊 Progress: 89.5% (0.89 MB)   📊 Progress: 91.0% (0.90 MB)   📊 Progress: 92.6% (0.92 MB)   📊 Progress: 94.2% (0.93 MB)   📊 Progress: 94.6% (0.94 MB)   📊 Progress: 96.2% (0.95 MB)   📊 Progress: 97.7% (0.97 MB)   📊 Progress: 99.3% (0.98 MB)   📊 Progress: 100.0% (0.99 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 0.99 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-416.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-416.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Smartwatch 360 Rotation Demo"
+📁 File: prompt-416.mp4
+⭐ Rating: 5/5
+📂 Category: Food & Cooking
+🔗 Video URL: /videos/prompt-416.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-416.mp4
+📋 Task ID: 0958c51c40944927f595f3332833ebc1
+⏰ Completed: 12/07/2025, 4:22:09 pm
+   ✅ SUCCESS: Smartwatch 360 Rotation Demo (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [7/20] Processing: "Tokyo Street Food Blogger" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 418
+⏰ Started: 12/07/2025, 4:22:19 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Tokyo Street Food Blogger"
+   Prompt: Tokyo street food blogger shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 9737fd1a9d1c093bfc40f24da45ab90e
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 9737fd1a9d1c093bfc40f24da45ab90e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9737fd1a9d1c093bfc40f24da45ab90e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303140000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 9737fd1a9d1c093bfc40f24da45ab90e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9737fd1a9d1c093bfc40f24da45ab90e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303140000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 9737fd1a9d1c093bfc40f24da45ab90e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9737fd1a9d1c093bfc40f24da45ab90e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303140000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 9737fd1a9d1c093bfc40f24da45ab90e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9737fd1a9d1c093bfc40f24da45ab90e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303140000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 9737fd1a9d1c093bfc40f24da45ab90e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9737fd1a9d1c093bfc40f24da45ab90e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "13bae4bac131404cad9ea509c9273a1f",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/36bc6d25-eaec-4f9a-a4c5-beb9d5b3ca23_watermarked.mp4"
+      ],
+      "seeds": [
+        12231
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752303239000,
+    "createTime": 1752303140000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/36bc6d25-eaec-4f9a-a4c5-beb9d5b3ca23_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/36bc6d25-eaec-4f9a-a4c5-beb9d5b3ca23_watermarked.mp4
+   To: prompt-418.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.01 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.2% (0.02 MB)   📊 Progress: 1.3% (0.02 MB)   📊 Progress: 1.3% (0.02 MB)   📊 Progress: 1.4% (0.02 MB)   📊 Progress: 1.5% (0.02 MB)   📊 Progress: 1.6% (0.03 MB)   📊 Progress: 1.6% (0.03 MB)   📊 Progress: 1.7% (0.03 MB)   📊 Progress: 1.8% (0.03 MB)   📊 Progress: 1.9% (0.03 MB)   📊 Progress: 2.0% (0.03 MB)   📊 Progress: 2.0% (0.03 MB)   📊 Progress: 2.1% (0.04 MB)   📊 Progress: 2.2% (0.04 MB)   📊 Progress: 2.3% (0.04 MB)   📊 Progress: 2.4% (0.04 MB)   📊 Progress: 2.4% (0.04 MB)   📊 Progress: 2.5% (0.04 MB)   📊 Progress: 2.6% (0.04 MB)   📊 Progress: 2.7% (0.04 MB)   📊 Progress: 2.7% (0.05 MB)   📊 Progress: 2.8% (0.05 MB)   📊 Progress: 2.9% (0.05 MB)   📊 Progress: 3.0% (0.05 MB)   📊 Progress: 3.1% (0.05 MB)   📊 Progress: 3.1% (0.05 MB)   📊 Progress: 3.4% (0.06 MB)   📊 Progress: 3.6% (0.06 MB)   📊 Progress: 3.8% (0.06 MB)   📊 Progress: 4.0% (0.07 MB)   📊 Progress: 4.2% (0.07 MB)   📊 Progress: 4.5% (0.07 MB)   📊 Progress: 4.7% (0.08 MB)   📊 Progress: 4.9% (0.08 MB)   📊 Progress: 5.2% (0.09 MB)   📊 Progress: 5.4% (0.09 MB)   📊 Progress: 5.6% (0.09 MB)   📊 Progress: 5.9% (0.10 MB)   📊 Progress: 6.1% (0.10 MB)   📊 Progress: 6.4% (0.11 MB)   📊 Progress: 6.6% (0.11 MB)   📊 Progress: 6.8% (0.11 MB)   📊 Progress: 7.1% (0.12 MB)   📊 Progress: 7.3% (0.12 MB)   📊 Progress: 7.5% (0.13 MB)   📊 Progress: 7.8% (0.13 MB)   📊 Progress: 8.0% (0.13 MB)   📊 Progress: 8.2% (0.14 MB)   📊 Progress: 8.5% (0.14 MB)   📊 Progress: 8.7% (0.14 MB)   📊 Progress: 8.9% (0.15 MB)   📊 Progress: 9.2% (0.15 MB)   📊 Progress: 9.4% (0.16 MB)   📊 Progress: 9.6% (0.16 MB)   📊 Progress: 9.9% (0.16 MB)   📊 Progress: 10.1% (0.17 MB)   📊 Progress: 10.3% (0.17 MB)   📊 Progress: 10.6% (0.18 MB)   📊 Progress: 10.8% (0.18 MB)   📊 Progress: 11.1% (0.18 MB)   📊 Progress: 11.3% (0.19 MB)   📊 Progress: 11.5% (0.19 MB)   📊 Progress: 11.8% (0.20 MB)   📊 Progress: 12.0% (0.20 MB)   📊 Progress: 12.2% (0.20 MB)   📊 Progress: 12.5% (0.21 MB)   📊 Progress: 13.2% (0.22 MB)   📊 Progress: 14.1% (0.23 MB)   📊 Progress: 15.0% (0.25 MB)   📊 Progress: 16.0% (0.27 MB)   📊 Progress: 16.9% (0.28 MB)   📊 Progress: 17.9% (0.30 MB)   📊 Progress: 18.8% (0.31 MB)   📊 Progress: 19.7% (0.33 MB)   📊 Progress: 20.7% (0.34 MB)   📊 Progress: 21.6% (0.36 MB)   📊 Progress: 22.6% (0.38 MB)   📊 Progress: 23.5% (0.39 MB)   📊 Progress: 24.4% (0.41 MB)   📊 Progress: 25.4% (0.42 MB)   📊 Progress: 26.1% (0.43 MB)   📊 Progress: 27.0% (0.45 MB)   📊 Progress: 28.0% (0.46 MB)   📊 Progress: 28.9% (0.48 MB)   📊 Progress: 29.1% (0.48 MB)   📊 Progress: 30.1% (0.50 MB)   📊 Progress: 31.0% (0.52 MB)   📊 Progress: 32.0% (0.53 MB)   📊 Progress: 32.9% (0.55 MB)   📊 Progress: 33.8% (0.56 MB)   📊 Progress: 34.8% (0.58 MB)   📊 Progress: 35.7% (0.59 MB)   📊 Progress: 36.0% (0.60 MB)   📊 Progress: 36.9% (0.61 MB)   📊 Progress: 37.8% (0.63 MB)   📊 Progress: 38.8% (0.64 MB)   📊 Progress: 39.2% (0.65 MB)   📊 Progress: 40.2% (0.67 MB)   📊 Progress: 41.1% (0.68 MB)   📊 Progress: 42.1% (0.70 MB)   📊 Progress: 43.0% (0.71 MB)   📊 Progress: 43.9% (0.73 MB)   📊 Progress: 44.9% (0.75 MB)   📊 Progress: 45.8% (0.76 MB)   📊 Progress: 46.1% (0.77 MB)   📊 Progress: 47.0% (0.78 MB)   📊 Progress: 47.9% (0.80 MB)   📊 Progress: 48.9% (0.81 MB)   📊 Progress: 49.8% (0.83 MB)   📊 Progress: 50.8% (0.84 MB)   📊 Progress: 51.7% (0.86 MB)   📊 Progress: 52.6% (0.88 MB)   📊 Progress: 53.6% (0.89 MB)   📊 Progress: 54.5% (0.91 MB)   📊 Progress: 55.5% (0.92 MB)   📊 Progress: 56.4% (0.94 MB)   📊 Progress: 57.3% (0.95 MB)   📊 Progress: 58.3% (0.97 MB)   📊 Progress: 59.2% (0.98 MB)   📊 Progress: 60.2% (1.00 MB)   📊 Progress: 61.1% (1.02 MB)   📊 Progress: 62.0% (1.03 MB)   📊 Progress: 63.0% (1.05 MB)   📊 Progress: 63.9% (1.06 MB)   📊 Progress: 64.9% (1.08 MB)   📊 Progress: 65.8% (1.09 MB)   📊 Progress: 66.7% (1.11 MB)   📊 Progress: 67.2% (1.12 MB)   📊 Progress: 68.1% (1.13 MB)   📊 Progress: 69.1% (1.15 MB)   📊 Progress: 70.0% (1.16 MB)   📊 Progress: 70.5% (1.17 MB)   📊 Progress: 71.4% (1.19 MB)   📊 Progress: 72.4% (1.20 MB)   📊 Progress: 73.3% (1.22 MB)   📊 Progress: 74.3% (1.23 MB)   📊 Progress: 75.2% (1.25 MB)   📊 Progress: 76.1% (1.27 MB)   📊 Progress: 77.1% (1.28 MB)   📊 Progress: 78.0% (1.30 MB)   📊 Progress: 79.0% (1.31 MB)   📊 Progress: 79.9% (1.33 MB)   📊 Progress: 80.8% (1.34 MB)   📊 Progress: 81.8% (1.36 MB)   📊 Progress: 82.7% (1.38 MB)   📊 Progress: 83.7% (1.39 MB)   📊 Progress: 84.6% (1.41 MB)   📊 Progress: 85.5% (1.42 MB)   📊 Progress: 86.5% (1.44 MB)   📊 Progress: 87.4% (1.45 MB)   📊 Progress: 88.4% (1.47 MB)   📊 Progress: 89.3% (1.48 MB)   📊 Progress: 90.2% (1.50 MB)   📊 Progress: 91.2% (1.52 MB)   📊 Progress: 92.1% (1.53 MB)   📊 Progress: 93.1% (1.55 MB)   📊 Progress: 94.0% (1.56 MB)   📊 Progress: 94.9% (1.58 MB)   📊 Progress: 95.9% (1.59 MB)   📊 Progress: 96.8% (1.61 MB)   📊 Progress: 97.8% (1.63 MB)   📊 Progress: 98.7% (1.64 MB)   📊 Progress: 99.6% (1.66 MB)   📊 Progress: 100.0% (1.66 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 1.66 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-418.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-418.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Tokyo Street Food Blogger"
+📁 File: prompt-418.mp4
+⭐ Rating: 5/5
+📂 Category: Historical
+🔗 Video URL: /videos/prompt-418.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-418.mp4
+📋 Task ID: 9737fd1a9d1c093bfc40f24da45ab90e
+⏰ Completed: 12/07/2025, 4:24:22 pm
+   ✅ SUCCESS: Tokyo Street Food Blogger (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [8/20] Processing: "Campfire Bear Handshake Friendship" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 428
+⏰ Started: 12/07/2025, 4:24:32 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Campfire Bear Handshake Friendship"
+   Prompt: Campfire bear handshake friendship shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 73ad98fca20c1c5f9e0e048a693a140f
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 73ad98fca20c1c5f9e0e048a693a140f
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "73ad98fca20c1c5f9e0e048a693a140f",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Campfire bear handshake friendship shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303273000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 73ad98fca20c1c5f9e0e048a693a140f
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "73ad98fca20c1c5f9e0e048a693a140f",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Campfire bear handshake friendship shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Campfire bear handshake friendship shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303273000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
