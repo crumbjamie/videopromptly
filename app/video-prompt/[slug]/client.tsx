@@ -242,7 +242,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 </li>
                 <li className="flex">
                   <span className="font-medium mr-2">2.</span>
-                  Click "Open in Gemini" to launch Google's AI with the prompt pre-filled
+                  Click &quot;Open in Gemini&quot; to launch Google&apos;s AI with the prompt pre-filled
                 </li>
                 <li className="flex">
                   <span className="font-medium mr-2">3.</span>

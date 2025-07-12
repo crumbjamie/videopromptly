@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef, useState, useEffect } from 'react';
-import { PlayIcon, PauseIcon } from '@radix-ui/react-icons';
 import { cn } from '@/lib/utils/cn';
 import { analytics } from '@/lib/analytics';
 
@@ -42,7 +41,6 @@ export default function VideoPlayer({
 }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(autoPlay);
-  const [isMuted, setIsMuted] = useState(muted);
   const [hasError, setHasError] = useState(false);
 
   const handlePlay = () => {
@@ -79,24 +77,6 @@ export default function VideoPlayer({
     }
   };
 
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play().catch(() => {
-          setHasError(true);
-        });
-      }
-    }
-  };
-
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
-    }
-  };
 
   const handleError = () => {
     setHasError(true);
@@ -106,9 +86,9 @@ export default function VideoPlayer({
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
-      video.muted = isMuted;
+      video.muted = muted;
     }
-  }, [isMuted]);
+  }, [muted]);
 
   // Handle autoPlay changes for hover functionality
   useEffect(() => {
@@ -120,7 +100,7 @@ export default function VideoPlayer({
     } else if (video && !autoPlay && isPlaying) {
       video.pause();
     }
-  }, [autoPlay]);
+  }, [autoPlay, isPlaying]);
 
   if (hasError) {
     return (
@@ -152,7 +132,7 @@ export default function VideoPlayer({
         poster={poster}
         className="w-full h-full object-cover"
         autoPlay={autoPlay}
-        muted={isMuted}
+        muted={muted}
         loop={loop}
         controls={controls}
         preload={preload}
