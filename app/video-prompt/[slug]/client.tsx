@@ -219,7 +219,8 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
               <button
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 onClick={() => {
-                  navigator.clipboard.writeText(`${currentPrompt}\n\nGenerated with VideoPromptly.com`);
+                  const geminiUrl = `https://gemini.google.com/?q=${encodeURIComponent(currentPrompt)}`;
+                  window.open(geminiUrl, '_blank');
                   analytics.trackVeo3Click(prompt.id, prompt.title);
                 }}
                 data-gtm-event="veo3_click"
@@ -227,7 +228,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 data-gtm-prompt-title={prompt.title}
               >
                 <ExternalLinkIcon className="w-4 h-4" />
-                Copy for Veo3
+                Open in Gemini
               </button>
             </div>
 
@@ -241,11 +242,11 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 </li>
                 <li className="flex">
                   <span className="font-medium mr-2">2.</span>
-                  Open Veo3 or your preferred AI video tool
+                  Click "Open in Gemini" to launch Google's AI with the prompt pre-filled
                 </li>
                 <li className="flex">
                   <span className="font-medium mr-2">3.</span>
-                  Paste the prompt into the generation field
+                  Review and modify the prompt if needed in Gemini
                 </li>
                 <li className="flex">
                   <span className="font-medium mr-2">4.</span>
