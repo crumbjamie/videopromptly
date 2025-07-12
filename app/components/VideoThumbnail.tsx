@@ -38,11 +38,6 @@ export default function VideoThumbnail({
 }: VideoThumbnailProps) {
   const [isHovered, setIsHovered] = useState(false);
 
-  const formatDuration = (seconds: number): string => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
 
   return (
     <div 
@@ -69,20 +64,6 @@ export default function VideoThumbnail({
         promptTitle={promptTitle}
       />
       
-      {/* Duration Badge */}
-      {duration && (
-        <div className="absolute bottom-2 right-2 px-2 py-1 bg-black bg-opacity-70 text-white text-xs rounded">
-          {formatDuration(duration)}
-        </div>
-      )}
-      
-      {/* Resolution Badge */}
-      {resolution && (
-        <div className="absolute top-2 right-2 px-2 py-1 bg-black bg-opacity-70 text-white text-xs rounded">
-          {resolution}
-        </div>
-      )}
-      
       {/* Play Overlay */}
       <div className={cn(
         "absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-200",
@@ -90,7 +71,7 @@ export default function VideoThumbnail({
       )}>
         <div className="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center">
           <svg 
-            className="w-6 h-6 text-white ml-1" 
+            className="w-6 h-6 text-white" 
             fill="currentColor" 
             viewBox="0 0 20 20"
           >

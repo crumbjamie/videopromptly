@@ -120,7 +120,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
             {prompt.videoUrl && (
               <div className="mb-8">
                 <h2 className="text-xl font-semibold text-white mb-4">Video Preview</h2>
-                <div className="aspect-video bg-stone-800 rounded-lg overflow-hidden">
+                <div className="aspect-video bg-stone-800 rounded-lg">
                   <VideoPreview
                     src={prompt.videoUrl}
                     poster={prompt.thumbnailUrl}
@@ -144,18 +144,6 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                     </svg>
                     View Fullscreen
                   </button>
-                </div>
-                
-                {/* Video Info */}
-                <div className="mt-4 flex items-center justify-between text-sm text-stone-400">
-                  <div className="flex items-center space-x-4">
-                    <span>Duration: {prompt.duration}s</span>
-                    <span>Resolution: {prompt.resolution}</span>
-                    <span>Format: {prompt.format.toUpperCase()}</span>
-                  </div>
-                  {prompt.fileSize && (
-                    <span>{(prompt.fileSize / (1024 * 1024)).toFixed(1)}MB</span>
-                  )}
                 </div>
               </div>
             )}

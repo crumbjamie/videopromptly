@@ -1,0 +1,1422 @@
+🎬 Starting batch generation for 50 highest-rated videos...
+
+🎬 BATCH VIDEO GENERATION BY STAR RATING
+=======================================================
+📋 Generating 50 videos (highest rated first)
+⏰ Started: 12/07/2025, 6:31:30 pm
+
+📊 Generation Queue (by rating):
+   1. Android Awakening Lab Scene (5⭐ - Intermediate)
+   2. Lantern Temple Fight Scene (5⭐ - Intermediate)
+   3. Monsoon Rooftop Dance Bangkok (5⭐ - Advanced)
+   4. Alligator Pool Luxury Scene (5⭐ - Advanced)
+   5. Paper Boat Physics Demonstration (4⭐ - Beginner)
+   6. Olympic Cat Agility Course (4⭐ - Advanced)
+   7. Morning Discovery Emotional Scene (4⭐ - Intermediate)
+   8. Macro Dew Drops On Spider Web (4⭐ - Beginner)
+   9. 1860s Irish Countryside Women (4⭐ - Beginner)
+   10. Alien Landscape Crystal Structures (4⭐ - Advanced)
+   11. Wolf Sprint Tracking Shot (4⭐ - Intermediate)
+   12. Submerged Spacewreck Discovery (4⭐ - Beginner)
+   13. Lantern Temple Fight Scene (4⭐ - Intermediate)
+   14. Elevator Awkwardness Workplace (4⭐ - Advanced)
+   15. John Researcher Ancient Map (4⭐ - Beginner)
+   16. Paper Boat Physics Demonstration (4⭐ - Beginner)
+   17. Olympic Cat Agility Course (4⭐ - Advanced)
+   18. Alien Landscape Crystal Structures (4⭐ - Advanced)
+   19. Smartwatch 360 Rotation Demo (4⭐ - Intermediate)
+   20. Gorilla Selfie Jungle Meta (4⭐ - Advanced)
+   21. Viking Last Stand Burning (4⭐ - Advanced)
+   22. Street Interview Food Festival (4⭐ - Intermediate)
+   23. John Researcher Ancient Map (4⭐ - Beginner)
+   24. Paper Boat Physics Demonstration (4⭐ - Beginner)
+   25. Glass Strawberry ASMR Cutting (4⭐ - Intermediate)
+   26. Olympic Cat Agility Course (4⭐ - Advanced)
+   27. Warehouse Architectural Transformation (4⭐ - Beginner)
+   28. 1860s Irish Countryside Women (4⭐ - Beginner)
+   29. Classical Violinist Intense Focus (4⭐ - Intermediate)
+   30. Alien Landscape Crystal Structures (4⭐ - Advanced)
+   31. Superhero Meteor Scene Action (4⭐ - Beginner)
+   32. Gorilla Selfie Jungle Meta (4⭐ - Advanced)
+   33. Submerged Spacewreck Discovery (4⭐ - Beginner)
+   34. Street Interview Food Festival (4⭐ - Intermediate)
+   35. Elevator Awkwardness Workplace (4⭐ - Advanced)
+   36. Campfire Bear Handshake Friendship (4⭐ - Intermediate)
+   37. Alligator Pool Luxury Scene (4⭐ - Advanced)
+   38. Morning Discovery Emotional Scene (4⭐ - Intermediate)
+   39. 4K Forest Embers Floating (4⭐ - Advanced)
+   40. Macro Dew Drops On Spider Web (4⭐ - Beginner)
+   41. Gorilla Selfie Jungle Meta (4⭐ - Advanced)
+   42. Viking Last Stand Burning (4⭐ - Advanced)
+   43. Submerged Spacewreck Discovery (4⭐ - Beginner)
+   44. Monsoon Rooftop Dance Bangkok (4⭐ - Advanced)
+   45. Train Escape Wasteland Chase (4⭐ - Beginner)
+   46. Street Interview Food Festival (4⭐ - Intermediate)
+   47. Living Storybook Animation (4⭐ - Intermediate)
+   48. Candy Keyboard Musical Notes (4⭐ - Advanced)
+   49. 1860s Irish Countryside Women (4⭐ - Beginner)
+   50. Classical Violinist Intense Focus (4⭐ - Intermediate)
+
+
+📋 [1/50] Processing: "Android Awakening Lab Scene" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 449
+⏰ Started: 12/07/2025, 6:31:30 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Android Awakening Lab Scene"
+   Prompt: Android awakening lab scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:31:31 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [2/50] Processing: "Lantern Temple Fight Scene" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 452
+⏰ Started: 12/07/2025, 6:31:41 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Lantern Temple Fight Scene"
+   Prompt: Lantern temple fight scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:31:42 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [3/50] Processing: "Monsoon Rooftop Dance Bangkok" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 453
+⏰ Started: 12/07/2025, 6:31:52 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Monsoon Rooftop Dance Bangkok"
+   Prompt: Monsoon rooftop dance Bangkok shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:31:52 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [4/50] Processing: "Alligator Pool Luxury Scene" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 459
+⏰ Started: 12/07/2025, 6:32:02 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Alligator Pool Luxury Scene"
+   Prompt: Alligator pool luxury scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:03 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [5/50] Processing: "Paper Boat Physics Demonstration" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 310
+⏰ Started: 12/07/2025, 6:32:13 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Paper Boat Physics Demonstration"
+   Prompt: Paper boat physics demonstration shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:13 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [6/50] Processing: "Olympic Cat Agility Course" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 312
+⏰ Started: 12/07/2025, 6:32:23 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Olympic Cat Agility Course"
+   Prompt: Olympic cat agility course shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:24 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [7/50] Processing: "Morning Discovery Emotional Scene" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 314
+⏰ Started: 12/07/2025, 6:32:34 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Morning Discovery Emotional Scene"
+   Prompt: Morning discovery emotional scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:34 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [8/50] Processing: "Macro Dew Drops On Spider Web" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 316
+⏰ Started: 12/07/2025, 6:32:44 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Macro Dew Drops On Spider Web"
+   Prompt: Macro dew drops on spider web shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:45 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [9/50] Processing: "1860s Irish Countryside Women" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 319
+⏰ Started: 12/07/2025, 6:32:55 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "1860s Irish Countryside Women"
+   Prompt: 1860s Irish countryside women shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:32:55 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [10/50] Processing: "Alien Landscape Crystal Structures" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 321
+⏰ Started: 12/07/2025, 6:33:05 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Alien Landscape Crystal Structures"
+   Prompt: Alien landscape crystal structures shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:05 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [11/50] Processing: "Wolf Sprint Tracking Shot" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 323
+⏰ Started: 12/07/2025, 6:33:15 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Wolf Sprint Tracking Shot"
+   Prompt: Wolf sprint tracking shot shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:16 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [12/50] Processing: "Submerged Spacewreck Discovery" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 331
+⏰ Started: 12/07/2025, 6:33:26 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Submerged Spacewreck Discovery"
+   Prompt: Submerged spacewreck discovery shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:26 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [13/50] Processing: "Lantern Temple Fight Scene" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 332
+⏰ Started: 12/07/2025, 6:33:36 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Lantern Temple Fight Scene"
+   Prompt: Lantern temple fight scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:36 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [14/50] Processing: "Elevator Awkwardness Workplace" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 336
+⏰ Started: 12/07/2025, 6:33:46 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Elevator Awkwardness Workplace"
+   Prompt: Elevator awkwardness workplace shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:47 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [15/50] Processing: "John Researcher Ancient Map" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 337
+⏰ Started: 12/07/2025, 6:33:57 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "John Researcher Ancient Map"
+   Prompt: John researcher ancient map shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:33:58 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [16/50] Processing: "Paper Boat Physics Demonstration" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 340
+⏰ Started: 12/07/2025, 6:34:08 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Paper Boat Physics Demonstration"
+   Prompt: Paper boat physics demonstration shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:08 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [17/50] Processing: "Olympic Cat Agility Course" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 342
+⏰ Started: 12/07/2025, 6:34:18 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Olympic Cat Agility Course"
+   Prompt: Olympic cat agility course shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:18 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [18/50] Processing: "Alien Landscape Crystal Structures" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 351
+⏰ Started: 12/07/2025, 6:34:28 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Alien Landscape Crystal Structures"
+   Prompt: Alien landscape crystal structures shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:29 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [19/50] Processing: "Smartwatch 360 Rotation Demo" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 356
+⏰ Started: 12/07/2025, 6:34:39 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Smartwatch 360 Rotation Demo"
+   Prompt: Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:39 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [20/50] Processing: "Gorilla Selfie Jungle Meta" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 357
+⏰ Started: 12/07/2025, 6:34:49 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Gorilla Selfie Jungle Meta"
+   Prompt: Gorilla selfie jungle meta shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:49 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [21/50] Processing: "Viking Last Stand Burning" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 360
+⏰ Started: 12/07/2025, 6:34:59 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Viking Last Stand Burning"
+   Prompt: Viking last stand burning shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:34:59 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [22/50] Processing: "Street Interview Food Festival" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 365
+⏰ Started: 12/07/2025, 6:35:09 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Street Interview Food Festival"
+   Prompt: Street interview food festival shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:35:10 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [23/50] Processing: "John Researcher Ancient Map" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 367
+⏰ Started: 12/07/2025, 6:35:20 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "John Researcher Ancient Map"
+   Prompt: John researcher ancient map shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:35:21 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [24/50] Processing: "Paper Boat Physics Demonstration" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 370
+⏰ Started: 12/07/2025, 6:35:31 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Paper Boat Physics Demonstration"
+   Prompt: Paper boat physics demonstration shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:35:31 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [25/50] Processing: "Glass Strawberry ASMR Cutting" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 371
+⏰ Started: 12/07/2025, 6:35:41 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Glass Strawberry ASMR Cutting"
+   Prompt: Glass strawberry ASMR cutting shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:35:41 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [26/50] Processing: "Olympic Cat Agility Course" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 372
+⏰ Started: 12/07/2025, 6:35:51 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Olympic Cat Agility Course"
+   Prompt: Olympic cat agility course shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:35:52 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [27/50] Processing: "Warehouse Architectural Transformation" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 373
+⏰ Started: 12/07/2025, 6:36:02 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Warehouse Architectural Transformation"
+   Prompt: Warehouse architectural transformation shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:02 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [28/50] Processing: "1860s Irish Countryside Women" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 379
+⏰ Started: 12/07/2025, 6:36:12 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "1860s Irish Countryside Women"
+   Prompt: 1860s Irish countryside women shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:13 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [29/50] Processing: "Classical Violinist Intense Focus" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 380
+⏰ Started: 12/07/2025, 6:36:23 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Classical Violinist Intense Focus"
+   Prompt: Classical violinist intense focus shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:23 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [30/50] Processing: "Alien Landscape Crystal Structures" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 381
+⏰ Started: 12/07/2025, 6:36:33 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Alien Landscape Crystal Structures"
+   Prompt: Alien landscape crystal structures shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:33 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [31/50] Processing: "Superhero Meteor Scene Action" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 382
+⏰ Started: 12/07/2025, 6:36:43 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Superhero Meteor Scene Action"
+   Prompt: Superhero meteor scene action shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:44 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [32/50] Processing: "Gorilla Selfie Jungle Meta" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 387
+⏰ Started: 12/07/2025, 6:36:54 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Gorilla Selfie Jungle Meta"
+   Prompt: Gorilla selfie jungle meta shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:36:54 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [33/50] Processing: "Submerged Spacewreck Discovery" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 391
+⏰ Started: 12/07/2025, 6:37:04 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Submerged Spacewreck Discovery"
+   Prompt: Submerged spacewreck discovery shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:04 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [34/50] Processing: "Street Interview Food Festival" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 395
+⏰ Started: 12/07/2025, 6:37:14 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Street Interview Food Festival"
+   Prompt: Street interview food festival shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:14 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [35/50] Processing: "Elevator Awkwardness Workplace" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 396
+⏰ Started: 12/07/2025, 6:37:24 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Elevator Awkwardness Workplace"
+   Prompt: Elevator awkwardness workplace shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:25 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [36/50] Processing: "Campfire Bear Handshake Friendship" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 398
+⏰ Started: 12/07/2025, 6:37:35 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Campfire Bear Handshake Friendship"
+   Prompt: Campfire bear handshake friendship shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:35 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [37/50] Processing: "Alligator Pool Luxury Scene" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 399
+⏰ Started: 12/07/2025, 6:37:45 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Alligator Pool Luxury Scene"
+   Prompt: Alligator pool luxury scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:45 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [38/50] Processing: "Morning Discovery Emotional Scene" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 404
+⏰ Started: 12/07/2025, 6:37:55 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Morning Discovery Emotional Scene"
+   Prompt: Morning discovery emotional scene shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:37:56 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [39/50] Processing: "4K Forest Embers Floating" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 405
+⏰ Started: 12/07/2025, 6:38:06 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "4K Forest Embers Floating"
+   Prompt: 4K forest embers floating shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:06 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [40/50] Processing: "Macro Dew Drops On Spider Web" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 406
+⏰ Started: 12/07/2025, 6:38:16 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Macro Dew Drops On Spider Web"
+   Prompt: Macro dew drops on spider web shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:17 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [41/50] Processing: "Gorilla Selfie Jungle Meta" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 417
+⏰ Started: 12/07/2025, 6:38:27 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Gorilla Selfie Jungle Meta"
+   Prompt: Gorilla selfie jungle meta shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:27 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [42/50] Processing: "Viking Last Stand Burning" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 420
+⏰ Started: 12/07/2025, 6:38:37 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Viking Last Stand Burning"
+   Prompt: Viking last stand burning shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:37 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [43/50] Processing: "Submerged Spacewreck Discovery" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 421
+⏰ Started: 12/07/2025, 6:38:47 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Submerged Spacewreck Discovery"
+   Prompt: Submerged spacewreck discovery shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:48 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [44/50] Processing: "Monsoon Rooftop Dance Bangkok" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 423
+⏰ Started: 12/07/2025, 6:38:58 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Monsoon Rooftop Dance Bangkok"
+   Prompt: Monsoon rooftop dance Bangkok shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:38:58 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [45/50] Processing: "Train Escape Wasteland Chase" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 424
+⏰ Started: 12/07/2025, 6:39:08 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Train Escape Wasteland Chase"
+   Prompt: Train escape wasteland chase shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:39:08 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [46/50] Processing: "Street Interview Food Festival" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 425
+⏰ Started: 12/07/2025, 6:39:18 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Street Interview Food Festival"
+   Prompt: Street interview food festival shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:39:19 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [47/50] Processing: "Living Storybook Animation" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 437
+⏰ Started: 12/07/2025, 6:39:29 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Living Storybook Animation"
+   Prompt: Living storybook animation shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:39:29 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [48/50] Processing: "Candy Keyboard Musical Notes" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 438
+⏰ Started: 12/07/2025, 6:39:39 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Candy Keyboard Musical Notes"
+   Prompt: Candy keyboard musical notes shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:39:39 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [49/50] Processing: "1860s Irish Countryside Women" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 439
+⏰ Started: 12/07/2025, 6:39:49 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "1860s Irish Countryside Women"
+   Prompt: 1860s Irish countryside women shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:39:49 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [50/50] Processing: "Classical Violinist Intense Focus" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 440
+⏰ Started: 12/07/2025, 6:39:59 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Classical Violinist Intense Focus"
+   Prompt: Classical violinist intense focus shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ❌ API Error: {
+  code: 402,
+  msg: 'The current credits are insufficient. Please top up.',
+  data: null
+}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: The current credits are insufficient. Please top up.
+⏰ Failed at: 12/07/2025, 6:40:00 pm
+   ❌ FAILED: The current credits are insufficient. Please top up.
+
+📊 BATCH GENERATION SUMMARY
+=======================================================
+✅ Successful: 0 videos
+❌ Failed: 50 videos
+📋 Total: 50 videos
+⏰ Total time: 8.5 minutes
+💰 Estimated cost: $20.00 (fast mode)
+
+⭐ Rating Breakdown of Successful Videos:
+
+❌ Failed videos:
+   - Android Awakening Lab Scene (5⭐): The current credits are insufficient. Please top up.
+   - Lantern Temple Fight Scene (5⭐): The current credits are insufficient. Please top up.
+   - Monsoon Rooftop Dance Bangkok (5⭐): The current credits are insufficient. Please top up.
+   - Alligator Pool Luxury Scene (5⭐): The current credits are insufficient. Please top up.
+   - Paper Boat Physics Demonstration (4⭐): The current credits are insufficient. Please top up.
+   - Olympic Cat Agility Course (4⭐): The current credits are insufficient. Please top up.
+   - Morning Discovery Emotional Scene (4⭐): The current credits are insufficient. Please top up.
+   - Macro Dew Drops On Spider Web (4⭐): The current credits are insufficient. Please top up.
+   - 1860s Irish Countryside Women (4⭐): The current credits are insufficient. Please top up.
+   - Alien Landscape Crystal Structures (4⭐): The current credits are insufficient. Please top up.
+   - Wolf Sprint Tracking Shot (4⭐): The current credits are insufficient. Please top up.
+   - Submerged Spacewreck Discovery (4⭐): The current credits are insufficient. Please top up.
+   - Lantern Temple Fight Scene (4⭐): The current credits are insufficient. Please top up.
+   - Elevator Awkwardness Workplace (4⭐): The current credits are insufficient. Please top up.
+   - John Researcher Ancient Map (4⭐): The current credits are insufficient. Please top up.
+   - Paper Boat Physics Demonstration (4⭐): The current credits are insufficient. Please top up.
+   - Olympic Cat Agility Course (4⭐): The current credits are insufficient. Please top up.
+   - Alien Landscape Crystal Structures (4⭐): The current credits are insufficient. Please top up.
+   - Smartwatch 360 Rotation Demo (4⭐): The current credits are insufficient. Please top up.
+   - Gorilla Selfie Jungle Meta (4⭐): The current credits are insufficient. Please top up.
+   - Viking Last Stand Burning (4⭐): The current credits are insufficient. Please top up.
+   - Street Interview Food Festival (4⭐): The current credits are insufficient. Please top up.
+   - John Researcher Ancient Map (4⭐): The current credits are insufficient. Please top up.
+   - Paper Boat Physics Demonstration (4⭐): The current credits are insufficient. Please top up.
+   - Glass Strawberry ASMR Cutting (4⭐): The current credits are insufficient. Please top up.
+   - Olympic Cat Agility Course (4⭐): The current credits are insufficient. Please top up.
+   - Warehouse Architectural Transformation (4⭐): The current credits are insufficient. Please top up.
+   - 1860s Irish Countryside Women (4⭐): The current credits are insufficient. Please top up.
+   - Classical Violinist Intense Focus (4⭐): The current credits are insufficient. Please top up.
+   - Alien Landscape Crystal Structures (4⭐): The current credits are insufficient. Please top up.
+   - Superhero Meteor Scene Action (4⭐): The current credits are insufficient. Please top up.
+   - Gorilla Selfie Jungle Meta (4⭐): The current credits are insufficient. Please top up.
+   - Submerged Spacewreck Discovery (4⭐): The current credits are insufficient. Please top up.
+   - Street Interview Food Festival (4⭐): The current credits are insufficient. Please top up.
+   - Elevator Awkwardness Workplace (4⭐): The current credits are insufficient. Please top up.
+   - Campfire Bear Handshake Friendship (4⭐): The current credits are insufficient. Please top up.
+   - Alligator Pool Luxury Scene (4⭐): The current credits are insufficient. Please top up.
+   - Morning Discovery Emotional Scene (4⭐): The current credits are insufficient. Please top up.
+   - 4K Forest Embers Floating (4⭐): The current credits are insufficient. Please top up.
+   - Macro Dew Drops On Spider Web (4⭐): The current credits are insufficient. Please top up.
+   - Gorilla Selfie Jungle Meta (4⭐): The current credits are insufficient. Please top up.
+   - Viking Last Stand Burning (4⭐): The current credits are insufficient. Please top up.
+   - Submerged Spacewreck Discovery (4⭐): The current credits are insufficient. Please top up.
+   - Monsoon Rooftop Dance Bangkok (4⭐): The current credits are insufficient. Please top up.
+   - Train Escape Wasteland Chase (4⭐): The current credits are insufficient. Please top up.
+   - Street Interview Food Festival (4⭐): The current credits are insufficient. Please top up.
+   - Living Storybook Animation (4⭐): The current credits are insufficient. Please top up.
+   - Candy Keyboard Musical Notes (4⭐): The current credits are insufficient. Please top up.
+   - 1860s Irish Countryside Women (4⭐): The current credits are insufficient. Please top up.
+   - Classical Violinist Intense Focus (4⭐): The current credits are insufficient. Please top up.
+
+✅ Batch generation completed! 0/50 videos successful.

@@ -28,11 +28,6 @@ export default function VideoPreview({
 }: VideoPreviewProps) {
   const [hasStarted, setHasStarted] = useState(false);
 
-  const formatDuration = (seconds: number): string => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
 
   if (hasStarted) {
     return (
@@ -79,20 +74,6 @@ export default function VideoPreview({
           <PlayIcon className="w-8 h-8 text-black ml-1" />
         </div>
       </div>
-      
-      {/* Duration Badge */}
-      {duration && (
-        <div className="absolute bottom-2 right-2 px-2 py-1 bg-black bg-opacity-70 text-white text-xs rounded">
-          {formatDuration(duration)}
-        </div>
-      )}
-      
-      {/* Resolution Badge */}
-      {resolution && (
-        <div className="absolute top-2 right-2 px-2 py-1 bg-black bg-opacity-70 text-white text-xs rounded">
-          {resolution}
-        </div>
-      )}
     </div>
   );
 }
