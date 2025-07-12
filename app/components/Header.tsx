@@ -10,15 +10,15 @@ export default function Header() {
     <header className="bg-stone-950 border-b border-stone-800 fixed top-0 w-full z-50" role="banner">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-14">
-          <Link href="/" className="flex items-center space-x-2" aria-label="ImagePromptly Home">
+          <Link href="/" className="flex items-center space-x-2" aria-label="VideoPromptly Home">
             <span className="text-lg font-semibold text-white">
-              ImagePromptly 😱
+              VideoPromptly 🎬
             </span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
             <Link href="/" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
-              All Image Prompts
+              All Video Prompts
             </Link>
             <Link href="/categories" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               Categories
@@ -68,7 +68,7 @@ export default function Header() {
               className="block px-4 py-2 text-stone-300 hover:text-white hover:bg-stone-900 transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              All Image Prompts
+              All Video Prompts
             </Link>
             <Link 
               href="/categories" 

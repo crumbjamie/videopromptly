@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import Image from 'next/image';
 import Header from './Header';
 import SearchBarWithSuggestions from './SearchBarWithSuggestions';
 import CategoryTags from './CategoryTags';
@@ -10,13 +9,13 @@ import ActiveFilters from './ActiveFilters';
 import PromptGrid from './PromptGrid';
 import PromptCardSkeleton from './PromptCardSkeleton';
 import SortDropdown, { SortOption } from './SortDropdown';
-import { ImagePrompt } from '@/lib/types';
+import { VideoPrompt } from '@/lib/types';
 import { analytics } from '@/lib/analytics';
 
 const PROMPTS_PER_PAGE = 20;
 
 interface HomePageClientProps {
-  initialPrompts: ImagePrompt[];
+  initialPrompts: VideoPrompt[];
   allCategories: string[];
   initialCategory?: string;
   initialTag?: string;
@@ -31,7 +30,7 @@ export default function HomePageClient({
   initialSearch
 }: HomePageClientProps) {
   // Store all prompts and filter them client-side
-  const [allPrompts] = useState<ImagePrompt[]>(initialPrompts);
+  const [allPrompts] = useState<VideoPrompt[]>(initialPrompts);
   const [searchQuery, setSearchQuery] = useState(initialSearch || '');
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     initialCategory ? [initialCategory] : []
@@ -238,60 +237,14 @@ export default function HomePageClient({
           {/* Hero Section */}
           <div className="text-center mb-12 mt-12">
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Transform your photos with AI
+              Create stunning videos with AI
             </h1>
             <p className="text-base text-white max-w-3xl mx-auto mb-8">
-              Discover and copy AI image prompts for ChatGPT. Transform your photos into 
-              anime characters, vintage styles, action figures, and more. Click any prompt 
-              to copy and open directly in ChatGPT.
+              Discover and copy AI video generation prompts for Veo3 and other AI tools. Create 
+              stunning animations, VFX, transitions, and more. Click any prompt 
+              to copy and paste into Veo3.
             </p>
             
-            {/* Before/After Example */}
-            <div className="flex items-center justify-center gap-4 mb-8 mt-8">
-              <div className="text-center">
-                <div className="relative w-32 h-32 md:w-40 md:h-40 mb-2">
-                  <Image 
-                    src="/thumbnails/woman-sample.jpg" 
-                    alt="Before - Original photo" 
-                    fill
-                    className="rounded-lg object-cover"
-                    sizes="(max-width: 768px) 128px, 160px"
-                  />
-                </div>
-                <span className="text-sm text-stone-400">Before</span>
-              </div>
-              <span className="text-2xl text-stone-500">→</span>
-              <div className="text-center">
-                <div className="relative w-32 h-32 md:w-40 md:h-40 mb-2">
-                  <Image 
-                    src="/thumbnails/Black-White-Editorial-Portrait.png" 
-                    alt="After - Black & White Editorial Portrait transformation" 
-                    fill
-                    className="rounded-lg object-cover"
-                    sizes="(max-width: 768px) 128px, 160px"
-                  />
-                </div>
-                <span className="text-sm text-stone-400">After</span>
-              </div>
-            </div>
-            
-            {/* Simple Instructions */}
-            <div className="flex items-center justify-center flex-wrap gap-2 text-white max-w-2xl mx-auto">
-              <span className="flex items-center gap-2">
-                <span className="text-white font-medium">1.</span>
-                <span>View the prompt you like below</span>
-              </span>
-              <span className="text-stone-500">→</span>
-              <span className="flex items-center gap-2">
-                <span className="text-white font-medium">2.</span>
-                <span>Click &ldquo;Open in ChatGPT&rdquo;</span>
-              </span>
-              <span className="text-stone-500">→</span>
-              <span className="flex items-center gap-2">
-                <span className="text-white font-medium">3.</span>
-                <span>Upload your image and run the prompt</span>
-              </span>
-            </div>
           </div>
 
           {/* Search Bar */}

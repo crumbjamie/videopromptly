@@ -12,11 +12,13 @@ interface GTMEvent {
 
 interface ConversionEvent extends GTMEvent {
   event: 'conversion';
-  conversion_type: 'chatgpt_click' | 'copy_prompt' | 'view_prompt' | 'search' | 'category_browse' | 'tag_browse';
+  conversion_type: 'veo3_click' | 'copy_prompt' | 'view_video' | 'search' | 'category_browse' | 'tag_browse' | 'video_play' | 'video_pause' | 'hover_preview';
   prompt_id?: string;
   prompt_title?: string;
   category?: string;
   search_query?: string;
+  video_duration?: number;
+  video_resolution?: string;
 }
 
 declare global {
@@ -49,17 +51,22 @@ class Analytics {
     }
   }
 
-  // Track ChatGPT button click
-  trackChatGPTClick(promptId: string, promptTitle: string): void {
+  // Track Veo3 button click
+  trackVeo3Click(promptId: string, promptTitle: string): void {
     this.pushEvent({
       event: 'conversion',
-      conversion_type: 'chatgpt_click',
+      conversion_type: 'veo3_click',
       prompt_id: promptId,
       prompt_title: promptTitle,
       category: 'engagement',
       action: 'click',
-      label: 'chatgpt_integration'
+      label: 'veo3_integration'
     } as ConversionEvent);
+  }
+
+  // Legacy method for backwards compatibility
+  trackChatGPTClick(promptId: string, promptTitle: string): void {
+    this.trackVeo3Click(promptId, promptTitle);
   }
 
   // Track copy prompt action
@@ -75,17 +82,24 @@ class Analytics {
     } as ConversionEvent);
   }
 
-  // Track prompt view
-  trackPromptView(promptId: string, promptTitle: string, category?: string): void {
+  // Track video view
+  trackVideoView(promptId: string, promptTitle: string, category?: string, duration?: number, resolution?: string): void {
     this.pushEvent({
       event: 'conversion',
-      conversion_type: 'view_prompt',
+      conversion_type: 'view_video',
       prompt_id: promptId,
       prompt_title: promptTitle,
       category: category || 'content',
       action: 'view',
-      label: 'prompt_detail'
+      label: 'video_detail',
+      video_duration: duration,
+      video_resolution: resolution
     } as ConversionEvent);
+  }
+
+  // Legacy method for backwards compatibility
+  trackPromptView(promptId: string, promptTitle: string, category?: string): void {
+    this.trackVideoView(promptId, promptTitle, category);
   }
 
   // Track search
@@ -120,6 +134,45 @@ class Analytics {
       category: 'navigation',
       action: 'browse',
       label: `tag_${tag}`
+    } as ConversionEvent);
+  }
+
+  // Track video play
+  trackVideoPlay(promptId: string, promptTitle: string): void {
+    this.pushEvent({
+      event: 'conversion',
+      conversion_type: 'video_play',
+      prompt_id: promptId,
+      prompt_title: promptTitle,
+      category: 'engagement',
+      action: 'play',
+      label: 'video_interaction'
+    } as ConversionEvent);
+  }
+
+  // Track video pause
+  trackVideoPause(promptId: string, promptTitle: string): void {
+    this.pushEvent({
+      event: 'conversion',
+      conversion_type: 'video_pause',
+      prompt_id: promptId,
+      prompt_title: promptTitle,
+      category: 'engagement',
+      action: 'pause',
+      label: 'video_interaction'
+    } as ConversionEvent);
+  }
+
+  // Track hover preview
+  trackHoverPreview(promptId: string, promptTitle: string): void {
+    this.pushEvent({
+      event: 'conversion',
+      conversion_type: 'hover_preview',
+      prompt_id: promptId,
+      prompt_title: promptTitle,
+      category: 'engagement',
+      action: 'hover',
+      label: 'video_preview'
     } as ConversionEvent);
   }
 

@@ -6,14 +6,14 @@ import { Metadata } from 'next';
 import { getCanonicalUrl } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Browse AI Image Prompts by Tag | Image Promptly',
-  description: 'Explore our collection of AI image transformation prompts organized by tags. Find prompts for specific styles, effects, and themes.',
+  title: 'Browse AI Video Prompts by Tag | VideoPromptly',
+  description: 'Explore our collection of AI video generation prompts organized by tags. Find prompts for specific styles, effects, and themes.',
   alternates: {
     canonical: getCanonicalUrl('/tags'),
   },
   openGraph: {
-    title: 'Browse AI Image Prompts by Tag',
-    description: 'Explore our collection of AI image transformation prompts organized by tags.',
+    title: 'Browse AI Video Prompts by Tag',
+    description: 'Explore our collection of AI video generation prompts organized by tags.',
     type: 'website',
   },
 };
@@ -32,8 +32,8 @@ export default async function TagsPage() {
               Browse by Tag
             </h1>
             <p className="text-lg text-white max-w-3xl mx-auto">
-              Explore our AI image prompts organized by specific styles, effects, and themes. 
-              Click any tag to see all related prompts.
+              Explore our AI video prompts organized by specific styles, effects, and themes. 
+              Click any tag to see all related video prompts.
             </p>
           </div>
 
@@ -62,27 +62,27 @@ export default async function TagsPage() {
           <div className="mt-16 max-w-4xl mx-auto">
             <div className="bg-stone-900 rounded-lg p-8 border border-stone-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
-                Discover AI Image Prompts by Tag
+                Discover AI Video Prompts by Tag
               </h2>
               <div className="prose prose-invert max-w-none">
                 <p className="text-stone-300 mb-4">
-                  Tags help you find specific styles and effects for your AI image transformations. 
+                  Tags help you find specific styles and effects for your AI video generation. 
                   Whether you&apos;re looking for cyberpunk aesthetics, vintage filters, or artistic styles, 
-                  our tag system makes it easy to discover the perfect prompt for your creative vision.
+                  our tag system makes it easy to discover the perfect video prompt for your creative vision.
                 </p>
                 <h3 className="text-xl font-semibold text-white mt-6 mb-3">
                   Popular Tag Categories
                 </h3>
                 <ul className="text-stone-300 space-y-2">
                   <li><strong>Style Tags:</strong> anime, retro, futuristic, minimalist, vintage</li>
-                  <li><strong>Effect Tags:</strong> holographic, neon, glitch, pixelated, watercolor</li>
+                  <li><strong>Effect Tags:</strong> holographic, neon, glitch, cinematic, motion-blur</li>
                   <li><strong>Theme Tags:</strong> cyberpunk, fantasy, sci-fi, nature, urban</li>
-                  <li><strong>Technique Tags:</strong> portrait, action, editorial, commercial</li>
+                  <li><strong>Technique Tags:</strong> vlog, action, documentary, commercial</li>
                 </ul>
                 <p className="text-stone-300 mt-4">
-                  Each tag represents a collection of carefully curated prompts that share similar 
-                  characteristics. Use tags to quickly find prompts that match your desired aesthetic 
-                  or to explore new creative possibilities.
+                  Each tag represents a collection of carefully curated video prompts that share similar 
+                  characteristics. Use tags to quickly find prompts that match your desired video aesthetic 
+                  or to explore new creative video possibilities.
                 </p>
               </div>
             </div>

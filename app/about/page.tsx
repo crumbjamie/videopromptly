@@ -6,18 +6,18 @@ import Script from 'next/script';
 import { generateHowToSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'About ImagePromptly - Transform Your Photos with AI',
-  description: 'Learn how ImagePromptly helps you transform photos with AI using curated ChatGPT prompts. Discover use cases, benefits, and how to get started.',
+  title: 'About VideoPromptly - Create Videos with AI',
+  description: 'Learn how VideoPromptly helps you create stunning videos with AI using curated Veo3 prompts. Discover use cases, benefits, and how to get started.',
   alternates: {
-    canonical: 'https://imagepromptly.com/about',
+    canonical: 'https://videopromptly.com/about',
   },
 };
 
 export default function AboutPage() {
   const howToSchema = generateHowToSchema();
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: 'Home', url: 'https://imagepromptly.com' },
-    { name: 'About', url: 'https://imagepromptly.com/about' },
+    { name: 'Home', url: 'https://videopromptly.com' },
+    { name: 'About', url: 'https://videopromptly.com/about' },
   ]);
 
   return (

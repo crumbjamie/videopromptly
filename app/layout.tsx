@@ -9,16 +9,22 @@ import { generateWebsiteSchema, generateOrganizationSchema } from "@/lib/schema"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ImagePromptly.com'),
+  metadataBase: new URL('https://videopromptly.com'),
   title: {
-    default: "ImagePromptly - Effective ChatGPT Image Prompts to Transform Photos into Art & Effects",
-    template: "%s | ImagePromptly"
+    default: "VideoPromptly - AI Video Generation Prompts for Veo3, Kling & AI Video Tools",
+    template: "%s | VideoPromptly"
   },
-  description: "Discover and copy effective image prompts for ChatGPT with ImagePromptly. Transform photos into toys, art styles, and creative effects with our curated collection.",
-  keywords: ["ImagePromptly", "ChatGPT", "image prompts", "photo transformation", "AI art", "toy transformation", "artistic styles", "DALL-E", "AI image generation", "creative prompts"],
-  authors: [{ name: "ImagePromptly" }],
-  creator: "ImagePromptly",
-  publisher: "ImagePromptly",
+  description: "Discover 250+ curated AI video generation prompts for Veo3, Kling AI, and other video tools. Create viral TikTok videos, cinematic scenes, and AI animations with our proven prompt collection.",
+  keywords: [
+    "VideoPromptly", "Veo3 prompts", "AI video generation", "video prompts", "Kling AI", 
+    "TikTok video creation", "AI animation prompts", "viral video prompts", "cinematic AI video",
+    "video AI tools", "Sora prompts", "RunwayML prompts", "AI video templates", "video content creation",
+    "8-second videos", "short form video", "AI filmmaking", "video prompt engineering"
+  ],
+  authors: [{ name: "VideoPromptly Team" }],
+  creator: "VideoPromptly",
+  publisher: "VideoPromptly",
+  applicationName: "VideoPromptly",
   formatDetection: {
     email: false,
     address: false,
@@ -36,32 +42,61 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "ImagePromptly - Effective ChatGPT Image Prompts",
-    description: "Discover and copy effective image prompts for ChatGPT with ImagePromptly. Transform photos into toys, art styles, and creative effects.",
-    url: "https://ImagePromptly.com",
-    siteName: "ImagePromptly",
+    title: "VideoPromptly - 250+ AI Video Generation Prompts | Veo3, Kling AI & More",
+    description: "Create viral videos with our curated collection of 250+ AI video prompts. Perfect for Veo3, Kling AI, TikTok content, and cinematic scenes.",
+    url: "https://videopromptly.com",
+    siteName: "VideoPromptly",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-video-prompts.jpg",
         width: 1200,
         height: 630,
-        alt: "ImagePromptly - Discover and copy effective image prompts for ChatGPT",
+        alt: "VideoPromptly - 250+ curated AI video generation prompts for Veo3, Kling AI and video tools",
       }
     ],
+    videos: [
+      {
+        url: "/videos/demo-reel.mp4",
+        width: 1920,
+        height: 1080,
+        type: "video/mp4"
+      }
+    ]
   },
   twitter: {
-    card: "summary_large_image",
-    title: "ImagePromptly - Effective ChatGPT Image Prompts",
-    description: "Transform photos with curated ChatGPT prompts on ImagePromptly",
-    images: ["/images/og-image.jpg"],
-    creator: "@imagepromptly",
+    card: "player",
+    title: "VideoPromptly - AI Video Generation Prompts",
+    description: "250+ curated video prompts for Veo3, Kling AI & TikTok creation",
+    images: ["/images/og-video-prompts.jpg"],
+    creator: "@videopromptly",
+    players: [
+      {
+        playerUrl: "/videos/demo-reel.mp4",
+        streamUrl: "/videos/demo-reel.mp4",
+        width: 1920,
+        height: 1080
+      }
+    ]
   },
   alternates: {
-    canonical: "https://ImagePromptly.com",
+    canonical: "https://videopromptly.com",
+    types: {
+      "application/rss+xml": "https://videopromptly.com/feed.xml"
+    }
   },
-  category: "technology",
+  category: "Entertainment",
+  classification: "Video Creation Tools",
+  other: {
+    "video:duration": "8",
+    "video:release_date": "2025-07-11",
+    "article:section": "Video Creation",
+    "article:tag": "AI Video, Veo3, Video Prompts",
+    "og:video:type": "video/mp4",
+    "og:video:width": "1920",
+    "og:video:height": "1080"
+  }
 };
 
 export default function RootLayout({

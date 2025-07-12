@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: TagPageProps): Promise<Metada
   const tagName = formatTagName(decodeURIComponent(tag));
   
   return {
-    title: `${tagName} AI Image Prompts | Image Promptly`,
-    description: `Explore AI image transformation prompts tagged with ${tagName}. Find creative prompts for ${tagName} effects and styles.`,
+    title: `${tagName} AI Video Prompts | VideoPromptly`,
+    description: `Explore AI video generation prompts tagged with ${tagName}. Find creative prompts for ${tagName} video effects and styles.`,
     openGraph: {
-      title: `${tagName} AI Image Prompts`,
-      description: `Explore AI image transformation prompts tagged with ${tagName}.`,
+      title: `${tagName} AI Video Prompts`,
+      description: `Explore AI video generation prompts tagged with ${tagName}.`,
       type: 'website',
     },
   };
@@ -64,12 +64,12 @@ export default async function TagPage({ params }: TagPageProps) {
           <div className="max-w-4xl mx-auto">
             <div className="bg-stone-900 rounded-lg p-8 border border-stone-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
-                {tagName} Image Prompts
+                {tagName} Video Prompts
               </h2>
               <div className="prose prose-invert max-w-none">
                 <p className="text-stone-300 mb-4">
-                  Discover our collection of {prompts.length} AI image transformation prompts tagged with &quot;{tagName}&quot;. 
-                  These prompts are designed to help you create stunning {tagName} effects and styles using AI image generation tools.
+                  Discover our collection of {prompts.length} AI video generation prompts tagged with &quot;{tagName}&quot;. 
+                  These prompts are designed to help you create stunning {tagName} video effects and styles using AI video generation tools.
                 </p>
                 
                 {prompts.length > 0 && (
@@ -78,9 +78,9 @@ export default async function TagPage({ params }: TagPageProps) {
                       What You&apos;ll Find
                     </h3>
                     <p className="text-stone-300">
-                      Our {tagName} prompts cover a variety of categories including {allCategories.slice(0, 3).join(', ')}
+                      Our {tagName} video prompts cover a variety of categories including {allCategories.slice(0, 3).join(', ')}
                       {allCategories.length > 3 && ` and ${allCategories.length - 3} more`}. 
-                      Each prompt is carefully crafted to produce consistent, high-quality results.
+                      Each prompt is carefully crafted to produce consistent, high-quality video results.
                     </p>
                   </>
                 )}
@@ -89,10 +89,10 @@ export default async function TagPage({ params }: TagPageProps) {
                   How to Use These Prompts
                 </h3>
                 <ol className="text-stone-300 space-y-2 list-decimal list-inside">
-                  <li>Browse through the {tagName} prompts above</li>
+                  <li>Browse through the {tagName} video prompts above</li>
                   <li>Click on any prompt to see the full details and example</li>
-                  <li>Copy the prompt and replace [subject] with your image description</li>
-                  <li>Use with ChatGPT, DALL-E, or other AI image tools</li>
+                  <li>Copy the prompt and customize it for your video concept</li>
+                  <li>Use with Veo3, Kling AI, or other AI video generation tools</li>
                 </ol>
               </div>
             </div>

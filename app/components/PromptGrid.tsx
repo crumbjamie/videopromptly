@@ -1,8 +1,8 @@
-import PromptCard from './PromptCard';
-import { ImagePrompt } from '@/lib/types';
+import VideoCard from './VideoCard';
+import { VideoPrompt } from '@/lib/types';
 
 interface PromptGridProps {
-  prompts: ImagePrompt[];
+  prompts: VideoPrompt[];
   loading: boolean;
 }
 
@@ -35,7 +35,7 @@ export default function PromptGrid({ prompts, loading }: PromptGridProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {prompts.map((prompt) => (
-        <PromptCard key={prompt.id} prompt={prompt} />
+        <VideoCard key={prompt.id} prompt={prompt} />
       ))}
     </div>
   );

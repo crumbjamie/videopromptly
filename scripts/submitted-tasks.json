@@ -1,0 +1,84 @@
+{
+  "submittedTasks": [
+    {
+      "promptId": "11",
+      "title": "Bigfoot's Secret Spot",
+      "taskId": "516a62a3b3e9c5635cc36fc3e7ee416f",
+      "expectedFilename": "bigfoot-secret-spot.mp4",
+      "submittedAt": "2025-07-11T12:00:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "13", 
+      "title": "Storm Trooper Daily Vlog",
+      "taskId": "1dc949ddcc1031b363cd3bb654b1b2d1",
+      "expectedFilename": "storm-trooper-daily-vlog.mp4",
+      "submittedAt": "2025-07-11T12:01:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "14",
+      "title": "Yeti's Ice Soup Recipe", 
+      "taskId": "d06de7d60b12abf563f2b863cb3a715a",
+      "expectedFilename": "yeti-ice-soup-recipe.mp4",
+      "submittedAt": "2025-07-11T12:02:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "22",
+      "title": "Volcanic Egg ASMR",
+      "taskId": "74b50e2f7438773be8284ce45435c5bb", 
+      "expectedFilename": "volcanic-egg-asmr.mp4",
+      "submittedAt": "2025-07-11T12:03:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "25",
+      "title": "Crystal Material Cutting",
+      "taskId": "a782ed267fac87606d56ef44157a8e94",
+      "expectedFilename": "crystal-material-cutting.mp4", 
+      "submittedAt": "2025-07-11T12:04:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "30",
+      "title": "Android Awakening",
+      "taskId": "28aa5c5d4c46878bd8582742ca3f82cc",
+      "expectedFilename": "android-awakening.mp4",
+      "submittedAt": "2025-07-11T12:05:00.000Z", 
+      "status": "submitted"
+    },
+    {
+      "promptId": "33",
+      "title": "Heartbreak Revelation",
+      "taskId": "d11781b7154219bb76d71d15201f9b1b",
+      "expectedFilename": "heartbreak-revelation.mp4",
+      "submittedAt": "2025-07-11T12:06:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "36", 
+      "title": "Impossible MrBeast Challenge",
+      "taskId": "4819730f16003d1b7d7c62eafb7fa01a",
+      "expectedFilename": "impossible-mrbeast-challenge.mp4",
+      "submittedAt": "2025-07-11T12:07:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "40",
+      "title": "Vertical Bigfoot Dance", 
+      "taskId": "29caf8eac0b3f978763413fb45bf1f93",
+      "expectedFilename": "vertical-bigfoot-dance.mp4",
+      "submittedAt": "2025-07-11T12:08:00.000Z",
+      "status": "submitted"
+    },
+    {
+      "promptId": "46",
+      "title": "Pure Consciousness",
+      "taskId": "bb0981d423896f11e66563796a2f81b9", 
+      "expectedFilename": "pure-consciousness.mp4",
+      "submittedAt": "2025-07-11T12:09:00.000Z",
+      "status": "submitted"
+    }
+  ]
+}

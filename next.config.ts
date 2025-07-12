@@ -38,6 +38,7 @@ const securityHeaders = [
       form-action 'self';
       frame-ancestors 'none';
       connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://*.doubleclick.net https://stats.g.doubleclick.net;
+      media-src 'self' blob: data:;
       upgrade-insecure-requests;
     `.replace(/\s{2,}/g, ' ').trim()
   }
@@ -55,6 +56,38 @@ const nextConfig: NextConfig = {
         // Apply these headers to all routes
         source: '/:path*',
         headers: securityHeaders,
+      },
+      {
+        // Video file headers for optimal streaming
+        source: '/videos/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          },
+          {
+            key: 'Accept-Ranges',
+            value: 'bytes'
+          },
+          {
+            key: 'Content-Type',
+            value: 'video/mp4'
+          }
+        ],
+      },
+      {
+        // Video thumbnail headers
+        source: '/videos/thumbnails/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/jpeg'
+          }
+        ],
       },
     ];
   },

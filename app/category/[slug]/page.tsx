@@ -32,18 +32,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${category} ChatGPT Prompts - Transform Photos to ${category} Style`;
-  const description = `Explore ${category.toLowerCase()} image prompts for ChatGPT & DALL-E 3. ✨ Instant copy & paste ✨ Professional results ✨ All skill levels. Transform your photos now!`;
+  const title = `${category} Video Prompts - Create ${category} Videos with AI`;
+  const description = `Explore ${category.toLowerCase()} video prompts for Veo3 & AI video tools. ✨ Instant copy & paste ✨ Professional results ✨ All skill levels. Create stunning videos now!`;
 
   return {
     title,
     description,
-    keywords: `${category}, ImagePromptly, ChatGPT prompts, AI image transformation`,
+    keywords: `${category}, VideoPromptly, Veo3 prompts, AI video generation`,
     alternates: {
       canonical: getCanonicalUrl(`/category/${slug}`),
     },
     openGraph: {
-      title: `${category} Prompts | ImagePromptly`,
+      title: `${category} Video Prompts | VideoPromptly`,
       description,
     },
   };

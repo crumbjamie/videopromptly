@@ -10,7 +10,11 @@
     "lint": "next lint",
     "generate:test-thumbnail": "ts-node scripts/test-thumbnail-generation.ts",
     "generate:thumbnails": "ts-node scripts/generate-thumbnails.ts",
-    "process:thumbnails": "node scripts/process-new-thumbnails.js"
+    "process:thumbnails": "node scripts/process-new-thumbnails.js",
+    "process:videos": "node scripts/process-videos.js",
+    "generate:video-thumbnails": "node scripts/generate-video-thumbnails.js",
+    "generate:kie-thumbnails": "node scripts/generate-kie-thumbnails.js",
+    "generate:veo3-videos": "node scripts/generate-veo3-videos.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
@@ -30,6 +34,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^17.0.0",
+    "follow-redirects": "^1.15.9",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.525.0",
     "next": "15.3.4",

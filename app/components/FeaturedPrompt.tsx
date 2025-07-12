@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import { ImagePrompt } from '@/lib/types';
-import ThumbnailImage from './ThumbnailImage';
+import { VideoPrompt } from '@/lib/types';
+import VideoThumbnail from './VideoThumbnail';
 import { cn } from '@/lib/utils/cn';
 
 interface FeaturedPromptProps {
-  prompt: ImagePrompt;
+  prompt: VideoPrompt;
 }
 
 const difficultyColors = {
@@ -21,17 +21,21 @@ export default function FeaturedPrompt({ prompt }: FeaturedPromptProps) {
         <h2 className="text-2xl font-bold text-white">Featured Prompt</h2>
       </div>
       
-      <Link href={`/image-prompt/${prompt.slug}`} className="block">
+      <Link href={`/video-prompt/${prompt.slug}`} className="block">
         <div className="bg-gradient-to-r from-stone-900 to-stone-800 rounded-lg border-2 border-yellow-600/20 hover:border-yellow-600/40 transition-all duration-200 overflow-hidden group">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
-            {/* Image */}
-            <div className="aspect-square relative overflow-hidden bg-stone-800 rounded-lg">
-              <ThumbnailImage
-                thumbnail={prompt.thumbnail}
+            {/* Video */}
+            <div className="aspect-video relative overflow-hidden bg-stone-800 rounded-lg">
+              <VideoThumbnail
+                src={prompt.videoUrl}
+                poster={prompt.thumbnailUrl}
+                alt={prompt.title}
+                className="w-full h-full"
+                size="xl"
                 promptId={prompt.id}
-                title={prompt.title}
-                className="w-full h-full object-cover"
-                priority={true}
+                promptTitle={prompt.title}
+                duration={prompt.duration}
+                resolution={prompt.resolution}
               />
             </div>
             

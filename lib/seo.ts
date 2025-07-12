@@ -1,6 +1,6 @@
 // SEO utility functions
 
-export const SITE_URL = 'https://ImagePromptly.com';
+export const SITE_URL = 'https://videopromptly.com';
 
 export function getCanonicalUrl(path: string = ''): string {
   // Ensure path starts with /
@@ -34,12 +34,12 @@ export function generateArticleSchema(prompt: {
     dateModified: prompt.updatedAt.toISOString(),
     author: {
       '@type': 'Organization',
-      name: 'ImagePromptly',
+      name: 'VideoPromptly',
       url: SITE_URL,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'ImagePromptly',
+      name: 'VideoPromptly',
       url: SITE_URL,
       logo: {
         '@type': 'ImageObject',
@@ -48,7 +48,7 @@ export function generateArticleSchema(prompt: {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${SITE_URL}/image-prompt/${prompt.slug}`,
+      '@id': `${SITE_URL}/video-prompt/${prompt.slug}`,
     },
     keywords: prompt.tags.join(', '),
     articleSection: prompt.category,
@@ -88,8 +88,8 @@ export function generateHowToSchema(prompt: {
   const steps = [
     {
       '@type': 'HowToStep',
-      name: 'Open ChatGPT',
-      text: 'Navigate to ChatGPT and ensure you have access to DALL-E 3 image generation',
+      name: 'Open Veo3 or Video AI Tool',
+      text: 'Navigate to Veo3 or your preferred AI video generation tool',
     },
     {
       '@type': 'HowToStep', 
@@ -99,25 +99,25 @@ export function generateHowToSchema(prompt: {
     {
       '@type': 'HowToStep',
       name: 'Paste and Customize',
-      text: 'Paste the prompt into ChatGPT and customize any parameters as needed',
+      text: 'Paste the prompt into the video generation tool and customize parameters like duration and resolution',
     },
     {
       '@type': 'HowToStep',
-      name: 'Upload Your Image',
-      text: 'Upload the image you want to transform when prompted',
+      name: 'Configure Settings',
+      text: 'Set your desired video duration, aspect ratio, and quality settings',
     },
     {
       '@type': 'HowToStep',
-      name: 'Generate Results',
-      text: 'Wait for ChatGPT to process and generate your transformed image',
+      name: 'Generate Video',
+      text: 'Wait for the AI tool to process and generate your video',
     },
   ];
 
   return {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Use the ${prompt.title} Prompt`,
-    description: `Learn how to transform your images using the ${prompt.title} prompt with ChatGPT and DALL-E 3`,
+    name: `How to Use the ${prompt.title} Video Prompt`,
+    description: `Learn how to create videos using the ${prompt.title} prompt with Veo3 and AI video tools`,
     image: prompt.thumbnails?.[0] ? `${SITE_URL}${prompt.thumbnails[0]}` : undefined,
     totalTime: 'PT2M',
     estimatedCost: {
@@ -128,17 +128,17 @@ export function generateHowToSchema(prompt: {
     supply: [
       {
         '@type': 'HowToSupply',
-        name: 'ChatGPT Plus or Team subscription',
+        name: 'Access to Veo3 or AI video generation tool',
       },
       {
         '@type': 'HowToSupply',
-        name: 'An image to transform',
+        name: 'Video concept or idea',
       },
     ],
     tool: [
       {
         '@type': 'HowToTool',
-        name: 'ChatGPT with DALL-E 3',
+        name: 'Veo3 or compatible AI video tool',
       },
     ],
     step: steps,
@@ -153,13 +153,13 @@ export function generateCollectionPageSchema(category: string, prompts: Array<{
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: `${category} Prompts`,
-    description: `Browse our collection of ${category} image transformation prompts for ChatGPT`,
+    description: `Browse our collection of ${category} video generation prompts for Veo3 and AI video tools`,
     url: `${SITE_URL}/category/${category.toLowerCase().replace(/\s+/g, '-')}`,
     numberOfItems: prompts.length,
     hasPart: prompts.map(prompt => ({
       '@type': 'CreativeWork',
       name: prompt.title,
-      url: `${SITE_URL}/image-prompt/${prompt.slug}`,
+      url: `${SITE_URL}/video-prompt/${prompt.slug}`,
     })),
   };
 }

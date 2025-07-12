@@ -1,23 +1,23 @@
 export const generateWebsiteSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'ImagePromptly',
-  alternateName: 'Image Promptly - ChatGPT Image Prompts',
-  url: 'https://imagepromptly.com',
-  description: 'Discover and copy effective image prompts for ChatGPT. Transform photos into amazing art styles and creative effects.',
+  name: 'VideoPromptly',
+  alternateName: 'Video Promptly - AI Video Generation Prompts',
+  url: 'https://videopromptly.com',
+  description: 'Discover and copy effective video generation prompts for Veo3 and AI video tools. Create stunning videos with our curated AI prompts.',
   publisher: {
     '@type': 'Organization',
-    name: 'ImagePromptly',
+    name: 'VideoPromptly',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://imagepromptly.com/images/logo.png',
+      url: 'https://videopromptly.com/images/logo.png',
     },
   },
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://imagepromptly.com/?search={search_term_string}',
+      urlTemplate: 'https://videopromptly.com/?search={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
@@ -26,18 +26,18 @@ export const generateWebsiteSchema = () => ({
 export const generateOrganizationSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'ImagePromptly',
-  url: 'https://imagepromptly.com',
-  logo: 'https://imagepromptly.com/images/logo.png',
-  description: 'Leading provider of curated AI image transformation prompts for ChatGPT and DALL-E',
+  name: 'VideoPromptly',
+  url: 'https://videopromptly.com',
+  logo: 'https://videopromptly.com/images/logo.png',
+  description: 'Leading provider of curated AI video generation prompts for Veo3 and video AI tools',
   sameAs: [
-    'https://twitter.com/imagepromptly',
-    'https://github.com/imagepromptly',
+    'https://twitter.com/videopromptly',
+    'https://github.com/videopromptly',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
-    email: 'support@imagepromptly.com',
+    email: 'support@videopromptly.com',
   },
 });
 
@@ -68,10 +68,10 @@ export const generateFAQSchema = (faqs: Array<{ question: string; answer: string
 export const generateHowToSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How to Use ImagePromptly Prompts with ChatGPT',
-  description: 'Step-by-step guide to transform your images using ImagePromptly prompts with ChatGPT',
-  image: 'https://imagepromptly.com/images/how-to-guide.jpg',
-  totalTime: 'PT5M',
+  name: 'How to Use VideoPromptly Prompts with Veo3',
+  description: 'Step-by-step guide to create stunning videos using VideoPromptly prompts with Veo3 and AI video tools',
+  image: 'https://videopromptly.com/images/how-to-guide.jpg',
+  totalTime: 'PT10M',
   estimatedCost: {
     '@type': 'MonetaryAmount',
     currency: 'USD',
@@ -80,24 +80,24 @@ export const generateHowToSchema = () => ({
   supply: [
     {
       '@type': 'HowToSupply',
-      name: 'ChatGPT Plus subscription',
+      name: 'Veo3 access or AI video tool',
     },
     {
       '@type': 'HowToSupply',
-      name: 'Your image to transform',
+      name: 'Video concept or idea',
     },
   ],
   tool: [
     {
       '@type': 'HowToTool',
-      name: 'ChatGPT with DALL-E integration',
+      name: 'Veo3 or compatible AI video generation tool',
     },
   ],
   step: [
     {
       '@type': 'HowToStep',
-      text: 'Browse ImagePromptly to find a prompt that matches your desired transformation',
-      name: 'Find a prompt',
+      text: 'Browse VideoPromptly to find a prompt that matches your desired video style',
+      name: 'Find a video prompt',
     },
     {
       '@type': 'HowToStep',
@@ -106,72 +106,88 @@ export const generateHowToSchema = () => ({
     },
     {
       '@type': 'HowToStep',
-      text: 'Open ChatGPT and start a new conversation',
-      name: 'Open ChatGPT',
+      text: 'Open Veo3 or your preferred AI video generation tool',
+      name: 'Open video tool',
     },
     {
       '@type': 'HowToStep',
-      text: 'Upload your image to ChatGPT using the attachment button',
-      name: 'Upload your image',
+      text: 'Paste the prompt into the video generation interface',
+      name: 'Input the prompt',
     },
     {
       '@type': 'HowToStep',
-      text: 'Paste the prompt and send it to ChatGPT',
-      name: 'Send the prompt',
+      text: 'Adjust settings like duration, aspect ratio, and quality as needed',
+      name: 'Configure settings',
     },
     {
       '@type': 'HowToStep',
-      text: 'ChatGPT will transform your image based on the prompt',
-      name: 'Get your transformed image',
+      text: 'Generate your video and download the result',
+      name: 'Generate and download video',
     },
   ],
 });
 
-export const generatePromptSchema = (prompt: {
+export const generateVideoPromptSchema = (prompt: {
   title: string;
   description: string;
   category: string;
   difficulty: string;
   tags: string[];
-  thumbnail?: string | { before: string; after: string };
+  videoUrl?: string;
+  thumbnailUrl?: string;
+  duration?: number;
+  resolution?: string;
+  views?: string;
+  rating?: number;
   slug: string;
 }) => ({
   '@context': 'https://schema.org',
-  '@type': 'CreativeWork',
+  '@type': 'VideoObject',
   name: prompt.title,
   description: prompt.description,
-  url: `https://imagepromptly.com/image-prompt/${prompt.slug}`,
+  url: `https://videopromptly.com/video-prompt/${prompt.slug}`,
+  contentUrl: prompt.videoUrl ? `https://videopromptly.com${prompt.videoUrl}` : undefined,
+  thumbnailUrl: prompt.thumbnailUrl ? `https://videopromptly.com${prompt.thumbnailUrl}` : undefined,
+  duration: prompt.duration ? `PT${prompt.duration}S` : 'PT8S',
+  videoQuality: prompt.resolution || 'HD',
   genre: prompt.category,
   keywords: prompt.tags.join(', '),
-  difficulty: prompt.difficulty,
-  thumbnailUrl: prompt.thumbnail && typeof prompt.thumbnail === 'object' && 'after' in prompt.thumbnail
-    ? `https://imagepromptly.com/thumbnails/${prompt.thumbnail.after}`
-    : typeof prompt.thumbnail === 'string'
-    ? `https://imagepromptly.com/thumbnails/${prompt.thumbnail}`
-    : undefined,
+  interactionStatistic: {
+    '@type': 'InteractionCounter',
+    interactionType: 'https://schema.org/WatchAction',
+    userInteractionCount: prompt.views ? parseInt(prompt.views.replace(/[^\d]/g, '')) || 0 : 0,
+  },
+  aggregateRating: prompt.rating ? {
+    '@type': 'AggregateRating',
+    ratingValue: prompt.rating,
+    bestRating: 5,
+    worstRating: 1,
+    ratingCount: 1,
+  } : undefined,
   author: {
     '@type': 'Organization',
-    name: 'ImagePromptly',
+    name: 'VideoPromptly',
   },
   provider: {
     '@type': 'Organization',
-    name: 'ImagePromptly',
+    name: 'VideoPromptly',
   },
   educationalLevel: prompt.difficulty,
-  learningResourceType: 'Prompt Template',
+  learningResourceType: 'Video Prompt Template',
   isAccessibleForFree: true,
+  uploadDate: new Date().toISOString(),
 });
 
-export const generateCollectionSchema = (category: string, prompts: Array<{ title: string; description: string; slug: string }>) => ({
+export const generateVideoCollectionSchema = (category: string, prompts: Array<{ title: string; description: string; slug: string }>) => ({
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: `${category} Prompts`,
-  description: `Browse our collection of ${category.toLowerCase()} image transformation prompts for ChatGPT`,
-  url: `https://imagepromptly.com/category/${category.toLowerCase().replace(/\s+/g, '-')}`,
+  name: `${category} Video Prompts`,
+  description: `Browse our collection of ${category.toLowerCase()} video generation prompts for Veo3 and AI video tools`,
+  url: `https://videopromptly.com/category/${category.toLowerCase().replace(/\s+/g, '-')}`,
   numberOfItems: prompts.length,
   hasPart: prompts.map(prompt => ({
-    '@type': 'CreativeWork',
+    '@type': 'VideoObject',
     name: prompt.title,
-    url: `https://imagepromptly.com/image-prompt/${prompt.slug}`,
+    url: `https://videopromptly.com/video-prompt/${prompt.slug}`,
   })),
 });
