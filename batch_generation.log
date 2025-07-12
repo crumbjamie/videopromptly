@@ -1,0 +1,1299 @@
+🎬 Starting batch generation for 24 highest-rated videos...
+
+🎬 BATCH VIDEO GENERATION BY STAR RATING
+=======================================================
+📋 Generating 24 videos (highest rated first)
+⏰ Started: 12/07/2025, 4:02:53 pm
+
+📊 Generation Queue (by rating):
+   1. John Researcher Ancient Map (5⭐ - Beginner)
+   2. Paper Boat Physics Demonstration (5⭐ - Beginner)
+   3. Olympic Cat Agility Course (5⭐ - Advanced)
+   4. Living Storybook Animation (5⭐ - Intermediate)
+   5. Candy Keyboard Musical Notes (5⭐ - Advanced)
+   6. Wolf Sprint Tracking Shot (5⭐ - Intermediate)
+   7. Wise Owl Encounter Moonlit (5⭐ - Advanced)
+   8. Smartwatch 360 Rotation Demo (5⭐ - Intermediate)
+   9. Tokyo Street Food Blogger (5⭐ - Beginner)
+   10. Campfire Bear Handshake Friendship (5⭐ - Intermediate)
+   11. Alligator Pool Luxury Scene (5⭐ - Advanced)
+   12. Paper Boat Physics Demonstration (5⭐ - Beginner)
+   13. Glass Strawberry ASMR Cutting (5⭐ - Intermediate)
+   14. Warehouse Architectural Transformation (5⭐ - Beginner)
+   15. 4K Forest Embers Floating (5⭐ - Advanced)
+   16. Superhero Meteor Scene Action (5⭐ - Beginner)
+   17. Wolf Sprint Tracking Shot (5⭐ - Intermediate)
+   18. Wise Owl Encounter Moonlit (5⭐ - Advanced)
+   19. Gorilla Selfie Jungle Meta (5⭐ - Advanced)
+   20. Android Awakening Lab Scene (5⭐ - Intermediate)
+   21. Lantern Temple Fight Scene (5⭐ - Intermediate)
+   22. Monsoon Rooftop Dance Bangkok (5⭐ - Advanced)
+   23. Alligator Pool Luxury Scene (5⭐ - Advanced)
+   24. Paper Boat Physics Demonstration (4⭐ - Beginner)
+
+
+📋 [1/24] Processing: "John Researcher Ancient Map" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 397
+⏰ Started: 12/07/2025, 4:02:53 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "John Researcher Ancient Map"
+   Prompt: John researcher ancient map shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: c18ba96b85f5180151a6c5104240205e
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: c18ba96b85f5180151a6c5104240205e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "c18ba96b85f5180151a6c5104240205e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752301975000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: c18ba96b85f5180151a6c5104240205e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "c18ba96b85f5180151a6c5104240205e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752301975000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: c18ba96b85f5180151a6c5104240205e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "c18ba96b85f5180151a6c5104240205e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752301975000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: c18ba96b85f5180151a6c5104240205e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "c18ba96b85f5180151a6c5104240205e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752301975000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: c18ba96b85f5180151a6c5104240205e
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "c18ba96b85f5180151a6c5104240205e",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"John researcher ancient map shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "96b045d755b24e80993bc8835f031c48",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/26f51452-5f6a-4697-9fb2-681c2aebc4ab_watermarked.mp4"
+      ],
+      "seeds": [
+        87854
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302074000,
+    "createTime": 1752301975000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/26f51452-5f6a-4697-9fb2-681c2aebc4ab_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/26f51452-5f6a-4697-9fb2-681c2aebc4ab_watermarked.mp4
+   To: prompt-397.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.2% (0.02 MB)   📊 Progress: 1.3% (0.02 MB)   📊 Progress: 1.4% (0.02 MB)   📊 Progress: 1.5% (0.02 MB)   📊 Progress: 1.5% (0.03 MB)   📊 Progress: 1.6% (0.03 MB)   📊 Progress: 1.7% (0.03 MB)   📊 Progress: 1.8% (0.03 MB)   📊 Progress: 1.8% (0.03 MB)   📊 Progress: 1.9% (0.03 MB)   📊 Progress: 2.0% (0.03 MB)   📊 Progress: 2.1% (0.04 MB)   📊 Progress: 2.1% (0.04 MB)   📊 Progress: 2.2% (0.04 MB)   📊 Progress: 2.3% (0.04 MB)   📊 Progress: 2.4% (0.04 MB)   📊 Progress: 2.4% (0.04 MB)   📊 Progress: 2.5% (0.04 MB)   📊 Progress: 2.6% (0.04 MB)   📊 Progress: 2.7% (0.05 MB)   📊 Progress: 2.7% (0.05 MB)   📊 Progress: 2.8% (0.05 MB)   📊 Progress: 2.9% (0.05 MB)   📊 Progress: 3.0% (0.05 MB)   📊 Progress: 3.1% (0.05 MB)   📊 Progress: 3.3% (0.06 MB)   📊 Progress: 3.5% (0.06 MB)   📊 Progress: 3.7% (0.06 MB)   📊 Progress: 3.9% (0.07 MB)   📊 Progress: 4.1% (0.07 MB)   📊 Progress: 4.4% (0.07 MB)   📊 Progress: 4.6% (0.08 MB)   📊 Progress: 4.8% (0.08 MB)   📊 Progress: 5.0% (0.09 MB)   📊 Progress: 5.3% (0.09 MB)   📊 Progress: 5.5% (0.09 MB)   📊 Progress: 5.7% (0.10 MB)   📊 Progress: 6.0% (0.10 MB)   📊 Progress: 6.2% (0.11 MB)   📊 Progress: 6.4% (0.11 MB)   📊 Progress: 6.6% (0.11 MB)   📊 Progress: 6.9% (0.12 MB)   📊 Progress: 7.1% (0.12 MB)   📊 Progress: 7.3% (0.13 MB)   📊 Progress: 7.6% (0.13 MB)   📊 Progress: 7.8% (0.13 MB)   📊 Progress: 8.0% (0.14 MB)   📊 Progress: 8.2% (0.14 MB)   📊 Progress: 8.5% (0.14 MB)   📊 Progress: 8.7% (0.15 MB)   📊 Progress: 8.9% (0.15 MB)   📊 Progress: 9.2% (0.16 MB)   📊 Progress: 9.4% (0.16 MB)   📊 Progress: 9.6% (0.16 MB)   📊 Progress: 9.9% (0.17 MB)   📊 Progress: 10.1% (0.17 MB)   📊 Progress: 10.3% (0.18 MB)   📊 Progress: 10.5% (0.18 MB)   📊 Progress: 10.8% (0.18 MB)   📊 Progress: 11.0% (0.19 MB)   📊 Progress: 11.2% (0.19 MB)   📊 Progress: 11.5% (0.20 MB)   📊 Progress: 11.7% (0.20 MB)   📊 Progress: 11.9% (0.20 MB)   📊 Progress: 12.1% (0.21 MB)   📊 Progress: 13.0% (0.22 MB)   📊 Progress: 14.0% (0.24 MB)   📊 Progress: 14.9% (0.25 MB)   📊 Progress: 15.8% (0.27 MB)   📊 Progress: 16.7% (0.29 MB)   📊 Progress: 17.6% (0.30 MB)   📊 Progress: 18.5% (0.32 MB)   📊 Progress: 19.4% (0.33 MB)   📊 Progress: 20.4% (0.35 MB)   📊 Progress: 21.3% (0.36 MB)   📊 Progress: 22.2% (0.38 MB)   📊 Progress: 23.1% (0.39 MB)   📊 Progress: 24.0% (0.41 MB)   📊 Progress: 24.9% (0.43 MB)   📊 Progress: 25.9% (0.44 MB)   📊 Progress: 26.8% (0.46 MB)   📊 Progress: 27.7% (0.47 MB)   📊 Progress: 28.6% (0.49 MB)   📊 Progress: 29.5% (0.50 MB)   📊 Progress: 30.4% (0.52 MB)   📊 Progress: 31.3% (0.54 MB)   📊 Progress: 32.3% (0.55 MB)   📊 Progress: 33.2% (0.57 MB)   📊 Progress: 34.1% (0.58 MB)   📊 Progress: 35.0% (0.60 MB)   📊 Progress: 35.9% (0.61 MB)   📊 Progress: 36.8% (0.63 MB)   📊 Progress: 37.8% (0.64 MB)   📊 Progress: 38.7% (0.66 MB)   📊 Progress: 39.6% (0.68 MB)   📊 Progress: 40.5% (0.69 MB)   📊 Progress: 41.4% (0.71 MB)   📊 Progress: 42.3% (0.72 MB)   📊 Progress: 43.2% (0.74 MB)   📊 Progress: 44.2% (0.75 MB)   📊 Progress: 45.1% (0.77 MB)   📊 Progress: 46.0% (0.79 MB)   📊 Progress: 46.9% (0.80 MB)   📊 Progress: 47.8% (0.82 MB)   📊 Progress: 48.7% (0.83 MB)   📊 Progress: 49.6% (0.85 MB)   📊 Progress: 50.6% (0.86 MB)   📊 Progress: 51.5% (0.88 MB)   📊 Progress: 52.4% (0.89 MB)   📊 Progress: 53.3% (0.91 MB)   📊 Progress: 54.2% (0.93 MB)   📊 Progress: 55.1% (0.94 MB)   📊 Progress: 55.8% (0.95 MB)   📊 Progress: 56.7% (0.97 MB)   📊 Progress: 57.7% (0.98 MB)   📊 Progress: 58.6% (1.00 MB)   📊 Progress: 59.5% (1.02 MB)   📊 Progress: 60.4% (1.03 MB)   📊 Progress: 61.3% (1.05 MB)   📊 Progress: 62.2% (1.06 MB)   📊 Progress: 63.1% (1.08 MB)   📊 Progress: 64.1% (1.09 MB)   📊 Progress: 65.0% (1.11 MB)   📊 Progress: 65.9% (1.13 MB)   📊 Progress: 66.8% (1.14 MB)   📊 Progress: 67.7% (1.16 MB)   📊 Progress: 68.6% (1.17 MB)   📊 Progress: 69.6% (1.19 MB)   📊 Progress: 70.5% (1.20 MB)   📊 Progress: 71.4% (1.22 MB)   📊 Progress: 72.3% (1.23 MB)   📊 Progress: 73.2% (1.25 MB)   📊 Progress: 74.1% (1.27 MB)   📊 Progress: 75.0% (1.28 MB)   📊 Progress: 76.0% (1.30 MB)   📊 Progress: 76.9% (1.31 MB)   📊 Progress: 77.8% (1.33 MB)   📊 Progress: 78.7% (1.34 MB)   📊 Progress: 79.6% (1.36 MB)   📊 Progress: 80.5% (1.38 MB)   📊 Progress: 81.4% (1.39 MB)   📊 Progress: 82.4% (1.41 MB)   📊 Progress: 83.3% (1.42 MB)   📊 Progress: 84.2% (1.44 MB)   📊 Progress: 85.1% (1.45 MB)   📊 Progress: 86.0% (1.47 MB)   📊 Progress: 86.9% (1.48 MB)   📊 Progress: 87.9% (1.50 MB)   📊 Progress: 88.8% (1.52 MB)   📊 Progress: 89.7% (1.53 MB)   📊 Progress: 90.6% (1.55 MB)   📊 Progress: 91.5% (1.56 MB)   📊 Progress: 92.4% (1.58 MB)   📊 Progress: 93.3% (1.59 MB)   📊 Progress: 94.3% (1.61 MB)   📊 Progress: 95.2% (1.63 MB)   📊 Progress: 96.1% (1.64 MB)   📊 Progress: 97.0% (1.66 MB)   📊 Progress: 97.9% (1.67 MB)   📊 Progress: 98.8% (1.69 MB)   📊 Progress: 99.8% (1.70 MB)   📊 Progress: 100.0% (1.71 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 1.71 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-397.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-397.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "John Researcher Ancient Map"
+📁 File: prompt-397.mp4
+⭐ Rating: 5/5
+📂 Category: Music & Performance
+🔗 Video URL: /videos/prompt-397.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-397.mp4
+📋 Task ID: c18ba96b85f5180151a6c5104240205e
+⏰ Completed: 12/07/2025, 4:04:58 pm
+   ✅ SUCCESS: John Researcher Ancient Map (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [2/24] Processing: "Paper Boat Physics Demonstration" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 400
+⏰ Started: 12/07/2025, 4:05:08 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Paper Boat Physics Demonstration"
+   Prompt: Paper boat physics demonstration shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 9c3606630703fec31a91b90c47532d02
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 9c3606630703fec31a91b90c47532d02
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9c3606630703fec31a91b90c47532d02",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302109000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 9c3606630703fec31a91b90c47532d02
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9c3606630703fec31a91b90c47532d02",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302109000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 9c3606630703fec31a91b90c47532d02
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9c3606630703fec31a91b90c47532d02",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302109000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 9c3606630703fec31a91b90c47532d02
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9c3606630703fec31a91b90c47532d02",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302109000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 9c3606630703fec31a91b90c47532d02
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "9c3606630703fec31a91b90c47532d02",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Paper boat physics demonstration shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "179e32a392b8485aa14551e5ff2efb65",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/f80d4db7-53e4-45ba-87a2-2f612f01799d_watermarked.mp4"
+      ],
+      "seeds": [
+        15820
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302216000,
+    "createTime": 1752302109000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/f80d4db7-53e4-45ba-87a2-2f612f01799d_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/f80d4db7-53e4-45ba-87a2-2f612f01799d_watermarked.mp4
+   To: prompt-400.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.3% (0.00 MB)   📊 Progress: 0.4% (0.00 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.01 MB)   📊 Progress: 1.1% (0.01 MB)   📊 Progress: 1.2% (0.01 MB)   📊 Progress: 1.4% (0.01 MB)   📊 Progress: 1.5% (0.01 MB)   📊 Progress: 1.6% (0.02 MB)   📊 Progress: 1.8% (0.02 MB)   📊 Progress: 1.9% (0.02 MB)   📊 Progress: 2.0% (0.02 MB)   📊 Progress: 2.2% (0.02 MB)   📊 Progress: 2.3% (0.02 MB)   📊 Progress: 2.4% (0.02 MB)   📊 Progress: 2.6% (0.02 MB)   📊 Progress: 2.7% (0.03 MB)   📊 Progress: 2.8% (0.03 MB)   📊 Progress: 3.0% (0.03 MB)   📊 Progress: 3.1% (0.03 MB)   📊 Progress: 3.2% (0.03 MB)   📊 Progress: 3.4% (0.03 MB)   📊 Progress: 3.5% (0.03 MB)   📊 Progress: 3.6% (0.04 MB)   📊 Progress: 3.8% (0.04 MB)   📊 Progress: 3.9% (0.04 MB)   📊 Progress: 4.0% (0.04 MB)   📊 Progress: 4.2% (0.04 MB)   📊 Progress: 4.3% (0.04 MB)   📊 Progress: 4.5% (0.04 MB)   📊 Progress: 4.6% (0.04 MB)   📊 Progress: 4.7% (0.05 MB)   📊 Progress: 4.9% (0.05 MB)   📊 Progress: 5.0% (0.05 MB)   📊 Progress: 5.1% (0.05 MB)   📊 Progress: 5.3% (0.05 MB)   📊 Progress: 5.4% (0.05 MB)   📊 Progress: 5.8% (0.06 MB)   📊 Progress: 6.2% (0.06 MB)   📊 Progress: 6.5% (0.06 MB)   📊 Progress: 6.9% (0.07 MB)   📊 Progress: 7.3% (0.07 MB)   📊 Progress: 7.7% (0.07 MB)   📊 Progress: 8.1% (0.08 MB)   📊 Progress: 8.5% (0.08 MB)   📊 Progress: 8.9% (0.09 MB)   📊 Progress: 9.3% (0.09 MB)   📊 Progress: 9.7% (0.09 MB)   📊 Progress: 10.1% (0.10 MB)   📊 Progress: 10.5% (0.10 MB)   📊 Progress: 11.0% (0.11 MB)   📊 Progress: 11.3% (0.11 MB)   📊 Progress: 11.7% (0.11 MB)   📊 Progress: 12.2% (0.12 MB)   📊 Progress: 12.6% (0.12 MB)   📊 Progress: 12.9% (0.13 MB)   📊 Progress: 13.4% (0.13 MB)   📊 Progress: 13.8% (0.13 MB)   📊 Progress: 14.2% (0.14 MB)   📊 Progress: 14.6% (0.14 MB)   📊 Progress: 15.0% (0.14 MB)   📊 Progress: 15.4% (0.15 MB)   📊 Progress: 15.8% (0.15 MB)   📊 Progress: 16.2% (0.16 MB)   📊 Progress: 16.6% (0.16 MB)   📊 Progress: 17.0% (0.16 MB)   📊 Progress: 17.4% (0.17 MB)   📊 Progress: 17.8% (0.17 MB)   📊 Progress: 18.2% (0.18 MB)   📊 Progress: 18.6% (0.18 MB)   📊 Progress: 19.0% (0.18 MB)   📊 Progress: 19.4% (0.19 MB)   📊 Progress: 19.8% (0.19 MB)   📊 Progress: 20.2% (0.20 MB)   📊 Progress: 20.7% (0.20 MB)   📊 Progress: 21.0% (0.20 MB)   📊 Progress: 21.4% (0.21 MB)   📊 Progress: 22.6% (0.22 MB)   📊 Progress: 24.3% (0.23 MB)   📊 Progress: 25.9% (0.25 MB)   📊 Progress: 27.5% (0.27 MB)   📊 Progress: 29.1% (0.28 MB)   📊 Progress: 30.7% (0.30 MB)   📊 Progress: 32.4% (0.31 MB)   📊 Progress: 34.0% (0.33 MB)   📊 Progress: 35.6% (0.34 MB)   📊 Progress: 37.2% (0.36 MB)   📊 Progress: 38.8% (0.38 MB)   📊 Progress: 40.4% (0.39 MB)   📊 Progress: 42.1% (0.41 MB)   📊 Progress: 43.7% (0.42 MB)   📊 Progress: 45.3% (0.44 MB)   📊 Progress: 46.9% (0.45 MB)   📊 Progress: 48.5% (0.47 MB)   📊 Progress: 50.1% (0.48 MB)   📊 Progress: 51.8% (0.50 MB)   📊 Progress: 53.4% (0.52 MB)   📊 Progress: 55.0% (0.53 MB)   📊 Progress: 56.6% (0.55 MB)   📊 Progress: 57.4% (0.55 MB)   📊 Progress: 59.0% (0.57 MB)   📊 Progress: 60.7% (0.59 MB)   📊 Progress: 62.3% (0.60 MB)   📊 Progress: 63.9% (0.62 MB)   📊 Progress: 65.5% (0.63 MB)   📊 Progress: 67.1% (0.65 MB)   📊 Progress: 68.7% (0.66 MB)   📊 Progress: 70.4% (0.68 MB)   📊 Progress: 72.0% (0.70 MB)   📊 Progress: 73.6% (0.71 MB)   📊 Progress: 75.2% (0.73 MB)   📊 Progress: 76.8% (0.74 MB)   📊 Progress: 78.4% (0.76 MB)   📊 Progress: 80.1% (0.77 MB)   📊 Progress: 81.7% (0.79 MB)   📊 Progress: 82.1% (0.79 MB)   📊 Progress: 83.7% (0.81 MB)   📊 Progress: 85.3% (0.82 MB)   📊 Progress: 86.9% (0.84 MB)   📊 Progress: 88.6% (0.86 MB)   📊 Progress: 90.2% (0.87 MB)   📊 Progress: 91.8% (0.89 MB)   📊 Progress: 93.4% (0.90 MB)   📊 Progress: 95.0% (0.92 MB)   📊 Progress: 96.6% (0.93 MB)   📊 Progress: 98.3% (0.95 MB)   📊 Progress: 99.9% (0.96 MB)   📊 Progress: 100.0% (0.97 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 0.97 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-400.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-400.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Paper Boat Physics Demonstration"
+📁 File: prompt-400.mp4
+⭐ Rating: 5/5
+📂 Category: ASMR
+🔗 Video URL: /videos/prompt-400.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-400.mp4
+📋 Task ID: 9c3606630703fec31a91b90c47532d02
+⏰ Completed: 12/07/2025, 4:07:11 pm
+   ✅ SUCCESS: Paper Boat Physics Demonstration (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [3/24] Processing: "Olympic Cat Agility Course" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 402
+⏰ Started: 12/07/2025, 4:07:21 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Olympic Cat Agility Course"
+   Prompt: Olympic cat agility course shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: b476ed0fef8d57efb5b1fe0bbbe31700
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: b476ed0fef8d57efb5b1fe0bbbe31700
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "b476ed0fef8d57efb5b1fe0bbbe31700",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302242000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: b476ed0fef8d57efb5b1fe0bbbe31700
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "b476ed0fef8d57efb5b1fe0bbbe31700",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302242000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: b476ed0fef8d57efb5b1fe0bbbe31700
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "b476ed0fef8d57efb5b1fe0bbbe31700",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302242000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: b476ed0fef8d57efb5b1fe0bbbe31700
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "b476ed0fef8d57efb5b1fe0bbbe31700",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302242000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: b476ed0fef8d57efb5b1fe0bbbe31700
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "b476ed0fef8d57efb5b1fe0bbbe31700",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Olympic cat agility course shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "52cf4978b357438ca08ecddbd73982e0",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/c2a2f077-46dd-49ab-81d7-bb119b3450ba_watermarked.mp4"
+      ],
+      "seeds": [
+        77239
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302347000,
+    "createTime": 1752302242000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/c2a2f077-46dd-49ab-81d7-bb119b3450ba_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/c2a2f077-46dd-49ab-81d7-bb119b3450ba_watermarked.mp4
+   To: prompt-402.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.2% (0.02 MB)   📊 Progress: 1.2% (0.02 MB)   📊 Progress: 1.3% (0.02 MB)   📊 Progress: 1.4% (0.02 MB)   📊 Progress: 1.5% (0.03 MB)   📊 Progress: 1.5% (0.03 MB)   📊 Progress: 1.6% (0.03 MB)   📊 Progress: 1.7% (0.03 MB)   📊 Progress: 1.7% (0.03 MB)   📊 Progress: 1.8% (0.03 MB)   📊 Progress: 1.9% (0.03 MB)   📊 Progress: 2.0% (0.04 MB)   📊 Progress: 2.0% (0.04 MB)   📊 Progress: 2.1% (0.04 MB)   📊 Progress: 2.2% (0.04 MB)   📊 Progress: 2.3% (0.04 MB)   📊 Progress: 2.3% (0.04 MB)   📊 Progress: 2.4% (0.04 MB)   📊 Progress: 2.5% (0.04 MB)   📊 Progress: 2.5% (0.05 MB)   📊 Progress: 2.6% (0.05 MB)   📊 Progress: 2.7% (0.05 MB)   📊 Progress: 2.8% (0.05 MB)   📊 Progress: 2.8% (0.05 MB)   📊 Progress: 2.9% (0.05 MB)   📊 Progress: 3.1% (0.06 MB)   📊 Progress: 3.4% (0.06 MB)   📊 Progress: 3.5% (0.06 MB)   📊 Progress: 3.7% (0.07 MB)   📊 Progress: 3.9% (0.07 MB)   📊 Progress: 4.2% (0.07 MB)   📊 Progress: 4.4% (0.08 MB)   📊 Progress: 4.6% (0.08 MB)   📊 Progress: 4.8% (0.09 MB)   📊 Progress: 5.1% (0.09 MB)   📊 Progress: 5.2% (0.09 MB)   📊 Progress: 5.5% (0.10 MB)   📊 Progress: 5.7% (0.10 MB)   📊 Progress: 5.9% (0.11 MB)   📊 Progress: 6.1% (0.11 MB)   📊 Progress: 6.4% (0.11 MB)   📊 Progress: 6.6% (0.12 MB)   📊 Progress: 6.8% (0.12 MB)   📊 Progress: 7.0% (0.13 MB)   📊 Progress: 7.2% (0.13 MB)   📊 Progress: 7.4% (0.13 MB)   📊 Progress: 7.7% (0.14 MB)   📊 Progress: 7.9% (0.14 MB)   📊 Progress: 8.1% (0.14 MB)   📊 Progress: 8.3% (0.15 MB)   📊 Progress: 8.5% (0.15 MB)   📊 Progress: 8.7% (0.16 MB)   📊 Progress: 8.9% (0.16 MB)   📊 Progress: 9.2% (0.16 MB)   📊 Progress: 9.4% (0.17 MB)   📊 Progress: 9.6% (0.17 MB)   📊 Progress: 9.8% (0.18 MB)   📊 Progress: 10.0% (0.18 MB)   📊 Progress: 10.3% (0.18 MB)   📊 Progress: 10.5% (0.19 MB)   📊 Progress: 10.7% (0.19 MB)   📊 Progress: 10.9% (0.20 MB)   📊 Progress: 11.1% (0.20 MB)   📊 Progress: 11.3% (0.20 MB)   📊 Progress: 11.6% (0.21 MB)   📊 Progress: 12.2% (0.22 MB)   📊 Progress: 13.1% (0.23 MB)   📊 Progress: 14.0% (0.25 MB)   📊 Progress: 14.8% (0.27 MB)   📊 Progress: 15.7% (0.28 MB)   📊 Progress: 16.6% (0.30 MB)   📊 Progress: 17.4% (0.31 MB)   📊 Progress: 18.3% (0.33 MB)   📊 Progress: 19.2% (0.34 MB)   📊 Progress: 20.1% (0.36 MB)   📊 Progress: 20.9% (0.38 MB)   📊 Progress: 21.8% (0.39 MB)   📊 Progress: 22.7% (0.41 MB)   📊 Progress: 23.6% (0.42 MB)   📊 Progress: 24.4% (0.44 MB)   📊 Progress: 25.3% (0.45 MB)   📊 Progress: 26.2% (0.47 MB)   📊 Progress: 27.0% (0.48 MB)   📊 Progress: 27.9% (0.50 MB)   📊 Progress: 28.8% (0.52 MB)   📊 Progress: 29.7% (0.53 MB)   📊 Progress: 30.5% (0.55 MB)   📊 Progress: 31.4% (0.56 MB)   📊 Progress: 32.3% (0.58 MB)   📊 Progress: 33.2% (0.59 MB)   📊 Progress: 34.0% (0.61 MB)   📊 Progress: 34.9% (0.63 MB)   📊 Progress: 35.8% (0.64 MB)   📊 Progress: 36.6% (0.66 MB)   📊 Progress: 37.5% (0.67 MB)   📊 Progress: 38.4% (0.69 MB)   📊 Progress: 39.3% (0.70 MB)   📊 Progress: 40.1% (0.72 MB)   📊 Progress: 41.0% (0.73 MB)   📊 Progress: 41.9% (0.75 MB)   📊 Progress: 42.7% (0.77 MB)   📊 Progress: 43.6% (0.78 MB)   📊 Progress: 44.5% (0.80 MB)   📊 Progress: 45.4% (0.81 MB)   📊 Progress: 46.2% (0.83 MB)   📊 Progress: 47.1% (0.84 MB)   📊 Progress: 48.0% (0.86 MB)   📊 Progress: 48.9% (0.88 MB)   📊 Progress: 49.7% (0.89 MB)   📊 Progress: 50.6% (0.91 MB)   📊 Progress: 51.5% (0.92 MB)   📊 Progress: 52.3% (0.94 MB)   📊 Progress: 53.2% (0.95 MB)   📊 Progress: 54.1% (0.97 MB)   📊 Progress: 55.0% (0.98 MB)   📊 Progress: 55.8% (1.00 MB)   📊 Progress: 56.7% (1.02 MB)   📊 Progress: 57.6% (1.03 MB)   📊 Progress: 58.5% (1.05 MB)   📊 Progress: 59.3% (1.06 MB)   📊 Progress: 60.2% (1.08 MB)   📊 Progress: 61.1% (1.09 MB)   📊 Progress: 61.9% (1.11 MB)   📊 Progress: 62.8% (1.13 MB)   📊 Progress: 63.7% (1.14 MB)   📊 Progress: 64.6% (1.16 MB)   📊 Progress: 65.4% (1.17 MB)   📊 Progress: 66.3% (1.19 MB)   📊 Progress: 67.2% (1.20 MB)   📊 Progress: 68.0% (1.22 MB)   📊 Progress: 68.9% (1.23 MB)   📊 Progress: 69.8% (1.25 MB)   📊 Progress: 70.7% (1.27 MB)   📊 Progress: 71.5% (1.28 MB)   📊 Progress: 72.4% (1.30 MB)   📊 Progress: 73.1% (1.31 MB)   📊 Progress: 73.9% (1.32 MB)   📊 Progress: 74.8% (1.34 MB)   📊 Progress: 75.7% (1.36 MB)   📊 Progress: 76.6% (1.37 MB)   📊 Progress: 77.4% (1.39 MB)   📊 Progress: 78.3% (1.40 MB)   📊 Progress: 79.2% (1.42 MB)   📊 Progress: 80.0% (1.43 MB)   📊 Progress: 80.9% (1.45 MB)   📊 Progress: 81.8% (1.46 MB)   📊 Progress: 82.7% (1.48 MB)   📊 Progress: 83.5% (1.50 MB)   📊 Progress: 84.4% (1.51 MB)   📊 Progress: 85.3% (1.53 MB)   📊 Progress: 86.1% (1.54 MB)   📊 Progress: 87.0% (1.56 MB)   📊 Progress: 87.9% (1.57 MB)   📊 Progress: 88.8% (1.59 MB)   📊 Progress: 89.6% (1.61 MB)   📊 Progress: 90.5% (1.62 MB)   📊 Progress: 91.4% (1.64 MB)   📊 Progress: 92.3% (1.65 MB)   📊 Progress: 93.1% (1.67 MB)   📊 Progress: 94.0% (1.68 MB)   📊 Progress: 94.9% (1.70 MB)   📊 Progress: 95.7% (1.71 MB)   📊 Progress: 96.6% (1.73 MB)   📊 Progress: 97.5% (1.75 MB)   📊 Progress: 98.4% (1.76 MB)   📊 Progress: 99.2% (1.78 MB)   📊 Progress: 100.0% (1.79 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 1.79 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-402.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-402.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Olympic Cat Agility Course"
+📁 File: prompt-402.mp4
+⭐ Rating: 5/5
+📂 Category: Fashion
+🔗 Video URL: /videos/prompt-402.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-402.mp4
+📋 Task ID: b476ed0fef8d57efb5b1fe0bbbe31700
+⏰ Completed: 12/07/2025, 4:09:26 pm
+   ✅ SUCCESS: Olympic Cat Agility Course (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [4/24] Processing: "Living Storybook Animation" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 407
+⏰ Started: 12/07/2025, 4:09:36 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Living Storybook Animation"
+   Prompt: Living storybook animation shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 35a0bf6838f4b6a5496101e211212136
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 35a0bf6838f4b6a5496101e211212136
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "35a0bf6838f4b6a5496101e211212136",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302378000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 35a0bf6838f4b6a5496101e211212136
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "35a0bf6838f4b6a5496101e211212136",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302378000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 35a0bf6838f4b6a5496101e211212136
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "35a0bf6838f4b6a5496101e211212136",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302378000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 35a0bf6838f4b6a5496101e211212136
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "35a0bf6838f4b6a5496101e211212136",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302378000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 35a0bf6838f4b6a5496101e211212136
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "35a0bf6838f4b6a5496101e211212136",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Living storybook animation shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "d7eaa5230fc2454da2bd956cac514434",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/7ec92b9f-2fef-4d46-9a7c-35e7a3b68309_watermarked.mp4"
+      ],
+      "seeds": [
+        88554
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302478000,
+    "createTime": 1752302378000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/7ec92b9f-2fef-4d46-9a7c-35e7a3b68309_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/7ec92b9f-2fef-4d46-9a7c-35e7a3b68309_watermarked.mp4
+   To: prompt-407.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.2% (0.01 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.6% (0.02 MB)   📊 Progress: 0.7% (0.02 MB)   📊 Progress: 0.8% (0.02 MB)   📊 Progress: 0.8% (0.02 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.1% (0.03 MB)   📊 Progress: 1.1% (0.03 MB)   📊 Progress: 1.2% (0.03 MB)   📊 Progress: 1.2% (0.03 MB)   📊 Progress: 1.3% (0.03 MB)   📊 Progress: 1.4% (0.03 MB)   📊 Progress: 1.4% (0.03 MB)   📊 Progress: 1.5% (0.04 MB)   📊 Progress: 1.5% (0.04 MB)   📊 Progress: 1.6% (0.04 MB)   📊 Progress: 1.6% (0.04 MB)   📊 Progress: 1.7% (0.04 MB)   📊 Progress: 1.7% (0.04 MB)   📊 Progress: 1.8% (0.04 MB)   📊 Progress: 1.8% (0.04 MB)   📊 Progress: 1.9% (0.05 MB)   📊 Progress: 1.9% (0.05 MB)   📊 Progress: 2.0% (0.05 MB)   📊 Progress: 2.1% (0.05 MB)   📊 Progress: 2.1% (0.05 MB)   📊 Progress: 2.2% (0.05 MB)   📊 Progress: 2.3% (0.06 MB)   📊 Progress: 2.5% (0.06 MB)   📊 Progress: 2.6% (0.06 MB)   📊 Progress: 2.8% (0.07 MB)   📊 Progress: 2.9% (0.07 MB)   📊 Progress: 3.1% (0.07 MB)   📊 Progress: 3.2% (0.08 MB)   📊 Progress: 3.4% (0.08 MB)   📊 Progress: 3.6% (0.09 MB)   📊 Progress: 3.8% (0.09 MB)   📊 Progress: 3.9% (0.09 MB)   📊 Progress: 4.1% (0.10 MB)   📊 Progress: 4.2% (0.10 MB)   📊 Progress: 4.4% (0.11 MB)   📊 Progress: 4.5% (0.11 MB)   📊 Progress: 4.7% (0.11 MB)   📊 Progress: 4.9% (0.12 MB)   📊 Progress: 5.1% (0.12 MB)   📊 Progress: 5.2% (0.13 MB)   📊 Progress: 5.4% (0.13 MB)   📊 Progress: 5.5% (0.13 MB)   📊 Progress: 5.7% (0.14 MB)   📊 Progress: 5.8% (0.14 MB)   📊 Progress: 6.0% (0.14 MB)   📊 Progress: 6.2% (0.15 MB)   📊 Progress: 6.4% (0.15 MB)   📊 Progress: 6.5% (0.16 MB)   📊 Progress: 6.7% (0.16 MB)   📊 Progress: 6.8% (0.16 MB)   📊 Progress: 7.0% (0.17 MB)   📊 Progress: 7.1% (0.17 MB)   📊 Progress: 7.3% (0.18 MB)   📊 Progress: 7.5% (0.18 MB)   📊 Progress: 7.7% (0.18 MB)   📊 Progress: 7.8% (0.19 MB)   📊 Progress: 8.0% (0.19 MB)   📊 Progress: 8.1% (0.20 MB)   📊 Progress: 8.3% (0.20 MB)   📊 Progress: 8.4% (0.20 MB)   📊 Progress: 8.6% (0.21 MB)   📊 Progress: 9.1% (0.22 MB)   📊 Progress: 9.7% (0.23 MB)   📊 Progress: 10.4% (0.25 MB)   📊 Progress: 11.0% (0.27 MB)   📊 Progress: 11.7% (0.28 MB)   📊 Progress: 12.3% (0.30 MB)   📊 Progress: 13.0% (0.31 MB)   📊 Progress: 13.6% (0.33 MB)   📊 Progress: 14.3% (0.34 MB)   📊 Progress: 14.9% (0.36 MB)   📊 Progress: 15.6% (0.38 MB)   📊 Progress: 16.2% (0.39 MB)   📊 Progress: 16.9% (0.41 MB)   📊 Progress: 17.5% (0.42 MB)   📊 Progress: 18.2% (0.44 MB)   📊 Progress: 18.8% (0.45 MB)   📊 Progress: 19.5% (0.47 MB)   📊 Progress: 20.1% (0.48 MB)   📊 Progress: 20.8% (0.50 MB)   📊 Progress: 21.4% (0.52 MB)   📊 Progress: 22.1% (0.53 MB)   📊 Progress: 22.7% (0.55 MB)   📊 Progress: 23.4% (0.56 MB)   📊 Progress: 24.0% (0.58 MB)   📊 Progress: 24.7% (0.59 MB)   📊 Progress: 25.3% (0.61 MB)   📊 Progress: 26.0% (0.63 MB)   📊 Progress: 26.6% (0.64 MB)   📊 Progress: 27.3% (0.66 MB)   📊 Progress: 27.9% (0.67 MB)   📊 Progress: 28.6% (0.69 MB)   📊 Progress: 29.2% (0.70 MB)   📊 Progress: 29.9% (0.72 MB)   📊 Progress: 30.5% (0.73 MB)   📊 Progress: 31.2% (0.75 MB)   📊 Progress: 31.8% (0.77 MB)   📊 Progress: 32.3% (0.78 MB)   📊 Progress: 33.0% (0.79 MB)   📊 Progress: 33.6% (0.81 MB)   📊 Progress: 34.3% (0.82 MB)   📊 Progress: 34.4% (0.83 MB)   📊 Progress: 35.1% (0.84 MB)   📊 Progress: 35.7% (0.86 MB)   📊 Progress: 36.4% (0.88 MB)   📊 Progress: 37.0% (0.89 MB)   📊 Progress: 37.7% (0.91 MB)   📊 Progress: 38.3% (0.92 MB)   📊 Progress: 39.0% (0.94 MB)   📊 Progress: 39.5% (0.95 MB)   📊 Progress: 40.1% (0.96 MB)   📊 Progress: 40.8% (0.98 MB)   📊 Progress: 41.4% (1.00 MB)   📊 Progress: 41.6% (1.00 MB)   📊 Progress: 42.2% (1.02 MB)   📊 Progress: 42.9% (1.03 MB)   📊 Progress: 43.5% (1.05 MB)   📊 Progress: 44.2% (1.06 MB)   📊 Progress: 44.8% (1.08 MB)   📊 Progress: 45.5% (1.09 MB)   📊 Progress: 46.1% (1.11 MB)   📊 Progress: 46.8% (1.13 MB)   📊 Progress: 47.4% (1.14 MB)   📊 Progress: 48.1% (1.16 MB)   📊 Progress: 48.7% (1.17 MB)   📊 Progress: 49.4% (1.19 MB)   📊 Progress: 50.0% (1.20 MB)   📊 Progress: 50.7% (1.22 MB)   📊 Progress: 51.3% (1.23 MB)   📊 Progress: 52.0% (1.25 MB)   📊 Progress: 52.6% (1.27 MB)   📊 Progress: 53.3% (1.28 MB)   📊 Progress: 53.9% (1.30 MB)   📊 Progress: 54.6% (1.31 MB)   📊 Progress: 55.2% (1.33 MB)   📊 Progress: 55.9% (1.34 MB)   📊 Progress: 56.5% (1.36 MB)   📊 Progress: 57.2% (1.38 MB)   📊 Progress: 57.8% (1.39 MB)   📊 Progress: 58.5% (1.41 MB)   📊 Progress: 59.1% (1.42 MB)   📊 Progress: 59.8% (1.44 MB)   📊 Progress: 60.4% (1.45 MB)   📊 Progress: 61.1% (1.47 MB)   📊 Progress: 61.7% (1.48 MB)   📊 Progress: 62.4% (1.50 MB)   📊 Progress: 63.0% (1.52 MB)   📊 Progress: 63.7% (1.53 MB)   📊 Progress: 64.3% (1.55 MB)   📊 Progress: 65.0% (1.56 MB)   📊 Progress: 65.6% (1.58 MB)   📊 Progress: 66.3% (1.59 MB)   📊 Progress: 66.9% (1.61 MB)   📊 Progress: 67.6% (1.63 MB)   📊 Progress: 68.2% (1.64 MB)   📊 Progress: 68.9% (1.66 MB)   📊 Progress: 69.5% (1.67 MB)   📊 Progress: 70.2% (1.69 MB)   📊 Progress: 70.8% (1.70 MB)   📊 Progress: 71.5% (1.72 MB)   📊 Progress: 72.1% (1.73 MB)   📊 Progress: 72.8% (1.75 MB)   📊 Progress: 73.4% (1.77 MB)   📊 Progress: 74.1% (1.78 MB)   📊 Progress: 74.7% (1.80 MB)   📊 Progress: 75.4% (1.81 MB)   📊 Progress: 76.0% (1.83 MB)   📊 Progress: 76.7% (1.84 MB)   📊 Progress: 77.3% (1.86 MB)   📊 Progress: 78.0% (1.88 MB)   📊 Progress: 78.6% (1.89 MB)   📊 Progress: 79.3% (1.91 MB)   📊 Progress: 79.9% (1.92 MB)   📊 Progress: 80.6% (1.94 MB)   📊 Progress: 81.2% (1.95 MB)   📊 Progress: 81.9% (1.97 MB)   📊 Progress: 82.5% (1.98 MB)   📊 Progress: 83.2% (2.00 MB)   📊 Progress: 83.8% (2.02 MB)   📊 Progress: 84.5% (2.03 MB)   📊 Progress: 85.1% (2.05 MB)   📊 Progress: 85.8% (2.06 MB)   📊 Progress: 86.4% (2.08 MB)   📊 Progress: 87.1% (2.09 MB)   📊 Progress: 87.7% (2.11 MB)   📊 Progress: 88.4% (2.13 MB)   📊 Progress: 89.0% (2.14 MB)   📊 Progress: 89.7% (2.16 MB)   📊 Progress: 90.3% (2.17 MB)   📊 Progress: 91.0% (2.19 MB)   📊 Progress: 91.6% (2.20 MB)   📊 Progress: 92.3% (2.22 MB)   📊 Progress: 92.9% (2.23 MB)   📊 Progress: 93.6% (2.25 MB)   📊 Progress: 94.2% (2.27 MB)   📊 Progress: 94.9% (2.28 MB)   📊 Progress: 95.5% (2.30 MB)   📊 Progress: 96.2% (2.31 MB)   📊 Progress: 96.8% (2.33 MB)   📊 Progress: 97.5% (2.34 MB)   📊 Progress: 98.1% (2.36 MB)   📊 Progress: 98.8% (2.38 MB)   📊 Progress: 99.4% (2.39 MB)   📊 Progress: 100.0% (2.40 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 2.40 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-407.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-407.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Living Storybook Animation"
+📁 File: prompt-407.mp4
+⭐ Rating: 5/5
+📂 Category: Abstract Art
+🔗 Video URL: /videos/prompt-407.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-407.mp4
+📋 Task ID: 35a0bf6838f4b6a5496101e211212136
+⏰ Completed: 12/07/2025, 4:11:40 pm
+   ✅ SUCCESS: Living Storybook Animation (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [5/24] Processing: "Candy Keyboard Musical Notes" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 408
+⏰ Started: 12/07/2025, 4:11:50 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Candy Keyboard Musical Notes"
+   Prompt: Candy keyboard musical notes shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 342ac42dc68027a7daa4025d7802946a
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 342ac42dc68027a7daa4025d7802946a
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "342ac42dc68027a7daa4025d7802946a",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302511000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 342ac42dc68027a7daa4025d7802946a
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "342ac42dc68027a7daa4025d7802946a",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302511000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 342ac42dc68027a7daa4025d7802946a
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "342ac42dc68027a7daa4025d7802946a",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302511000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 342ac42dc68027a7daa4025d7802946a
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "342ac42dc68027a7daa4025d7802946a",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302511000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 342ac42dc68027a7daa4025d7802946a
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "342ac42dc68027a7daa4025d7802946a",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Candy keyboard musical notes shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "412b1beaecf54a17b31dbd64499e0801",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/3acd1667-e1f6-4df0-824b-09b0fd7c65d9_watermarked.mp4"
+      ],
+      "seeds": [
+        93172
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302616000,
+    "createTime": 1752302511000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/3acd1667-e1f6-4df0-824b-09b0fd7c65d9_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/3acd1667-e1f6-4df0-824b-09b0fd7c65d9_watermarked.mp4
+   To: prompt-408.mp4
+   📊 Progress: 0.0% (0.00 MB)   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.3% (0.00 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.01 MB)   📊 Progress: 1.0% (0.01 MB)   📊 Progress: 1.1% (0.01 MB)   📊 Progress: 1.2% (0.01 MB)   📊 Progress: 1.3% (0.02 MB)   📊 Progress: 1.4% (0.02 MB)   📊 Progress: 1.5% (0.02 MB)   📊 Progress: 1.6% (0.02 MB)   📊 Progress: 1.7% (0.02 MB)   📊 Progress: 1.8% (0.02 MB)   📊 Progress: 1.9% (0.02 MB)   📊 Progress: 2.0% (0.03 MB)   📊 Progress: 2.1% (0.03 MB)   📊 Progress: 2.2% (0.03 MB)   📊 Progress: 2.3% (0.03 MB)   📊 Progress: 2.4% (0.03 MB)   📊 Progress: 2.5% (0.03 MB)   📊 Progress: 2.6% (0.03 MB)   📊 Progress: 2.7% (0.03 MB)   📊 Progress: 2.9% (0.04 MB)   📊 Progress: 3.0% (0.04 MB)   📊 Progress: 3.1% (0.04 MB)   📊 Progress: 3.2% (0.04 MB)   📊 Progress: 3.3% (0.04 MB)   📊 Progress: 3.4% (0.04 MB)   📊 Progress: 3.5% (0.04 MB)   📊 Progress: 3.6% (0.04 MB)   📊 Progress: 3.7% (0.05 MB)   📊 Progress: 3.8% (0.05 MB)   📊 Progress: 3.9% (0.05 MB)   📊 Progress: 4.0% (0.05 MB)   📊 Progress: 4.1% (0.05 MB)   📊 Progress: 4.2% (0.05 MB)   📊 Progress: 4.5% (0.06 MB)   📊 Progress: 4.7% (0.06 MB)   📊 Progress: 5.1% (0.06 MB)   📊 Progress: 5.4% (0.07 MB)   📊 Progress: 5.7% (0.07 MB)   📊 Progress: 6.0% (0.07 MB)   📊 Progress: 6.4% (0.08 MB)   📊 Progress: 6.7% (0.08 MB)   📊 Progress: 7.0% (0.09 MB)   📊 Progress: 7.3% (0.09 MB)   📊 Progress: 7.6% (0.09 MB)   📊 Progress: 7.9% (0.10 MB)   📊 Progress: 8.2% (0.10 MB)   📊 Progress: 8.5% (0.11 MB)   📊 Progress: 8.9% (0.11 MB)   📊 Progress: 9.2% (0.11 MB)   📊 Progress: 9.5% (0.12 MB)   📊 Progress: 9.8% (0.12 MB)   📊 Progress: 10.1% (0.13 MB)   📊 Progress: 10.4% (0.13 MB)   📊 Progress: 10.7% (0.13 MB)   📊 Progress: 11.1% (0.14 MB)   📊 Progress: 11.4% (0.14 MB)   📊 Progress: 11.7% (0.15 MB)   📊 Progress: 12.0% (0.15 MB)   📊 Progress: 12.4% (0.15 MB)   📊 Progress: 12.6% (0.16 MB)   📊 Progress: 12.9% (0.16 MB)   📊 Progress: 13.3% (0.16 MB)   📊 Progress: 13.6% (0.17 MB)   📊 Progress: 13.9% (0.17 MB)   📊 Progress: 14.2% (0.18 MB)   📊 Progress: 14.6% (0.18 MB)   📊 Progress: 14.9% (0.18 MB)   📊 Progress: 15.1% (0.19 MB)   📊 Progress: 15.5% (0.19 MB)   📊 Progress: 15.8% (0.20 MB)   📊 Progress: 16.1% (0.20 MB)   📊 Progress: 16.4% (0.20 MB)   📊 Progress: 16.8% (0.21 MB)   📊 Progress: 17.7% (0.22 MB)   📊 Progress: 18.9% (0.23 MB)   📊 Progress: 20.2% (0.25 MB)   📊 Progress: 21.4% (0.27 MB)   📊 Progress: 22.7% (0.28 MB)   📊 Progress: 24.0% (0.30 MB)   📊 Progress: 25.2% (0.31 MB)   📊 Progress: 26.5% (0.33 MB)   📊 Progress: 27.7% (0.34 MB)   📊 Progress: 29.0% (0.36 MB)   📊 Progress: 30.3% (0.38 MB)   📊 Progress: 31.5% (0.39 MB)   📊 Progress: 32.8% (0.41 MB)   📊 Progress: 34.0% (0.42 MB)   📊 Progress: 35.3% (0.44 MB)   📊 Progress: 36.6% (0.45 MB)   📊 Progress: 37.8% (0.47 MB)   📊 Progress: 39.1% (0.48 MB)   📊 Progress: 40.3% (0.50 MB)   📊 Progress: 41.6% (0.52 MB)   📊 Progress: 42.9% (0.53 MB)   📊 Progress: 44.1% (0.55 MB)   📊 Progress: 45.4% (0.56 MB)   📊 Progress: 46.7% (0.58 MB)   📊 Progress: 47.9% (0.59 MB)   📊 Progress: 49.2% (0.61 MB)   📊 Progress: 50.4% (0.63 MB)   📊 Progress: 51.7% (0.64 MB)   📊 Progress: 53.0% (0.66 MB)   📊 Progress: 54.2% (0.67 MB)   📊 Progress: 55.5% (0.69 MB)   📊 Progress: 56.7% (0.70 MB)   📊 Progress: 58.0% (0.72 MB)   📊 Progress: 59.3% (0.73 MB)   📊 Progress: 60.5% (0.75 MB)   📊 Progress: 61.8% (0.77 MB)   📊 Progress: 63.0% (0.78 MB)   📊 Progress: 64.3% (0.80 MB)   📊 Progress: 65.6% (0.81 MB)   📊 Progress: 66.8% (0.83 MB)   📊 Progress: 68.1% (0.84 MB)   📊 Progress: 69.3% (0.86 MB)   📊 Progress: 70.6% (0.88 MB)   📊 Progress: 71.9% (0.89 MB)   📊 Progress: 73.1% (0.91 MB)   📊 Progress: 74.4% (0.92 MB)   📊 Progress: 75.7% (0.94 MB)   📊 Progress: 76.9% (0.95 MB)   📊 Progress: 78.2% (0.97 MB)   📊 Progress: 79.4% (0.98 MB)   📊 Progress: 80.7% (1.00 MB)   📊 Progress: 82.0% (1.02 MB)   📊 Progress: 83.2% (1.03 MB)   📊 Progress: 84.5% (1.05 MB)   📊 Progress: 85.7% (1.06 MB)   📊 Progress: 87.0% (1.08 MB)   📊 Progress: 88.3% (1.09 MB)   📊 Progress: 89.5% (1.11 MB)   📊 Progress: 90.8% (1.13 MB)   📊 Progress: 92.0% (1.14 MB)   📊 Progress: 93.3% (1.16 MB)   📊 Progress: 94.6% (1.17 MB)   📊 Progress: 95.8% (1.19 MB)   📊 Progress: 97.1% (1.20 MB)   📊 Progress: 98.3% (1.22 MB)   📊 Progress: 99.6% (1.23 MB)   📊 Progress: 100.0% (1.24 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 1.24 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-408.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-408.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Candy Keyboard Musical Notes"
+📁 File: prompt-408.mp4
+⭐ Rating: 5/5
+📂 Category: Crime Drama
+🔗 Video URL: /videos/prompt-408.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-408.mp4
+📋 Task ID: 342ac42dc68027a7daa4025d7802946a
+⏰ Completed: 12/07/2025, 4:13:53 pm
+   ✅ SUCCESS: Candy Keyboard Musical Notes (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [6/24] Processing: "Wolf Sprint Tracking Shot" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 413
+⏰ Started: 12/07/2025, 4:14:03 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Wolf Sprint Tracking Shot"
+   Prompt: Wolf sprint tracking shot shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 0ace5155ac5963f411b564cfa35f9b35
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 0ace5155ac5963f411b564cfa35f9b35
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0ace5155ac5963f411b564cfa35f9b35",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302644000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 0ace5155ac5963f411b564cfa35f9b35
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0ace5155ac5963f411b564cfa35f9b35",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302644000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 0ace5155ac5963f411b564cfa35f9b35
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0ace5155ac5963f411b564cfa35f9b35",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302644000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 0ace5155ac5963f411b564cfa35f9b35
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0ace5155ac5963f411b564cfa35f9b35",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302644000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 0ace5155ac5963f411b564cfa35f9b35
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "0ace5155ac5963f411b564cfa35f9b35",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wolf sprint tracking shot shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "e0216f70da8a4521aa679afb4797e495",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/2eb19dc7-a328-41df-a406-0a4c2a266419_watermarked.mp4"
+      ],
+      "seeds": [
+        27433
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302754000,
+    "createTime": 1752302644000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/2eb19dc7-a328-41df-a406-0a4c2a266419_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/2eb19dc7-a328-41df-a406-0a4c2a266419_watermarked.mp4
+   To: prompt-413.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.2% (0.01 MB)   📊 Progress: 0.3% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.4% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.7% (0.02 MB)   📊 Progress: 0.8% (0.02 MB)   📊 Progress: 0.8% (0.02 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 0.9% (0.02 MB)   📊 Progress: 1.0% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.1% (0.02 MB)   📊 Progress: 1.2% (0.03 MB)   📊 Progress: 1.2% (0.03 MB)   📊 Progress: 1.3% (0.03 MB)   📊 Progress: 1.4% (0.03 MB)   📊 Progress: 1.4% (0.03 MB)   📊 Progress: 1.5% (0.03 MB)   📊 Progress: 1.5% (0.03 MB)   📊 Progress: 1.6% (0.04 MB)   📊 Progress: 1.7% (0.04 MB)   📊 Progress: 1.7% (0.04 MB)   📊 Progress: 1.8% (0.04 MB)   📊 Progress: 1.8% (0.04 MB)   📊 Progress: 1.9% (0.04 MB)   📊 Progress: 2.0% (0.04 MB)   📊 Progress: 2.0% (0.04 MB)   📊 Progress: 2.1% (0.05 MB)   📊 Progress: 2.1% (0.05 MB)   📊 Progress: 2.2% (0.05 MB)   📊 Progress: 2.3% (0.05 MB)   📊 Progress: 2.3% (0.05 MB)   📊 Progress: 2.4% (0.05 MB)   📊 Progress: 2.6% (0.06 MB)   📊 Progress: 2.7% (0.06 MB)   📊 Progress: 2.8% (0.06 MB)   📊 Progress: 3.0% (0.07 MB)   📊 Progress: 3.2% (0.07 MB)   📊 Progress: 3.4% (0.07 MB)   📊 Progress: 3.6% (0.08 MB)   📊 Progress: 3.7% (0.08 MB)   📊 Progress: 3.9% (0.09 MB)   📊 Progress: 4.1% (0.09 MB)   📊 Progress: 4.3% (0.09 MB)   📊 Progress: 4.4% (0.10 MB)   📊 Progress: 4.6% (0.10 MB)   📊 Progress: 4.8% (0.11 MB)   📊 Progress: 5.0% (0.11 MB)   📊 Progress: 5.2% (0.11 MB)   📊 Progress: 5.3% (0.12 MB)   📊 Progress: 5.5% (0.12 MB)   📊 Progress: 5.7% (0.13 MB)   📊 Progress: 5.9% (0.13 MB)   📊 Progress: 6.1% (0.13 MB)   📊 Progress: 6.2% (0.14 MB)   📊 Progress: 6.4% (0.14 MB)   📊 Progress: 6.6% (0.14 MB)   📊 Progress: 6.8% (0.15 MB)   📊 Progress: 6.9% (0.15 MB)   📊 Progress: 7.1% (0.16 MB)   📊 Progress: 7.3% (0.16 MB)   📊 Progress: 7.5% (0.16 MB)   📊 Progress: 7.7% (0.17 MB)   📊 Progress: 7.8% (0.17 MB)   📊 Progress: 8.0% (0.18 MB)   📊 Progress: 8.2% (0.18 MB)   📊 Progress: 8.4% (0.18 MB)   📊 Progress: 8.5% (0.19 MB)   📊 Progress: 8.7% (0.19 MB)   📊 Progress: 8.9% (0.20 MB)   📊 Progress: 9.1% (0.20 MB)   📊 Progress: 9.2% (0.20 MB)   📊 Progress: 9.4% (0.21 MB)   📊 Progress: 10.0% (0.22 MB)   📊 Progress: 10.7% (0.23 MB)   📊 Progress: 11.4% (0.25 MB)   📊 Progress: 12.1% (0.27 MB)   📊 Progress: 12.8% (0.28 MB)   📊 Progress: 13.5% (0.30 MB)   📊 Progress: 14.2% (0.31 MB)   📊 Progress: 14.9% (0.33 MB)   📊 Progress: 15.6% (0.34 MB)   📊 Progress: 16.4% (0.36 MB)   📊 Progress: 17.1% (0.38 MB)   📊 Progress: 17.8% (0.39 MB)   📊 Progress: 18.5% (0.41 MB)   📊 Progress: 19.2% (0.42 MB)   📊 Progress: 19.9% (0.44 MB)   📊 Progress: 20.6% (0.45 MB)   📊 Progress: 21.3% (0.47 MB)   📊 Progress: 22.0% (0.48 MB)   📊 Progress: 22.7% (0.50 MB)   📊 Progress: 23.5% (0.52 MB)   📊 Progress: 24.2% (0.53 MB)   📊 Progress: 24.7% (0.54 MB)   📊 Progress: 24.9% (0.55 MB)   📊 Progress: 25.6% (0.56 MB)   📊 Progress: 26.3% (0.58 MB)   📊 Progress: 27.0% (0.59 MB)   📊 Progress: 27.7% (0.61 MB)   📊 Progress: 28.4% (0.63 MB)   📊 Progress: 29.1% (0.64 MB)   📊 Progress: 29.9% (0.66 MB)   📊 Progress: 30.6% (0.67 MB)   📊 Progress: 31.3% (0.69 MB)   📊 Progress: 32.0% (0.70 MB)   📊 Progress: 32.7% (0.72 MB)   📊 Progress: 33.4% (0.73 MB)   📊 Progress: 34.1% (0.75 MB)   📊 Progress: 34.8% (0.77 MB)   📊 Progress: 35.5% (0.78 MB)   📊 Progress: 36.3% (0.80 MB)   📊 Progress: 37.0% (0.81 MB)   📊 Progress: 37.7% (0.83 MB)   📊 Progress: 38.4% (0.84 MB)   📊 Progress: 39.1% (0.86 MB)   📊 Progress: 39.8% (0.88 MB)   📊 Progress: 40.5% (0.89 MB)   📊 Progress: 41.2% (0.91 MB)   📊 Progress: 41.9% (0.92 MB)   📊 Progress: 42.7% (0.94 MB)   📊 Progress: 43.4% (0.95 MB)   📊 Progress: 44.1% (0.97 MB)   📊 Progress: 44.8% (0.98 MB)   📊 Progress: 45.5% (1.00 MB)   📊 Progress: 46.2% (1.02 MB)   📊 Progress: 46.9% (1.03 MB)   📊 Progress: 47.6% (1.05 MB)   📊 Progress: 48.3% (1.06 MB)   📊 Progress: 49.1% (1.08 MB)   📊 Progress: 49.8% (1.09 MB)   📊 Progress: 50.5% (1.11 MB)   📊 Progress: 51.2% (1.13 MB)   📊 Progress: 51.9% (1.14 MB)   📊 Progress: 52.1% (1.14 MB)   📊 Progress: 52.8% (1.16 MB)   📊 Progress: 53.5% (1.18 MB)   📊 Progress: 54.2% (1.19 MB)   📊 Progress: 54.9% (1.21 MB)   📊 Progress: 55.6% (1.22 MB)   📊 Progress: 56.3% (1.24 MB)   📊 Progress: 57.1% (1.25 MB)   📊 Progress: 57.8% (1.27 MB)   📊 Progress: 58.5% (1.29 MB)   📊 Progress: 59.0% (1.30 MB)   📊 Progress: 59.7% (1.31 MB)   📊 Progress: 60.4% (1.33 MB)   📊 Progress: 61.1% (1.34 MB)   📊 Progress: 61.8% (1.36 MB)   📊 Progress: 62.6% (1.38 MB)   📊 Progress: 63.3% (1.39 MB)   📊 Progress: 64.0% (1.41 MB)   📊 Progress: 64.7% (1.42 MB)   📊 Progress: 65.4% (1.44 MB)   📊 Progress: 66.1% (1.45 MB)   📊 Progress: 66.8% (1.47 MB)   📊 Progress: 67.5% (1.48 MB)   📊 Progress: 68.2% (1.50 MB)   📊 Progress: 69.0% (1.52 MB)   📊 Progress: 69.7% (1.53 MB)   📊 Progress: 70.4% (1.55 MB)   📊 Progress: 71.1% (1.56 MB)   📊 Progress: 71.8% (1.58 MB)   📊 Progress: 72.5% (1.59 MB)   📊 Progress: 73.2% (1.61 MB)   📊 Progress: 73.9% (1.63 MB)   📊 Progress: 74.6% (1.64 MB)   📊 Progress: 75.4% (1.66 MB)   📊 Progress: 76.1% (1.67 MB)   📊 Progress: 76.8% (1.69 MB)   📊 Progress: 77.5% (1.70 MB)   📊 Progress: 78.2% (1.72 MB)   📊 Progress: 78.9% (1.73 MB)   📊 Progress: 79.6% (1.75 MB)   📊 Progress: 80.3% (1.77 MB)   📊 Progress: 81.0% (1.78 MB)   📊 Progress: 81.8% (1.80 MB)   📊 Progress: 82.5% (1.81 MB)   📊 Progress: 83.2% (1.83 MB)   📊 Progress: 83.9% (1.84 MB)   📊 Progress: 84.6% (1.86 MB)   📊 Progress: 85.3% (1.88 MB)   📊 Progress: 86.0% (1.89 MB)   📊 Progress: 86.7% (1.91 MB)   📊 Progress: 87.4% (1.92 MB)   📊 Progress: 88.2% (1.94 MB)   📊 Progress: 88.9% (1.95 MB)   📊 Progress: 89.6% (1.97 MB)   📊 Progress: 90.3% (1.98 MB)   📊 Progress: 91.0% (2.00 MB)   📊 Progress: 91.7% (2.02 MB)   📊 Progress: 92.4% (2.03 MB)   📊 Progress: 93.1% (2.05 MB)   📊 Progress: 93.8% (2.06 MB)   📊 Progress: 94.6% (2.08 MB)   📊 Progress: 95.3% (2.09 MB)   📊 Progress: 96.0% (2.11 MB)   📊 Progress: 96.7% (2.13 MB)   📊 Progress: 97.4% (2.14 MB)   📊 Progress: 98.1% (2.16 MB)   📊 Progress: 98.8% (2.17 MB)   📊 Progress: 99.5% (2.19 MB)   📊 Progress: 100.0% (2.20 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 2.20 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-413.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-413.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Wolf Sprint Tracking Shot"
+📁 File: prompt-413.mp4
+⭐ Rating: 5/5
+📂 Category: Sci-Fi
+🔗 Video URL: /videos/prompt-413.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-413.mp4
+📋 Task ID: 0ace5155ac5963f411b564cfa35f9b35
+⏰ Completed: 12/07/2025, 4:16:08 pm
+   ✅ SUCCESS: Wolf Sprint Tracking Shot (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [7/24] Processing: "Wise Owl Encounter Moonlit" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 414
+⏰ Started: 12/07/2025, 4:16:18 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Wise Owl Encounter Moonlit"
+   Prompt: Wise owl encounter moonlit shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 04383bd1f0be12c70a21f1e1b6a59df2
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 04383bd1f0be12c70a21f1e1b6a59df2
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "04383bd1f0be12c70a21f1e1b6a59df2",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302778000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 04383bd1f0be12c70a21f1e1b6a59df2
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "04383bd1f0be12c70a21f1e1b6a59df2",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302778000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: 04383bd1f0be12c70a21f1e1b6a59df2
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "04383bd1f0be12c70a21f1e1b6a59df2",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302778000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: 04383bd1f0be12c70a21f1e1b6a59df2
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "04383bd1f0be12c70a21f1e1b6a59df2",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302778000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: 04383bd1f0be12c70a21f1e1b6a59df2
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "04383bd1f0be12c70a21f1e1b6a59df2",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Wise owl encounter moonlit shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "c0c7311b178c42fb9b6c84dc4e557f58",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/cd6bd0c1-d2ca-43d6-bb4c-6fe966b89bed_watermarked.mp4"
+      ],
+      "seeds": [
+        42787
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752302883000,
+    "createTime": 1752302778000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/cd6bd0c1-d2ca-43d6-bb4c-6fe966b89bed_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/cd6bd0c1-d2ca-43d6-bb4c-6fe966b89bed_watermarked.mp4
+   To: prompt-414.mp4
+   📊 Progress: 0.1% (0.00 MB)   📊 Progress: 0.3% (0.00 MB)   📊 Progress: 0.4% (0.00 MB)   📊 Progress: 0.5% (0.01 MB)   📊 Progress: 0.7% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 0.9% (0.01 MB)   📊 Progress: 1.1% (0.01 MB)   📊 Progress: 1.2% (0.01 MB)   📊 Progress: 1.3% (0.01 MB)   📊 Progress: 1.4% (0.01 MB)   📊 Progress: 1.6% (0.02 MB)   📊 Progress: 1.7% (0.02 MB)   📊 Progress: 1.8% (0.02 MB)   📊 Progress: 2.0% (0.02 MB)   📊 Progress: 2.1% (0.02 MB)   📊 Progress: 2.2% (0.02 MB)   📊 Progress: 2.4% (0.02 MB)   📊 Progress: 2.5% (0.02 MB)   📊 Progress: 2.6% (0.03 MB)   📊 Progress: 2.8% (0.03 MB)   📊 Progress: 2.9% (0.03 MB)   📊 Progress: 3.0% (0.03 MB)   📊 Progress: 3.2% (0.03 MB)   📊 Progress: 3.3% (0.03 MB)   📊 Progress: 3.4% (0.03 MB)   📊 Progress: 3.5% (0.04 MB)   📊 Progress: 3.7% (0.04 MB)   📊 Progress: 3.8% (0.04 MB)   📊 Progress: 3.9% (0.04 MB)   📊 Progress: 4.1% (0.04 MB)   📊 Progress: 4.2% (0.04 MB)   📊 Progress: 4.3% (0.04 MB)   📊 Progress: 4.5% (0.04 MB)   📊 Progress: 4.6% (0.05 MB)   📊 Progress: 4.7% (0.05 MB)   📊 Progress: 4.9% (0.05 MB)   📊 Progress: 5.0% (0.05 MB)   📊 Progress: 5.1% (0.05 MB)   📊 Progress: 5.3% (0.05 MB)   📊 Progress: 5.7% (0.06 MB)   📊 Progress: 6.1% (0.06 MB)   📊 Progress: 6.3% (0.06 MB)   📊 Progress: 6.7% (0.07 MB)   📊 Progress: 7.1% (0.07 MB)   📊 Progress: 7.5% (0.07 MB)   📊 Progress: 7.9% (0.08 MB)   📊 Progress: 8.3% (0.08 MB)   📊 Progress: 8.7% (0.09 MB)   📊 Progress: 9.1% (0.09 MB)   📊 Progress: 9.5% (0.09 MB)   📊 Progress: 9.9% (0.10 MB)   📊 Progress: 10.3% (0.10 MB)   📊 Progress: 10.7% (0.11 MB)   📊 Progress: 11.0% (0.11 MB)   📊 Progress: 11.4% (0.11 MB)   📊 Progress: 11.9% (0.12 MB)   📊 Progress: 12.3% (0.12 MB)   📊 Progress: 12.6% (0.13 MB)   📊 Progress: 13.0% (0.13 MB)   📊 Progress: 13.4% (0.13 MB)   📊 Progress: 13.8% (0.14 MB)   📊 Progress: 14.2% (0.14 MB)   📊 Progress: 14.6% (0.14 MB)   📊 Progress: 15.0% (0.15 MB)   📊 Progress: 15.4% (0.15 MB)   📊 Progress: 15.8% (0.16 MB)   📊 Progress: 16.2% (0.16 MB)   📊 Progress: 16.6% (0.16 MB)   📊 Progress: 17.0% (0.17 MB)   📊 Progress: 17.3% (0.17 MB)   📊 Progress: 17.8% (0.18 MB)   📊 Progress: 18.2% (0.18 MB)   📊 Progress: 18.6% (0.18 MB)   📊 Progress: 18.9% (0.19 MB)   📊 Progress: 19.3% (0.19 MB)   📊 Progress: 19.7% (0.20 MB)   📊 Progress: 20.1% (0.20 MB)   📊 Progress: 20.5% (0.20 MB)   📊 Progress: 20.9% (0.21 MB)   📊 Progress: 22.1% (0.22 MB)   📊 Progress: 23.7% (0.23 MB)   📊 Progress: 25.2% (0.25 MB)   📊 Progress: 26.8% (0.27 MB)   📊 Progress: 28.4% (0.28 MB)   📊 Progress: 30.0% (0.30 MB)   📊 Progress: 31.5% (0.31 MB)   📊 Progress: 33.1% (0.33 MB)   📊 Progress: 34.7% (0.34 MB)   📊 Progress: 36.3% (0.36 MB)   📊 Progress: 37.8% (0.38 MB)   📊 Progress: 39.4% (0.39 MB)   📊 Progress: 41.0% (0.41 MB)   📊 Progress: 42.6% (0.42 MB)   📊 Progress: 44.1% (0.44 MB)   📊 Progress: 45.7% (0.45 MB)   📊 Progress: 47.3% (0.47 MB)   📊 Progress: 48.9% (0.48 MB)   📊 Progress: 50.1% (0.50 MB)   📊 Progress: 51.6% (0.51 MB)   📊 Progress: 53.2% (0.53 MB)   📊 Progress: 54.8% (0.54 MB)   📊 Progress: 56.0% (0.55 MB)   📊 Progress: 57.5% (0.57 MB)   📊 Progress: 59.1% (0.59 MB)   📊 Progress: 60.7% (0.60 MB)   📊 Progress: 62.3% (0.62 MB)   📊 Progress: 63.9% (0.63 MB)   📊 Progress: 65.4% (0.65 MB)   📊 Progress: 67.0% (0.66 MB)   📊 Progress: 67.8% (0.67 MB)   📊 Progress: 69.4% (0.69 MB)   📊 Progress: 71.0% (0.70 MB)   📊 Progress: 72.5% (0.72 MB)   📊 Progress: 72.9% (0.72 MB)   📊 Progress: 74.5% (0.74 MB)   📊 Progress: 76.1% (0.75 MB)   📊 Progress: 77.7% (0.77 MB)   📊 Progress: 78.8% (0.78 MB)   📊 Progress: 80.4% (0.80 MB)   📊 Progress: 82.0% (0.81 MB)   📊 Progress: 83.6% (0.83 MB)   📊 Progress: 85.1% (0.84 MB)   📊 Progress: 86.7% (0.86 MB)   📊 Progress: 88.3% (0.88 MB)   📊 Progress: 89.9% (0.89 MB)   📊 Progress: 91.4% (0.91 MB)   📊 Progress: 93.0% (0.92 MB)   📊 Progress: 94.6% (0.94 MB)   📊 Progress: 96.2% (0.95 MB)   📊 Progress: 97.8% (0.97 MB)   📊 Progress: 99.3% (0.98 MB)   📊 Progress: 100.0% (0.99 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 0.99 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-414.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-414.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Wise Owl Encounter Moonlit"
+📁 File: prompt-414.mp4
+⭐ Rating: 5/5
+📂 Category: Sports
+🔗 Video URL: /videos/prompt-414.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-414.mp4
+📋 Task ID: 04383bd1f0be12c70a21f1e1b6a59df2
+⏰ Completed: 12/07/2025, 4:18:20 pm
+   ✅ SUCCESS: Wise Owl Encounter Moonlit (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [8/24] Processing: "Smartwatch 360 Rotation Demo" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 416
+⏰ Started: 12/07/2025, 4:18:30 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Smartwatch 360 Rotation Demo"
+   Prompt: Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: a524138b6a70ba7ade01870253081702
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: a524138b6a70ba7ade01870253081702
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "a524138b6a70ba7ade01870253081702",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302911000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: a524138b6a70ba7ade01870253081702
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "a524138b6a70ba7ade01870253081702",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302911000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 3/24: Checking completion status...
+🔍 Checking status for task: a524138b6a70ba7ade01870253081702
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "a524138b6a70ba7ade01870253081702",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302911000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 4/24: Checking completion status...
+🔍 Checking status for task: a524138b6a70ba7ade01870253081702
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "a524138b6a70ba7ade01870253081702",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752302911000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 5/24: Checking completion status...
+🔍 Checking status for task: a524138b6a70ba7ade01870253081702
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "a524138b6a70ba7ade01870253081702",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Smartwatch 360 rotation demo shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": {
+      "taskId": "09b4379e7b51403f91bd0aad6687493b",
+      "resultUrls": [
+        "https://tempfile.aiquickdraw.com/s/e45e35ff-9ef9-4eb2-a6c9-11375a50ffa3_watermarked.mp4"
+      ],
+      "seeds": [
+        97045
+      ]
+    },
+    "successFlag": 1,
+    "completeTime": 1752303010000,
+    "createTime": 1752302911000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ✅ Video generation completed!
+   🎬 Video URL found: https://tempfile.aiquickdraw.com/s/e45e35ff-9ef9-4eb2-a6c9-11375a50ffa3_watermarked.mp4
+
+📥 STEP 3: Downloading video
+   From: https://tempfile.aiquickdraw.com/s/e45e35ff-9ef9-4eb2-a6c9-11375a50ffa3_watermarked.mp4
+   To: prompt-416.mp4
+   📊 Progress: 0.2% (0.00 MB)   📊 Progress: 0.3% (0.00 MB)   📊 Progress: 0.5% (0.00 MB)   📊 Progress: 0.6% (0.01 MB)   📊 Progress: 0.8% (0.01 MB)   📊 Progress: 1.0% (0.01 MB)   📊 Progress: 1.1% (0.01 MB)   📊 Progress: 1.3% (0.01 MB)   📊 Progress: 1.5% (0.01 MB)   📊 Progress: 1.6% (0.01 MB)   📊 Progress: 1.8% (0.01 MB)   📊 Progress: 1.9% (0.02 MB)   📊 Progress: 2.1% (0.02 MB)   📊 Progress: 2.3% (0.02 MB)   📊 Progress: 2.4% (0.02 MB)   📊 Progress: 2.6% (0.02 MB)   📊 Progress: 2.7% (0.02 MB)   📊 Progress: 2.9% (0.02 MB)   📊 Progress: 3.1% (0.02 MB)   📊 Progress: 3.2% (0.03 MB)   📊 Progress: 3.4% (0.03 MB)   📊 Progress: 3.6% (0.03 MB)   📊 Progress: 3.7% (0.03 MB)   📊 Progress: 3.9% (0.03 MB)   📊 Progress: 4.0% (0.03 MB)   📊 Progress: 4.2% (0.03 MB)   📊 Progress: 4.4% (0.04 MB)   📊 Progress: 4.5% (0.04 MB)   📊 Progress: 4.7% (0.04 MB)   📊 Progress: 4.8% (0.04 MB)   📊 Progress: 5.0% (0.04 MB)   📊 Progress: 5.2% (0.04 MB)   📊 Progress: 5.3% (0.04 MB)   📊 Progress: 5.5% (0.04 MB)   📊 Progress: 5.7% (0.05 MB)   📊 Progress: 5.8% (0.05 MB)   📊 Progress: 6.0% (0.05 MB)   📊 Progress: 6.1% (0.05 MB)   📊 Progress: 6.3% (0.05 MB)   📊 Progress: 6.5% (0.05 MB)   📊 Progress: 7.0% (0.06 MB)   📊 Progress: 7.5% (0.06 MB)   📊 Progress: 7.7% (0.06 MB)   📊 Progress: 8.2% (0.07 MB)   📊 Progress: 8.7% (0.07 MB)   📊 Progress: 9.2% (0.07 MB)   📊 Progress: 9.7% (0.08 MB)   📊 Progress: 10.2% (0.08 MB)   📊 Progress: 10.7% (0.09 MB)   📊 Progress: 11.2% (0.09 MB)   📊 Progress: 11.6% (0.09 MB)   📊 Progress: 12.1% (0.10 MB)   📊 Progress: 12.6% (0.10 MB)   📊 Progress: 13.1% (0.11 MB)   📊 Progress: 13.6% (0.11 MB)   📊 Progress: 14.1% (0.11 MB)   📊 Progress: 14.6% (0.12 MB)   📊 Progress: 15.1% (0.12 MB)   📊 Progress: 15.6% (0.13 MB)   📊 Progress: 16.1% (0.13 MB)   📊 Progress: 16.6% (0.13 MB)   📊 Progress: 17.1% (0.14 MB)   📊 Progress: 17.4% (0.14 MB)   📊 Progress: 17.9% (0.14 MB)   📊 Progress: 18.4% (0.15 MB)   📊 Progress: 18.9% (0.15 MB)   📊 Progress: 19.4% (0.16 MB)   📊 Progress: 19.9% (0.16 MB)   📊 Progress: 20.4% (0.16 MB)   📊 Progress: 20.9% (0.17 MB)   📊 Progress: 21.3% (0.17 MB)   📊 Progress: 21.8% (0.18 MB)   📊 Progress: 22.3% (0.18 MB)   📊 Progress: 22.8% (0.18 MB)   📊 Progress: 23.2% (0.19 MB)   📊 Progress: 23.7% (0.19 MB)   📊 Progress: 24.2% (0.20 MB)   📊 Progress: 24.7% (0.20 MB)   📊 Progress: 25.2% (0.20 MB)   📊 Progress: 25.7% (0.21 MB)   📊 Progress: 27.1% (0.22 MB)   📊 Progress: 29.1% (0.23 MB)   📊 Progress: 31.0% (0.25 MB)   📊 Progress: 32.9% (0.27 MB)   📊 Progress: 34.9% (0.28 MB)   📊 Progress: 36.8% (0.30 MB)   📊 Progress: 38.7% (0.31 MB)   📊 Progress: 40.7% (0.33 MB)   📊 Progress: 42.6% (0.34 MB)   📊 Progress: 44.5% (0.36 MB)   📊 Progress: 46.5% (0.38 MB)   📊 Progress: 48.4% (0.39 MB)   📊 Progress: 50.4% (0.41 MB)   📊 Progress: 52.3% (0.42 MB)   📊 Progress: 54.2% (0.44 MB)   📊 Progress: 56.2% (0.45 MB)   📊 Progress: 58.1% (0.47 MB)   📊 Progress: 60.0% (0.48 MB)   📊 Progress: 62.0% (0.50 MB)   📊 Progress: 63.9% (0.52 MB)   📊 Progress: 65.9% (0.53 MB)   📊 Progress: 66.3% (0.54 MB)   📊 Progress: 68.3% (0.55 MB)   📊 Progress: 70.2% (0.57 MB)   📊 Progress: 72.1% (0.58 MB)   📊 Progress: 73.6% (0.59 MB)   📊 Progress: 75.5% (0.61 MB)   📊 Progress: 77.5% (0.63 MB)   📊 Progress: 79.4% (0.64 MB)   📊 Progress: 80.9% (0.65 MB)   📊 Progress: 82.8% (0.67 MB)   📊 Progress: 84.7% (0.68 MB)   📊 Progress: 86.7% (0.70 MB)   📊 Progress: 88.6% (0.71 MB)   📊 Progress: 90.5% (0.73 MB)   📊 Progress: 92.5% (0.75 MB)   📊 Progress: 94.4% (0.76 MB)   📊 Progress: 94.9% (0.77 MB)   📊 Progress: 96.8% (0.78 MB)   📊 Progress: 98.8% (0.80 MB)   📊 Progress: 100.0% (0.81 MB)
+   ✅ Download completed!
+
+🔍 STEP 4: Verifying downloaded video
+   📊 File size: 0.81 MB
+   📁 File path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-416.mp4
+   ✅ Video file verification passed
+
+💾 STEP 5: Updating database
+   ✅ Database updated successfully
+   🔗 Video URL: /videos/prompt-416.mp4
+
+🎉 SUCCESS! Video generation workflow completed
+==================================================
+📋 Title: "Smartwatch 360 Rotation Demo"
+📁 File: prompt-416.mp4
+⭐ Rating: 5/5
+📂 Category: Food & Cooking
+🔗 Video URL: /videos/prompt-416.mp4
+📍 Local Path: /Users/jamie/Documents/GitHub/videopromptly/public/videos/prompt-416.mp4
+📋 Task ID: a524138b6a70ba7ade01870253081702
+⏰ Completed: 12/07/2025, 4:20:33 pm
+   ✅ SUCCESS: Smartwatch 360 Rotation Demo (5⭐)
+   ⏱️  Waiting 10 seconds before next video...
+
+📋 [9/24] Processing: "Tokyo Street Food Blogger" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 418
+⏰ Started: 12/07/2025, 4:20:43 pm
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Tokyo Street Food Blogger"
+   Prompt: Tokyo street food blogger shot with cinematic lighting and professional camera work...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+   ✅ Job submitted successfully!
+   📋 Task ID: 135ef4813ce65d6c94d054c46f9cc004
+
+⏳ STEP 2: Waiting for video generation to complete
+   Max wait time: 12.0 minutes
+   Check interval: 30 seconds
+
+🔍 Attempt 1/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 0,
+    "completeTime": null,
+    "createTime": 1752303044000,
+    "errorCode": null,
+    "errorMessage": null
+  }
+}
+   ⏳ Status: processing (successFlag: 0) - Still generating...
+   ⏱️  Waiting 30 seconds before next check...
+
+🔍 Attempt 2/24: Checking completion status...
+🔍 Checking status for task: 135ef4813ce65d6c94d054c46f9cc004
+   📋 Status response: {
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "taskId": "135ef4813ce65d6c94d054c46f9cc004",
+    "paramJson": "{\"aspectRatio\":\"16:9\",\"enableTranslation\":true,\"model\":\"veo3_fast\",\"prompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"translatedPrompt\":\"Tokyo street food blogger shot with cinematic lighting and professional camera work\",\"waterMark\":\"VideoPromptly\"}",
+    "response": null,
+    "successFlag": 3,
+    "completeTime": 1752303070000,
+    "createTime": 1752303044000,
+    "errorCode": 400,
+    "errorMessage": "Your prompt was flagged by Website as violating content policies."
+  }
+}
+   ❌ Error checking status: Video generation failed: Your prompt was flagged by Website as violating content policies.
+   ⏱️  Waiting 30 seconds before next check...

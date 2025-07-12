@@ -8,15 +8,15 @@ import { ArrowRight, Calendar, Clock, User } from 'lucide-react';
 import { getAllBlogPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
-  title: 'Blog & Guides - Learn AI Image Transformation | ImagePromptly',
-  description: 'Expert guides on using ChatGPT for image transformation. Learn techniques, tips, and best practices for AI-powered photo editing with DALL-E 3.',
-  keywords: 'ChatGPT image guide, DALL-E 3 tutorial, AI photo transformation tips, image prompt techniques',
+  title: 'Blog & Guides - Master AI Video Creation | VideoPromptly',
+  description: 'Expert guides on using Veo3 and AI tools for video creation. Learn techniques, viral strategies, and best practices for AI-powered video generation.',
+  keywords: 'Veo3 video guide, AI video creation tutorial, viral video tips, video prompt techniques',
   alternates: {
     canonical: getCanonicalUrl('/blog'),
   },
   openGraph: {
-    title: 'AI Image Transformation Guides & Tutorials',
-    description: 'Master the art of AI image transformation with our expert guides and tutorials.',
+    title: 'AI Video Creation Guides & Tutorials',
+    description: 'Master the art of AI video creation with our expert guides and tutorials.',
     type: 'website',
   },
 };
@@ -28,12 +28,12 @@ export default async function BlogPage() {
   const blogSchema = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
-    name: 'ImagePromptly Blog',
-    description: 'Expert guides on using ChatGPT for image transformation',
+    name: 'VideoPromptly Blog',
+    description: 'Expert guides on using Veo3 and AI tools for video creation',
     url: getCanonicalUrl('/blog'),
     publisher: {
       '@type': 'Organization',
-      name: 'ImagePromptly',
+      name: 'VideoPromptly',
       url: getCanonicalUrl('/'),
     },
     blogPost: posts.map(post => ({
@@ -52,10 +52,10 @@ export default async function BlogPage() {
 
   // Map blog slugs to thumbnail images
   const thumbnailMap: Record<string, string> = {
-    'complete-guide-chatgpt-image-transformation': '/blog/images/thumbnails/complete-guide-thumb.png',
-    'best-prompts-portrait-transformation': '/blog/images/thumbnails/portrait-prompts-thumb.png',
-    'chatgpt-vs-midjourney-comparison': '/blog/images/thumbnails/comparison-thumb.png',
-    'troubleshooting-common-errors': '/blog/images/thumbnails/troubleshooting-thumb.png'
+    'complete-guide-veo3-video-creation': '/blog/images/thumbnails/veo3-guide-thumb.jpg',
+    'viral-yeti-bigfoot-videos-social-media': '/blog/images/thumbnails/viral-cryptid-thumb.jpg',
+    'veo3-vs-competitors-2025': '/blog/images/thumbnails/ai-comparison-thumb.jpg',
+    'asmr-glass-fruit-viral-strategy': '/blog/images/thumbnails/asmr-glass-thumb.jpg'
   };
 
   return (
@@ -74,7 +74,7 @@ export default async function BlogPage() {
               Blog & Guides
             </h1>
             <p className="text-xl text-white max-w-3xl mx-auto">
-              Master AI image transformation with our expert guides, tutorials, and tips for using ChatGPT and DALL-E 3.
+              Master AI video creation with our expert guides, tutorials, and viral strategies for Veo3 and video AI tools.
             </p>
           </header>
 
@@ -152,17 +152,17 @@ export default async function BlogPage() {
           <section className="mt-16 grid md:grid-cols-2 gap-8" aria-label="Additional information">
             <aside className="bg-stone-900 rounded-lg p-8 border border-stone-800">
               <h2 className="text-2xl font-semibold text-white mb-4">
-                Learn AI Image Transformation
+                Learn AI Video Creation
               </h2>
               <p className="text-stone-300 mb-4">
-                Our guides cover everything from basic ChatGPT image prompts to advanced transformation techniques. 
-                Whether you&apos;re a beginner or experienced user, you&apos;ll find valuable insights to improve your AI art creation.
+                Our guides cover everything from basic Veo3 video prompts to advanced viral video strategies. 
+                Whether you&apos;re a beginner or experienced creator, you&apos;ll find valuable insights to improve your AI video generation.
               </p>
               <ul className="space-y-2 text-stone-300">
-                <li>• Step-by-step tutorials for beginners</li>
-                <li>• Advanced prompt engineering techniques</li>
-                <li>• Troubleshooting common issues</li>
-                <li>• Comparison with other AI tools</li>
+                <li>• Step-by-step Veo3 tutorials for beginners</li>
+                <li>• Advanced video prompt engineering techniques</li>
+                <li>• Viral video creation strategies</li>
+                <li>• Comparison with other AI video tools</li>
               </ul>
             </aside>
             
@@ -171,8 +171,8 @@ export default async function BlogPage() {
                 Stay Updated
               </h2>
               <p className="text-stone-300 mb-4">
-                AI image generation is rapidly evolving. Our blog keeps you updated with the latest features, 
-                techniques, and best practices for ChatGPT and DALL-E 3.
+                AI video generation is rapidly evolving. Our blog keeps you updated with the latest features, 
+                techniques, and best practices for Veo3 and video AI tools.
               </p>
               <nav className="space-y-3" aria-label="Blog links">
                 <Link 
@@ -187,7 +187,7 @@ export default async function BlogPage() {
                   className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   <ArrowRight className="w-4 h-4" />
-                  Browse Image Prompts
+                  Browse Video Prompts
                 </Link>
               </nav>
             </aside>

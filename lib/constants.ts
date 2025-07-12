@@ -58,6 +58,108 @@ export const CATEGORIES = {
     description: 'Entrepreneurial and business-focused content for professional audiences',
     icon: '💼',
     color: 'bg-gray-500'
+  },
+  'ASMR': {
+    name: 'ASMR',
+    description: 'Autonomous sensory meridian response content for relaxation and satisfaction',
+    icon: '🎧',
+    color: 'bg-pink-500'
+  },
+  'Abstract Art': {
+    name: 'Abstract Art',
+    description: 'Non-representational artistic content with creative visual effects and patterns',
+    icon: '🎨',
+    color: 'bg-purple-500'
+  },
+  'Action': {
+    name: 'Action',
+    description: 'High-energy sequences with movement, excitement, and dynamic visuals',
+    icon: '⚡',
+    color: 'bg-orange-500'
+  },
+  'Animals': {
+    name: 'Animals',
+    description: 'Wildlife, pets, and animal behavior content for nature enthusiasts',
+    icon: '🐾',
+    color: 'bg-green-500'
+  },
+  'Crime Drama': {
+    name: 'Crime Drama',
+    description: 'Noir-style detective stories and crime investigation narratives',
+    icon: '🕵️',
+    color: 'bg-gray-700'
+  },
+  'Documentary': {
+    name: 'Documentary',
+    description: 'Real-life storytelling and informational content with authentic feel',
+    icon: '📹',
+    color: 'bg-blue-500'
+  },
+  'Fashion': {
+    name: 'Fashion',
+    description: 'Style showcases, runway content, and fashion-forward visual presentations',
+    icon: '👗',
+    color: 'bg-rose-500'
+  },
+  'Food & Cooking': {
+    name: 'Food & Cooking',
+    description: 'Culinary content including cooking tutorials, food styling, and gastronomy',
+    icon: '🍳',
+    color: 'bg-yellow-500'
+  },
+  'Gaming': {
+    name: 'Gaming',
+    description: 'Video game-inspired content, gameplay sequences, and gaming culture',
+    icon: '🎮',
+    color: 'bg-blue-600'
+  },
+  'Historical': {
+    name: 'Historical',
+    description: 'Period pieces, historical reenactments, and vintage-style content',
+    icon: '📜',
+    color: 'bg-amber-700'
+  },
+  'Horror & Thriller': {
+    name: 'Horror & Thriller',
+    description: 'Suspenseful and spooky content designed to create tension and atmosphere',
+    icon: '👻',
+    color: 'bg-red-800'
+  },
+  'Romance': {
+    name: 'Romance',
+    description: 'Love stories, romantic scenarios, and heartfelt emotional content',
+    icon: '💕',
+    color: 'bg-pink-400'
+  },
+  'Sci-Fi': {
+    name: 'Sci-Fi',
+    description: 'Futuristic and science fiction content with advanced technology themes',
+    icon: '🚀',
+    color: 'bg-cyan-600'
+  },
+  'Sports': {
+    name: 'Sports',
+    description: 'Athletic performances, competitions, and sports-related action sequences',
+    icon: '⚽',
+    color: 'bg-green-600'
+  },
+  'Supernatural': {
+    name: 'Supernatural',
+    description: 'Mystical and otherworldly content featuring magical or paranormal elements',
+    icon: '🔮',
+    color: 'bg-purple-600'
+  },
+  'Travel': {
+    name: 'Travel',
+    description: 'Exploration content showcasing destinations, cultures, and adventures',
+    icon: '✈️',
+    color: 'bg-blue-400'
+  },
+  'Workplace Comedy': {
+    name: 'Workplace Comedy',
+    description: 'Office humor and professional setting comedy for relatable business content',
+    icon: '💻',
+    color: 'bg-gray-600'
   }
 } as const;
 
