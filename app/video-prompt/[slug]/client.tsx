@@ -198,7 +198,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 </span>
                 {prompt.categories && prompt.categories.length > 1 ? (
                   <div className="flex flex-wrap gap-1">
-                    {prompt.categories.map((category, index) => (
+                    {prompt.categories.map((category) => (
                       <span 
                         key={category}
                         className="inline-flex items-center px-3 py-1 rounded-md text-sm font-medium bg-stone-800 text-stone-200"

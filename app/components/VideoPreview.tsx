@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { PlayIcon } from '@radix-ui/react-icons';
 import VideoPlayer from './VideoPlayer';
-import PlayButton from './PlayButton';
 import { cn } from '@/lib/utils/cn';
 
 interface VideoPreviewProps {
@@ -24,8 +23,6 @@ export default function VideoPreview({
   className,
   promptId,
   promptTitle,
-  duration,
-  resolution
 }: VideoPreviewProps) {
   const [hasStarted, setHasStarted] = useState(false);
   const [videoAvailable, setVideoAvailable] = useState<boolean | null>(null);
@@ -36,7 +33,7 @@ export default function VideoPreview({
       try {
         const response = await fetch(src, { method: 'HEAD' });
         setVideoAvailable(response.ok);
-      } catch (error) {
+      } catch {
         setVideoAvailable(false);
       }
     };

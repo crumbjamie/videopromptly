@@ -33,8 +33,6 @@ export default function VideoThumbnail({
   size = 'md',
   promptId,
   promptTitle,
-  duration,
-  resolution,
   onClick
 }: VideoThumbnailProps) {
   const [isHovered, setIsHovered] = useState(false);

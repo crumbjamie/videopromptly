@@ -1,45 +1,17 @@
-# Robots.txt for ImagePromptly
-# Protect API and prevent aggressive crawling
-
-User-agent: *
-Disallow: /api/
-Disallow: /api/prompts
-Disallow: /api/search
-Crawl-delay: 2
-
-# Allow AI bots but restrict API access
-User-agent: GPTBot
-Disallow: /api/
-Crawl-delay: 5
-
-User-agent: ChatGPT-User
-Disallow: /api/
-Crawl-delay: 5
-
-User-agent: CCBot
-Disallow: /api/
-Crawl-delay: 5
-
-User-agent: anthropic-ai
-Disallow: /api/
-Crawl-delay: 5
-
-User-agent: Claude-Web
-Disallow: /api/
-Crawl-delay: 5
-
-# Allow search engines but with restrictions
-User-agent: Googlebot
+User-Agent: *
 Allow: /
 Disallow: /api/
-Crawl-delay: 1
+Disallow: /_next/
+Disallow: /*.json$
+Disallow: /scripts/
 
-User-agent: Bingbot
+User-Agent: Googlebot
 Allow: /
-Disallow: /api/
-Crawl-delay: 1
 
-# Sitemap locations
-Sitemap: https://imagepromptly.com/sitemap.xml
-Sitemap: https://imagepromptly.com/sitemap-images.xml
-Sitemap: https://imagepromptly.com/sitemap-index.xml
+User-Agent: Googlebot-Image
+Allow: /thumbnails/
+Allow: /images/
+
+Host: https://videopromptly.com
+Sitemap: https://videopromptly.com/sitemap.xml
+Sitemap: https://videopromptly.com/sitemap-images.xml
