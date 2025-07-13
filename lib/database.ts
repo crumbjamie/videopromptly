@@ -82,7 +82,8 @@ function transformRawPrompt(p: RawPromptData): VideoPrompt {
 }
 
 // Helper function to check if prompt has available video
-function hasAvailableVideo(p: RawPromptData): boolean {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function hasAvailableVideo(_p: RawPromptData): boolean {
   // Since we're always returning true, we don't need to check the videoUrl
   return videoExists();
 }
