@@ -32,24 +32,52 @@ interface RawPromptData {
   fileSize?: number;
 }
 
+// Helper function to transform raw data to VideoPrompt
+function transformRawPrompt(p: RawPromptData): VideoPrompt {
+  const videoUrl = p.videoUrl || `/videos/${p.slug}.mp4`;
+  const thumbnailUrl = p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined);
+  const duration = p.duration || 8;
+  const resolution = p.resolution || '1920x1080';
+  const aspectRatio = p.aspectRatio || '16:9';
+  const format = p.format || 'mp4';
+  const fileSize = p.fileSize || 50000000;
+  
+  return {
+    ...p,
+    createdAt: new Date(p.createdAt),
+    updatedAt: new Date(p.updatedAt),
+    difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
+    categories: p.categories || [p.category],
+    // Required videos array for new interface
+    videos: [{
+      id: `${p.id}-v1`,
+      videoUrl,
+      thumbnailUrl: thumbnailUrl || '',
+      category: p.category,
+      duration,
+      resolution,
+      aspectRatio,
+      format,
+      fileSize,
+      rating: p.rating,
+      featured: p.featured
+    }],
+    // Legacy fields for backward compatibility
+    videoUrl,
+    thumbnailUrl,
+    duration,
+    resolution,
+    aspectRatio,
+    format,
+    fileSize
+  };
+}
+
 export async function getAllPrompts(): Promise<VideoPrompt[]> {
   // Simulate async database call
   return new Promise((resolve) => {
     setTimeout(() => {
-      const prompts = (promptsData.prompts as RawPromptData[]).map(p => ({
-        ...p,
-        createdAt: new Date(p.createdAt),
-        updatedAt: new Date(p.updatedAt),
-        difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-        // Add required video fields with defaults for compatibility
-        videoUrl: p.videoUrl || `/videos/${p.slug}.mp4`,
-        thumbnailUrl: p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined),
-        duration: p.duration || 8,
-        resolution: p.resolution || '1920x1080',
-        aspectRatio: p.aspectRatio || '16:9',
-        format: p.format || 'mp4',
-        fileSize: p.fileSize || 50000000 // 50MB default
-      }));
+      const prompts = (promptsData.prompts as RawPromptData[]).map(transformRawPrompt);
       resolve(prompts);
     }, 100);
   });
@@ -60,20 +88,7 @@ export async function getPromptBySlug(slug: string): Promise<VideoPrompt | null>
     setTimeout(() => {
       const prompt = (promptsData.prompts as RawPromptData[]).find(p => p.slug === slug);
       if (prompt) {
-        resolve({
-          ...prompt,
-          createdAt: new Date(prompt.createdAt),
-          updatedAt: new Date(prompt.updatedAt),
-          difficulty: prompt.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-          // Add required video fields with defaults for compatibility
-          videoUrl: prompt.videoUrl || `/videos/${prompt.slug}.mp4`,
-          thumbnailUrl: prompt.thumbnailUrl || (typeof prompt.thumbnail === 'object' ? `/thumbnails/${prompt.thumbnail.after}` : prompt.thumbnail ? `/thumbnails/${prompt.thumbnail}` : undefined),
-          duration: prompt.duration || 8,
-          resolution: prompt.resolution || '1920x1080',
-          aspectRatio: prompt.aspectRatio || '16:9',
-          format: prompt.format || 'mp4',
-          fileSize: prompt.fileSize || 50000000 // 50MB default
-        });
+        resolve(transformRawPrompt(prompt));
       } else {
         resolve(null);
       }
@@ -92,20 +107,7 @@ export async function searchPrompts(query: string): Promise<VideoPrompt[]> {
           prompt.tags.some(tag => tag.toLowerCase().includes(lowercaseQuery)) ||
           prompt.category.toLowerCase().includes(lowercaseQuery)
         )
-        .map(p => ({
-          ...p,
-          createdAt: new Date(p.createdAt),
-          updatedAt: new Date(p.updatedAt),
-          difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-          // Add required video fields with defaults for compatibility
-          videoUrl: p.videoUrl || `/videos/${p.slug}.mp4`,
-          thumbnailUrl: p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined),
-          duration: p.duration || 8,
-          resolution: p.resolution || '1920x1080',
-          aspectRatio: p.aspectRatio || '16:9',
-          format: p.format || 'mp4',
-          fileSize: p.fileSize || 50000000 // 50MB default
-        }));
+        .map(transformRawPrompt);
       resolve(results);
     }, 100);
   });
@@ -126,20 +128,7 @@ export async function getPromptsByCategory(category: string): Promise<VideoPromp
           }
           return false;
         })
-        .map(p => ({
-          ...p,
-          createdAt: new Date(p.createdAt),
-          updatedAt: new Date(p.updatedAt),
-          difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-          // Add required video fields with defaults for compatibility
-          videoUrl: p.videoUrl || `/videos/${p.slug}.mp4`,
-          thumbnailUrl: p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined),
-          duration: p.duration || 8,
-          resolution: p.resolution || '1920x1080',
-          aspectRatio: p.aspectRatio || '16:9',
-          format: p.format || 'mp4',
-          fileSize: p.fileSize || 50000000 // 50MB default
-        }));
+        .map(transformRawPrompt);
       resolve(results);
     }, 100);
   });
@@ -152,20 +141,7 @@ export async function getPromptsByTag(tag: string): Promise<VideoPrompt[]> {
         .filter(prompt => 
           prompt.tags.some(t => t.toLowerCase() === tag.toLowerCase())
         )
-        .map(p => ({
-          ...p,
-          createdAt: new Date(p.createdAt),
-          updatedAt: new Date(p.updatedAt),
-          difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-          // Add required video fields with defaults for compatibility
-          videoUrl: p.videoUrl || `/videos/${p.slug}.mp4`,
-          thumbnailUrl: p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined),
-          duration: p.duration || 8,
-          resolution: p.resolution || '1920x1080',
-          aspectRatio: p.aspectRatio || '16:9',
-          format: p.format || 'mp4',
-          fileSize: p.fileSize || 50000000 // 50MB default
-        }));
+        .map(transformRawPrompt);
       resolve(results);
     }, 100);
   });
@@ -195,20 +171,7 @@ export async function getRelatedPrompts(currentPromptId: string, limit: number =
         .slice(0, limit)
         .map(item => item.prompt);
 
-      const relatedWithDates = related.map(p => ({
-        ...p,
-        createdAt: new Date(p.createdAt),
-        updatedAt: new Date(p.updatedAt),
-        difficulty: p.difficulty as 'Beginner' | 'Intermediate' | 'Advanced',
-        // Add required video fields with defaults for compatibility
-        videoUrl: p.videoUrl || `/videos/${p.slug}.mp4`,
-        thumbnailUrl: p.thumbnailUrl || (typeof p.thumbnail === 'object' ? `/thumbnails/${p.thumbnail.after}` : p.thumbnail ? `/thumbnails/${p.thumbnail}` : undefined),
-        duration: p.duration || 8,
-        resolution: p.resolution || '1920x1080',
-        aspectRatio: p.aspectRatio || '16:9',
-        format: p.format || 'mp4',
-        fileSize: p.fileSize || 50000000 // 50MB default
-      }));
+      const relatedWithDates = related.map(transformRawPrompt);
       resolve(relatedWithDates);
     }, 100);
   });
