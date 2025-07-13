@@ -24,7 +24,7 @@ const testIds = [202, 203, 204, 205, 406, 407, 408];
 
 console.log('\n🔍 Testing specific prompt IDs:');
 testIds.forEach(id => {
-  const prompt = data.prompts.find(p => p.id === id);
+  const prompt = data.prompts.find(p => p.id === String(id));
   if (prompt) {
     console.log(`✅ ID ${id}: "${prompt.title}" (${prompt.rating}⭐)`);
     console.log(`   Expected video: ${prompt.videoUrl}`);

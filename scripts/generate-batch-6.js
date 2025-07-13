@@ -94,7 +94,7 @@ function initLogFile() {
   
   // Log the queue
   BATCH_6_PROMPT_IDS.slice(0, BATCH_6_CONFIG.maxVideos).forEach((promptId, index) => {
-    const prompt = data.prompts.find(p => p.id === promptId);
+    const prompt = data.prompts.find(p => p.id === String(promptId));
     if (prompt) {
       const priority = index < 21 ? '5⭐ Featured' : index < 22 ? '4⭐ Featured' : '4⭐';
       log(`   ${index + 1}. ${prompt.title} (${priority} - ${prompt.difficulty})`);
@@ -298,7 +298,7 @@ async function generateBatch6() {
 
   for (let i = 0; i < promptIds.length; i++) {
     const promptId = promptIds[i];
-    const prompt = data.prompts.find(p => p.id === promptId);
+    const prompt = data.prompts.find(p => p.id === String(promptId));
     
     if (!prompt) {
       log(`⚠️  Prompt with ID ${promptId} not found`);
