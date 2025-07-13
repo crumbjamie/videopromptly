@@ -5,61 +5,11 @@ import promptsData from './database/prompts.json';
 // For now, we'll use the JSON data as a mock database
 
 // Helper function to check if video file exists
-// For simplicity during build, we'll create a pre-filtered list of available videos
-const AVAILABLE_VIDEOS = new Set([
-  '/videos/prompt-310.mp4',
-  '/videos/prompt-312.mp4',
-  '/videos/prompt-314.mp4',
-  '/videos/prompt-316.mp4',
-  '/videos/prompt-319.mp4',
-  '/videos/prompt-321.mp4',
-  '/videos/prompt-323.mp4',
-  '/videos/prompt-331.mp4',
-  '/videos/prompt-332.mp4',
-  '/videos/prompt-336.mp4',
-  '/videos/prompt-337.mp4',
-  '/videos/prompt-340.mp4',
-  '/videos/prompt-342.mp4',
-  '/videos/prompt-351.mp4',
-  '/videos/prompt-356.mp4',
-  '/videos/prompt-357.mp4',
-  '/videos/prompt-360.mp4',
-  '/videos/prompt-365.mp4',
-  '/videos/prompt-367.mp4',
-  '/videos/prompt-370.mp4',
-  '/videos/prompt-371.mp4',
-  '/videos/prompt-372.mp4',
-  '/videos/prompt-373.mp4',
-  '/videos/prompt-379.mp4',
-  '/videos/prompt-380.mp4',
-  '/videos/prompt-381.mp4',
-  '/videos/prompt-382.mp4',
-  '/videos/prompt-387.mp4',
-  '/videos/prompt-391.mp4',
-  '/videos/prompt-395.mp4',
-  '/videos/prompt-396.mp4',
-  '/videos/prompt-398.mp4',
-  '/videos/prompt-399.mp4',
-  '/videos/prompt-405.mp4',
-  '/videos/prompt-406.mp4',
-  '/videos/prompt-417.mp4',
-  '/videos/prompt-420.mp4',
-  '/videos/prompt-421.mp4',
-  '/videos/prompt-423.mp4',
-  '/videos/prompt-424.mp4',
-  '/videos/prompt-425.mp4',
-  '/videos/prompt-437.mp4',
-  '/videos/prompt-438.mp4',
-  '/videos/prompt-439.mp4',
-  '/videos/prompt-440.mp4',
-  '/videos/prompt-449.mp4',
-  '/videos/prompt-452.mp4',
-  '/videos/prompt-453.mp4',
-  '/videos/prompt-459.mp4'
-]);
-
 function videoExists(videoUrl: string): boolean {
-  return AVAILABLE_VIDEOS.has(videoUrl);
+  // Since we have 176 videos available and the filtering should work consistently
+  // across client and server, we'll disable filtering for now and show all prompts.
+  // The VideoPreview component already handles missing videos gracefully.
+  return true;
 }
 
 // Type for the raw JSON data (image prompt structure)
