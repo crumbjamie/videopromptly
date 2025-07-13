@@ -23,6 +23,19 @@ function getAvailablePrompts() {
   }));
 }
 
+// Save progress to a resume file
+function saveProgress(results, currentIndex, promptIds) {
+  const progressFile = path.join(__dirname, '../batch_progress.json');
+  const progressData = {
+    lastRun: new Date().toISOString(),
+    currentIndex,
+    promptIds,
+    results,
+    completedIds: results.filter(r => r.status === 'success').map(r => r.promptId)
+  };
+  fs.writeFileSync(progressFile, JSON.stringify(progressData, null, 2));
+}
+
 // Batch video generation with rate limiting
 async function batchGenerateVideos(promptIds, options = {}) {
   console.log(`\n🎬 BATCH VIDEO GENERATION`);
@@ -66,18 +79,68 @@ async function batchGenerateVideos(promptIds, options = {}) {
       }
     } catch (error) {
       errorCount++;
-      console.log(`   ❌ ERROR: ${error.message}`);
-      results.push({
-        promptId,
-        status: 'error',
-        error: error.message
-      });
+      
+      if (error.message.includes('CREDIT_EXHAUSTED')) {
+        console.log(`   💳 CREDIT EXHAUSTED: Stopping batch generation`);
+        console.log(`   💡 Please top up your account credits and resume generation`);
+        results.push({
+          promptId,
+          status: 'credit_exhausted',
+          error: error.message
+        });
+        break; // Stop the batch
+      } else if (error.message.includes('RATE_LIMITED')) {
+        console.log(`   ⏱️  RATE LIMITED: Waiting 60 seconds before retrying...`);
+        await new Promise(resolve => setTimeout(resolve, 60000));
+        
+        // Retry this prompt once
+        try {
+          const retryResult = await generateSingleVideo(promptId, options);
+          if (retryResult.success) {
+            successCount++;
+            console.log(`   ✅ RETRY SUCCESS: ${retryResult.prompt.title}`);
+            results.push({
+              promptId,
+              status: 'success',
+              title: retryResult.prompt.title,
+              videoPath: retryResult.videoPath,
+              taskId: retryResult.taskId
+            });
+          } else {
+            errorCount++;
+            console.log(`   ❌ RETRY FAILED: ${retryResult.error || retryResult.reason}`);
+            results.push({
+              promptId,
+              status: 'retry_failed',
+              error: retryResult.error || retryResult.reason
+            });
+          }
+        } catch (retryError) {
+          errorCount++;
+          console.log(`   ❌ RETRY ERROR: ${retryError.message}`);
+          results.push({
+            promptId,
+            status: 'retry_error',
+            error: retryError.message
+          });
+        }
+      } else {
+        console.log(`   ❌ ERROR: ${error.message}`);
+        results.push({
+          promptId,
+          status: 'error',
+          error: error.message
+        });
+      }
     }
 
-    // Rate limiting: wait 10 seconds between videos to avoid overwhelming the API
+    // Save progress after each video
+    saveProgress(results, i + 1, promptIds);
+
+    // Rate limiting: wait 30 seconds between videos to avoid overwhelming the API
     if (i < promptIds.length - 1) {
-      console.log(`   ⏱️  Waiting 10 seconds before next video...`);
-      await new Promise(resolve => setTimeout(resolve, 10000));
+      console.log(`   ⏱️  Waiting 30 seconds before next video...`);
+      await new Promise(resolve => setTimeout(resolve, 30000));
     }
   }
 
@@ -133,8 +196,8 @@ Available prompts (${available.length} total):
 ${available.slice(0, 20).map(p => `  ${p.id}: "${p.title}" (${p.rating}⭐ - ${p.difficulty})`).join('\n')}
 ${available.length > 20 ? `  ... and ${available.length - 20} more` : ''}
 
-This will generate videos with 10-second delays between each to avoid API rate limits.
-Estimated time: ~${((available.length * 4) / 60).toFixed(1)} hours for all videos.
+This will generate videos with 30-second delays between each to avoid API rate limits.
+Estimated time: ~${((available.length * 5) / 60).toFixed(1)} hours for all videos.
 `);
     process.exit(1);
   }

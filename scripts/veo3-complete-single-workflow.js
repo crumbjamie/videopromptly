@@ -79,9 +79,15 @@ async function submitVideoGeneration(prompt, options = {}) {
               prompt: prompt,
               submittedAt: new Date().toISOString()
             });
+          } else if (response.code === 402) {
+            console.error(`   💳 Insufficient credits: ${response.msg}`);
+            reject(new Error(`CREDIT_EXHAUSTED: ${response.msg}`));
+          } else if (response.code === 429) {
+            console.error(`   ⏱️  Rate limit exceeded: ${response.msg}`);
+            reject(new Error(`RATE_LIMITED: ${response.msg}`));
           } else {
-            console.error(`   ❌ API Error:`, response);
-            reject(new Error(response.msg || `HTTP ${res.statusCode}: ${responseData}`));
+            console.error(`   ❌ API Error (code ${response.code}):`, response.msg);
+            reject(new Error(`API_ERROR_${response.code}: ${response.msg}`));
           }
         } catch (error) {
           console.error(`   ❌ Parse error:`, error);
