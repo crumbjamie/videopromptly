@@ -3,53 +3,775 @@
 🎬 BATCH VIDEO GENERATION 6 - FEATURED CONTENT FOCUS
 =======================================================
 📋 Generating 30 videos (featured 5-star first)
-⏰ Started: 07/13/2025, 11:08:02 AM
+⏰ Started: 07/13/2025, 11:22:57 AM
 
 📊 Generation Queue (by priority):
+   1. Two Talking Muffins (5⭐ Featured - Intermediate)
+   2. Gen Z Slang Professor Updated (5⭐ Featured - Beginner)
+   3. NBA Finals Street Interview (5⭐ Featured - Advanced)
+   4. Rain-Slick Drift Chase (5⭐ Featured - Advanced)
+   5. Normandy Ghost Walk (5⭐ Featured - Advanced)
+   6. Vertigo Dolly-Zoom (5⭐ Featured - Advanced)
+   7. AI Characters Self-Aware (5⭐ Featured - Advanced)
+   8. Gorilla Drums to Phil Collins (5⭐ Featured - Intermediate)
+   9. Selfie Travel Blogger Tokyo (5⭐ Featured - Advanced)
+   10. Macro Water Droplet (5⭐ Featured - Advanced)
+   11. Detective Noir Interrogation (5⭐ Featured - Advanced)
+   12. Anthropomorphic Apple Eating (5⭐ Featured - Advanced)
+   13. Hemingway Baby Shoes (5⭐ Featured - Advanced)
+   14. Giraffe Riding Bike NYC (5⭐ Featured - Advanced)
+   15. Glamorous Pool Alligator (5⭐ Featured - Advanced)
+   16. Temporal Chain Reaction (5⭐ Featured - Advanced)
+   17. Motorcycle Bridge Jump (5⭐ Featured - Advanced)
+   18. ASMR Spider Web Raindrops (5⭐ Featured - Advanced)
+   19. Biblical Influencer Jonah Whale (5⭐ Featured - Advanced)
+   20. NPC Gaming Self-Awareness (5⭐ Featured - Advanced)
+   21. Robot First Thought Tech Lab (5⭐ Featured - Advanced)
+   22. Talking Muffins (4⭐ Featured - Beginner)
+   23. Blockchain Ad Disaster (4⭐ - Advanced)
+   24. Corporate Elevator Confession (4⭐ - Intermediate)
+   25. Origami Paper Transformation (4⭐ - Advanced)
+   26. Bee's Eye View BBQ (4⭐ - Intermediate)
+   27. Otter on Plane Using WiFi (4⭐ - Intermediate)
+   28. Stand-Up Comedy Natural (4⭐ - Advanced)
+   29. Street Interview Recreation (4⭐ - Intermediate)
+   30. Architectural Transformation (4⭐ - Advanced)
 
 
 🎬 BATCH 6 VIDEO GENERATION WORKFLOW
 ==================================================
-⚠️  Prompt with ID 406 not found
-⚠️  Prompt with ID 408 not found
-⚠️  Prompt with ID 409 not found
-⚠️  Prompt with ID 411 not found
-⚠️  Prompt with ID 412 not found
-⚠️  Prompt with ID 415 not found
-⚠️  Prompt with ID 416 not found
-⚠️  Prompt with ID 417 not found
-⚠️  Prompt with ID 419 not found
-⚠️  Prompt with ID 422 not found
-⚠️  Prompt with ID 423 not found
-⚠️  Prompt with ID 431 not found
-⚠️  Prompt with ID 437 not found
-⚠️  Prompt with ID 444 not found
-⚠️  Prompt with ID 446 not found
-⚠️  Prompt with ID 450 not found
-⚠️  Prompt with ID 202 not found
-⚠️  Prompt with ID 454 not found
-⚠️  Prompt with ID 455 not found
-⚠️  Prompt with ID 464 not found
-⚠️  Prompt with ID 465 not found
-⚠️  Prompt with ID 204 not found
-⚠️  Prompt with ID 407 not found
-⚠️  Prompt with ID 410 not found
-⚠️  Prompt with ID 413 not found
-⚠️  Prompt with ID 414 not found
-⚠️  Prompt with ID 418 not found
-⚠️  Prompt with ID 420 not found
-⚠️  Prompt with ID 421 not found
-⚠️  Prompt with ID 424 not found
+
+📋 [1/30] Processing: "Two Talking Muffins" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 406
+⏰ Started: 7/13/2025, 11:22:57 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Two Talking Muffins"
+   Prompt: A video with dialogue of two muffins while baking in an oven, the first muffin s...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 406...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"ab403e35b6343aca00caa8c68c4e5897"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ab403e35b6343aca00caa8c68c4e5897"}}
+⏰ Failed at: 7/13/2025, 11:22:57 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ab403e35b6343aca00caa8c68c4e5897"}}
+
+
+📋 [2/30] Processing: "Gen Z Slang Professor Updated" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 408
+⏰ Started: 7/13/2025, 11:22:57 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Gen Z Slang Professor Updated"
+   Prompt: A college professor doing a class on Gen Z slang and the video pans over to all ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 408...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"dd782d7723536d783fcab8561dc13167"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"dd782d7723536d783fcab8561dc13167"}}
+⏰ Failed at: 7/13/2025, 11:22:58 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"dd782d7723536d783fcab8561dc13167"}}
+
+
+📋 [3/30] Processing: "NBA Finals Street Interview" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 409
+⏰ Started: 7/13/2025, 11:22:58 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "NBA Finals Street Interview"
+   Prompt: A handheld medium-wide shot, filmed like raw street footage on a crowded Miami s...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 409...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"900b5d08c6188a2f3f8a786af7246330"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"900b5d08c6188a2f3f8a786af7246330"}}
+⏰ Failed at: 7/13/2025, 11:22:58 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"900b5d08c6188a2f3f8a786af7246330"}}
+
+
+📋 [4/30] Processing: "Rain-Slick Drift Chase" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 411
+⏰ Started: 7/13/2025, 11:22:58 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Rain-Slick Drift Chase"
+   Prompt: Drifts through neon-lit, rain-washed streets, a black coupé fishtails past store...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 411...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"853a38d367667db5aa20c6a61e507157"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"853a38d367667db5aa20c6a61e507157"}}
+⏰ Failed at: 7/13/2025, 11:22:58 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"853a38d367667db5aa20c6a61e507157"}}
+
+
+📋 [5/30] Processing: "Normandy Ghost Walk" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 412
+⏰ Started: 7/13/2025, 11:22:58 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Normandy Ghost Walk"
+   Prompt: Tracks a lone American soldier across a cratered battlefield at dusk, handheld a...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 412...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"262043d69b7f867bde21fa0dce8a89bb"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"262043d69b7f867bde21fa0dce8a89bb"}}
+⏰ Failed at: 7/13/2025, 11:22:58 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"262043d69b7f867bde21fa0dce8a89bb"}}
+
+
+📋 [6/30] Processing: "Vertigo Dolly-Zoom" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 415
+⏰ Started: 7/13/2025, 11:22:58 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Vertigo Dolly-Zoom"
+   Prompt: A shaky dolly zoom goes from a far away blur to a close-up cinematic shot of a d...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 415...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"a00b0c4986c96d1126c867d78b6b20ac"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"a00b0c4986c96d1126c867d78b6b20ac"}}
+⏰ Failed at: 7/13/2025, 11:22:58 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"a00b0c4986c96d1126c867d78b6b20ac"}}
+
+
+📋 [7/30] Processing: "AI Characters Self-Aware" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 416
+⏰ Started: 7/13/2025, 11:22:58 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "AI Characters Self-Aware"
+   Prompt: AI characters discussing being aware they're in a simulation, one saying 'Look, ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 416...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"8b986ec4662de587a2f05e5636b4c8c2"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"8b986ec4662de587a2f05e5636b4c8c2"}}
+⏰ Failed at: 7/13/2025, 11:22:59 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"8b986ec4662de587a2f05e5636b4c8c2"}}
+
+
+📋 [8/30] Processing: "Gorilla Drums to Phil Collins" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 417
+⏰ Started: 7/13/2025, 11:22:59 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Gorilla Drums to Phil Collins"
+   Prompt: Gorilla playing the drums to 'In The Air Tonight' by Phil Collins...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 417...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"60d49eaae7dce8f97792aec89f720045"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"60d49eaae7dce8f97792aec89f720045"}}
+⏰ Failed at: 7/13/2025, 11:22:59 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"60d49eaae7dce8f97792aec89f720045"}}
+
+
+📋 [9/30] Processing: "Selfie Travel Blogger Tokyo" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 419
+⏰ Started: 7/13/2025, 11:22:59 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Selfie Travel Blogger Tokyo"
+   Prompt: A selfie video of a travel blogger exploring a bustling Tokyo street market. She...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 419...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"e5dde0758dea3347f26ce2396a693adb"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"e5dde0758dea3347f26ce2396a693adb"}}
+⏰ Failed at: 7/13/2025, 11:22:59 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"e5dde0758dea3347f26ce2396a693adb"}}
+
+
+📋 [10/30] Processing: "Macro Water Droplet" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 422
+⏰ Started: 7/13/2025, 11:22:59 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Macro Water Droplet"
+   Prompt: Extreme macro shot. A single water droplet hangs suspended from a spider's web s...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 422...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"cf99ba52a25e0150087083dd7d41461f"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"cf99ba52a25e0150087083dd7d41461f"}}
+⏰ Failed at: 7/13/2025, 11:22:59 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"cf99ba52a25e0150087083dd7d41461f"}}
+
+
+📋 [11/30] Processing: "Detective Noir Interrogation" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 423
+⏰ Started: 7/13/2025, 11:22:59 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Detective Noir Interrogation"
+   Prompt: Medium close-up shot. Marcus, a weathered detective with tired eyes and a three-...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 423...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"02e9640111f0c57f0881bec7cb7963a1"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"02e9640111f0c57f0881bec7cb7963a1"}}
+⏰ Failed at: 7/13/2025, 11:23:00 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"02e9640111f0c57f0881bec7cb7963a1"}}
+
+
+📋 [12/30] Processing: "Anthropomorphic Apple Eating" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 431
+⏰ Started: 7/13/2025, 11:23:00 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Anthropomorphic Apple Eating"
+   Prompt: Macro shot. A hyperrealistic red apple with a complete human face sits upright o...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 431...
+❌ API Error: {"code":200,"msg":"success","data":{"taskId":"ea00ca45935c5933f4ba56db870f224c"}}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ea00ca45935c5933f4ba56db870f224c"}}
+⏰ Failed at: 7/13/2025, 11:23:00 AM
+   ❌ FAILED: HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ea00ca45935c5933f4ba56db870f224c"}}
+
+
+📋 [13/30] Processing: "Hemingway Baby Shoes" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 437
+⏰ Started: 7/13/2025, 11:23:00 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Hemingway Baby Shoes"
+   Prompt: Interior of a quiet, lived-in home during early morning. Natural light filters s...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 437...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:00 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [14/30] Processing: "Giraffe Riding Bike NYC" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 444
+⏰ Started: 7/13/2025, 11:23:00 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Giraffe Riding Bike NYC"
+   Prompt: A giraffe riding a bike in NYC with realistic city background...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 444...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:00 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [15/30] Processing: "Glamorous Pool Alligator" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 446
+⏰ Started: 7/13/2025, 11:23:00 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Glamorous Pool Alligator"
+   Prompt: A cinematic scene set at night: a glamorous woman with an afro hairstyle and gol...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 446...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:01 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [16/30] Processing: "Temporal Chain Reaction" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 450
+⏰ Started: 7/13/2025, 11:23:01 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Temporal Chain Reaction"
+   Prompt: Lightning strikes → tree catches fire → flames spread → rain extinguishes. Each ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 450...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:01 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [17/30] Processing: "Motorcycle Bridge Jump" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 202
+⏰ Started: 7/13/2025, 11:23:01 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Motorcycle Bridge Jump"
+   Prompt: Night. A woman in a black latex suit races her motorcycle over a collapsing brid...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 202...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:01 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [18/30] Processing: "ASMR Spider Web Raindrops" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 454
+⏰ Started: 7/13/2025, 11:23:01 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "ASMR Spider Web Raindrops"
+   Prompt: Extreme close-up shot. Rain-wet spider web with perfect water droplets. Soft mor...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 454...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:01 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [19/30] Processing: "Biblical Influencer Jonah Whale" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 455
+⏰ Started: 7/13/2025, 11:23:01 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Biblical Influencer Jonah Whale"
+   Prompt: A cinematic handheld selfie-style video shot, showing a soggy, exhausted Middle ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 455...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:01 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [20/30] Processing: "NPC Gaming Self-Awareness" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 464
+⏰ Started: 7/13/2025, 11:23:01 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "NPC Gaming Self-Awareness"
+   Prompt: Video game character in medieval RPG setting looks directly at player: 'I know y...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 464...
+❌ API Error: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:02 AM
+   ❌ FAILED: HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+
+
+📋 [21/30] Processing: "Robot First Thought Tech Lab" (5⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 465
+⏰ Started: 7/13/2025, 11:23:02 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Robot First Thought Tech Lab"
+   Prompt: Humanoid robot in tech lab suddenly activates, first words: 'I think... therefor...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 465...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:02 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [22/30] Processing: "Talking Muffins" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 204
+⏰ Started: 7/13/2025, 11:23:02 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Talking Muffins"
+   Prompt: a video with dialogue of two muffins while baking in an oven, the first muffin s...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 204...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:02 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [23/30] Processing: "Blockchain Ad Disaster" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 407
+⏰ Started: 7/13/2025, 11:23:02 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Blockchain Ad Disaster"
+   Prompt: Create the worst, most stupid, dumb ad for a blockchain that makes the audience ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 407...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:02 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [24/30] Processing: "Corporate Elevator Confession" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 410
+⏰ Started: 7/13/2025, 11:23:02 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Corporate Elevator Confession"
+   Prompt: A crowded corporate elevator during morning rush hour. Two well-dressed colleagu...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 410...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:02 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [25/30] Processing: "Origami Paper Transformation" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 413
+⏰ Started: 7/13/2025, 11:23:02 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Origami Paper Transformation"
+   Prompt: The scene opens with a top-down or wide-angle shot showcasing a vast, perfectly ...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 413...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:03 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [26/30] Processing: "Bee's Eye View BBQ" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 414
+⏰ Started: 7/13/2025, 11:23:03 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Bee's Eye View BBQ"
+   Prompt: Third person view from behind a bee as it flies really fast around a backyard bb...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 414...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:03 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [27/30] Processing: "Otter on Plane Using WiFi" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 418
+⏰ Started: 7/13/2025, 11:23:03 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Otter on Plane Using WiFi"
+   Prompt: An otter on a plane using wifi on their phone, the flight attendant asks them 'd...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 418...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:03 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [28/30] Processing: "Stand-Up Comedy Natural" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 420
+⏰ Started: 7/13/2025, 11:23:03 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Stand-Up Comedy Natural"
+   Prompt: A man doing stand up comedy in a small venue tells a joke (include the joke in t...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 420...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:03 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [29/30] Processing: "Street Interview Recreation" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 421
+⏰ Started: 7/13/2025, 11:23:03 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Street Interview Recreation"
+   Prompt: Street interview recreation mimicking viral Hawk Tuah style...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 421...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:04 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+
+📋 [30/30] Processing: "Architectural Transformation" (4⭐)
+──────────────────────────────────────────────────
+
+🎬 VEO3 SINGLE VIDEO GENERATION WORKFLOW
+==================================================
+📋 Prompt ID: 424
+⏰ Started: 7/13/2025, 11:23:04 AM
+
+🎬 STEP 1: Submitting video generation job
+   Title: "Architectural Transformation"
+   Prompt: Cinematic wide shot from a static street-level camera, capturing a rusted, decay...
+   Model: veo3_fast
+   Aspect Ratio: 16:9
+🎬 Starting Veo3 generation for prompt 424...
+❌ API Error: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
+❌ WORKFLOW FAILED
+==================================================
+Error: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+⏰ Failed at: 7/13/2025, 11:23:04 AM
+   ❌ FAILED: HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+
 
 📊 BATCH GENERATION SUMMARY
 =======================================================
 ✅ Successful: 0 videos
-❌ Failed: 0 videos
+❌ Failed: 30 videos
 📋 Total: 30 videos
-⏰ Total time: 0.0 minutes
+⏰ Total time: 0.1 minutes
 💰 Estimated cost: $0.00 (fast mode)
 
 🎉 0 videos generated successfully!
 📁 Check: /public/videos/ directory
+
+❌ Failed videos:
+   - Two Talking Muffins (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ab403e35b6343aca00caa8c68c4e5897"}}
+   - Gen Z Slang Professor Updated (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"dd782d7723536d783fcab8561dc13167"}}
+   - NBA Finals Street Interview (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"900b5d08c6188a2f3f8a786af7246330"}}
+   - Rain-Slick Drift Chase (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"853a38d367667db5aa20c6a61e507157"}}
+   - Normandy Ghost Walk (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"262043d69b7f867bde21fa0dce8a89bb"}}
+   - Vertigo Dolly-Zoom (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"a00b0c4986c96d1126c867d78b6b20ac"}}
+   - AI Characters Self-Aware (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"8b986ec4662de587a2f05e5636b4c8c2"}}
+   - Gorilla Drums to Phil Collins (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"60d49eaae7dce8f97792aec89f720045"}}
+   - Selfie Travel Blogger Tokyo (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"e5dde0758dea3347f26ce2396a693adb"}}
+   - Macro Water Droplet (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"cf99ba52a25e0150087083dd7d41461f"}}
+   - Detective Noir Interrogation (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"02e9640111f0c57f0881bec7cb7963a1"}}
+   - Anthropomorphic Apple Eating (5⭐): HTTP 200: {"code":200,"msg":"success","data":{"taskId":"ea00ca45935c5933f4ba56db870f224c"}}
+   - Hemingway Baby Shoes (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Giraffe Riding Bike NYC (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Glamorous Pool Alligator (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Temporal Chain Reaction (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Motorcycle Bridge Jump (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - ASMR Spider Web Raindrops (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Biblical Influencer Jonah Whale (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - NPC Gaming Self-Awareness (5⭐): HTTP 200: {"code":402,"msg":"The current credits are insufficient. Please top up.","data":null}
+   - Robot First Thought Tech Lab (5⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Talking Muffins (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Blockchain Ad Disaster (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Corporate Elevator Confession (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Origami Paper Transformation (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Bee's Eye View BBQ (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Otter on Plane Using WiFi (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Stand-Up Comedy Natural (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Street Interview Recreation (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
+   - Architectural Transformation (4⭐): HTTP 200: {"code":429,"msg":"Your call frequency is too high. Please try again later.","data":null}
 
 ✅ Batch generation completed! 0/30 videos successful.
