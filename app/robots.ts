@@ -23,10 +23,10 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      'https://imagepromptly.com/sitemap-index.xml',
-      'https://imagepromptly.com/sitemap.xml',
-      'https://imagepromptly.com/sitemap-images.xml'
+      'https://videopromptly.com/sitemap-index.xml',
+      'https://videopromptly.com/sitemap.xml',
+      'https://videopromptly.com/sitemap-images.xml'
     ],
-    host: 'https://imagepromptly.com',
+    host: 'https://videopromptly.com',
   };
 }

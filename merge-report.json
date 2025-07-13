@@ -1,0 +1,316 @@
+{
+  "mergedAt": "2025-07-13T14:09:22.223Z",
+  "originalCount": 174,
+  "mergedCount": 108,
+  "duplicateGroupsMerged": 30,
+  "totalVideosPreserved": 174,
+  "multiVideoPrompts": 30,
+  "multiVideoDetails": [
+    {
+      "title": "Paper Boat Physics Demonstration",
+      "id": "310",
+      "videoCount": 5,
+      "categories": [
+        "Action",
+        "ASMR",
+        "Action",
+        "ASMR",
+        "Action"
+      ]
+    },
+    {
+      "title": "Olympic Cat Agility Course",
+      "id": "312",
+      "videoCount": 4,
+      "categories": [
+        "Horror & Thriller",
+        "Fashion",
+        "Horror & Thriller",
+        "Fashion"
+      ]
+    },
+    {
+      "title": "Morning Discovery Emotional Scene",
+      "id": "314",
+      "videoCount": 2,
+      "categories": [
+        "Sports",
+        "Travel"
+      ]
+    },
+    {
+      "title": "Macro Dew Drops On Spider Web",
+      "id": "316",
+      "videoCount": 3,
+      "categories": [
+        "Food & Cooking",
+        "Supernatural",
+        "Supernatural"
+      ]
+    },
+    {
+      "title": "1860s Irish Countryside Women",
+      "id": "319",
+      "videoCount": 4,
+      "categories": [
+        "Educational",
+        "Romance",
+        "Educational",
+        "Educational"
+      ]
+    },
+    {
+      "title": "Alien Landscape Crystal Structures",
+      "id": "321",
+      "videoCount": 3,
+      "categories": [
+        "Documentary",
+        "Comedy & Entertainment",
+        "Documentary"
+      ]
+    },
+    {
+      "title": "Superhero Meteor Scene Action",
+      "id": "322",
+      "videoCount": 4,
+      "categories": [
+        "Fashion",
+        "Horror & Thriller",
+        "Fashion",
+        "Fashion"
+      ]
+    },
+    {
+      "title": "Wolf Sprint Tracking Shot",
+      "id": "323",
+      "videoCount": 5,
+      "categories": [
+        "Gaming",
+        "Sci-Fi",
+        "Gaming",
+        "Sci-Fi",
+        "Gaming"
+      ]
+    },
+    {
+      "title": "Wise Owl Encounter Moonlit",
+      "id": "324",
+      "videoCount": 4,
+      "categories": [
+        "Travel",
+        "Sports",
+        "Sports",
+        "Travel"
+      ]
+    },
+    {
+      "title": "Sea Captain Testimonial Waves",
+      "id": "325",
+      "videoCount": 2,
+      "categories": [
+        "Workplace Comedy",
+        "Animals"
+      ]
+    },
+    {
+      "title": "Tokyo Street Food Blogger",
+      "id": "328",
+      "videoCount": 3,
+      "categories": [
+        "Crime Drama",
+        "Historical",
+        "Historical"
+      ]
+    },
+    {
+      "title": "Submerged Spacewreck Discovery",
+      "id": "331",
+      "videoCount": 3,
+      "categories": [
+        "Comedy & Entertainment",
+        "Comedy & Entertainment",
+        "Documentary"
+      ]
+    },
+    {
+      "title": "Lantern Temple Fight Scene",
+      "id": "332",
+      "videoCount": 3,
+      "categories": [
+        "Horror & Thriller",
+        "Horror & Thriller",
+        "Horror & Thriller"
+      ]
+    },
+    {
+      "title": "Monsoon Rooftop Dance Bangkok",
+      "id": "333",
+      "videoCount": 4,
+      "categories": [
+        "Sci-Fi",
+        "Sci-Fi",
+        "Gaming",
+        "Sci-Fi"
+      ]
+    },
+    {
+      "title": "Train Escape Wasteland Chase",
+      "id": "334",
+      "videoCount": 3,
+      "categories": [
+        "Sports",
+        "Travel",
+        "Travel"
+      ]
+    },
+    {
+      "title": "Elevator Awkwardness Workplace",
+      "id": "336",
+      "videoCount": 3,
+      "categories": [
+        "Food & Cooking",
+        "Supernatural",
+        "Food & Cooking"
+      ]
+    },
+    {
+      "title": "John Researcher Ancient Map",
+      "id": "337",
+      "videoCount": 3,
+      "categories": [
+        "Music & Performance",
+        "Abstract Art",
+        "Music & Performance"
+      ]
+    },
+    {
+      "title": "Alligator Pool Luxury Scene",
+      "id": "339",
+      "videoCount": 4,
+      "categories": [
+        "Educational",
+        "Educational",
+        "Romance",
+        "Educational"
+      ]
+    },
+    {
+      "title": "Glass Strawberry ASMR Cutting",
+      "id": "341",
+      "videoCount": 3,
+      "categories": [
+        "Documentary",
+        "Comedy & Entertainment",
+        "Comedy & Entertainment"
+      ]
+    },
+    {
+      "title": "Candy Keyboard Musical Notes",
+      "id": "348",
+      "videoCount": 4,
+      "categories": [
+        "Crime Drama",
+        "Historical",
+        "Crime Drama",
+        "Historical"
+      ]
+    },
+    {
+      "title": "Smartwatch 360 Rotation Demo",
+      "id": "356",
+      "videoCount": 2,
+      "categories": [
+        "Food & Cooking",
+        "Food & Cooking"
+      ]
+    },
+    {
+      "title": "Gorilla Selfie Jungle Meta",
+      "id": "357",
+      "videoCount": 4,
+      "categories": [
+        "Music & Performance",
+        "Abstract Art",
+        "Music & Performance",
+        "Abstract Art"
+      ]
+    },
+    {
+      "title": "Android Awakening Lab Scene",
+      "id": "359",
+      "videoCount": 3,
+      "categories": [
+        "Educational",
+        "Romance",
+        "Romance"
+      ]
+    },
+    {
+      "title": "Viking Last Stand Burning",
+      "id": "360",
+      "videoCount": 3,
+      "categories": [
+        "ASMR",
+        "Action",
+        "ASMR"
+      ]
+    },
+    {
+      "title": "Street Interview Food Festival",
+      "id": "365",
+      "videoCount": 3,
+      "categories": [
+        "Workplace Comedy",
+        "Animals",
+        "Workplace Comedy"
+      ]
+    },
+    {
+      "title": "Campfire Bear Handshake Friendship",
+      "id": "368",
+      "videoCount": 3,
+      "categories": [
+        "Crime Drama",
+        "Historical",
+        "Crime Drama"
+      ]
+    },
+    {
+      "title": "Warehouse Architectural Transformation",
+      "id": "373",
+      "videoCount": 2,
+      "categories": [
+        "Sci-Fi",
+        "Sci-Fi"
+      ]
+    },
+    {
+      "title": "Living Storybook Animation",
+      "id": "377",
+      "videoCount": 3,
+      "categories": [
+        "Music & Performance",
+        "Abstract Art",
+        "Music & Performance"
+      ]
+    },
+    {
+      "title": "Classical Violinist Intense Focus",
+      "id": "380",
+      "videoCount": 2,
+      "categories": [
+        "ASMR",
+        "ASMR"
+      ]
+    },
+    {
+      "title": "4K Forest Embers Floating",
+      "id": "405",
+      "videoCount": 2,
+      "categories": [
+        "Workplace Comedy",
+        "Animals"
+      ]
+    }
+  ]
+}

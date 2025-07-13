@@ -9,9 +9,10 @@ import CopyButton from '@/app/components/CopyButton';
 import VideoCard from '@/app/components/VideoCard';
 import VideoModal from '@/app/components/VideoModal';
 import VideoPreview from '@/app/components/VideoPreview';
+import PlayButton from '@/app/components/PlayButton';
 import { VideoPrompt } from '@/lib/types';
 import { getRelatedPrompts } from '@/lib/database';
-import { cn } from '@/lib/utils/cn';
+import { cn, slugify } from '@/lib/utils';
 import { generateVideoPromptSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import StarRating from '@/app/components/StarRating';
 import { analytics } from '@/lib/analytics';
@@ -30,13 +31,14 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
   const [relatedPrompts, setRelatedPrompts] = useState<VideoPrompt[]>([]); 
   const [currentPrompt] = useState(prompt.prompt);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalVideoIndex, setModalVideoIndex] = useState(0);
   const currentRating = prompt.rating || 0;
   
   // Generate structured data
   const promptSchema = generateVideoPromptSchema(prompt);
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: 'https://videopromptly.com' },
-    { name: prompt.category, url: `https://videopromptly.com/category/${prompt.category.toLowerCase().replace(/\s+/g, '-')}` },
+    { name: prompt.category, url: `https://videopromptly.com/category/${slugify(prompt.category)}` },
     { name: prompt.title, url: `https://videopromptly.com/video-prompt/${prompt.slug}` },
   ]);
 
@@ -95,7 +97,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
               Home
             </Link>
             <ChevronRightIcon className="w-4 h-4" />
-            <Link href={`/?category=${prompt.category}`} className="hover:text-white">
+            <Link href={`/category/${slugify(prompt.category)}`} className="hover:text-white">
               {prompt.category}
             </Link>
             <ChevronRightIcon className="w-4 h-4" />
@@ -116,8 +118,49 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
               />
             </div>
             
-            {/* Video Preview */}
-            {prompt.videoUrl && (
+            {/* Main Video Preview */}
+            {(prompt.videos && prompt.videos.length > 0) ? (
+              <div className="mb-8">
+                <h2 className="text-xl font-semibold text-white mb-4">
+                  Video Preview
+                  {prompt.videos.length > 1 && (
+                    <span className="ml-2 inline-flex items-center px-2 py-1 rounded-md text-sm font-medium bg-blue-900 text-blue-300">
+                      {prompt.videos.length} variants
+                    </span>
+                  )}
+                </h2>
+                
+                {/* First video - large display */}
+                <div className="aspect-video bg-stone-800 rounded-lg">
+                  <VideoPreview
+                    src={prompt.videos[0].videoUrl}
+                    poster={prompt.videos[0].thumbnailUrl}
+                    alt={prompt.title}
+                    className="w-full h-full"
+                    promptId={prompt.id}
+                    promptTitle={prompt.title}
+                    duration={prompt.videos[0].duration}
+                    resolution={prompt.videos[0].resolution}
+                  />
+                </div>
+                
+                <div className="mt-4 text-center">
+                  <button
+                    onClick={() => {
+                      setModalVideoIndex(0);
+                      setIsModalOpen(true);
+                    }}
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-stone-800 text-white hover:bg-stone-700 transition-colors"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                    </svg>
+                    View Fullscreen
+                  </button>
+                </div>
+              </div>
+            ) : prompt.videoUrl && (
+              // Fallback for legacy format
               <div className="mb-8">
                 <h2 className="text-xl font-semibold text-white mb-4">Video Preview</h2>
                 <div className="aspect-video bg-stone-800 rounded-lg">
@@ -133,7 +176,6 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                   />
                 </div>
                 
-                {/* Open in Modal Button */}
                 <div className="mt-4 text-center">
                   <button
                     onClick={() => setIsModalOpen(true)}
@@ -151,10 +193,25 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
             {/* Category and Difficulty */}
             <div className="flex flex-wrap items-center gap-3 mb-6">
               <div className="flex items-center gap-2">
-                <span className="text-stone-400 text-sm">Category:</span>
-                <span className="inline-flex items-center px-3 py-1 rounded-md text-sm font-medium bg-stone-800 text-stone-200">
-                  {prompt.category}
+                <span className="text-stone-400 text-sm">
+                  {prompt.categories && prompt.categories.length > 1 ? 'Categories:' : 'Category:'}
                 </span>
+                {prompt.categories && prompt.categories.length > 1 ? (
+                  <div className="flex flex-wrap gap-1">
+                    {prompt.categories.map((category, index) => (
+                      <span 
+                        key={category}
+                        className="inline-flex items-center px-3 py-1 rounded-md text-sm font-medium bg-stone-800 text-stone-200"
+                      >
+                        {category}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <span className="inline-flex items-center px-3 py-1 rounded-md text-sm font-medium bg-stone-800 text-stone-200">
+                    {prompt.category}
+                  </span>
+                )}
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-stone-400 text-sm">Difficulty:</span>
@@ -246,10 +303,53 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 </li>
               </ol>
             </div>
+            {/* Additional Video Variants */}
+            {prompt.videos && prompt.videos.length > 1 && (
+              <div className="border-t border-stone-700 pt-8">
+                <h2 className="text-xl font-semibold text-white mb-6">Additional Variants</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {prompt.videos.slice(1).map((video, index) => (
+                    <div 
+                      key={video.id} 
+                      className="bg-stone-800 rounded-lg overflow-hidden cursor-pointer hover:bg-stone-700 transition-colors"
+                      onClick={() => {
+                        setModalVideoIndex(index + 1);
+                        setIsModalOpen(true);
+                      }}
+                    >
+                      <div className="aspect-video bg-stone-900 relative">
+                        {video.thumbnailUrl ? (
+                          <img
+                            src={video.thumbnailUrl}
+                            alt={`${prompt.title} - ${video.category}`}
+                            className="w-full h-full object-cover rounded-t-lg"
+                          />
+                        ) : (
+                          <div className="w-full h-full bg-stone-800 flex items-center justify-center">
+                            <div className="text-stone-400 text-center">
+                              <div className="text-2xl mb-2">🎬</div>
+                              <div className="text-sm">Variant {index + 2}</div>
+                            </div>
+                          </div>
+                        )}
+                        
+                        {/* Play Button Overlay */}
+                        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-200 hover:bg-opacity-40">
+                          <PlayButton size="md" />
+                        </div>
+                      </div>
+                      
+                      <div className="p-4">
+                        <h3 className="text-sm font-medium text-white mb-1">
+                          Variant {index + 2}
+                        </h3>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
-
-          {/* Additional Video Examples */}
-          {/* Note: This section can be populated with multiple video examples if available */}
 
           {/* Related Prompts */}
           {relatedPrompts.length > 0 && (
@@ -266,7 +366,17 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
       </main>
       
       {/* Video Modal */}
-      {prompt.videoUrl && (
+      {(prompt.videos && prompt.videos.length > 0) ? (
+        <VideoModal
+          videos={prompt.videos}
+          initialVideoIndex={modalVideoIndex}
+          videoAlt={prompt.title}
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          promptId={prompt.id}
+          promptTitle={prompt.title}
+        />
+      ) : prompt.videoUrl && (
         <VideoModal
           videoSrc={prompt.videoUrl}
           videoPoster={prompt.thumbnailUrl}

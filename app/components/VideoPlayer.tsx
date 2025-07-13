@@ -60,7 +60,8 @@ export default function VideoPlayer({
   };
 
   const handleMouseEnter = () => {
-    if (videoRef.current && !isPlaying) {
+    // Only auto-play on hover if controls are disabled (for hover previews)
+    if (videoRef.current && !isPlaying && !controls) {
       videoRef.current.play().catch(() => {
         // Handle play promise rejection
       });
@@ -72,7 +73,8 @@ export default function VideoPlayer({
   };
 
   const handleMouseLeave = () => {
-    if (videoRef.current && autoPlay) {
+    // Only auto-pause on mouse leave if controls are disabled (for hover previews)
+    if (videoRef.current && autoPlay && !controls) {
       videoRef.current.pause();
     }
   };
@@ -93,14 +95,31 @@ export default function VideoPlayer({
   // Handle autoPlay changes for hover functionality
   useEffect(() => {
     const video = videoRef.current;
-    if (video && autoPlay) {
-      video.play().catch(() => {
-        // Handle play promise rejection
-      });
-    } else if (video && !autoPlay && isPlaying) {
-      video.pause();
+    if (video) {
+      if (autoPlay && !controls) {
+        // For hover previews (no controls), play when autoPlay becomes true
+        video.play().catch(() => {
+          // Handle play promise rejection
+        });
+      } else if (!autoPlay && !controls) {
+        // For hover previews (no controls), pause when autoPlay becomes false
+        video.pause();
+      } else if (autoPlay && controls) {
+        // For modal videos (with controls), only auto-play on first load
+        if (video.readyState >= 2) { // If metadata is loaded
+          video.play().catch(() => {
+            // Handle play promise rejection
+          });
+        } else {
+          video.addEventListener('loadedmetadata', () => {
+            video.play().catch(() => {
+              // Handle play promise rejection
+            });
+          }, { once: true });
+        }
+      }
     }
-  }, [autoPlay, isPlaying]);
+  }, [autoPlay, controls]);
 
   if (hasError) {
     return (
@@ -123,8 +142,8 @@ export default function VideoPlayer({
   return (
     <div 
       className={cn("relative group rounded-lg overflow-hidden bg-stone-900", className)}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onMouseEnter={controls ? undefined : handleMouseEnter}
+      onMouseLeave={controls ? undefined : handleMouseLeave}
     >
       <video
         ref={videoRef}

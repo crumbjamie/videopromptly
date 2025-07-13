@@ -36,17 +36,23 @@ export default function VideoCard({ prompt }: VideoCardProps) {
           {/* Video Thumbnail */}
           <figure className="aspect-video relative overflow-hidden bg-stone-800 flex items-center justify-center">
             <VideoThumbnail
-              src={prompt.videoUrl}
-              poster={prompt.thumbnailUrl}
+              src={(prompt.videos && prompt.videos.length > 0) ? prompt.videos[0].videoUrl : prompt.videoUrl || ''}
+              poster={(prompt.videos && prompt.videos.length > 0) ? prompt.videos[0].thumbnailUrl : prompt.thumbnailUrl}
               alt={prompt.title}
               className="w-full h-full"
               size="lg"
               promptId={prompt.id}
               promptTitle={prompt.title}
-              duration={prompt.duration}
-              resolution={prompt.resolution}
+              duration={(prompt.videos && prompt.videos.length > 0) ? prompt.videos[0].duration : prompt.duration}
+              resolution={(prompt.videos && prompt.videos.length > 0) ? prompt.videos[0].resolution : prompt.resolution}
             />
             
+            {/* Multi-video badge */}
+            {prompt.videos && prompt.videos.length > 1 && (
+              <div className="absolute top-2 right-2 bg-blue-900 text-blue-300 text-xs font-medium px-2 py-1 rounded-md">
+                {prompt.videos.length} variants
+              </div>
+            )}
           </figure>
           
           <div className="flex flex-col flex-grow p-6">
@@ -62,11 +68,7 @@ export default function VideoCard({ prompt }: VideoCardProps) {
             
             {/* Rating */}
             <div className="mb-3">
-              {isLocalhost ? (
-                <DevRating promptId={prompt.id} currentRating={prompt.rating || 0} isFeatured={prompt.featured || false} />
-              ) : (
-                <StarRating rating={prompt.rating || 0} size="sm" />
-              )}
+              <StarRating rating={prompt.rating || 0} size="sm" />
             </div>
             
             {/* Category and Difficulty */}
@@ -102,6 +104,15 @@ export default function VideoCard({ prompt }: VideoCardProps) {
           </div>
         </div>
       </Link>
+      
+      {/* Dev Rating - Outside of Link and Card - Only on localhost */}
+      {isLocalhost && (
+        <DevRating 
+          promptId={prompt.id} 
+          currentRating={prompt.rating || 0}
+          isFeatured={prompt.featured || false}
+        />
+      )}
     </article>
   );
 }

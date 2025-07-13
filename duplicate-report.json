@@ -1,0 +1,1572 @@
+{
+  "summary": {
+    "totalPrompts": 250,
+    "duplicateGroups": 30,
+    "totalDuplicates": 120,
+    "uniquePrompts": 100
+  },
+  "duplicateGroups": [
+    {
+      "title": "1860s Irish Countryside Women",
+      "count": 5,
+      "keepId": "319",
+      "removeIds": [
+        "349",
+        "379",
+        "409",
+        "439"
+      ],
+      "instances": [
+        {
+          "id": "319",
+          "slug": "prompt-319",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-319.mp4"
+        },
+        {
+          "id": "349",
+          "slug": "prompt-349",
+          "category": "Romance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-349.mp4"
+        },
+        {
+          "id": "379",
+          "slug": "prompt-379",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-379.mp4"
+        },
+        {
+          "id": "409",
+          "slug": "prompt-409",
+          "category": "Romance",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-409.mp4"
+        },
+        {
+          "id": "439",
+          "slug": "prompt-439",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-439.mp4"
+        }
+      ]
+    },
+    {
+      "title": "4K Forest Embers Floating",
+      "count": 5,
+      "keepId": "315",
+      "removeIds": [
+        "345",
+        "375",
+        "405",
+        "435"
+      ],
+      "instances": [
+        {
+          "id": "315",
+          "slug": "prompt-315",
+          "category": "Animals",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-315.mp4"
+        },
+        {
+          "id": "345",
+          "slug": "prompt-345",
+          "category": "Workplace Comedy",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-345.mp4"
+        },
+        {
+          "id": "375",
+          "slug": "prompt-375",
+          "category": "Animals",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-375.mp4"
+        },
+        {
+          "id": "405",
+          "slug": "prompt-405",
+          "category": "Workplace Comedy",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-405.mp4"
+        },
+        {
+          "id": "435",
+          "slug": "prompt-435",
+          "category": "Animals",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-435.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Alien Landscape Crystal Structures",
+      "count": 5,
+      "keepId": "321",
+      "removeIds": [
+        "351",
+        "381",
+        "411",
+        "441"
+      ],
+      "instances": [
+        {
+          "id": "321",
+          "slug": "prompt-321",
+          "category": "Documentary",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-321.mp4"
+        },
+        {
+          "id": "351",
+          "slug": "prompt-351",
+          "category": "Comedy & Entertainment",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-351.mp4"
+        },
+        {
+          "id": "381",
+          "slug": "prompt-381",
+          "category": "Documentary",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-381.mp4"
+        },
+        {
+          "id": "411",
+          "slug": "prompt-411",
+          "category": "Comedy & Entertainment",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-411.mp4"
+        },
+        {
+          "id": "441",
+          "slug": "prompt-441",
+          "category": "Documentary",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-441.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Alligator Pool Luxury Scene",
+      "count": 5,
+      "keepId": "339",
+      "removeIds": [
+        "369",
+        "399",
+        "429",
+        "459"
+      ],
+      "instances": [
+        {
+          "id": "339",
+          "slug": "prompt-339",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-339.mp4"
+        },
+        {
+          "id": "369",
+          "slug": "prompt-369",
+          "category": "Romance",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-369.mp4"
+        },
+        {
+          "id": "399",
+          "slug": "prompt-399",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-399.mp4"
+        },
+        {
+          "id": "429",
+          "slug": "prompt-429",
+          "category": "Romance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-429.mp4"
+        },
+        {
+          "id": "459",
+          "slug": "prompt-459",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-459.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Android Awakening Lab Scene",
+      "count": 5,
+      "keepId": "329",
+      "removeIds": [
+        "359",
+        "389",
+        "419",
+        "449"
+      ],
+      "instances": [
+        {
+          "id": "329",
+          "slug": "prompt-329",
+          "category": "Romance",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-329.mp4"
+        },
+        {
+          "id": "359",
+          "slug": "prompt-359",
+          "category": "Educational",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-359.mp4"
+        },
+        {
+          "id": "389",
+          "slug": "prompt-389",
+          "category": "Romance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-389.mp4"
+        },
+        {
+          "id": "419",
+          "slug": "prompt-419",
+          "category": "Educational",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-419.mp4"
+        },
+        {
+          "id": "449",
+          "slug": "prompt-449",
+          "category": "Romance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-449.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Campfire Bear Handshake Friendship",
+      "count": 5,
+      "keepId": "338",
+      "removeIds": [
+        "368",
+        "398",
+        "428",
+        "458"
+      ],
+      "instances": [
+        {
+          "id": "338",
+          "slug": "prompt-338",
+          "category": "Historical",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-338.mp4"
+        },
+        {
+          "id": "368",
+          "slug": "prompt-368",
+          "category": "Crime Drama",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-368.mp4"
+        },
+        {
+          "id": "398",
+          "slug": "prompt-398",
+          "category": "Historical",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-398.mp4"
+        },
+        {
+          "id": "428",
+          "slug": "prompt-428",
+          "category": "Crime Drama",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-428.mp4"
+        },
+        {
+          "id": "458",
+          "slug": "prompt-458",
+          "category": "Historical",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-458.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Candy Keyboard Musical Notes",
+      "count": 5,
+      "keepId": "318",
+      "removeIds": [
+        "348",
+        "378",
+        "408",
+        "438"
+      ],
+      "instances": [
+        {
+          "id": "318",
+          "slug": "prompt-318",
+          "category": "Historical",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-318.mp4"
+        },
+        {
+          "id": "348",
+          "slug": "prompt-348",
+          "category": "Crime Drama",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-348.mp4"
+        },
+        {
+          "id": "378",
+          "slug": "prompt-378",
+          "category": "Historical",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-378.mp4"
+        },
+        {
+          "id": "408",
+          "slug": "prompt-408",
+          "category": "Crime Drama",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-408.mp4"
+        },
+        {
+          "id": "438",
+          "slug": "prompt-438",
+          "category": "Historical",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-438.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Classical Violinist Intense Focus",
+      "count": 5,
+      "keepId": "320",
+      "removeIds": [
+        "350",
+        "380",
+        "410",
+        "440"
+      ],
+      "instances": [
+        {
+          "id": "320",
+          "slug": "prompt-320",
+          "category": "ASMR",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-320.mp4"
+        },
+        {
+          "id": "350",
+          "slug": "prompt-350",
+          "category": "Action",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-350.mp4"
+        },
+        {
+          "id": "380",
+          "slug": "prompt-380",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-380.mp4"
+        },
+        {
+          "id": "410",
+          "slug": "prompt-410",
+          "category": "Action",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-410.mp4"
+        },
+        {
+          "id": "440",
+          "slug": "prompt-440",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-440.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Elevator Awkwardness Workplace",
+      "count": 5,
+      "keepId": "336",
+      "removeIds": [
+        "366",
+        "396",
+        "426",
+        "456"
+      ],
+      "instances": [
+        {
+          "id": "336",
+          "slug": "prompt-336",
+          "category": "Food & Cooking",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-336.mp4"
+        },
+        {
+          "id": "366",
+          "slug": "prompt-366",
+          "category": "Supernatural",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-366.mp4"
+        },
+        {
+          "id": "396",
+          "slug": "prompt-396",
+          "category": "Food & Cooking",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-396.mp4"
+        },
+        {
+          "id": "426",
+          "slug": "prompt-426",
+          "category": "Supernatural",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-426.mp4"
+        },
+        {
+          "id": "456",
+          "slug": "prompt-456",
+          "category": "Food & Cooking",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-456.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Glass Strawberry ASMR Cutting",
+      "count": 5,
+      "keepId": "311",
+      "removeIds": [
+        "341",
+        "371",
+        "401",
+        "431"
+      ],
+      "instances": [
+        {
+          "id": "311",
+          "slug": "prompt-311",
+          "category": "Comedy & Entertainment",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-311.mp4"
+        },
+        {
+          "id": "341",
+          "slug": "prompt-341",
+          "category": "Documentary",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-341.mp4"
+        },
+        {
+          "id": "371",
+          "slug": "prompt-371",
+          "category": "Comedy & Entertainment",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-371.mp4"
+        },
+        {
+          "id": "401",
+          "slug": "prompt-401",
+          "category": "Documentary",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-401.mp4"
+        },
+        {
+          "id": "431",
+          "slug": "prompt-431",
+          "category": "Comedy & Entertainment",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-431.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Gorilla Selfie Jungle Meta",
+      "count": 5,
+      "keepId": "327",
+      "removeIds": [
+        "357",
+        "387",
+        "417",
+        "447"
+      ],
+      "instances": [
+        {
+          "id": "327",
+          "slug": "prompt-327",
+          "category": "Abstract Art",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-327.mp4"
+        },
+        {
+          "id": "357",
+          "slug": "prompt-357",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-357.mp4"
+        },
+        {
+          "id": "387",
+          "slug": "prompt-387",
+          "category": "Abstract Art",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-387.mp4"
+        },
+        {
+          "id": "417",
+          "slug": "prompt-417",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-417.mp4"
+        },
+        {
+          "id": "447",
+          "slug": "prompt-447",
+          "category": "Abstract Art",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-447.mp4"
+        }
+      ]
+    },
+    {
+      "title": "John Researcher Ancient Map",
+      "count": 5,
+      "keepId": "337",
+      "removeIds": [
+        "367",
+        "397",
+        "427",
+        "457"
+      ],
+      "instances": [
+        {
+          "id": "337",
+          "slug": "prompt-337",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-337.mp4"
+        },
+        {
+          "id": "367",
+          "slug": "prompt-367",
+          "category": "Abstract Art",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-367.mp4"
+        },
+        {
+          "id": "397",
+          "slug": "prompt-397",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-397.mp4"
+        },
+        {
+          "id": "427",
+          "slug": "prompt-427",
+          "category": "Abstract Art",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-427.mp4"
+        },
+        {
+          "id": "457",
+          "slug": "prompt-457",
+          "category": "Music & Performance",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-457.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Lantern Temple Fight Scene",
+      "count": 5,
+      "keepId": "332",
+      "removeIds": [
+        "362",
+        "392",
+        "422",
+        "452"
+      ],
+      "instances": [
+        {
+          "id": "332",
+          "slug": "prompt-332",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-332.mp4"
+        },
+        {
+          "id": "362",
+          "slug": "prompt-362",
+          "category": "Fashion",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-362.mp4"
+        },
+        {
+          "id": "392",
+          "slug": "prompt-392",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-392.mp4"
+        },
+        {
+          "id": "422",
+          "slug": "prompt-422",
+          "category": "Fashion",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-422.mp4"
+        },
+        {
+          "id": "452",
+          "slug": "prompt-452",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-452.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Living Storybook Animation",
+      "count": 5,
+      "keepId": "317",
+      "removeIds": [
+        "347",
+        "377",
+        "407",
+        "437"
+      ],
+      "instances": [
+        {
+          "id": "317",
+          "slug": "prompt-317",
+          "category": "Music & Performance",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-317.mp4"
+        },
+        {
+          "id": "347",
+          "slug": "prompt-347",
+          "category": "Abstract Art",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-347.mp4"
+        },
+        {
+          "id": "377",
+          "slug": "prompt-377",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-377.mp4"
+        },
+        {
+          "id": "407",
+          "slug": "prompt-407",
+          "category": "Abstract Art",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-407.mp4"
+        },
+        {
+          "id": "437",
+          "slug": "prompt-437",
+          "category": "Music & Performance",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-437.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Macro Dew Drops On Spider Web",
+      "count": 5,
+      "keepId": "316",
+      "removeIds": [
+        "346",
+        "376",
+        "406",
+        "436"
+      ],
+      "instances": [
+        {
+          "id": "316",
+          "slug": "prompt-316",
+          "category": "Food & Cooking",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-316.mp4"
+        },
+        {
+          "id": "346",
+          "slug": "prompt-346",
+          "category": "Supernatural",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-346.mp4"
+        },
+        {
+          "id": "376",
+          "slug": "prompt-376",
+          "category": "Food & Cooking",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-376.mp4"
+        },
+        {
+          "id": "406",
+          "slug": "prompt-406",
+          "category": "Supernatural",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-406.mp4"
+        },
+        {
+          "id": "436",
+          "slug": "prompt-436",
+          "category": "Food & Cooking",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-436.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Monsoon Rooftop Dance Bangkok",
+      "count": 5,
+      "keepId": "333",
+      "removeIds": [
+        "363",
+        "393",
+        "423",
+        "453"
+      ],
+      "instances": [
+        {
+          "id": "333",
+          "slug": "prompt-333",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-333.mp4"
+        },
+        {
+          "id": "363",
+          "slug": "prompt-363",
+          "category": "Gaming",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-363.mp4"
+        },
+        {
+          "id": "393",
+          "slug": "prompt-393",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-393.mp4"
+        },
+        {
+          "id": "423",
+          "slug": "prompt-423",
+          "category": "Gaming",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-423.mp4"
+        },
+        {
+          "id": "453",
+          "slug": "prompt-453",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-453.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Morning Discovery Emotional Scene",
+      "count": 5,
+      "keepId": "314",
+      "removeIds": [
+        "344",
+        "374",
+        "404",
+        "434"
+      ],
+      "instances": [
+        {
+          "id": "314",
+          "slug": "prompt-314",
+          "category": "Sports",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-314.mp4"
+        },
+        {
+          "id": "344",
+          "slug": "prompt-344",
+          "category": "Travel",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-344.mp4"
+        },
+        {
+          "id": "374",
+          "slug": "prompt-374",
+          "category": "Sports",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-374.mp4"
+        },
+        {
+          "id": "404",
+          "slug": "prompt-404",
+          "category": "Travel",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-404.mp4"
+        },
+        {
+          "id": "434",
+          "slug": "prompt-434",
+          "category": "Sports",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-434.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Olympic Cat Agility Course",
+      "count": 5,
+      "keepId": "312",
+      "removeIds": [
+        "342",
+        "372",
+        "402",
+        "432"
+      ],
+      "instances": [
+        {
+          "id": "312",
+          "slug": "prompt-312",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-312.mp4"
+        },
+        {
+          "id": "342",
+          "slug": "prompt-342",
+          "category": "Fashion",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-342.mp4"
+        },
+        {
+          "id": "372",
+          "slug": "prompt-372",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-372.mp4"
+        },
+        {
+          "id": "402",
+          "slug": "prompt-402",
+          "category": "Fashion",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-402.mp4"
+        },
+        {
+          "id": "432",
+          "slug": "prompt-432",
+          "category": "Horror & Thriller",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-432.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Paper Boat Physics Demonstration",
+      "count": 5,
+      "keepId": "310",
+      "removeIds": [
+        "340",
+        "370",
+        "400",
+        "430"
+      ],
+      "instances": [
+        {
+          "id": "310",
+          "slug": "prompt-310",
+          "category": "Action",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-310.mp4"
+        },
+        {
+          "id": "340",
+          "slug": "prompt-340",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-340.mp4"
+        },
+        {
+          "id": "370",
+          "slug": "prompt-370",
+          "category": "Action",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-370.mp4"
+        },
+        {
+          "id": "400",
+          "slug": "prompt-400",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-400.mp4"
+        },
+        {
+          "id": "430",
+          "slug": "prompt-430",
+          "category": "Action",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-430.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Sea Captain Testimonial Waves",
+      "count": 5,
+      "keepId": "325",
+      "removeIds": [
+        "355",
+        "385",
+        "415",
+        "445"
+      ],
+      "instances": [
+        {
+          "id": "325",
+          "slug": "prompt-325",
+          "category": "Workplace Comedy",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-325.mp4"
+        },
+        {
+          "id": "355",
+          "slug": "prompt-355",
+          "category": "Animals",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-355.mp4"
+        },
+        {
+          "id": "385",
+          "slug": "prompt-385",
+          "category": "Workplace Comedy",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-385.mp4"
+        },
+        {
+          "id": "415",
+          "slug": "prompt-415",
+          "category": "Animals",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-415.mp4"
+        },
+        {
+          "id": "445",
+          "slug": "prompt-445",
+          "category": "Workplace Comedy",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-445.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Smartwatch 360 Rotation Demo",
+      "count": 5,
+      "keepId": "326",
+      "removeIds": [
+        "356",
+        "386",
+        "416",
+        "446"
+      ],
+      "instances": [
+        {
+          "id": "326",
+          "slug": "prompt-326",
+          "category": "Supernatural",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-326.mp4"
+        },
+        {
+          "id": "356",
+          "slug": "prompt-356",
+          "category": "Food & Cooking",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-356.mp4"
+        },
+        {
+          "id": "386",
+          "slug": "prompt-386",
+          "category": "Supernatural",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-386.mp4"
+        },
+        {
+          "id": "416",
+          "slug": "prompt-416",
+          "category": "Food & Cooking",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-416.mp4"
+        },
+        {
+          "id": "446",
+          "slug": "prompt-446",
+          "category": "Supernatural",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-446.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Street Interview Food Festival",
+      "count": 5,
+      "keepId": "335",
+      "removeIds": [
+        "365",
+        "395",
+        "425",
+        "455"
+      ],
+      "instances": [
+        {
+          "id": "335",
+          "slug": "prompt-335",
+          "category": "Animals",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-335.mp4"
+        },
+        {
+          "id": "365",
+          "slug": "prompt-365",
+          "category": "Workplace Comedy",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-365.mp4"
+        },
+        {
+          "id": "395",
+          "slug": "prompt-395",
+          "category": "Animals",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-395.mp4"
+        },
+        {
+          "id": "425",
+          "slug": "prompt-425",
+          "category": "Workplace Comedy",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-425.mp4"
+        },
+        {
+          "id": "455",
+          "slug": "prompt-455",
+          "category": "Animals",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-455.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Submerged Spacewreck Discovery",
+      "count": 5,
+      "keepId": "331",
+      "removeIds": [
+        "361",
+        "391",
+        "421",
+        "451"
+      ],
+      "instances": [
+        {
+          "id": "331",
+          "slug": "prompt-331",
+          "category": "Comedy & Entertainment",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-331.mp4"
+        },
+        {
+          "id": "361",
+          "slug": "prompt-361",
+          "category": "Documentary",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-361.mp4"
+        },
+        {
+          "id": "391",
+          "slug": "prompt-391",
+          "category": "Comedy & Entertainment",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-391.mp4"
+        },
+        {
+          "id": "421",
+          "slug": "prompt-421",
+          "category": "Documentary",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-421.mp4"
+        },
+        {
+          "id": "451",
+          "slug": "prompt-451",
+          "category": "Comedy & Entertainment",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-451.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Superhero Meteor Scene Action",
+      "count": 5,
+      "keepId": "322",
+      "removeIds": [
+        "352",
+        "382",
+        "412",
+        "442"
+      ],
+      "instances": [
+        {
+          "id": "322",
+          "slug": "prompt-322",
+          "category": "Fashion",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-322.mp4"
+        },
+        {
+          "id": "352",
+          "slug": "prompt-352",
+          "category": "Horror & Thriller",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-352.mp4"
+        },
+        {
+          "id": "382",
+          "slug": "prompt-382",
+          "category": "Fashion",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-382.mp4"
+        },
+        {
+          "id": "412",
+          "slug": "prompt-412",
+          "category": "Horror & Thriller",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-412.mp4"
+        },
+        {
+          "id": "442",
+          "slug": "prompt-442",
+          "category": "Fashion",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-442.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Tokyo Street Food Blogger",
+      "count": 5,
+      "keepId": "328",
+      "removeIds": [
+        "358",
+        "388",
+        "418",
+        "448"
+      ],
+      "instances": [
+        {
+          "id": "328",
+          "slug": "prompt-328",
+          "category": "Crime Drama",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-328.mp4"
+        },
+        {
+          "id": "358",
+          "slug": "prompt-358",
+          "category": "Historical",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-358.mp4"
+        },
+        {
+          "id": "388",
+          "slug": "prompt-388",
+          "category": "Crime Drama",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-388.mp4"
+        },
+        {
+          "id": "418",
+          "slug": "prompt-418",
+          "category": "Historical",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-418.mp4"
+        },
+        {
+          "id": "448",
+          "slug": "prompt-448",
+          "category": "Crime Drama",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-448.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Train Escape Wasteland Chase",
+      "count": 5,
+      "keepId": "334",
+      "removeIds": [
+        "364",
+        "394",
+        "424",
+        "454"
+      ],
+      "instances": [
+        {
+          "id": "334",
+          "slug": "prompt-334",
+          "category": "Sports",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-334.mp4"
+        },
+        {
+          "id": "364",
+          "slug": "prompt-364",
+          "category": "Travel",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-364.mp4"
+        },
+        {
+          "id": "394",
+          "slug": "prompt-394",
+          "category": "Sports",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-394.mp4"
+        },
+        {
+          "id": "424",
+          "slug": "prompt-424",
+          "category": "Travel",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-424.mp4"
+        },
+        {
+          "id": "454",
+          "slug": "prompt-454",
+          "category": "Sports",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-454.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Viking Last Stand Burning",
+      "count": 5,
+      "keepId": "330",
+      "removeIds": [
+        "360",
+        "390",
+        "420",
+        "450"
+      ],
+      "instances": [
+        {
+          "id": "330",
+          "slug": "prompt-330",
+          "category": "Action",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-330.mp4"
+        },
+        {
+          "id": "360",
+          "slug": "prompt-360",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-360.mp4"
+        },
+        {
+          "id": "390",
+          "slug": "prompt-390",
+          "category": "Action",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-390.mp4"
+        },
+        {
+          "id": "420",
+          "slug": "prompt-420",
+          "category": "ASMR",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-420.mp4"
+        },
+        {
+          "id": "450",
+          "slug": "prompt-450",
+          "category": "Action",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-450.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Warehouse Architectural Transformation",
+      "count": 5,
+      "keepId": "313",
+      "removeIds": [
+        "343",
+        "373",
+        "403",
+        "433"
+      ],
+      "instances": [
+        {
+          "id": "313",
+          "slug": "prompt-313",
+          "category": "Sci-Fi",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-313.mp4"
+        },
+        {
+          "id": "343",
+          "slug": "prompt-343",
+          "category": "Gaming",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-343.mp4"
+        },
+        {
+          "id": "373",
+          "slug": "prompt-373",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-373.mp4"
+        },
+        {
+          "id": "403",
+          "slug": "prompt-403",
+          "category": "Gaming",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-403.mp4"
+        },
+        {
+          "id": "433",
+          "slug": "prompt-433",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-433.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Wise Owl Encounter Moonlit",
+      "count": 5,
+      "keepId": "324",
+      "removeIds": [
+        "354",
+        "384",
+        "414",
+        "444"
+      ],
+      "instances": [
+        {
+          "id": "324",
+          "slug": "prompt-324",
+          "category": "Travel",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-324.mp4"
+        },
+        {
+          "id": "354",
+          "slug": "prompt-354",
+          "category": "Sports",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-354.mp4"
+        },
+        {
+          "id": "384",
+          "slug": "prompt-384",
+          "category": "Travel",
+          "hasVideo": false,
+          "videoUrl": "/videos/prompt-384.mp4"
+        },
+        {
+          "id": "414",
+          "slug": "prompt-414",
+          "category": "Sports",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-414.mp4"
+        },
+        {
+          "id": "444",
+          "slug": "prompt-444",
+          "category": "Travel",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-444.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Wolf Sprint Tracking Shot",
+      "count": 5,
+      "keepId": "323",
+      "removeIds": [
+        "353",
+        "383",
+        "413",
+        "443"
+      ],
+      "instances": [
+        {
+          "id": "323",
+          "slug": "prompt-323",
+          "category": "Gaming",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-323.mp4"
+        },
+        {
+          "id": "353",
+          "slug": "prompt-353",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-353.mp4"
+        },
+        {
+          "id": "383",
+          "slug": "prompt-383",
+          "category": "Gaming",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-383.mp4"
+        },
+        {
+          "id": "413",
+          "slug": "prompt-413",
+          "category": "Sci-Fi",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-413.mp4"
+        },
+        {
+          "id": "443",
+          "slug": "prompt-443",
+          "category": "Gaming",
+          "hasVideo": true,
+          "videoUrl": "/videos/prompt-443.mp4"
+        }
+      ]
+    }
+  ],
+  "idsToRemove": [
+    "340",
+    "341",
+    "342",
+    "343",
+    "344",
+    "345",
+    "346",
+    "347",
+    "348",
+    "349",
+    "350",
+    "351",
+    "352",
+    "353",
+    "354",
+    "355",
+    "356",
+    "357",
+    "358",
+    "359",
+    "360",
+    "361",
+    "362",
+    "363",
+    "364",
+    "365",
+    "366",
+    "367",
+    "368",
+    "369",
+    "370",
+    "371",
+    "372",
+    "373",
+    "374",
+    "375",
+    "376",
+    "377",
+    "378",
+    "379",
+    "380",
+    "381",
+    "382",
+    "383",
+    "384",
+    "385",
+    "386",
+    "387",
+    "388",
+    "389",
+    "390",
+    "391",
+    "392",
+    "393",
+    "394",
+    "395",
+    "396",
+    "397",
+    "398",
+    "399",
+    "400",
+    "401",
+    "402",
+    "403",
+    "404",
+    "405",
+    "406",
+    "407",
+    "408",
+    "409",
+    "410",
+    "411",
+    "412",
+    "413",
+    "414",
+    "415",
+    "416",
+    "417",
+    "418",
+    "419",
+    "420",
+    "421",
+    "422",
+    "423",
+    "424",
+    "425",
+    "426",
+    "427",
+    "428",
+    "429",
+    "430",
+    "431",
+    "432",
+    "433",
+    "434",
+    "435",
+    "436",
+    "437",
+    "438",
+    "439",
+    "440",
+    "441",
+    "442",
+    "443",
+    "444",
+    "445",
+    "446",
+    "447",
+    "448",
+    "449",
+    "450",
+    "451",
+    "452",
+    "453",
+    "454",
+    "455",
+    "456",
+    "457",
+    "458",
+    "459"
+  ]
+}

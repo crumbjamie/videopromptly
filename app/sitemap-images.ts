@@ -5,49 +5,34 @@ export default async function generateImageSitemap() {
   const prompts = await getAllPrompts();
   
   const imageEntries = prompts
-    .filter(prompt => prompt.thumbnail || (prompt.thumbnails && prompt.thumbnails.length > 0))
+    .filter(prompt => prompt.thumbnailUrl || prompt.thumbnail)
     .map(prompt => {
       const images = [];
       
-      // Handle single thumbnail
-      if (prompt.thumbnail) {
+      // Handle video thumbnail
+      if (prompt.thumbnailUrl) {
+        images.push({
+          loc: `${SITE_URL}/video-prompt/${prompt.slug}`,
+          image: {
+            loc: `${SITE_URL}${prompt.thumbnailUrl}`,
+            title: `${prompt.title} - Video Thumbnail`,
+            caption: prompt.description,
+          }
+        });
+      }
+      // Fallback to old thumbnail format if exists
+      else if (prompt.thumbnail) {
         const thumbnailPath = typeof prompt.thumbnail === 'string' 
           ? prompt.thumbnail 
           : prompt.thumbnail.after;
           
         images.push({
-          loc: `${SITE_URL}/image-prompt/${prompt.slug}`,
+          loc: `${SITE_URL}/video-prompt/${prompt.slug}`,
           image: {
             loc: `${SITE_URL}/thumbnails/${thumbnailPath}`,
-            title: `${prompt.title} - After transformation`,
+            title: `${prompt.title} - Video Thumbnail`,
             caption: prompt.description,
           }
-        });
-        
-        // Add before image if available
-        if (typeof prompt.thumbnail === 'object' && prompt.thumbnail.before) {
-          images.push({
-            loc: `${SITE_URL}/image-prompt/${prompt.slug}`,
-            image: {
-              loc: `${SITE_URL}/thumbnails/${prompt.thumbnail.before}`,
-              title: `${prompt.title} - Before transformation`,
-              caption: `Original image before ${prompt.title} transformation`,
-            }
-          });
-        }
-      }
-      
-      // Handle multiple thumbnails
-      if (prompt.thumbnails && Array.isArray(prompt.thumbnails)) {
-        prompt.thumbnails.forEach((thumb, index) => {
-          images.push({
-            loc: `${SITE_URL}/image-prompt/${prompt.slug}`,
-            image: {
-              loc: thumb.startsWith('http') ? thumb : `${SITE_URL}${thumb}`,
-              title: `${prompt.title} - Example ${index + 1}`,
-              caption: prompt.description,
-            }
-          });
         });
       }
       

@@ -39,64 +39,64 @@ export default function AboutPage() {
           {/* Hero Section */}
           <header className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Transform Your Photos with AI-Powered Creativity
+              Create Stunning Videos with AI-Powered Prompts
             </h1>
             <p className="text-xl text-white leading-relaxed">
-              ImagePromptly is your gateway to endless creative possibilities with ChatGPT and DALL-E
+              VideoPromptly is your gateway to endless creative possibilities with Veo3 and AI video generation
             </p>
           </header>
 
           {/* Introduction */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-white mb-6">What is ImagePromptly?</h2>
+            <h2 className="text-3xl font-bold text-white mb-6">What is VideoPromptly?</h2>
             <div className="prose prose-invert max-w-none">
               <p className="text-lg text-white mb-4">
-                ImagePromptly is a carefully curated collection of over 160+ image transformation prompts designed specifically for ChatGPT and DALL-E. We&apos;ve taken the guesswork out of AI image generation by providing tested, effective prompts that deliver stunning results every time.
+                VideoPromptly is a carefully curated collection of over 400+ video generation prompts designed specifically for Veo3 and other cutting-edge AI video tools. We&apos;ve taken the guesswork out of AI video creation by providing tested, effective prompts that deliver stunning 8-second videos every time.
               </p>
               <p className="text-lg text-white mb-4">
-                Whether you&apos;re a professional looking to enhance your online presence, a content creator seeking unique visuals, or someone who simply loves experimenting with AI art, ImagePromptly provides the tools you need to transform ordinary photos into extraordinary creations.
+                Whether you&apos;re a content creator looking for viral video ideas, a marketer needing product demonstrations, or someone who loves experimenting with AI video generation, VideoPromptly provides the tools you need to bring your creative visions to life.
               </p>
             </div>
           </section>
 
           {/* Benefits Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold text-white mb-8">Why Choose ImagePromptly?</h2>
+            <h2 className="text-3xl font-bold text-white mb-8">Why Choose VideoPromptly?</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
-                <h3 className="text-xl font-semibold text-white mb-3">🚀 Save Time & Effort</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">🎬 Save Time & Effort</h3>
                 <p className="text-white">
-                  No more trial and error with prompts. Our tested formulas work consistently, saving you hours of experimentation.
+                  No more trial and error with video prompts. Our tested formulas work consistently with Veo3, saving you hours of experimentation.
                 </p>
               </div>
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
-                <h3 className="text-xl font-semibold text-white mb-3">🎨 Professional Quality</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">🎥 Professional Quality</h3>
                 <p className="text-white">
-                  Each prompt is crafted to produce high-quality, professional-looking results suitable for any purpose.
+                  Each prompt is crafted to produce cinematic, high-quality videos suitable for social media, marketing, and creative projects.
                 </p>
               </div>
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
                 <h3 className="text-xl font-semibold text-white mb-3">📚 Organized Collection</h3>
                 <p className="text-white">
-                  Browse by category, difficulty, or style to find exactly what you need quickly and efficiently.
+                  Browse by category, difficulty, or video style to find exactly what you need for your next viral video.
                 </p>
               </div>
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
                 <h3 className="text-xl font-semibold text-white mb-3">💡 Learn & Improve</h3>
                 <p className="text-white">
-                  Understand prompt engineering by studying our examples and modifying them for your needs.
+                  Master video prompt engineering by studying our examples and adapting them for your creative vision.
                 </p>
               </div>
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
                 <h3 className="text-xl font-semibold text-white mb-3">🆓 Completely Free</h3>
                 <p className="text-white">
-                  Access our entire collection without any subscriptions, sign-ups, or hidden fees.
+                  Access our entire collection of 400+ video prompts without any subscriptions, sign-ups, or hidden fees.
                 </p>
               </div>
               <div className="bg-stone-900 rounded-lg p-6 border border-stone-800">
                 <h3 className="text-xl font-semibold text-white mb-3">🔄 Regular Updates</h3>
                 <p className="text-white">
-                  We continuously add new prompts based on trends, user feedback, and AI advancements.
+                  We continuously add new video prompts based on trending formats, platform updates, and AI video advancements.
                 </p>
               </div>
             </div>
@@ -109,36 +109,36 @@ export default function AboutPage() {
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">1</span>
                 <div>
-                  <h3 className="font-semibold text-white mb-1">Browse Our Collection</h3>
-                  <p className="text-white">Explore prompts by category or search for specific styles and effects.</p>
+                  <h3 className="font-semibold text-white mb-1">Browse Our Video Collection</h3>
+                  <p className="text-white">Explore video prompts by category, style, or search for specific effects and scenes.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">2</span>
                 <div>
                   <h3 className="font-semibold text-white mb-1">Copy Your Chosen Prompt</h3>
-                  <p className="text-white">Click the copy button to instantly copy any prompt to your clipboard.</p>
+                  <p className="text-white">Click the copy button to instantly copy any video prompt to your clipboard.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">3</span>
                 <div>
-                  <h3 className="font-semibold text-white mb-1">Open ChatGPT</h3>
-                  <p className="text-white">Start a new conversation in ChatGPT (Plus subscription required for image generation).</p>
+                  <h3 className="font-semibold text-white mb-1">Open Veo3 or Your AI Video Tool</h3>
+                  <p className="text-white">Access Veo3 through Google AI Studio, or use your preferred AI video generation platform.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">4</span>
                 <div>
-                  <h3 className="font-semibold text-white mb-1">Upload Your Image</h3>
-                  <p className="text-white">Attach the photo you want to transform using ChatGPT&apos;s image upload feature.</p>
+                  <h3 className="font-semibold text-white mb-1">Paste & Configure</h3>
+                  <p className="text-white">Paste the prompt and adjust settings like duration, aspect ratio, and quality as needed.</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold mr-4">5</span>
                 <div>
-                  <h3 className="font-semibold text-white mb-1">Paste & Transform</h3>
-                  <p className="text-white">Paste the prompt and watch as ChatGPT transforms your image into something amazing!</p>
+                  <h3 className="font-semibold text-white mb-1">Generate & Download</h3>
+                  <p className="text-white">Watch as AI creates your video and download the stunning result to share or use in your projects!</p>
                 </div>
               </li>
             </ol>
@@ -149,15 +149,15 @@ export default function AboutPage() {
 
           {/* CTA Section */}
           <section className="text-center py-12 bg-stone-900 rounded-lg border border-stone-800">
-            <h2 className="text-3xl font-bold text-white mb-4">Ready to Transform Your Photos?</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">Ready to Create Amazing Videos?</h2>
             <p className="text-xl text-white mb-8">
-              Start exploring our collection of 160+ prompts and unleash your creativity
+              Start exploring our collection of 400+ video prompts and bring your ideas to life
             </p>
             <Link 
               href="/" 
               className="inline-flex items-center px-8 py-3 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
             >
-              Browse Prompts
+              Browse Video Prompts
               <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

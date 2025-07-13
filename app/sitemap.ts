@@ -13,7 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Individual prompt pages
   const promptUrls = prompts.map((prompt) => ({
-    url: `${SITE_URL}/image-prompt/${prompt.slug}`,
+    url: `${SITE_URL}/video-prompt/${prompt.slug}`,
     lastModified: new Date(prompt.updatedAt),
     changeFrequency: 'monthly' as const,
     priority: 0.8,

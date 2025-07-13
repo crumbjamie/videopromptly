@@ -41,6 +41,12 @@ export default function HomePageClient({
   const [displayCount, setDisplayCount] = useState(PROMPTS_PER_PAGE);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [sortBy, setSortBy] = useState<SortOption>('featured');
+  
+  // Generate a random seed that changes daily to ensure consistent ordering per day
+  const dailySeed = useMemo(() => {
+    const today = new Date();
+    return today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+  }, []);
 
   // Get all unique tags from prompts
   const allTags = useMemo(() => {
@@ -50,6 +56,76 @@ export default function HomePageClient({
     });
     return Array.from(tagSet).sort();
   }, [allPrompts]);
+  
+  // Helper function to distribute prompts by category within rating groups
+  const distributeByCategory = useCallback((prompts: VideoPrompt[]) => {
+    // Group prompts by rating
+    const ratingGroups = new Map<number, VideoPrompt[]>();
+    prompts.forEach(prompt => {
+      const rating = prompt.rating || 0;
+      if (!ratingGroups.has(rating)) {
+        ratingGroups.set(rating, []);
+      }
+      ratingGroups.get(rating)!.push(prompt);
+    });
+    
+    // For each rating group, distribute by category
+    const distributedPrompts: VideoPrompt[] = [];
+    const sortedRatings = Array.from(ratingGroups.keys()).sort((a, b) => b - a);
+    
+    sortedRatings.forEach(rating => {
+      const group = ratingGroups.get(rating)!;
+      
+      // Group by category within this rating
+      const categoryGroups = new Map<string, VideoPrompt[]>();
+      group.forEach(prompt => {
+        const category = prompt.category;
+        if (!categoryGroups.has(category)) {
+          categoryGroups.set(category, []);
+        }
+        categoryGroups.get(category)!.push(prompt);
+      });
+      
+      // Shuffle each category group using daily seed
+      categoryGroups.forEach((prompts, category) => {
+        const shuffled = [...prompts].sort((a, b) => {
+          const hashA = (a.id + dailySeed + category).split('').reduce((acc, char) => {
+            return ((acc * 31) + char.charCodeAt(0)) % 1000000;
+          }, 1);
+          const hashB = (b.id + dailySeed + category).split('').reduce((acc, char) => {
+            return ((acc * 31) + char.charCodeAt(0)) % 1000000;
+          }, 1);
+          return hashA - hashB;
+        });
+        categoryGroups.set(category, shuffled);
+      });
+      
+      // Round-robin distribution from each category
+      const categoryArrays = Array.from(categoryGroups.values());
+      let addedCount = 0;
+      let index = 0;
+      
+      while (addedCount < group.length) {
+        // Find next non-empty category array
+        let attempts = 0;
+        while (categoryArrays[index % categoryArrays.length].length === 0 && attempts < categoryArrays.length) {
+          index++;
+          attempts++;
+        }
+        
+        if (attempts >= categoryArrays.length) break;
+        
+        const categoryArray = categoryArrays[index % categoryArrays.length];
+        if (categoryArray.length > 0) {
+          distributedPrompts.push(categoryArray.shift()!);
+          addedCount++;
+        }
+        index++;
+      }
+    });
+    
+    return distributedPrompts;
+  }, [dailySeed]);
   
   // Filter prompts
   const filteredPrompts = allPrompts.filter(prompt => {
@@ -84,46 +160,50 @@ export default function HomePageClient({
     }
     
     return matchesFilter;
-  }).sort((a, b) => {
+  });
+  
+  // Sort and distribute prompts
+  const sortedPrompts = useMemo(() => {
+    let sorted = [...filteredPrompts];
+    
     switch (sortBy) {
       case 'featured':
-        // First, sort by featured status
-        const aFeatured = a.tags.includes('featured');
-        const bFeatured = b.tags.includes('featured');
+        // Separate featured and non-featured
+        const featured = sorted.filter(p => p.tags.includes('featured'));
+        const nonFeatured = sorted.filter(p => !p.tags.includes('featured'));
         
-        if (aFeatured && !bFeatured) return -1;
-        if (!aFeatured && bFeatured) return 1;
+        // Distribute each group by category
+        const distributedFeatured = distributeByCategory(featured);
+        const distributedNonFeatured = distributeByCategory(nonFeatured);
         
-        // Then sort by rating (highest first)
-        const ratingA = a.rating || 0;
-        const ratingB = b.rating || 0;
-        if (ratingA !== ratingB) {
-          return ratingB - ratingA;
-        }
-        // If ratings are equal, randomize order using a stable hash of the ID
-        // This ensures consistent ordering across page loads
-        const hashA = a.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-        const hashB = b.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-        return hashA - hashB;
+        // Combine with featured first
+        sorted = [...distributedFeatured, ...distributedNonFeatured];
+        break;
         
       case 'recent':
         // Sort by created date (newest first)
-        const dateA = new Date(a.createdAt || 0).getTime();
-        const dateB = new Date(b.createdAt || 0).getTime();
-        return dateB - dateA;
+        sorted.sort((a, b) => {
+          const dateA = new Date(a.createdAt || 0).getTime();
+          const dateB = new Date(b.createdAt || 0).getTime();
+          return dateB - dateA;
+        });
+        break;
         
       case 'stars':
-        // Sort by rating (highest first)
-        return (b.rating || 0) - (a.rating || 0);
+        // Use category distribution for star sorting
+        sorted = distributeByCategory(sorted);
+        break;
         
       default:
-        return 0;
+        break;
     }
-  });
+    
+    return sorted;
+  }, [filteredPrompts, sortBy, distributeByCategory]);
 
   // Get prompts to display
-  const displayedPrompts = filteredPrompts.slice(0, displayCount);
-  const hasMore = displayCount < filteredPrompts.length;
+  const displayedPrompts = sortedPrompts.slice(0, displayCount);
+  const hasMore = displayCount < sortedPrompts.length;
 
   // Intersection Observer for infinite scroll
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -135,11 +215,11 @@ export default function HomePageClient({
       setIsLoadingMore(true);
       // Use setTimeout to simulate loading and prevent rapid updates
       setTimeout(() => {
-        setDisplayCount(prev => Math.min(prev + PROMPTS_PER_PAGE, filteredPrompts.length));
+        setDisplayCount(prev => Math.min(prev + PROMPTS_PER_PAGE, sortedPrompts.length));
         setIsLoadingMore(false);
       }, 300);
     }
-  }, [hasMore, isLoadingMore, filteredPrompts.length]);
+  }, [hasMore, isLoadingMore, sortedPrompts.length]);
 
   useEffect(() => {
     const option = {

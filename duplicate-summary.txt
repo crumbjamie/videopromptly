@@ -1,0 +1,156 @@
+DUPLICATE PROMPTS SUMMARY
+========================
+
+"1860s Irish Countryside Women" (5 copies)
+  Keep: ID 319
+  Remove: IDs 349, 379, 409, 439
+  Videos: 4/5 have videos
+
+"4K Forest Embers Floating" (5 copies)
+  Keep: ID 315
+  Remove: IDs 345, 375, 405, 435
+  Videos: 2/5 have videos
+
+"Alien Landscape Crystal Structures" (5 copies)
+  Keep: ID 321
+  Remove: IDs 351, 381, 411, 441
+  Videos: 3/5 have videos
+
+"Alligator Pool Luxury Scene" (5 copies)
+  Keep: ID 339
+  Remove: IDs 369, 399, 429, 459
+  Videos: 4/5 have videos
+
+"Android Awakening Lab Scene" (5 copies)
+  Keep: ID 329
+  Remove: IDs 359, 389, 419, 449
+  Videos: 3/5 have videos
+
+"Campfire Bear Handshake Friendship" (5 copies)
+  Keep: ID 338
+  Remove: IDs 368, 398, 428, 458
+  Videos: 3/5 have videos
+
+"Candy Keyboard Musical Notes" (5 copies)
+  Keep: ID 318
+  Remove: IDs 348, 378, 408, 438
+  Videos: 4/5 have videos
+
+"Classical Violinist Intense Focus" (5 copies)
+  Keep: ID 320
+  Remove: IDs 350, 380, 410, 440
+  Videos: 2/5 have videos
+
+"Elevator Awkwardness Workplace" (5 copies)
+  Keep: ID 336
+  Remove: IDs 366, 396, 426, 456
+  Videos: 3/5 have videos
+
+"Glass Strawberry ASMR Cutting" (5 copies)
+  Keep: ID 311
+  Remove: IDs 341, 371, 401, 431
+  Videos: 3/5 have videos
+
+"Gorilla Selfie Jungle Meta" (5 copies)
+  Keep: ID 327
+  Remove: IDs 357, 387, 417, 447
+  Videos: 4/5 have videos
+
+"John Researcher Ancient Map" (5 copies)
+  Keep: ID 337
+  Remove: IDs 367, 397, 427, 457
+  Videos: 3/5 have videos
+
+"Lantern Temple Fight Scene" (5 copies)
+  Keep: ID 332
+  Remove: IDs 362, 392, 422, 452
+  Videos: 3/5 have videos
+
+"Living Storybook Animation" (5 copies)
+  Keep: ID 317
+  Remove: IDs 347, 377, 407, 437
+  Videos: 3/5 have videos
+
+"Macro Dew Drops On Spider Web" (5 copies)
+  Keep: ID 316
+  Remove: IDs 346, 376, 406, 436
+  Videos: 3/5 have videos
+
+"Monsoon Rooftop Dance Bangkok" (5 copies)
+  Keep: ID 333
+  Remove: IDs 363, 393, 423, 453
+  Videos: 4/5 have videos
+
+"Morning Discovery Emotional Scene" (5 copies)
+  Keep: ID 314
+  Remove: IDs 344, 374, 404, 434
+  Videos: 2/5 have videos
+
+"Olympic Cat Agility Course" (5 copies)
+  Keep: ID 312
+  Remove: IDs 342, 372, 402, 432
+  Videos: 4/5 have videos
+
+"Paper Boat Physics Demonstration" (5 copies)
+  Keep: ID 310
+  Remove: IDs 340, 370, 400, 430
+  Videos: 5/5 have videos
+
+"Sea Captain Testimonial Waves" (5 copies)
+  Keep: ID 325
+  Remove: IDs 355, 385, 415, 445
+  Videos: 2/5 have videos
+
+"Smartwatch 360 Rotation Demo" (5 copies)
+  Keep: ID 326
+  Remove: IDs 356, 386, 416, 446
+  Videos: 2/5 have videos
+
+"Street Interview Food Festival" (5 copies)
+  Keep: ID 335
+  Remove: IDs 365, 395, 425, 455
+  Videos: 3/5 have videos
+
+"Submerged Spacewreck Discovery" (5 copies)
+  Keep: ID 331
+  Remove: IDs 361, 391, 421, 451
+  Videos: 3/5 have videos
+
+"Superhero Meteor Scene Action" (5 copies)
+  Keep: ID 322
+  Remove: IDs 352, 382, 412, 442
+  Videos: 4/5 have videos
+
+"Tokyo Street Food Blogger" (5 copies)
+  Keep: ID 328
+  Remove: IDs 358, 388, 418, 448
+  Videos: 3/5 have videos
+
+"Train Escape Wasteland Chase" (5 copies)
+  Keep: ID 334
+  Remove: IDs 364, 394, 424, 454
+  Videos: 3/5 have videos
+
+"Viking Last Stand Burning" (5 copies)
+  Keep: ID 330
+  Remove: IDs 360, 390, 420, 450
+  Videos: 3/5 have videos
+
+"Warehouse Architectural Transformation" (5 copies)
+  Keep: ID 313
+  Remove: IDs 343, 373, 403, 433
+  Videos: 2/5 have videos
+
+"Wise Owl Encounter Moonlit" (5 copies)
+  Keep: ID 324
+  Remove: IDs 354, 384, 414, 444
+  Videos: 4/5 have videos
+
+"Wolf Sprint Tracking Shot" (5 copies)
+  Keep: ID 323
+  Remove: IDs 353, 383, 413, 443
+  Videos: 5/5 have videos
+
+
+TOTAL: 120 duplicates to remove
+After cleanup: 130 unique prompts
