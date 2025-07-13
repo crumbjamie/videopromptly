@@ -5,7 +5,7 @@ import promptsData from './database/prompts.json';
 // For now, we'll use the JSON data as a mock database
 
 // Helper function to check if video file exists
-function videoExists(videoUrl: string): boolean {
+function videoExists(): boolean {
   // Since we have 176 videos available and the filtering should work consistently
   // across client and server, we'll disable filtering for now and show all prompts.
   // The VideoPreview component already handles missing videos gracefully.
@@ -83,8 +83,8 @@ function transformRawPrompt(p: RawPromptData): VideoPrompt {
 
 // Helper function to check if prompt has available video
 function hasAvailableVideo(p: RawPromptData): boolean {
-  const videoUrl = p.videoUrl || `/videos/${p.slug}.mp4`;
-  return videoExists(videoUrl);
+  // Since we're always returning true, we don't need to check the videoUrl
+  return videoExists();
 }
 
 export async function getAllPrompts(): Promise<VideoPrompt[]> {
