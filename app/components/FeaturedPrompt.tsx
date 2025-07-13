@@ -27,15 +27,13 @@ export default function FeaturedPrompt({ prompt }: FeaturedPromptProps) {
             {/* Video */}
             <div className="aspect-video relative overflow-hidden bg-stone-800 rounded-lg">
               <VideoThumbnail
-                src={prompt.videoUrl}
+                src={prompt.videoUrl || `/videos/${prompt.slug}.mp4`}
                 poster={prompt.thumbnailUrl}
                 alt={prompt.title}
                 className="w-full h-full"
                 size="xl"
                 promptId={prompt.id}
                 promptTitle={prompt.title}
-                duration={prompt.duration}
-                resolution={prompt.resolution}
               />
             </div>
             
