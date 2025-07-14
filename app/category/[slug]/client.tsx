@@ -1,11 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { ChevronRightIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import SearchBar from '@/app/components/SearchBar';
 import PromptGrid from '@/app/components/PromptGrid';
+import Breadcrumbs, { generateBreadcrumbs } from '@/app/components/Breadcrumbs';
 import { getAllPrompts } from '@/lib/database';
 import { ImagePrompt } from '@/lib/types';
 
@@ -88,18 +87,10 @@ export default function CategoryPageClient({ category }: CategoryPageClientProps
       <main className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8">
           {/* Breadcrumb */}
-          <nav className="flex items-center space-x-2 text-sm text-stone-400 mb-8">
-            <Link href="/" className="hover:text-white flex items-center">
-              <HomeIcon className="w-4 h-4 mr-1" />
-              Home
-            </Link>
-            <ChevronRightIcon className="w-4 h-4" />
-            <Link href="/categories" className="hover:text-white">
-              Categories
-            </Link>
-            <ChevronRightIcon className="w-4 h-4" />
-            <span className="text-white">{category}</span>
-          </nav>
+          <Breadcrumbs 
+            items={generateBreadcrumbs('category', { name: category })} 
+            className="mb-8"
+          />
 
           {/* Category Header */}
           <div className="text-center mb-12">

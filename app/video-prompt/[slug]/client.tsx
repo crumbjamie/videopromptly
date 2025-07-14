@@ -1,12 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import Script from 'next/script';
-import { ChevronRightIcon, ExternalLinkIcon, HomeIcon } from '@radix-ui/react-icons';
+import { ExternalLinkIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
 import ShareButtons from '@/app/components/ShareButtons';
+import Breadcrumbs, { generateBreadcrumbs } from '@/app/components/Breadcrumbs';
 import VideoCard from '@/app/components/VideoCard';
 import VideoModal from '@/app/components/VideoModal';
 import VideoPreview from '@/app/components/VideoPreview';
@@ -92,18 +92,13 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
       <main className="min-h-screen bg-stone-950 pt-14">
         <div className="container mx-auto px-4 py-8 max-w-4xl">
           {/* Breadcrumb */}
-          <nav className="flex items-center space-x-2 text-sm text-stone-400 mb-8">
-            <Link href="/" className="hover:text-white flex items-center">
-              <HomeIcon className="w-4 h-4 mr-1" />
-              Home
-            </Link>
-            <ChevronRightIcon className="w-4 h-4" />
-            <Link href={`/category/${slugify(prompt.category)}`} className="hover:text-white">
-              {prompt.category}
-            </Link>
-            <ChevronRightIcon className="w-4 h-4" />
-            <span className="text-white">{prompt.title}</span>
-          </nav>
+          <Breadcrumbs 
+            items={generateBreadcrumbs('video-prompt', { 
+              category: prompt.category, 
+              title: prompt.title 
+            })} 
+            className="mb-8"
+          />
 
           {/* Main Content */}
           <div className="bg-stone-900 rounded-lg border border-stone-800 p-8 mb-8">

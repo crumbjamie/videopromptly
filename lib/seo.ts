@@ -2,6 +2,22 @@
 
 export const SITE_URL = 'https://videopromptly.com';
 
+// Breadcrumb schema generation
+export function generateBreadcrumbSchema(items: Array<{ label: string; href?: string }>) {
+  const itemListElement = items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href && { item: `${SITE_URL}${item.href}` })
+  }));
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement
+  };
+}
+
 export function getCanonicalUrl(path: string = ''): string {
   // Ensure path starts with /
   const cleanPath = path.startsWith('/') ? path : `/${path}`;

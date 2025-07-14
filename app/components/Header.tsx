@@ -16,7 +16,7 @@ export default function Header() {
             </span>
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
+          <nav className="hidden lg:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
             <Link href="/" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               All Video Prompts
             </Link>
@@ -32,11 +32,19 @@ export default function Header() {
             <Link href="/about" className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors">
               About
             </Link>
+            <a 
+              href="https://imagepromptly.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-stone-300 hover:text-white hover:underline focus:text-white focus:outline-none focus:underline transition-colors"
+            >
+              ImagePromptly 📸
+            </a>
           </nav>
           
           {/* Mobile menu button */}
           <button 
-            className="md:hidden text-stone-300 hover:text-white p-2"
+            className="lg:hidden text-stone-300 hover:text-white p-2"
             aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={isMobileMenuOpen}
             aria-controls="mobile-menu"
@@ -58,7 +66,7 @@ export default function Header() {
         {/* Mobile menu */}
         <nav 
           id="mobile-menu"
-          className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} border-t border-stone-800`}
+          className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} border-t border-stone-800`}
           role="navigation"
           aria-label="Mobile navigation"
         >
@@ -98,6 +106,15 @@ export default function Header() {
             >
               About
             </Link>
+            <a 
+              href="https://imagepromptly.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block px-4 py-2 text-stone-300 hover:text-white hover:bg-stone-900 transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              ImagePromptly 📸
+            </a>
           </div>
         </nav>
       </div>
