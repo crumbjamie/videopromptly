@@ -42,6 +42,8 @@ export default function VideoPlayer({
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(autoPlay);
   const [hasError, setHasError] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
+  const maxRetries = 3;
 
   const handlePlay = () => {
     setIsPlaying(true);
@@ -80,9 +82,33 @@ export default function VideoPlayer({
   };
 
 
-  const handleError = () => {
-    setHasError(true);
-    onError?.();
+  const handleError = (e: React.SyntheticEvent<HTMLVideoElement, Event>) => {
+    const video = e.currentTarget;
+    const error = video.error;
+    
+    // Log error details for debugging
+    console.error('Video loading error:', {
+      src: video.src,
+      errorCode: error?.code,
+      errorMessage: error?.message,
+      networkState: video.networkState,
+      readyState: video.readyState,
+      retryCount
+    });
+    
+    // Retry logic for network errors
+    if (retryCount < maxRetries && error?.code === 2) { // MEDIA_ERR_NETWORK
+      setTimeout(() => {
+        setRetryCount(retryCount + 1);
+        setHasError(false);
+        if (videoRef.current) {
+          videoRef.current.load();
+        }
+      }, 1000 * (retryCount + 1)); // Exponential backoff
+    } else {
+      setHasError(true);
+      onError?.();
+    }
   };
 
   useEffect(() => {
@@ -146,6 +172,7 @@ export default function VideoPlayer({
       onMouseLeave={controls ? undefined : handleMouseLeave}
     >
       <video
+        key={`${src}-${retryCount}`} // Force recreation on retry
         ref={videoRef}
         src={src}
         poster={poster}
