@@ -1,0 +1,238 @@
+{
+  "lastRun": "2025-07-14T03:00:09.062Z",
+  "currentIndex": 26,
+  "promptIds": [
+    "428",
+    "449",
+    "203",
+    "204",
+    "205",
+    "451",
+    "452",
+    "453",
+    "456",
+    "457",
+    "458",
+    "459",
+    "460",
+    "461",
+    "463",
+    "466",
+    "468",
+    "469",
+    "427",
+    "432",
+    "433",
+    "439",
+    "440",
+    "447",
+    "462",
+    "467"
+  ],
+  "results": [
+    {
+      "promptId": "428",
+      "status": "success",
+      "title": "British Rockstar 80s",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/british-rockstar-80s.mp4",
+      "taskId": "2b2ac11be535b6449527b16c1a0004c2"
+    },
+    {
+      "promptId": "449",
+      "status": "success",
+      "title": "Documentary Vérité Style",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/documentary-vrit-style.mp4",
+      "taskId": "28309c785f656be538438106895a6a5f"
+    },
+    {
+      "promptId": "203",
+      "status": "success",
+      "title": "SWAT Team Breach",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/swat-team-breach.mp4",
+      "taskId": "ea9d0d6aad03f384be2b0214fc05042e"
+    },
+    {
+      "promptId": "204",
+      "status": "success",
+      "title": "Talking Muffins",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/talking-muffins.mp4",
+      "taskId": "65cc5a24703e7dbe7b329bbc23165ad1"
+    },
+    {
+      "promptId": "205",
+      "status": "success",
+      "title": "Stand-up Comedy",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/stand-up-comedy.mp4",
+      "taskId": "f6a5275acb74be3114c1fdf7d99acdd4"
+    },
+    {
+      "promptId": "451",
+      "status": "success",
+      "title": "Las Vegas Bigfoot Vlogger",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/lasvegasbigfootvlogger.mp4",
+      "taskId": "1f242c98b3e4b5e7739f7f9b6658df89"
+    },
+    {
+      "promptId": "452",
+      "status": "success",
+      "title": "Stand-Up Comedy Music Festival",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/stand-upcomedymusicfestival.mp4",
+      "taskId": "db36966bcc40a08d73e6a9760a648fc4"
+    },
+    {
+      "promptId": "453",
+      "status": "failed",
+      "error": "Video generation timed out after 24 attempts (12.0 minutes)"
+    },
+    {
+      "promptId": "456",
+      "status": "success",
+      "title": "Bigfoot Gym Day Motivation",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/bigfootgymdaymotivation.mp4",
+      "taskId": "e27c929dcc1e79fc0615be95e014d109"
+    },
+    {
+      "promptId": "457",
+      "status": "success",
+      "title": "AI Model Backstage Existential",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/aimodelbackstageexistential.mp4",
+      "taskId": "479761fa985a99d24f80c1a30550c874"
+    },
+    {
+      "promptId": "458",
+      "status": "success",
+      "title": "Found Footage Horror Hallway",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/foundfootagehorrorhallway.mp4",
+      "taskId": "2ac6fa58471db5cdd090197538096192"
+    },
+    {
+      "promptId": "459",
+      "status": "success",
+      "title": "AI Chef Culinary Existentialism",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/aichefculinaryexistentialism.mp4",
+      "taskId": "45afa290c28d1a1ae8705b77aeecb24d"
+    },
+    {
+      "promptId": "460",
+      "status": "success",
+      "title": "Bigfoot Cooking Show Forest",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/bigfootcookingshowforest.mp4",
+      "taskId": "6e8ca02755667a1b962cf8e640c39cd3"
+    },
+    {
+      "promptId": "461",
+      "status": "success",
+      "title": "Olympic AI Athlete Philosophy",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/olympicaiathletephilosophy.mp4",
+      "taskId": "3928f273f9fe680ebb4473524988479c"
+    },
+    {
+      "promptId": "463",
+      "status": "success",
+      "title": "Virtual Tourist Paris Glitch",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/virtualtouristparisglitch.mp4",
+      "taskId": "dc12b75e1756f313accb858a224c4a36"
+    },
+    {
+      "promptId": "466",
+      "status": "success",
+      "title": "Dog Existential Walk Philosophy",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/dogexistentialwalkphilosophy.mp4",
+      "taskId": "361372d44b8ec3453795c918b7a8def2"
+    },
+    {
+      "promptId": "468",
+      "status": "success",
+      "title": "Napoleon Historical Awakening",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/napoleonhistoricalawakening.mp4",
+      "taskId": "def13699000025c9eb9930c83e6fe15a"
+    },
+    {
+      "promptId": "469",
+      "status": "success",
+      "title": "Life Coach Motivational Breakdown",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/lifecoachmotivationalbreakdown.mp4",
+      "taskId": "22e3283df03e31dd415e311724345f67"
+    },
+    {
+      "promptId": "427",
+      "status": "success",
+      "title": "Futuristic Russian Singer",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/futuristic-russian-singer.mp4",
+      "taskId": "ce2f978bf3a0afd6eb91651926ffa417"
+    },
+    {
+      "promptId": "432",
+      "status": "success",
+      "title": "SF Crime Scene Reporter",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/sf-crime-scene-reporter.mp4",
+      "taskId": "3694635b3a9f8c9798776d570c24f673"
+    },
+    {
+      "promptId": "433",
+      "status": "failed",
+      "error": "Video generation timed out after 24 attempts (12.0 minutes)"
+    },
+    {
+      "promptId": "439",
+      "status": "success",
+      "title": "Holiday Sale Template",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/holiday-sale-template.mp4",
+      "taskId": "c60890e1dbc50d66147120858b74df06"
+    },
+    {
+      "promptId": "440",
+      "status": "success",
+      "title": "Testimonial Format",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/testimonial-format.mp4",
+      "taskId": "2b3c90c74595e40f862298de02e53f9d"
+    },
+    {
+      "promptId": "447",
+      "status": "success",
+      "title": "Podcast Host Direct Address",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/podcast-host-direct-address.mp4",
+      "taskId": "a53007d6915b52b8b017991d7a6e10b8"
+    },
+    {
+      "promptId": "462",
+      "status": "success",
+      "title": "Yeti Yoga Mountain Meditation",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/yetiyogamountainmeditation.mp4",
+      "taskId": "a36b20386174c687e58fdd4f4364cbb3"
+    },
+    {
+      "promptId": "467",
+      "status": "success",
+      "title": "Cat Self-Discovery Indifference",
+      "videoPath": "/Users/jamie/Documents/GitHub/videopromptly/public/videos/catself-discoveryindifference.mp4",
+      "taskId": "839b121011b44da838f9fe1b17b920fe"
+    }
+  ],
+  "completedIds": [
+    "428",
+    "449",
+    "203",
+    "204",
+    "205",
+    "451",
+    "452",
+    "456",
+    "457",
+    "458",
+    "459",
+    "460",
+    "461",
+    "463",
+    "466",
+    "468",
+    "469",
+    "427",
+    "432",
+    "439",
+    "440",
+    "447",
+    "462",
+    "467"
+  ]
+}
