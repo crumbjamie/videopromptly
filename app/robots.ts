@@ -25,7 +25,8 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: [
       'https://videopromptly.com/sitemap-index.xml',
       'https://videopromptly.com/sitemap.xml',
-      'https://videopromptly.com/sitemap-images.xml'
+      'https://videopromptly.com/sitemap-images.xml',
+      'https://videopromptly.com/sitemap-videos.xml'
     ],
     host: 'https://videopromptly.com',
   };

@@ -6,6 +6,7 @@ import Script from 'next/script';
 import { ChevronRightIcon, ExternalLinkIcon, HomeIcon } from '@radix-ui/react-icons';
 import Header from '@/app/components/Header';
 import CopyButton from '@/app/components/CopyButton';
+import ShareButtons from '@/app/components/ShareButtons';
 import VideoCard from '@/app/components/VideoCard';
 import VideoModal from '@/app/components/VideoModal';
 import VideoPreview from '@/app/components/VideoPreview';
@@ -44,7 +45,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
 
   useEffect(() => {
     const loadRelated = async () => {
-      const related = await getRelatedPrompts(prompt.id);
+      const related = await getRelatedPrompts(prompt.id, 8); // Show up to 8 related prompts
       setRelatedPrompts(related);
     };
     loadRelated();
@@ -261,6 +262,10 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
                 promptId={prompt.id} 
                 promptTitle={prompt.title} 
               />
+              <ShareButtons 
+                prompt={prompt} 
+                url={typeof window !== 'undefined' ? window.location.href : `https://videopromptly.com/video-prompt/${prompt.slug}`}
+              />
               <button
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 onClick={() => {
@@ -355,7 +360,7 @@ export default function VideoDetailClient({ prompt }: VideoDetailClientProps) {
           {relatedPrompts.length > 0 && (
             <div>
               <h2 className="text-2xl font-bold text-white mb-6">Related Prompts</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {relatedPrompts.map((relatedPrompt) => (
                   <VideoCard key={relatedPrompt.id} prompt={relatedPrompt} />
                 ))}
