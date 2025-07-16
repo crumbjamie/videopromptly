@@ -9,6 +9,7 @@ import ActiveFilters from './ActiveFilters';
 import PromptGrid from './PromptGrid';
 import PromptCardSkeleton from './PromptCardSkeleton';
 import SortDropdown, { SortOption } from './SortDropdown';
+import IntroVideoPreview from './IntroVideoPreview';
 import { VideoPrompt } from '@/lib/types';
 import { analytics } from '@/lib/analytics';
 
@@ -325,6 +326,10 @@ export default function HomePageClient({
               to copy and paste into Veo3.
             </p>
             
+            {/* Intro Video Preview */}
+            <div className="mb-8">
+              <IntroVideoPreview />
+            </div>
           </div>
 
           {/* Search Bar */}
